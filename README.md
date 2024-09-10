@@ -20,3 +20,8 @@ Images hosted at static.example.com e.g. https://static.example.com/lightsaber.j
 Contexts hosted at contexts.example.com e.g. https://contexts.example.com/learning-outcome-extension.json
 
 IDs at example.com/{subject}/{id} e.g. https://example.com/credentials/extracurricular-minimal
+
+# TODOs
+
+- [ ] find out of the credentialSubject.id is the same as the top-level id?
+- [ ] Language Extension adds a name that's ambigous and is a primitive in OBv3. rename it? re-use an obv3 attribute?

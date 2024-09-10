@@ -1,9 +1,12 @@
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://contexts.example.com/learning-outcome-extension.json",
+    "https://contexts.example.com/language-extension.json",
+    "https://contexts.example.com/time-investment-extension.json"
   ],
-  "id": "http://example.com/credentials/example-credential",
+  "id": "http://example.com/credentials/extracurricular-minimal",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
@@ -13,25 +16,33 @@
     "type": [
       "Profile"
     ],
-    "name": " SURF - Team edubadges"
+    "name": "Naboo Theed University",
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Badge",
+  "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
-    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "id": "https://example.com/credentials/extracurricular-minimal#subject",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/lorem-ipsum",
+      "id": "https://example.com/achievements/lightsaber-dueling-techinques",
       "type": [
         "Achievement"
       ],
-      "criteria": {
-        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      "name": "Lightsaber Dueling Techniques",
+      "image": {
+        "id": "https://static.example.com/lightsaber.jpg",
+        "type": "Image"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
-      "name": "Lorem ipsum"
+      "description": "This badge is awarded for demonstrating proficiency in lightsaber dueling techniques.",
+      "criteria": {
+        "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques.",
+      },
+
+      "LearningOutcome": "Is fysically able to perform lightsaber dueling techniques against an opponent in the same class.",
+      "Language": "en_EN",
+      "TimeInvestment": 42
     }
   }
 }
