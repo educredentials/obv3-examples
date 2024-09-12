@@ -51,109 +51,31 @@ Regulier en Microcredential.\
 Het verschil tussen deze 3 types is welke metadataelementen zijn
 gebruikt in de badgeclass.
 
-+-------------+--------------------+-----------------+-----------------+
-|             | Microcredential    | Reguliere       | Ext             |
-|             |                    | edubadge        | ra-curriculaire |
-|             |                    |                 | edubadge        |
-+=============+====================+=================+=================+
-| *           | Een badge class    | Een badge class | Een badge class |
-| *Metadata** | voor               | voor opgedane   | voor opgedane   |
-|             | microcredentials   | kennis en       | kennis en       |
-|             | met het            | vaardigheden    | vaardigheden    |
-|             | kwaliteitskader    | die binnen het  | die geen        |
-|             | voor professionals | curriculum van  | onderdeel zijn  |
-|             | HBO/WO of MBO en   | een erkende     | van het         |
-|             | alle metadata      | opleiding       | curriculum van  |
-|             | conform de         | vallen. Aan     | een erkende     |
-|             | EU-aanbevelingen.  | deze badgeclass | opleiding. Aan  |
-|             |                    | zijn ECTS/SBU   | deze badgeclass |
-|             |                    | verbonden.      | zijn geen       |
-|             |                    |                 | ECTS/SBU        |
-|             |                    |                 | verbonden.      |
-+-------------+--------------------+-----------------+-----------------+
-| **Basisi    |                    |                 |                 |
-| nformatie** |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Naam        | verplicht          | verplicht       | verplicht       |
-+-------------+--------------------+-----------------+-----------------+
-| Edubadge    | verplicht          | verplicht       | verplicht       |
-| afbeelding  |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| B           | verplicht          | verplicht       | verplicht       |
-| eschrijving |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Lee         | verplicht          | verplicht       | verplicht       |
-| ruitkomsten |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Criteria    | verplicht          | verplicht       | verplicht       |
-+-------------+--------------------+-----------------+-----------------+
-| **Programma |                    |                 |                 |
-| i           |                    |                 |                 |
-| nformatie** |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Taal van    | verplicht          | verplicht       | verplicht       |
-| het         |                    |                 |                 |
-| onderwijs   |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| S           | optioneel          | verplicht       | niet van        |
-| tudiepunten |                    |                 | toepassing      |
-| ECTS/SBU    |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Tijds       | optioneel          | niet van        | verplicht       |
-| investering |                    | toepassing      |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Indicatie   | verplicht          | verplicht       | optioneel       |
-| EQF niveau  |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Vorm van    | verplicht          | optioneel       | optioneel       |
-| deelname    |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Ople        | optioneel          | verplicht       | optioneel       |
-| idingscodes |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| *           |                    |                 |                 |
-| *Informatie |                    |                 |                 |
-| over de     |                    |                 |                 |
-| be          |                    |                 |                 |
-| oordeling** |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Beoor       | verplicht          | optioneel       | optioneel       |
-| delingstype |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Toezicht    | verplicht          | optioneel       | optioneel       |
-| bij de      |                    |                 |                 |
-| beoordeling |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Identiteit  | verplicht          | optioneel       | optioneel       |
-+-------------+--------------------+-----------------+-----------------+
-| **Kwalitei  |                    |                 |                 |
-| tsborging** |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Naam        | kwaliteitskader    | optioneel       | optioneel       |
-|             | HO/MBO             |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| URL         | verplicht          | optioneel       | optioneel       |
-+-------------+--------------------+-----------------+-----------------+
-| O           | verplicht          | optioneel       | optioneel       |
-| mschrijving |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| **          |                    |                 |                 |
-| Gerelateerd |                    |                 |                 |
-| onde        |                    |                 |                 |
-| rwijskundig |                    |                 |                 |
-| raamwerk**  |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
-| Naam        | optioneel          | optioneel       | optioneel       |
-+-------------+--------------------+-----------------+-----------------+
-| Raamwerk    | optioneel          | optioneel       | optioneel       |
-+-------------+--------------------+-----------------+-----------------+
-| URL         | optioneel          | optioneel       | optioneel       |
-+-------------+--------------------+-----------------+-----------------+
-| Code        | optioneel          | optioneel       | optioneel       |
-+-------------+--------------------+-----------------+-----------------+
-| O           | optioneel          | optioneel       | optioneel       |
-| mschrijving |                    |                 |                 |
-+-------------+--------------------+-----------------+-----------------+
+|                     | Microcredential      | Reguliere edubadge | Extracurriculaire edubadge |
+|---------------------|----------------------|--------------------|----------------------------|
+| **Metadata**        | Een badge class voor opgedane microcredentials met het kwaliteitskader voor professionals HBO/WO of MBO en alle metadata conform de EU-aanbevelingen. Aan deze badgeclass zijn ECTS/SBU verbonden. | Een badge class voor opgedane kennis en vaardigheden die binnen het curriculum van een erkende opleiding vallen. Aan deze badgeclass zijn geen ECTS/SBU verbonden. | Een badge class voor opgedane kennis en vaardigheden die geen onderdeel zijn van het curriculum van een erkende opleiding. Aan deze badgeclass zijn geen ECTS/SBU verbonden. |
+| **Basisinformatie** | Naam verplicht       | Naam verplicht     | Naam verplicht             |
+|                     | Edubadge afbeelding  | Edubadge afbeelding| Edubadge afbeelding        |
+|                     | Beschrijving verplicht| Beschrijving verplicht | Beschrijving verplicht   |
+|                     | Leeruitkomsten verplicht | Leeruitkomsten verplicht | Leeruitkomsten verplicht |
+| **Criteria**        | Programma informatie | Programma informatie| Programma informatie        |
+| **Taal van het onderwijs** | Taal van het onderwijs verplicht | Taal van het onderwijs verplicht | Taal van het onderwijs verplicht |
+| **Studiepunten ECTS/SBU** | Optioneel            | Verplicht           | Niet van toepassing       |
+| **Tijdsinvestering** | Optioneel            | Niet van toepassing | Verplicht                  |
+| **Indicatie EQF niveau** | Verplicht           | Verplicht           | Optioneel                  |
+| **Vorm van deelname** | Verplicht            | Optioneel           | Optioneel                  |
+| **Opleidingscodes**  | Optioneel            | Verplicht           | Optioneel                  |
+| **Informatie over de beoordeling** | Beoordelingstype verplicht | Beoordelingstype optioneel | Beoordelingstype optioneel |
+| **Toezicht bij de beoordeling** | Verplicht | Optioneel | Optioneel                   |
+| **Identiteit**       | Verplicht            | Optioneel           | Optioneel                  |
+| **Kwaliteitsborging**| Naam kwaliteitskader HO/MBO optioneel | Optioneel           | Optioneel                  |
+| **URL**              | Verplicht            | Optioneel           | Optioneel                  |
+| **Omschrijving**     | Verplicht            | Optioneel           | Optioneel                  |
+| **Gerelateerd onderwijskundig raamwerk** | Naam optioneel | Optioneel            | Optioneel                  |
+| **Raamwerk**         | Raamwerk optioneel   | Optioneel           | Optioneel                  |
+| **URL**              | Optioneel            | Optioneel           | Optioneel                  |
+| **Code**             | Optioneel            | Optioneel           | Optioneel                  |
+| **Omschrijving**     | Optioneel            | Optioneel           | Optioneel                  |
 
 
 ### Termen
@@ -161,16 +83,11 @@ gebruikt in de badgeclass.
 Met de komst van OB3 zijn een aantal termen zoals we deze in edubadges
 (=OB2) gebruiken gewijzigd:
 
-  ------------ -----------------------
-  OB2          OB3
-
-  Badgeclass   Achievement
-
-  Open Badge   Open Badge Credential
-
-  Edubadge     Educredential
-
-  ------------ -----------------------
+| OB2              | OB3                   |
+|------------------|-----------------------|
+| Badgeclass       | Achievement           |
+| Open Badge       | Open Badge Credential |
+| Edubadge         | Educredential         |
 
 
 ### OB3 Examples → EduCredential Examples
