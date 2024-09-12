@@ -6,13 +6,13 @@
     "https://contexts.example.com/course-language-extension.json",
     "https://contexts.example.com/time-investment-extension.json"
   ],
-  "id": "http://example.com/credentials/1337AABADDA",
+  "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
     "type": [
       "Profile"
     ],
@@ -21,12 +21,12 @@
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
-    "id": "https://example.com/students/1234567890",
+    "id": "https://example.com/students/stu-1A2B3C",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/lightsaber-dueling-techinques",
+      "id": "https://example.com/achievements/ach-33LML",
       "type": [
         "Achievement"
       ],
