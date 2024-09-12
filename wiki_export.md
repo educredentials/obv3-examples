@@ -123,7 +123,7 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
 > Deze voorbeelden zijn WIP. Slechts enkele zijn afgerond, de meesten nog boilerplate. Zie lijst hieronder.
 
 * [ ]  extracurriculair_embedded.json
-* [ ]  extracurriculair_full.json
+* [x]  extracurriculair_full.json
 * [x]  extracurriculair_minimal.json
 * [ ]  microcredential_embedded.json
 * [ ]  microcredential_full.json
