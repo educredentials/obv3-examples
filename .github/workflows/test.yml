@@ -18,5 +18,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
-          options: --rm
+          options: --rm -v ${{ github.workspace }}:/usr/src/myapp
           run: boon --assert-content schemas/ob_v3p0_achievementcredential_schema.json *.json
