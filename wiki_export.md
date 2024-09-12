@@ -117,7 +117,21 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     velden met verwijzingen naar afbeeldingen ingevuld. Alle
     afbeeldingen zijn opgenomen in de payload als base64 data urls.
 
-## The examples in no particular order are:
+## De voorbeelden:
+
+> [!WARNING]  
+> Deze voorbeelden zijn WIP. Slechts enkele zijn afgerond, de meesten nog boilerplate. Zie lijst hieronder.
+
+* [ ]  extracurriculair_embedded.json
+* [ ]  extracurriculair_full.json
+* [x]  extracurriculair_minimal.json
+* [ ]  microcredential_embedded.json
+* [ ]  microcredential_full.json
+* [ ]  microcredential_minimal.json
+* [ ]  minimal_valid_obv3.json
+* [ ]  regulier_embedded.json
+* [ ]  regulier_full.json
+* [ ]  regulier_minimal.json
 
 <!-- managed_by_embed -->
 <details>
