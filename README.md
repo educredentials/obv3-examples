@@ -92,5 +92,5 @@ You can run this image locally too. TODO: set up docker-compose to run this easi
 - [x] find out of the credentialSubject.id is the same as the top-level id?
 - [x] Language Extension adds a name that's ambigous and is a primitive in OBv3. rename it? re-use an obv3 attribute?
 - [x] Identity Field: how is that done in OBv2? Can we re-use an OBv3 concept for this?
-
+- [ ] Fetch contexts from https://wiki.surfnet.nl/display/Edubadges/Specificatie+Metadatamodel+Edubadges and import as contexts in this project.
 - [ ] Put on backlog: Add specific @context that describes our custom rules for obv3 badges, requiring additional fields for example.
