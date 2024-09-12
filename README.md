@@ -2,6 +2,8 @@
 
 Goes with the wiki at https://wiki.surfnet.nl/pages/viewpage.action?spaceKey=EWI&title=OB3+Credential+Examples
 
+[![Test](https://github.com/educredentials/obv3-examples/actions/workflows/test.yml/badge.svg)](https://github.com/educredentials/obv3-examples/actions/workflows/test.yml)
+
 # Content of the examples
 
 Examples are built from a context that follows a story.
@@ -68,6 +70,10 @@ We test the files in a CI against the following schema files:
 * https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json
 
 These files are downloaded and committed to the repo, so might get outdated.
+
+It uses [boon](https://github.com/santhosh-tekuri/boon) which we compile in a [private docker image educredentials/boon](https://github.com/educredentials/obv3-examples/pkgs/container/boon)
+
+You can run this image locally too. TODO: set up docker-compose to run this easier.
 
 # TODOs
 
