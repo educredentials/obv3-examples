@@ -3,10 +3,10 @@
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
     "https://contexts.example.com/learning-outcome-extension.json",
-    "https://contexts.example.com/language-extension.json",
+    "https://contexts.example.com/course-language-extension.json",
     "https://contexts.example.com/time-investment-extension.json"
   ],
-  "id": "http://example.com/credentials/extracurricular-minimal",
+  "id": "http://example.com/credentials/1337AABADDA",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
@@ -21,7 +21,7 @@
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
-    "id": "https://example.com/credentials/extracurricular-minimal#subject",
+    "id": "https://example.com/students/1234567890",
     "type": [
       "AchievementSubject"
     ],
@@ -37,11 +37,11 @@
       },
       "description": "This badge is awarded for demonstrating proficiency in lightsaber dueling techniques.",
       "criteria": {
-        "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques.",
+        "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
 
       "LearningOutcome": "Is fysically able to perform lightsaber dueling techniques against an opponent in the same class.",
-      "Language": "en_EN",
+      "CourseLanguage": "en_EN",
       "TimeInvestment": 42
     }
   }

@@ -23,5 +23,6 @@ IDs at example.com/{subject}/{id} e.g. https://example.com/credentials/extracurr
 
 # TODOs
 
-- [ ] find out of the credentialSubject.id is the same as the top-level id?
-- [ ] Language Extension adds a name that's ambigous and is a primitive in OBv3. rename it? re-use an obv3 attribute?
+- [x] find out of the credentialSubject.id is the same as the top-level id?
+- [x] Language Extension adds a name that's ambigous and is a primitive in OBv3. rename it? re-use an obv3 attribute?
+- [x] Identity Field: how is that done in OBv2? Can we re-use an OBv3 concept for this?
