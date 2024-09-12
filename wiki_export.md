@@ -199,3 +199,456 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
 -   **Embedded** - Alle verplichte velden ingevuld. Alle optionele
     velden met verwijzingen naar afbeeldingen ingevuld. Alle
     afbeeldingen zijn opgenomen in de payload als base64 data urls.
+<!-- managed_by_embed -->
+<details><summary>extracurriculair_embedded.json</summary>
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "http://example.com/credentials/example-credential",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "type": [
+      "Profile"
+    ],
+    "name": " SURF - Team edubadges"
+  },
+  "validFrom": "2014-06-01T00:00:00Z",
+  "name": "Example Badge",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/lorem-ipsum",
+      "type": [
+        "Achievement"
+      ],
+      "criteria": {
+        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      },
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
+      "name": "Lorem ipsum"
+    }
+  }
+}
+```
+</details>
+<details><summary>extracurriculair_full.json</summary>
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://contexts.example.com/learning-outcome-extension.json",
+    "https://contexts.example.com/course-language-extension.json",
+    "https://contexts.example.com/time-investment-extension.json",
+
+    "https://contexts.example.com/eqf-extension.json",
+    "https://contexts.example.com/participation-form-extension.json",
+    "https://contexts.example.com/institution-identifier-extension.json",
+
+    "https://contexts.example.com/assessment-type-extension.json",
+    "https://contexts.example.com/supervision-type-extension.json",
+    "https://contexts.example.com/identity-checked-extension.json",
+    "https://contexts.example.com/education-program-identifier-extension.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "Naboo Theed University"
+  },
+  "validFrom": "2014-06-01T00:00:00Z",
+  "name": "Example Extra-Curricular Achievement",
+  "credentialSubject": {
+    "id": "https://example.com/credentials/stu-1A2B3C",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-33LML",
+      "type": [
+        "Achievement"
+      ],
+      "name": "Lightsaber Dueling Techniques",
+      "image": {
+        "id": "https://static.example.com/lightsaber.jpg",
+        "type": "Image"
+      },
+      "description": "This badge is awarded for demonstrating proficiency in lightsaber dueling techniques.",
+      "criteria": {
+        "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
+      },
+
+      "LearningOutcome": "Is fysically able to perform lightsaber dueling techniques against an opponent in the same class.",
+      "Language": "en_EN",
+      "TimeInvestment": 42,
+
+      "EQF": 3,
+      "ParticipationForm": "Onsite",
+      "InstitutionIdentifier": 123456,
+
+      "AssessmentType": "Application of a skill",
+      "SupervisionType": "Supervised with identity verification",
+      "IdentityChecked": true,
+
+      "EducationProgramIdentifier": 421234
+    }
+  }
+}
+```
+</details>
+<details><summary>extracurriculair_minimal.json</summary>
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://contexts.example.com/learning-outcome-extension.json",
+    "https://contexts.example.com/course-language-extension.json",
+    "https://contexts.example.com/time-investment-extension.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "Naboo Theed University"
+  },
+  "validFrom": "2014-06-01T00:00:00Z",
+  "name": "Example Extra-Curricular Achievement",
+  "credentialSubject": {
+    "id": "https://example.com/students/stu-1A2B3C",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-33LML",
+      "type": [
+        "Achievement"
+      ],
+      "name": "Lightsaber Dueling Techniques",
+      "image": {
+        "id": "https://static.example.com/lightsaber.jpg",
+        "type": "Image"
+      },
+      "description": "This badge is awarded for demonstrating proficiency in lightsaber dueling techniques.",
+      "criteria": {
+        "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
+      },
+
+      "LearningOutcome": "Is fysically able to perform lightsaber dueling techniques against an opponent in the same class.",
+      "CourseLanguage": "en_EN",
+      "TimeInvestment": 42
+    }
+  }
+}
+```
+</details>
+<details><summary>microcredential_embedded.json</summary>
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "http://example.com/credentials/example-credential",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "type": [
+      "Profile"
+    ],
+    "name": " SURF - Team edubadges"
+  },
+  "validFrom": "2014-06-01T00:00:00Z",
+  "name": "Example Badge",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/lorem-ipsum",
+      "type": [
+        "Achievement"
+      ],
+      "criteria": {
+        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      },
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
+      "name": "Lorem ipsum"
+    }
+  }
+}
+```
+</details>
+<details><summary>microcredential_full.json</summary>
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "http://example.com/credentials/example-credential",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "type": [
+      "Profile"
+    ],
+    "name": " SURF - Team edubadges"
+  },
+  "validFrom": "2014-06-01T00:00:00Z",
+  "name": "Example Badge",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/lorem-ipsum",
+      "type": [
+        "Achievement"
+      ],
+      "criteria": {
+        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      },
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
+      "name": "Lorem ipsum"
+    }
+  }
+}
+```
+</details>
+<details><summary>microcredential_minimal.json</summary>
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "http://example.com/credentials/example-credential",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "type": [
+      "Profile"
+    ],
+    "name": " SURF - Team edubadges"
+  },
+  "validFrom": "2014-06-01T00:00:00Z",
+  "name": "Example Badge",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/lorem-ipsum",
+      "type": [
+        "Achievement"
+      ],
+      "criteria": {
+        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      },
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
+      "name": "Lorem ipsum"
+    }
+  }
+}
+```
+</details>
+<details><summary>minimal_valid_obv3.json</summary>
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "http://example.com/credentials/example-credential",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "type": [
+      "Profile"
+    ],
+    "name": " SURF - Team edubadges"
+  },
+  "validFrom": "2014-06-01T00:00:00Z",
+  "name": "Example Badge",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/lorem-ipsum",
+      "type": [
+        "Achievement"
+      ],
+      "criteria": {
+        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      },
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
+      "name": "Lorem ipsum"
+    }
+  }
+}
+```
+</details>
+<details><summary>regulier_embedded.json</summary>
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "http://example.com/credentials/example-credential",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "type": [
+      "Profile"
+    ],
+    "name": " SURF - Team edubadges"
+  },
+  "validFrom": "2014-06-01T00:00:00Z",
+  "name": "Example Badge",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/lorem-ipsum",
+      "type": [
+        "Achievement"
+      ],
+      "criteria": {
+        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      },
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
+      "name": "Lorem ipsum"
+    }
+  }
+}
+```
+</details>
+<details><summary>regulier_full.json</summary>
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "http://example.com/credentials/example-credential",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "type": [
+      "Profile"
+    ],
+    "name": " SURF - Team edubadges"
+  },
+  "validFrom": "2014-06-01T00:00:00Z",
+  "name": "Example Badge",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/lorem-ipsum",
+      "type": [
+        "Achievement"
+      ],
+      "criteria": {
+        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      },
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
+      "name": "Lorem ipsum"
+    }
+  }
+}
+```
+</details>
+<details><summary>regulier_minimal.json</summary>
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "http://example.com/credentials/example-credential",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "type": [
+      "Profile"
+    ],
+    "name": " SURF - Team edubadges"
+  },
+  "validFrom": "2014-06-01T00:00:00Z",
+  "name": "Example Badge",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/lorem-ipsum",
+      "type": [
+        "Achievement"
+      ],
+      "criteria": {
+        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      },
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
+      "name": "Lorem ipsum"
+    }
+  }
+}
+```
+</details>
+<!-- /managed_by_embed -->
