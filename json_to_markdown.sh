@@ -14,10 +14,13 @@ for json_file in "$@"; do
 
 
     # Print the templated html to the console
-    echo "<details><summary>$json_file_name</summary>"
+    echo "<details>"
+    echo "<summary>$json_file_name</summary>"
+    echo ""
     echo "\`\`\`json"
     echo "$json_file_content"
     echo "\`\`\`"
+    echo ""
     echo "</details>"
   fi
 done

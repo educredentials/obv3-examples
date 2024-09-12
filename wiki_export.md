@@ -116,8 +116,13 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
 -   **Embedded** - Alle verplichte velden ingevuld. Alle optionele
     velden met verwijzingen naar afbeeldingen ingevuld. Alle
     afbeeldingen zijn opgenomen in de payload als base64 data urls.
+
+## The examples in no particular order are:
+
 <!-- managed_by_embed -->
-<details><summary>extracurriculair_embedded.json</summary>
+<details>
+<summary>extracurriculair_embedded.json</summary>
+
 ```json
 {
   "@context": [
@@ -157,8 +162,11 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   }
 }
 ```
+
 </details>
-<details><summary>extracurriculair_full.json</summary>
+<details>
+<summary>extracurriculair_full.json</summary>
+
 ```json
 {
   "@context": [
@@ -228,8 +236,11 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   }
 }
 ```
+
 </details>
-<details><summary>extracurriculair_minimal.json</summary>
+<details>
+<summary>extracurriculair_minimal.json</summary>
+
 ```json
 {
   "@context": [
@@ -280,8 +291,11 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   }
 }
 ```
+
 </details>
-<details><summary>microcredential_embedded.json</summary>
+<details>
+<summary>microcredential_embedded.json</summary>
+
 ```json
 {
   "@context": [
@@ -321,8 +335,11 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   }
 }
 ```
+
 </details>
-<details><summary>microcredential_full.json</summary>
+<details>
+<summary>microcredential_full.json</summary>
+
 ```json
 {
   "@context": [
@@ -362,8 +379,11 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   }
 }
 ```
+
 </details>
-<details><summary>microcredential_minimal.json</summary>
+<details>
+<summary>microcredential_minimal.json</summary>
+
 ```json
 {
   "@context": [
@@ -403,8 +423,11 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   }
 }
 ```
+
 </details>
-<details><summary>minimal_valid_obv3.json</summary>
+<details>
+<summary>minimal_valid_obv3.json</summary>
+
 ```json
 {
   "@context": [
@@ -444,8 +467,11 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   }
 }
 ```
+
 </details>
-<details><summary>regulier_embedded.json</summary>
+<details>
+<summary>regulier_embedded.json</summary>
+
 ```json
 {
   "@context": [
@@ -485,8 +511,11 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   }
 }
 ```
+
 </details>
-<details><summary>regulier_full.json</summary>
+<details>
+<summary>regulier_full.json</summary>
+
 ```json
 {
   "@context": [
@@ -526,8 +555,11 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   }
 }
 ```
+
 </details>
-<details><summary>regulier_minimal.json</summary>
+<details>
+<summary>regulier_minimal.json</summary>
+
 ```json
 {
   "@context": [
@@ -567,5 +599,6 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   }
 }
 ```
+
 </details>
 <!-- /managed_by_embed -->
