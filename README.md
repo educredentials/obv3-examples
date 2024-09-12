@@ -61,8 +61,18 @@ For the examples, we use the following mock unique identifiers:
 In the examples we will use the first always, except for the rare cases when we must convey that 
 there are multiple resources in a single example.
 
+# Test
+
+We test the files in a CI against the following schema files:
+
+* https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json
+
+These files are downloaded and committed to the repo, so might get outdated.
+
 # TODOs
 
 - [x] find out of the credentialSubject.id is the same as the top-level id?
 - [x] Language Extension adds a name that's ambigous and is a primitive in OBv3. rename it? re-use an obv3 attribute?
 - [x] Identity Field: how is that done in OBv2? Can we re-use an OBv3 concept for this?
+
+- [ ] Put on backlog: Add specific @context that describes our custom rules for obv3 badges, requiring additional fields for example.
