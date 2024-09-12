@@ -1,7 +1,7 @@
- 
+# OB3 Credential Examples
 
 Voorbeelden van Open Badges V3 credentials naar voorbeeld van het
-metadatamodel van Edubadges.\
+metadatamodel van Edubadges.
 Deze voorbeelden kunnen worden gebruikt om de capabilities van de
 diverse wallets te kunnen testen.
 
@@ -51,10 +51,8 @@ Regulier en Microcredential.\
 Het verschil tussen deze 3 types is welke metadataelementen zijn
 gebruikt in de badgeclass.
 
-\
-
 +-------------+--------------------+-----------------+-----------------+
-| \           | Microcredential    | Reguliere       | Ext             |
+|             | Microcredential    | Reguliere       | Ext             |
 |             |                    | edubadge        | ra-curriculaire |
 |             |                    |                 | edubadge        |
 +=============+====================+=================+=================+
@@ -157,7 +155,6 @@ gebruikt in de badgeclass.
 | mschrijving |                    |                 |                 |
 +-------------+--------------------+-----------------+-----------------+
 
-\
 
 ### Termen
 
@@ -173,12 +170,8 @@ Met de komst van OB3 zijn een aantal termen zoals we deze in edubadges
 
   Edubadge     Educredential
 
-  \            \
-
-  \            \
   ------------ -----------------------
 
-\
 
 ### OB3 Examples → EduCredential Examples
 
@@ -206,81 +199,3 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
 -   **Embedded** - Alle verplichte velden ingevuld. Alle optionele
     velden met verwijzingen naar afbeeldingen ingevuld. Alle
     afbeeldingen zijn opgenomen in de payload als base64 data urls.
-
-\
-
-\
-
-### extracurriculair_minimal.json
-
-\
-
-+-----------------------------------------------------------------------+
-|     {                                                                 |
-|       "@context": [                                                   |
-|         "https://www.w3.org/ns/credentials/v2",                       |
-|         "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json", |
-|                                                                       |
-|       "https://contexts.example.com/learning-outcome-extension.json", |
-|         "https://contexts.example.com/language-extension.json",       |
-|         "https://contexts.example.com/time-investment-extension.json" |
-|       ],                                                              |
-|       "id": "http://example.com/credentials/extracurricular-minimal", |
-|       "type": [                                                       |
-|         "VerifiableCredential",                                       |
-|         "OpenBadgeCredential"                                         |
-|       ],                                                              |
-|       "issuer": {                                                     |
-|         "i                                                            |
-| d": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg", |
-|         "type": [                                                     |
-|           "Profile"                                                   |
-|         ],                                                            |
-|         "name": "Naboo Theed University",                             |
-|       },                                                              |
-|       "validFrom": "2014-06-01T00:00:00Z",                            |
-|       "name": "Example Extra-Curricular Achievement",                 |
-|       "credentialSubject": {                                          |
-|         "id                                                           |
-| ": "https://example.com/credentials/extracurricular-minimal#subject", |
-|         "type": [                                                     |
-|           "AchievementSubject"                                        |
-|         ],                                                            |
-|         "achievement": {                                              |
-|           "i                                                          |
-| d": "https://example.com/achievements/lightsaber-dueling-techinques", |
-|           "type": [                                                   |
-|             "Achievement"                                             |
-|           ],                                                          |
-|           "name": "Lightsaber Dueling Techniques",                    |
-|           "image": {                                                  |
-|             "id": "https://static.example.com/lightsaber.jpg",        |
-|             "type": "Image"                                           |
-|           },                                                          |
-|           "description": "This badge is awar                          |
-| ded for demonstrating proficiency in lightsaber dueling techniques.", |
-|           "criteria": {                                               |
-|             "narrative": "To earn this badge,                         |
-|  you must demonstrate proficiency in lightsaber dueling techniques.", |
-|           },                                                          |
-|                                                                       |
-|           "LearningOutcome": "Is fysically able to perform l          |
-| ightsaber dueling techniques against an opponent in the same class.", |
-|           "Language": "en_EN",                                        |
-|           "TimeInvestment": 42                                        |
-|         }                                                             |
-|       }                                                               |
-|     }                                                                 |
-+-----------------------------------------------------------------------+
-
-\
-
-\
-
-\
-
-\
-
-\
-
- 
