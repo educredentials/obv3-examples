@@ -20,29 +20,17 @@ diverse wallets te kunnen testen.
     opmaak gerelateerde elementen, dus geen external links en
     waarschijnlijk ook geen tables.\
     Zie ook: [Opmaken tekst badge
-    class](https://wiki.surfnet.nl/display/Edubadges/Opmaken+tekst+badge+class){.confluence-link
-    linked-resource-id="41324415" linked-resource-version="20"
-    linked-resource-type="page"
-    linked-resource-default-alias="Opmaken tekst badge class"
-    base-url="https://wiki.surfnet.nl"} (voorbeelden markdown support in
+    class](https://wiki.surfnet.nl/display/Edubadges/Opmaken+tekst+badge+class) (voorbeelden markdown support in
     Edubadges)
 -   Extra metadata: de spec ondersteunt dat er uitbreidingen op het
     datamodel worden gemaakt
-    (<https://www.imsglobal.org/spec/ob/v3p0#extending-the-data-model>).\
+    (<https://www.imsglobal.org/spec/ob/v3p0#extending-the-data-model>).
     In Edubadges is dit gedaan met 17 extra metadatavelden. (Zie
     [Microcredentials Definition
-    EU](https://wiki.surfnet.nl/display/Edubadges/Microcredentials+Definition+EU){.confluence-link
-    linked-resource-id="104793066" linked-resource-version="17"
-    linked-resource-type="page"
-    linked-resource-default-alias="Microcredentials Definition EU"
-    base-url="https://wiki.surfnet.nl"})
+    EU](https://wiki.surfnet.nl/display/Edubadges/Microcredentials+Definition+EU))
 -   Zie ook de huidige Edubadges voorbeelden in OB2 formaat: [Edubadges
     Metadata Examples - JSON
-    output](https://wiki.surfnet.nl/display/Edubadges/Edubadges+Metadata+Examples+-+JSON+output){.confluence-link
-    linked-resource-id="104793055" linked-resource-version="2"
-    linked-resource-type="page"
-    linked-resource-default-alias="Edubadges Metadata Examples - JSON output"
-    base-url="https://wiki.surfnet.nl"}
+    output](https://wiki.surfnet.nl/display/Edubadges/Edubadges+Metadata+Examples+-+JSON+output)
 
 ### Edubadges: huidig model
 
