@@ -2,19 +2,19 @@
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://contexts.example.com/learning-outcome-extension.json",
-    "https://contexts.example.com/course-language-extension.json",
-    "https://contexts.example.com/time-investment-extension.json",
 
-    "https://contexts.example.com/eqf-extension.json",
-    "https://contexts.example.com/participation-form-extension.json",
-    "https://contexts.example.com/institution-identifier-extension.json",
+    "https://contexts.example.com/alignment-extension.json",
     "https://contexts.example.com/assessment-type-extension.json",
-    "https://contexts.example.com/supervision-type-extension.json",
-    "https://contexts.example.com/identity-checked-extension.json",
+    "https://contexts.example.com/course-language-extension.json",
     "https://contexts.example.com/education-program-identifier-extension.json",
+    "https://contexts.example.com/eqf-extension.json",
+    "https://contexts.example.com/identity-checked-extension.json",
+    "https://contexts.example.com/institution-identifier-extension.json",
+    "https://contexts.example.com/learning-outcome-extension.json",
+    "https://contexts.example.com/participation-form-extension.json",
     "https://contexts.example.com/quality-assurance-extension.json",
-    "https://contexts.example.com/alignment-extension.json"
+    "https://contexts.example.com/supervision-type-extension.json",
+    "https://contexts.example.com/time-investment-extension.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
