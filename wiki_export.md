@@ -178,11 +178,9 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
 
-    "https://contexts.example.com/alignment-extension.json",
     "https://contexts.example.com/assessment-type-extension.json",
     "https://contexts.example.com/course-language-extension.json",
     "https://contexts.example.com/education-program-identifier-extension.json",
-    "https://contexts.example.com/eqf-extension.json",
     "https://contexts.example.com/identity-checked-extension.json",
     "https://contexts.example.com/institution-identifier-extension.json",
     "https://contexts.example.com/learning-outcome-extension.json",
@@ -239,6 +237,7 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
 
       "alignment": [
         {
+          "type": ["Aligment"],
           "targetType": "ext:QualityAssurance",
           "targetName": "M Performance, Sport and Health",
           "targetDescription": "Toets nieuwe opleiding\n**HBO-master**\npresteren, sport en gezondheid",
@@ -246,6 +245,7 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
           "targetURL": "https://data.example.com/decisions/AV-1337"
         },
         {
+          "type": ["Aligment"],
           "targetType": "ext:EQF",
           "targetName": "EQF level 3",
           "targetCode": "3",
