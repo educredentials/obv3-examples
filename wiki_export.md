@@ -177,18 +177,19 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://contexts.example.com/learning-outcome-extension.json",
-    "https://contexts.example.com/course-language-extension.json",
-    "https://contexts.example.com/time-investment-extension.json",
 
-    "https://contexts.example.com/eqf-extension.json",
-    "https://contexts.example.com/participation-form-extension.json",
-    "https://contexts.example.com/institution-identifier-extension.json",
-
+    "https://contexts.example.com/alignment-extension.json",
     "https://contexts.example.com/assessment-type-extension.json",
-    "https://contexts.example.com/supervision-type-extension.json",
+    "https://contexts.example.com/course-language-extension.json",
+    "https://contexts.example.com/education-program-identifier-extension.json",
+    "https://contexts.example.com/eqf-extension.json",
     "https://contexts.example.com/identity-checked-extension.json",
-    "https://contexts.example.com/education-program-identifier-extension.json"
+    "https://contexts.example.com/institution-identifier-extension.json",
+    "https://contexts.example.com/learning-outcome-extension.json",
+    "https://contexts.example.com/participation-form-extension.json",
+    "https://contexts.example.com/quality-assurance-extension.json",
+    "https://contexts.example.com/supervision-type-extension.json",
+    "https://contexts.example.com/time-investment-extension.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -219,7 +220,7 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
         "id": "https://static.example.com/lightsaber.jpg",
         "type": "Image"
       },
-      "description": "# Lightsaber Dueling Techniques\n This badge is awarded for demonstrating proficiency in lightsaber dueling techniques.\n\n\n      Below text is dummy text to show all the markdown features.\n\n      ## Koptexten\n\n      # h1 Koptekst\n\n      ## h2 Koptekst\n\n      ### h3 Koptekst\n\n      #### h4 Koptekst\n\n      ##### h5 Koptekst\n\n      ###### h6 Koptekst\n\n      ## Regelafbrekingen\n\n      Hier is een regel voor ons om mee te beginnen.\n      >\n\n      Deze regel wordt gescheiden van de vorige door een ">" \n      (groter dan teken, zonder de aanhalingstekens) \n      zodat het een *aparte paragraaf* wordt.\n      >\n      >\n      >\n      Het intikken van meer > tekens levert echter niet meer lege regels op.\n      \n      ## Nadruk\n\n      **Dit is vetgedrukte tekst**\n\n      *Dit is cursieve tekst*\n\n      ~~Dit is doorgehaalde tekst~~\n\n      ## Blockquotes\n\n      > Blockquotes kunnen ook genest worden...\n      >> ...by using additional greater-than signs right next to each other...\n      > > > ...or with spaces between the arrows.\n\n      ## Ongeordende lijsten\n\n      + Maak een lijst door een regel te beginnen met `+`, `-`, of `*`\n      + Sub-lijsten worden gemaakt door 2 spaties in te laten springen:\n        - Verandering van markeringsteken forceert start van nieuwe lijst:\n          * Ac tristique libero volutpat at\n          + Facilisis in pretium nisl aliquet\n          - Nulla volutpat aliquam velit\n      + Zeer gemakkelijk!\n\n      ## Geordende lijsten\n\n      1. Maak een lijst door een regel te beginnen met `1.'\n      2. Tweede item\n      3. Derde item\n      4. Zeer gemakkelijk!\n\n      ## Code, Links, Images en Tabellen zijn niet ondersteund",
+      "description": "# Lightsaber Dueling Techniques\n This badge is awarded for demonstrating proficiency in lightsaber dueling techniques.\n\n\n      Below text is dummy text to show all the markdown features.\n\n      ## Koptexten\n\n      # h1 Koptekst\n\n      ## h2 Koptekst\n\n      ### h3 Koptekst\n\n      #### h4 Koptekst\n\n      ##### h5 Koptekst\n\n      ###### h6 Koptekst\n\n      ## Regelafbrekingen\n\n      Hier is een regel voor ons om mee te beginnen.\n      >\n\n      Deze regel wordt gescheiden van de vorige door een \">\" \n      (groter dan teken, zonder de aanhalingstekens) \n      zodat het een *aparte paragraaf* wordt.\n      >\n      >\n      >\n      Het intikken van meer > tekens levert echter niet meer lege regels op.\n      \n      ## Nadruk\n\n      **Dit is vetgedrukte tekst**\n\n      *Dit is cursieve tekst*\n\n      ~~Dit is doorgehaalde tekst~~\n\n      ## Blockquotes\n\n      > Blockquotes kunnen ook genest worden...\n      >> ...by using additional greater-than signs right next to each other...\n      > > > ...or with spaces between the arrows.\n\n      ## Ongeordende lijsten\n\n      + Maak een lijst door een regel te beginnen met `+`, `-`, of `*`\n      + Sub-lijsten worden gemaakt door 2 spaties in te laten springen:\n        - Verandering van markeringsteken forceert start van nieuwe lijst:\n          * Ac tristique libero volutpat at\n          + Facilisis in pretium nisl aliquet\n          - Nulla volutpat aliquam velit\n      + Zeer gemakkelijk!\n\n      ## Geordende lijsten\n\n      1. Maak een lijst door een regel te beginnen met `1.'\n      2. Tweede item\n      3. Derde item\n      4. Zeer gemakkelijk!\n\n      ## Code, Links, Images en Tabellen zijn niet ondersteund",
       "criteria": {
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
@@ -236,7 +237,17 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
       "SupervisionType": "Supervised with identity verification",
       "IdentityChecked": true,
 
-      "EducationProgramIdentifier": 421234
+      "QualityAssurance": {
+        "name": "Kwaliteitskader Microcredentials voor Professionals HBO en WO",
+        "url": "https://www.versnellingsplan.nl/Kennisbank/pilot-microcredentials-2/",
+        "description": "In het Nederlandse hoger onderwijs is in de afgelopen jaren een hoogwaardig stelsel van kwaliteitsborging gegroeid. Instellingen geven hier allen op hun eigen wijze kleur aan. Deze eigenheid en diversiteit kunnen beschouwd worden als een kracht van het stelsel, maar kan ook leiden tot discussie onderling wanneer gezocht wordt naar eenduidigheid. Daarom is gekozen voor een kwaliteitskader waarbinnen instellingen zoveel mogelijk (inhoudelijke) vrijheid genieten. De pilot geeft ruimte aan de instellingen om te starten met dit kader als vertrekpunt en deze al doende in gezamenlijkheid bij te schaven en verder in te vullen....."
+      },
+
+      "Alignment": {
+        "name" : "NVAO Accreditation",
+        "code": "AV-1337",
+        "URL": "https://nvao.example.com/besluiten/AV-1337"
+      }
     }
   }
 }
