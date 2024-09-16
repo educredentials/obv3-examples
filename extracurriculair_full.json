@@ -9,11 +9,12 @@
     "https://contexts.example.com/eqf-extension.json",
     "https://contexts.example.com/participation-form-extension.json",
     "https://contexts.example.com/institution-identifier-extension.json",
-
     "https://contexts.example.com/assessment-type-extension.json",
     "https://contexts.example.com/supervision-type-extension.json",
     "https://contexts.example.com/identity-checked-extension.json",
-    "https://contexts.example.com/education-program-identifier-extension.json"
+    "https://contexts.example.com/education-program-identifier-extension.json",
+    "https://contexts.example.com/quality-assurance-extension.json",
+    "https://contexts.example.com/alignment-extension.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -61,7 +62,17 @@
       "SupervisionType": "Supervised with identity verification",
       "IdentityChecked": true,
 
-      "EducationProgramIdentifier": 421234
+      "QualityAssurance": {
+        "name": "Kwaliteitskader Microcredentials voor Professionals HBO en WO",
+        "url": "https://www.versnellingsplan.nl/Kennisbank/pilot-microcredentials-2/",
+        "description": "In het Nederlandse hoger onderwijs is in de afgelopen jaren een hoogwaardig stelsel van kwaliteitsborging gegroeid. Instellingen geven hier allen op hun eigen wijze kleur aan. Deze eigenheid en diversiteit kunnen beschouwd worden als een kracht van het stelsel, maar kan ook leiden tot discussie onderling wanneer gezocht wordt naar eenduidigheid. Daarom is gekozen voor een kwaliteitskader waarbinnen instellingen zoveel mogelijk (inhoudelijke) vrijheid genieten. De pilot geeft ruimte aan de instellingen om te starten met dit kader als vertrekpunt en deze al doende in gezamenlijkheid bij te schaven en verder in te vullen....."
+      },
+
+      "Alignment": {
+        "name" : "NVAO Accreditation",
+        "code": "AV-1337",
+        "URL": "https://nvao.example.com/besluiten/AV-1337"
+      }
     }
   }
 }
