@@ -18,3 +18,6 @@ embed: $(README) $(JSON_FILES)
 .PHONY: clean
 clean:
 	@./remove_embeds.sh $(README)
+
+test:
+	boon --assert-content schemas/ob_v3p0_achievementcredential_schema.json *.json
