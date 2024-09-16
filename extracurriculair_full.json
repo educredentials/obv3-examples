@@ -50,7 +50,7 @@
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
 
-      "LearningOutcome": "Is fysically able to perform lightsaber dueling techniques against an opponent in the same class.",
+      "LearningOutcome": "Is **fysically** able to perform *lightsaber dueling techniques* against an opponent in the **same class**.",
       "Language": "en_EN",
       "TimeInvestment": 42,
 
@@ -65,13 +65,15 @@
       "QualityAssurance": {
         "name": "Kwaliteitskader Microcredentials voor Professionals HBO en WO",
         "url": "https://www.versnellingsplan.nl/Kennisbank/pilot-microcredentials-2/",
-        "description": "In het Nederlandse hoger onderwijs is in de afgelopen jaren een hoogwaardig stelsel van kwaliteitsborging gegroeid. Instellingen geven hier allen op hun eigen wijze kleur aan. Deze eigenheid en diversiteit kunnen beschouwd worden als een kracht van het stelsel, maar kan ook leiden tot discussie onderling wanneer gezocht wordt naar eenduidigheid. Daarom is gekozen voor een kwaliteitskader waarbinnen instellingen zoveel mogelijk (inhoudelijke) vrijheid genieten. De pilot geeft ruimte aan de instellingen om te starten met dit kader als vertrekpunt en deze al doende in gezamenlijkheid bij te schaven en verder in te vullen....."
+        "description": "In het Nederlandse hoger onderwijs is in de afgelopen jaren een hoogwaardig stelsel van kwaliteitsborging gegroeid.\n\nInstellingen geven hier allen op hun eigen wijze kleur aan. Deze eigenheid en diversiteit kunnen beschouwd worden als een kracht van het stelsel, maar kan ook leiden tot discussie onderling wanneer gezocht wordt naar eenduidigheid. Daarom is gekozen voor een kwaliteitskader waarbinnen instellingen zoveel mogelijk (inhoudelijke) vrijheid genieten. De pilot geeft ruimte aan de instellingen om te starten met dit kader als vertrekpunt en deze al doende in gezamenlijkheid bij te schaven en verder in te vullen....."
       },
 
       "Alignment": {
-        "name" : "NVAO Accreditation",
-        "code": "AV-1337",
-        "URL": "https://nvao.example.com/besluiten/AV-1337"
+        "name" : "dueling",
+        "framework": "ESCO",
+        "code": "2b22f3b1-5de4-43f9-b6d1-b20f65871268",
+        "description": "The discipline that *studies*, *trains* and *improves* the act of **dueling with a lightsaber**.",
+        "URL": "https://data.example.com/esco/skill/2b22f3b1-5de4-43f9-b6d1-b20f65871268"
       }
     }
   }
