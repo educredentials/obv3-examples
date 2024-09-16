@@ -39,32 +39,34 @@ Regulier en Microcredential.\
 Het verschil tussen deze 3 types is welke metadataelementen zijn
 gebruikt in de badgeclass.
 
-|                     | Microcredential      | Reguliere edubadge | Extracurriculaire edubadge |
-|---------------------|----------------------|--------------------|----------------------------|
-| **Metadata**        | Een badge class voor opgedane microcredentials met het kwaliteitskader voor professionals HBO/WO of MBO en alle metadata conform de EU-aanbevelingen. Aan deze badgeclass zijn ECTS/SBU verbonden. | Een badge class voor opgedane kennis en vaardigheden die binnen het curriculum van een erkende opleiding vallen. Aan deze badgeclass zijn geen ECTS/SBU verbonden. | Een badge class voor opgedane kennis en vaardigheden die geen onderdeel zijn van het curriculum van een erkende opleiding. Aan deze badgeclass zijn geen ECTS/SBU verbonden. |
-| **Basisinformatie** | Naam verplicht       | Naam verplicht     | Naam verplicht             |
-|                     | Edubadge afbeelding  | Edubadge afbeelding| Edubadge afbeelding        |
-|                     | Beschrijving verplicht| Beschrijving verplicht | Beschrijving verplicht   |
-|                     | Leeruitkomsten verplicht | Leeruitkomsten verplicht | Leeruitkomsten verplicht |
-| **Criteria**        | Programma informatie | Programma informatie| Programma informatie        |
-| **Taal van het onderwijs** | Taal van het onderwijs verplicht | Taal van het onderwijs verplicht | Taal van het onderwijs verplicht |
-| **Studiepunten ECTS/SBU** | Optioneel            | Verplicht           | Niet van toepassing       |
-| **Tijdsinvestering** | Optioneel            | Niet van toepassing | Verplicht                  |
-| **Indicatie EQF niveau** | Verplicht           | Verplicht           | Optioneel                  |
-| **Vorm van deelname** | Verplicht            | Optioneel           | Optioneel                  |
-| **Opleidingscodes**  | Optioneel            | Verplicht           | Optioneel                  |
-| **Informatie over de beoordeling** | Beoordelingstype verplicht | Beoordelingstype optioneel | Beoordelingstype optioneel |
-| **Toezicht bij de beoordeling** | Verplicht | Optioneel | Optioneel                   |
-| **Identiteit**       | Verplicht            | Optioneel           | Optioneel                  |
-| **Kwaliteitsborging**| Naam kwaliteitskader HO/MBO optioneel | Optioneel           | Optioneel                  |
-| **URL**              | Verplicht            | Optioneel           | Optioneel                  |
-| **Omschrijving**     | Verplicht            | Optioneel           | Optioneel                  |
-| **Gerelateerd onderwijskundig raamwerk** | Naam optioneel | Optioneel            | Optioneel                  |
-| **Raamwerk**         | Raamwerk optioneel   | Optioneel           | Optioneel                  |
-| **URL**              | Optioneel            | Optioneel           | Optioneel                  |
-| **Code**             | Optioneel            | Optioneel           | Optioneel                  |
-| **Omschrijving**     | Optioneel            | Optioneel           | Optioneel                  |
-
+|                                          | Microcredential        | Reguliere edubadge  | Extracurriculaire edubadge |
+| **Basisinformatie**                      |                        |                     |                            |
+| Naam                                     | Verplicht              | Verplicht           | Verplicht                  |
+| Edubadge afbeelding                      | Verplicht              | Verplicht           | Verplicht                  |
+| Beschrijving                             | Verplicht              | Verplicht           | Verplicht                  |
+| Leeruitkomsten                           | Verplicht              | Verplicht           | Verplicht                  |
+| Criteria                                 | Verplicht              | Verplicht           | Verplicht                  |
+| Programma informatie                     |                        |                     |                            |
+| Taal van het onderwijs                   | Verplicht              | Verplicht           | Verplicht                  |
+| Studiepunten ECTS/SBU                    | Optioneel              | Verplicht           | Niet van toepassing        |
+| Tijdsinvestering                         | Optioneel              | Niet van toepassing | Verplicht                  |
+| Indicatie EQF niveau                     | Verplicht              | Verplicht           | Optioneel                  |
+| Vorm van deelname                        | Verplicht              | Optioneel           | Optioneel                  |
+| Opleidingscodes                          | Optioneel              | Verplicht           | Optioneel                  |
+| **Informatie over de beoordeling**       |                        |                     |                            |
+| Beoordelingstype                         | Verplicht              | Optioneel           | Optioneel                  |
+| Toezicht bij de beoordeling              | Verplicht              | Optioneel           | Optioneel                  |
+| Identiteit                               | Verplicht              | Optioneel           | Optioneel                  |
+| **Kwaliteitsborging**                    |                        |                     |                            |
+| Naam                                     | Kwaliteitskader HO/MBO | Optioneel           | Optioneel                  |
+| URL                                      | Verplicht              | Optioneel           | Optioneel                  |
+| Omschrijving                             | Verplicht              | Optioneel           | Optioneel                  |
+| **Gerelateerd onderwijskundig raamwerk** |                        |                     |                            |
+| Naam                                     | Optioneel              | Optioneel           | Optioneel                  |
+| Raamwerk                                 | Optioneel              | Optioneel           | Optioneel                  |
+| URL                                      | Optioneel              | Optioneel           | Optioneel                  |
+| Code                                     | Optioneel              | Optioneel           | Optioneel                  |
+| Omschrijving                             | Optioneel              | Optioneel           | Optioneel                  |
 
 ### Termen
 
