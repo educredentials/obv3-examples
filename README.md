@@ -85,7 +85,7 @@ These files are downloaded and committed to the repo, so might get outdated.
 
 It uses [boon](https://github.com/santhosh-tekuri/boon) which we compile in a [private docker image educredentials/boon](https://github.com/educredentials/obv3-examples/pkgs/container/boon)
 
-You can run this image locally too. TODO: set up docker-compose to run this easier.
+You can run this image locally too. 
 
 # TODOs
 
@@ -94,3 +94,4 @@ You can run this image locally too. TODO: set up docker-compose to run this easi
 - [x] Identity Field: how is that done in OBv2? Can we re-use an OBv3 concept for this?
 - [ ] Fetch contexts from https://wiki.surfnet.nl/display/Edubadges/Specificatie+Metadatamodel+Edubadges and import as contexts in this project.
 - [ ] Put on backlog: Add specific @context that describes our custom rules for obv3 badges, requiring additional fields for example.
+- [ ] set up docker-compose to run this make/test easier, without having to fetch or install deps
