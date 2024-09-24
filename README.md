@@ -75,6 +75,12 @@ make
 
 This calls shell scripts to remove old json and add new json in a template.
 
+# Reference
+
+In ./ref we collect reference files and data.
+
+* ./ref/full_ex.json - https://www.imsglobal.org/spec/ob/v3p0/#example-complete-openbadgecredential
+
 # Test
 
 We test the files in a CI against the following schema files:
