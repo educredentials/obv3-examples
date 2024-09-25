@@ -89,7 +89,7 @@ You can run this image locally too.
 
 # TODOs
 
-- [ ] Determine if we want to port `LearningOutcome` to `Result`/`resultDescription`. See Edubadges-Report-10.0.pdf p23
+- [x] Determine if we want to port `LearningOutcome` to `Result`/`resultDescription`. See Edubadges-Report-10.0.pdf p23
 - [ ] Determine how to handle a `creator` if at all. See Edubadges-Report-10.0.pdf p21,p27,p31
 - [x] find out of the credentialSubject.id is the same as the top-level id?
 - [x] Language Extension adds a name that's ambigous and is a primitive in OBv3. rename it? re-use an obv3 attribute?
