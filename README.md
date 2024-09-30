@@ -75,6 +75,14 @@ make
 
 This calls shell scripts to remove old json and add new json in a template.
 
+# Contexts
+
+In ./contexts/ we collect all extensions descriptions for use in @context.
+
+These can be referenced on github through urls such as
+
+https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/some-context-extension.json
+
 # Reference
 
 In ./ref we collect reference files and data.
