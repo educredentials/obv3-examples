@@ -52,7 +52,7 @@
       "ParticipationType": "Onsite",
 
       "AssessmentType": "Application of a skill",
-      "SupervisionType": "Supervised with identity verification",
+      "SupervisionType": "onsite with identity verification",
       "IdentityChecked": true,
 
       "alignment": [

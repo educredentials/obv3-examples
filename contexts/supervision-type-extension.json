@@ -1,0 +1,14 @@
+{
+  "@context": {
+    "supervisionType": {
+      "@id": "https://example.org/supervisionType",
+      "type": "@vocab",
+      "context": {
+        "unsupervised with no identity verification": "https://example.org/supervisionType/unsupervised-with-no-identity-verification",
+        "supervised with no identity verification": "https://example.org/supervisionType/supervised-with-no-identity-verification",
+        "supervised online": "https://example.org/supervisionType/supervised-online",
+        "onsite with identity verification": "https://example.org/supervisionType/onsite-with-identity-verification"
+      }
+    }
+  }
+}
