@@ -147,20 +147,29 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "http://example.com/credentials/example-credential",
-  "type": ["VerifiableCredential", "OpenBadgeCredential"],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
   "issuer": {
     "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
-    "type": ["Profile"],
+    "type": [
+      "Profile"
+    ],
     "name": " SURF - Team edubadges"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Badge",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-    "type": ["AchievementSubject"],
+    "type": [
+      "AchievementSubject"
+    ],
     "achievement": {
       "id": "https://example.com/achievements/lorem-ipsum",
-      "type": ["Achievement"],
+      "type": [
+        "Achievement"
+      ],
       "criteria": {
         "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       },
@@ -183,26 +192,34 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
 
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/assessment-type-extension.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/identity-checked-extension.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/learning-outcome-extension.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/participation-type-extension.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/supervision-type-extension.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
-  "type": ["VerifiableCredential", "OpenBadgeCredential"],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
   "issuer": {
     "id": "https://example.com/issuers/iss-9Z8Y7X",
-    "type": ["Profile"],
+    "type": [
+      "Profile"
+    ],
     "name": "Naboo Theed University"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-1A2B3C",
-    "type": ["AchievementSubject"],
+    "type": [
+      "AchievementSubject"
+    ],
     "creditsEarned": 12,
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
-      "type": ["Achievement"],
+      "type": [
+        "Achievement"
+      ],
       "name": "Lightsaber Dueling Techniques",
       "image": {
         "id": "https://static.example.com/lightsaber.jpg",
@@ -240,8 +257,26 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
           "targetCode": "3",
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
+      ],
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": ["ResultDescription"],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
       ]
-    }
+    },
+    "result": [
+      {
+        "type": ["Result"],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "7.5"
+      }
+    ]
   }
 }
 ```
@@ -260,20 +295,29 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "https://contexts.example.com/time-investment-extension.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
-  "type": ["VerifiableCredential", "OpenBadgeCredential"],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
   "issuer": {
     "id": "https://example.com/issuers/iss-9Z8Y7X",
-    "type": ["Profile"],
+    "type": [
+      "Profile"
+    ],
     "name": "Naboo Theed University"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
     "id": "https://example.com/students/stu-1A2B3C",
-    "type": ["AchievementSubject"],
+    "type": [
+      "AchievementSubject"
+    ],
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
-      "type": ["Achievement"],
+      "type": [
+        "Achievement"
+      ],
       "name": "Lightsaber Dueling Techniques",
       "image": {
         "id": "https://static.example.com/lightsaber.jpg",
@@ -303,20 +347,29 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "http://example.com/credentials/example-credential",
-  "type": ["VerifiableCredential", "OpenBadgeCredential"],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
   "issuer": {
     "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
-    "type": ["Profile"],
+    "type": [
+      "Profile"
+    ],
     "name": " SURF - Team edubadges"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Badge",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-    "type": ["AchievementSubject"],
+    "type": [
+      "AchievementSubject"
+    ],
     "achievement": {
       "id": "https://example.com/achievements/lorem-ipsum",
-      "type": ["Achievement"],
+      "type": [
+        "Achievement"
+      ],
       "criteria": {
         "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       },
@@ -338,20 +391,29 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "http://example.com/credentials/example-credential",
-  "type": ["VerifiableCredential", "OpenBadgeCredential"],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
   "issuer": {
     "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
-    "type": ["Profile"],
+    "type": [
+      "Profile"
+    ],
     "name": " SURF - Team edubadges"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Badge",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-    "type": ["AchievementSubject"],
+    "type": [
+      "AchievementSubject"
+    ],
     "achievement": {
       "id": "https://example.com/achievements/lorem-ipsum",
-      "type": ["Achievement"],
+      "type": [
+        "Achievement"
+      ],
       "criteria": {
         "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       },
@@ -373,20 +435,29 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "http://example.com/credentials/example-credential",
-  "type": ["VerifiableCredential", "OpenBadgeCredential"],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
   "issuer": {
     "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
-    "type": ["Profile"],
+    "type": [
+      "Profile"
+    ],
     "name": " SURF - Team edubadges"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Badge",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-    "type": ["AchievementSubject"],
+    "type": [
+      "AchievementSubject"
+    ],
     "achievement": {
       "id": "https://example.com/achievements/lorem-ipsum",
-      "type": ["Achievement"],
+      "type": [
+        "Achievement"
+      ],
       "criteria": {
         "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       },
@@ -408,20 +479,29 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "http://example.com/credentials/example-credential",
-  "type": ["VerifiableCredential", "OpenBadgeCredential"],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
   "issuer": {
     "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
-    "type": ["Profile"],
+    "type": [
+      "Profile"
+    ],
     "name": " SURF - Team edubadges"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Badge",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-    "type": ["AchievementSubject"],
+    "type": [
+      "AchievementSubject"
+    ],
     "achievement": {
       "id": "https://example.com/achievements/lorem-ipsum",
-      "type": ["Achievement"],
+      "type": [
+        "Achievement"
+      ],
       "criteria": {
         "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       },
@@ -443,20 +523,29 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "http://example.com/credentials/example-credential",
-  "type": ["VerifiableCredential", "OpenBadgeCredential"],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
   "issuer": {
     "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
-    "type": ["Profile"],
+    "type": [
+      "Profile"
+    ],
     "name": " SURF - Team edubadges"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Badge",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-    "type": ["AchievementSubject"],
+    "type": [
+      "AchievementSubject"
+    ],
     "achievement": {
       "id": "https://example.com/achievements/lorem-ipsum",
-      "type": ["Achievement"],
+      "type": [
+        "Achievement"
+      ],
       "criteria": {
         "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       },
@@ -478,20 +567,29 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "http://example.com/credentials/example-credential",
-  "type": ["VerifiableCredential", "OpenBadgeCredential"],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
   "issuer": {
     "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
-    "type": ["Profile"],
+    "type": [
+      "Profile"
+    ],
     "name": " SURF - Team edubadges"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Badge",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-    "type": ["AchievementSubject"],
+    "type": [
+      "AchievementSubject"
+    ],
     "achievement": {
       "id": "https://example.com/achievements/lorem-ipsum",
-      "type": ["Achievement"],
+      "type": [
+        "Achievement"
+      ],
       "criteria": {
         "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       },
@@ -513,20 +611,29 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "http://example.com/credentials/example-credential",
-  "type": ["VerifiableCredential", "OpenBadgeCredential"],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
   "issuer": {
     "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
-    "type": ["Profile"],
+    "type": [
+      "Profile"
+    ],
     "name": " SURF - Team edubadges"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Badge",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-    "type": ["AchievementSubject"],
+    "type": [
+      "AchievementSubject"
+    ],
     "achievement": {
       "id": "https://example.com/achievements/lorem-ipsum",
-      "type": ["Achievement"],
+      "type": [
+        "Achievement"
+      ],
       "criteria": {
         "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       },

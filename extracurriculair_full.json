@@ -5,7 +5,6 @@
 
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/assessment-type-extension.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/identity-checked-extension.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/learning-outcome-extension.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/participation-type-extension.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/supervision-type-extension.json"
   ],
@@ -71,7 +70,25 @@
           "targetCode": "3",
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
+      ],
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": ["ResultDescription"],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
       ]
-    }
+    },
+    "result": [
+      {
+        "type": ["Result"],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "7.5"
+      }
+    ]
   }
 }
