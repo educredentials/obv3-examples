@@ -5,7 +5,6 @@
 
     "https://contexts.example.com/assessment-type-extension.json",
     "https://contexts.example.com/identity-checked-extension.json",
-    "https://contexts.example.com/institution-identifier-extension.json",
     "https://contexts.example.com/learning-outcome-extension.json",
     "https://contexts.example.com/participation-form-extension.json",
     "https://contexts.example.com/quality-assurance-extension.json",
@@ -52,7 +51,6 @@
 
       "EQF": 3,
       "ParticipationForm": "Onsite",
-      "InstitutionIdentifier": 123456,
 
       "AssessmentType": "Application of a skill",
       "SupervisionType": "Supervised with identity verification",
