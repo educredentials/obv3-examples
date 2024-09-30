@@ -178,11 +178,11 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
 
-    "https://contexts.example.com/assessment-type-extension.json",
-    "https://contexts.example.com/identity-checked-extension.json",
-    "https://contexts.example.com/learning-outcome-extension.json",
-    "https://contexts.example.com/participation-type-extension.json",
-    "https://contexts.example.com/supervision-type-extension.json"
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/assessment-type-extension.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/identity-checked-extension.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/learning-outcome-extension.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/participation-type-extension.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/supervision-type-extension.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
