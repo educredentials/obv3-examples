@@ -7,8 +7,7 @@
     "https://contexts.example.com/identity-checked-extension.json",
     "https://contexts.example.com/learning-outcome-extension.json",
     "https://contexts.example.com/participation-type-extension.json",
-    "https://contexts.example.com/supervision-type-extension.json",
-    "https://contexts.example.com/time-investment-extension.json"
+    "https://contexts.example.com/supervision-type-extension.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -29,6 +28,7 @@
     "type": [
       "AchievementSubject"
     ],
+    "creditsEarned": 12,
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
@@ -46,9 +46,9 @@
 
       "LearningOutcome": "Is **fysically** able to perform *lightsaber dueling techniques* against an opponent in the **same class**.",
       "inLanguage": "en-US",
-      "TimeInvestment": 42,
 
-      "EQF": 3,
+      "creditsAvailable": 13.37,
+
       "ParticipationType": "Onsite",
 
       "AssessmentType": "Application of a skill",
