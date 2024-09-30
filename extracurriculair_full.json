@@ -6,7 +6,7 @@
     "https://contexts.example.com/assessment-type-extension.json",
     "https://contexts.example.com/identity-checked-extension.json",
     "https://contexts.example.com/learning-outcome-extension.json",
-    "https://contexts.example.com/participation-form-extension.json",
+    "https://contexts.example.com/participation-type-extension.json",
     "https://contexts.example.com/quality-assurance-extension.json",
     "https://contexts.example.com/supervision-type-extension.json",
     "https://contexts.example.com/time-investment-extension.json"
@@ -50,7 +50,7 @@
       "TimeInvestment": 42,
 
       "EQF": 3,
-      "ParticipationForm": "Onsite",
+      "ParticipationType": "Onsite",
 
       "AssessmentType": "Application of a skill",
       "SupervisionType": "Supervised with identity verification",
