@@ -41,7 +41,10 @@ diverse wallets te kunnen testen.
 **Aannames en keuzes**
 
 - Voor de taal van de edubadge hebben we gekozen voor de "inLanguage" property want de omschrijving is "the language of the achievement".
--
+- Voor Grade Achieved is de "Result" gebruikt.
+- Voor Learning Outcome is "ResultDescription" met type ext:ECTSScore gebruikt met een Nederlandse schaal van 1 tot 10.
+- Voor ECTS study load is creditsEarned (gehaald) en creditsAvailable gebruikt.
+- Voor IdentityChecked is een boolean gekozen omdat het huidige OBV2 model dat ook heeft; al is dit niet ideaal - beter zou een enum zijn, zodat ook NVT etc erin verwerkt kan.
 
 ### Edubadges: huidig model
 
