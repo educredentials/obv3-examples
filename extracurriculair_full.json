@@ -4,7 +4,6 @@
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
 
     "https://contexts.example.com/assessment-type-extension.json",
-    "https://contexts.example.com/course-language-extension.json",
     "https://contexts.example.com/education-program-identifier-extension.json",
     "https://contexts.example.com/identity-checked-extension.json",
     "https://contexts.example.com/institution-identifier-extension.json",
@@ -49,7 +48,7 @@
       },
 
       "LearningOutcome": "Is **fysically** able to perform *lightsaber dueling techniques* against an opponent in the **same class**.",
-      "Language": "en_EN",
+      "inLanguage": "en-US",
       "TimeInvestment": 42,
 
       "EQF": 3,
