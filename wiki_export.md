@@ -179,15 +179,10 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
 
     "https://contexts.example.com/assessment-type-extension.json",
-    "https://contexts.example.com/course-language-extension.json",
-    "https://contexts.example.com/education-program-identifier-extension.json",
     "https://contexts.example.com/identity-checked-extension.json",
-    "https://contexts.example.com/institution-identifier-extension.json",
     "https://contexts.example.com/learning-outcome-extension.json",
-    "https://contexts.example.com/participation-form-extension.json",
-    "https://contexts.example.com/quality-assurance-extension.json",
-    "https://contexts.example.com/supervision-type-extension.json",
-    "https://contexts.example.com/time-investment-extension.json"
+    "https://contexts.example.com/participation-type-extension.json",
+    "https://contexts.example.com/supervision-type-extension.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -208,6 +203,7 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "type": [
       "AchievementSubject"
     ],
+    "creditsEarned": 12,
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
@@ -224,32 +220,31 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
       },
 
       "LearningOutcome": "Is **fysically** able to perform *lightsaber dueling techniques* against an opponent in the **same class**.",
-      "Language": "en_EN",
-      "TimeInvestment": 42,
+      "inLanguage": "en-US",
 
-      "EQF": 3,
-      "ParticipationForm": "Onsite",
-      "InstitutionIdentifier": 123456,
+      "creditsAvailable": 13.37,
+
+      "ParticipationType": "Onsite",
 
       "AssessmentType": "Application of a skill",
-      "SupervisionType": "Supervised with identity verification",
+      "SupervisionType": "onsite with identity verification",
       "IdentityChecked": true,
 
       "alignment": [
         {
-          "type": ["Aligment"],
+          "type": ["Alignment"],
           "targetType": "ext:QualityAssurance",
           "targetName": "M Performance, Sport and Health",
           "targetDescription": "Toets nieuwe opleiding\n**HBO-master**\npresteren, sport en gezondheid",
           "targetCode": "AV-1337",
-          "targetURL": "https://data.example.com/decisions/AV-1337"
+          "targetUrl": "https://data.example.com/decisions/AV-1337"
         },
         {
-          "type": ["Aligment"],
+          "type": ["Alignment"],
           "targetType": "ext:EQF",
           "targetName": "EQF level 3",
           "targetCode": "3",
-          "targetURL": "https://content.example.com/description-eqf-levels"
+          "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ]
     }
