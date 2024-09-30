@@ -7,7 +7,6 @@
     "https://contexts.example.com/identity-checked-extension.json",
     "https://contexts.example.com/learning-outcome-extension.json",
     "https://contexts.example.com/participation-type-extension.json",
-    "https://contexts.example.com/quality-assurance-extension.json",
     "https://contexts.example.com/supervision-type-extension.json",
     "https://contexts.example.com/time-investment-extension.json"
   ],
