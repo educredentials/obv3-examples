@@ -1,8 +1,8 @@
 # Examples of OpenBadges v3 Credentials for Edubadges
 
-Goes with the wiki at [./wiki_export.md](./wiki_export.md).
+Goes with the wiki at [./examples.md](./examples.md).
 
-This README describes the technical details. The wiki_export describes the actual model and examples.
+This README describes the technical details. The examples.md describes the actual model and examples.
 
 [![Test](https://github.com/educredentials/obv3-examples/actions/workflows/test.yml/badge.svg)](https://github.com/educredentials/obv3-examples/actions/workflows/test.yml)
 
@@ -65,9 +65,9 @@ For the examples, we use the following mock unique identifiers:
 In the examples we will use the first always, except for the rare cases when we must convey that 
 there are multiple resources in a single example.
 
-# Update wiki_export json
+# Update examples json
 
-The wiki_export file can be updated after json files were added or remove with
+The examples.md file can be updated after json files were added or remove with
 
 ```bash
 make

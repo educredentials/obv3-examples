@@ -1,5 +1,5 @@
 # Variables
-README = wiki_export.md
+README = examples.md
 JSON_FILES = $(wildcard *.json)
 
 # Default target
