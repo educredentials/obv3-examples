@@ -14,33 +14,21 @@ diverse wallets te kunnen testen.
 
 **SURF documentatie**
 
-- [Opmaken tekst badge
-  class](https://wiki.surfnet.nl/display/Edubadges/Opmaken+tekst+badge+class) (voorbeelden markdown support in
-  Edubadges)
-- Extra metadata: de spec ondersteunt dat er uitbreidingen op het
-  datamodel worden gemaakt
-  (<https://www.imsglobal.org/spec/ob/v3p0#extending-the-data-model>).
-  In Edubadges is dit gedaan met 17 extra metadatavelden. (Zie
-  [Microcredentials Definition
-  EU](https://wiki.surfnet.nl/display/Edubadges/Microcredentials+Definition+EU))
-- Zie ook de huidige Edubadges voorbeelden in OB2 formaat: [Edubadges
-  Metadata Examples - JSON
-  output](https://wiki.surfnet.nl/display/Edubadges/Edubadges+Metadata+Examples+-+JSON+output) (interne wiki)
+- [Opmaken tekst badge class](https://wiki.surfnet.nl/display/Edubadges/Opmaken+tekst+badge+class) (voorbeelden markdown support in Edubadges)
+- Extra metadata: de spec ondersteunt dat er uitbreidingen op het datamodel worden gemaakt (<https://www.imsglobal.org/spec/ob/v3p0#extending-the-data-model>). In Edubadges is dit gedaan met 17 extra metadatavelden. (Zie [Microcredentials Definition EU](https://wiki.surfnet.nl/display/Edubadges/Microcredentials+Definition+EU))
+- Zie ook de huidige Edubadges voorbeelden in OB2 formaat: [Edubadges Metadata Examples - JSON output](https://wiki.surfnet.nl/display/Edubadges/Edubadges+Metadata+Examples+-+JSON+output) (interne wiki)
 - Business Rules voor attributen, mogelijke waardes en dergelijke, van de OBV2 versie, is uitgewerkt in [Badgeclass Business Rules](https://wiki.surfnet.nl/pages/viewpage.action?spaceKey=EBB&title=Badgeclass+Business+Rules)
 - Mapping van OB2 - OB3 is uitgewerkt in: [Micro-credentials Metadata Mapping](https://wiki.surfnet.nl/display/EduCr/Micro-credentials+Metadata+Mapping+OB2+-+OB3+-+ELM) (interne wiki)
 
 **Vragen**
 
-- Images: de meeste voorbeelden gaan uit van een URL die naar de image
-  wijst. Zullen wij images embedden in de payload? Gaan we ook toevoegen ter referentie.
-- Markdown: welke markup elementen willen we ondersteunen? Alleen de
-  opmaak gerelateerde elementen, dus geen external links en
-  waarschijnlijk ook geen tables.
+- Images: de meeste voorbeelden gaan uit van een URL die naar de image wijst. Zullen wij images embedden in de payload? Gaan we ook toevoegen ter referentie.
 - Kunnen we voor de studielast de "creditsAvailable" property gebruiken? Want in het OB3 datamodel is het alleen een float, en de omschrijving zegt "credit hours associated ..", en daarmee is er lastig onderscheid te maken tussen uren en punten.
 - Zullen we de omschrijvingen van extensions hosten op edubadges.nl zodat we ernaar kunnen linken via de id eigenschap van een context definitie?
 - Kunnen we van Edubadges naar CASE gerelateerde alignment target types mappen?
-- Wat is het verschil tussen Studiepunten ECTS/SBU en Tijdsinvestering in praktijk, en in het format. Welke kan alignments, results en creditsEarned gebruiken,
-  en welke vereist een extension, if any?
+- Wat is het verschil tussen Studiepunten ECTS/SBU en Tijdsinvestering in praktijk, en in het format. Welke kan alignments, results en creditsEarned gebruiken, en welke vereist een extension, if any?
+- Volgens *Open Badges Implementation Guide* zijn Schema's voor extensions verplicht, volgens *Open Badges Specification* zijn ze optioneel. Wat kiezen wij?
+- Volgens *Open Badges Implementation Guide* is het verplicht om met extensions een eigen type Achievement te introduceren. Voor ons zou bijv `MicrocredentialAchievent`, `RegularBadgeAchievement` en `ExtracurricularAchievement` een logische typeaanduiding zijn. De schema's kunnen dan de business-rules van deze types afdwingen en beschrijven. We moeten dan nog een truc verzinnen om de extra attributed die gedeeld worden tussen deze types te kunnen delen.
 
 **Aannames en keuzes**
 
