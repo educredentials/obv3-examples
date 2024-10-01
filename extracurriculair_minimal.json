@@ -2,9 +2,6 @@
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://contexts.example.com/learning-outcome-extension.json",
-    "https://contexts.example.com/course-language-extension.json",
-    "https://contexts.example.com/time-investment-extension.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -25,6 +22,7 @@
     "type": [
       "AchievementSubject"
     ],
+    "creditsEarned": 28.0,
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
@@ -40,9 +38,26 @@
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
 
-      "LearningOutcome": "Is fysically able to perform lightsaber dueling techniques against an opponent in the same class.",
-      "CourseLanguage": "en_EN",
-      "TimeInvestment": 42
-    }
+     "inLanguage": "en_EN",
+     "creditsAvailable": 28.0,
+     "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": ["ResultDescription"],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": ["Result"],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "7.5"
+      }
+    ]
   }
 }
