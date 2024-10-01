@@ -307,7 +307,7 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -344,7 +344,7 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
 
-     "inLanguage": "en_EN",
+     "inLanguage": "en-EN",
      "creditsAvailable": 28.0,
      "resultDescription": [
         {
@@ -465,7 +465,7 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -501,7 +501,7 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
         "narrative": "To earn this badge, you must attend the colleges and pass the final test on *History of Federal Trade."
       },
 
-      "inLanguage": "en_EN",
+      "inLanguage": "en-EN",
       "TimeInvestment": 42
     }
   }
