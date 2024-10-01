@@ -233,7 +233,6 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
 
-      "LearningOutcome": "Is **fysically** able to perform *lightsaber dueling techniques* against an opponent in the **same class**.",
       "inLanguage": "en-US",
 
       "creditsAvailable": 13.37,
@@ -293,9 +292,6 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://contexts.example.com/learning-outcome-extension.json",
-    "https://contexts.example.com/course-language-extension.json",
-    "https://contexts.example.com/time-investment-extension.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -316,6 +312,7 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
     "type": [
       "AchievementSubject"
     ],
+    "creditsEarned": 28.0,
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
@@ -331,10 +328,27 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
 
-      "LearningOutcome": "Is fysically able to perform lightsaber dueling techniques against an opponent in the same class.",
-      "CourseLanguage": "en_EN",
-      "TimeInvestment": 42
-    }
+     "inLanguage": "en_EN",
+     "creditsAvailable": 28.0,
+     "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": ["ResultDescription"],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": ["Result"],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "7.5"
+      }
+    ]
   }
 }
 ```
@@ -435,37 +449,44 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
   ],
-  "id": "http://example.com/credentials/example-credential",
+  "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
     "type": [
       "Profile"
     ],
-    "name": " SURF - Team edubadges"
+    "name": "Naboo Theed University"
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Badge",
+  "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
-    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "id": "https://example.com/students/stu-1A2B3C",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/lorem-ipsum",
+      "id": "https://example.com/achievements/ach-33LML",
       "type": [
         "Achievement"
       ],
-      "criteria": {
-        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      "name": "History of Federal Trade",
+      "image": {
+        "id": "https://static.example.com/history.jpg",
+        "type": "Image"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
-      "name": "Lorem ipsum"
+      "description": "This badge is awarded for finalizing the minor *History of Federal Trade*.",
+      "criteria": {
+        "narrative": "To earn this badge, you must attend the colleges and pass the final test on *History of Federal Trade."
+      },
+
+      "inLanguage": "en_EN",
+      "TimeInvestment": 42
     }
   }
 }
