@@ -24,11 +24,9 @@ diverse wallets te kunnen testen.
 
 - Images: de meeste voorbeelden gaan uit van een URL die naar de image wijst. Zullen wij images embedden in de payload? Gaan we ook toevoegen ter referentie.
 - Kunnen we voor de studielast de "creditsAvailable" property gebruiken? Want in het OB3 datamodel is het alleen een float, en de omschrijving zegt "credit hours associated ..", en daarmee is er lastig onderscheid te maken tussen uren en punten.
-- Zullen we de omschrijvingen van extensions hosten op edubadges.nl zodat we ernaar kunnen linken via de id eigenschap van een context definitie?
 - Kunnen we van Edubadges naar CASE gerelateerde alignment target types mappen?
 - Wat is het verschil tussen Studiepunten ECTS/SBU en Tijdsinvestering in praktijk, en in het format. Welke kan alignments, results en creditsEarned gebruiken, en welke vereist een extension, if any?
 - Volgens *Open Badges Implementation Guide* zijn Schema's voor extensions verplicht, volgens *Open Badges Specification* zijn ze optioneel. Wat kiezen wij?
-- Volgens *Open Badges Implementation Guide* is het verplicht om met extensions een eigen type Achievement te introduceren. Voor ons zou bijv `MicrocredentialAchievent`, `RegularBadgeAchievement` en `ExtracurricularAchievement` een logische typeaanduiding zijn. De schema's kunnen dan de business-rules van deze types afdwingen en beschrijven. We moeten dan nog een truc verzinnen om de extra attributed die gedeeld worden tussen deze types te kunnen delen.
 
 **Aannames en keuzes**
 
