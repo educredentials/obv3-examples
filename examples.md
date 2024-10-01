@@ -25,7 +25,8 @@ diverse wallets te kunnen testen.
   EU](https://wiki.surfnet.nl/display/Edubadges/Microcredentials+Definition+EU))
 - Zie ook de huidige Edubadges voorbeelden in OB2 formaat: [Edubadges
   Metadata Examples - JSON
-  output](https://wiki.surfnet.nl/display/Edubadges/Edubadges+Metadata+Examples+-+JSON+output)
+  output](https://wiki.surfnet.nl/display/Edubadges/Edubadges+Metadata+Examples+-+JSON+output) (interne wiki)
+- Mapping van OB2 - OB3 is uitgewerkt in: [Micro-credentials Metadata Mapping](https://wiki.surfnet.nl/display/EduCr/Micro-credentials+Metadata+Mapping+OB2+-+OB3+-+ELM) (interne wiki)
 
 **Vragen**
 
