@@ -126,9 +126,22 @@ Van elk type worden drie varianten uitgewerkt als voorbeeld:
   velden met verwijzingen naar afbeeldingen ingevuld. Alle
   afbeeldingen zijn opgenomen in de payload als base64 data urls.
 
+## Markdown
+
+OBv3 staat Markdown toe in veel data, zonder te specificeren welke subset of welke variant.
+
+> Markdown 	A String that may contain Markdown.
+
+https://www.imsglobal.org/spec/ob/v3p0/#org.1edtech.ob.v3p0.derived.markdown.class
+
+Wij perken dat in, in [markdown.md](./markdown.md). Deze subset is dus niet backwards compatible met
+obv3, waar ook nog code, links, tables toegestaan zijn. Voor obv3 perken we dat dus nog verder in.
+Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
+
+
 ## De voorbeelden:
 
-> [!WARNING]  
+> [!WARNING]
 > Deze voorbeelden zijn WIP. Slechts enkele zijn afgerond, de meesten nog boilerplate. Zie lijst hieronder.
 
 - [ ] extracurriculair_embedded.json
