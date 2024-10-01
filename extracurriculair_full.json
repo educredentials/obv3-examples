@@ -2,11 +2,7 @@
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/assessment-type-extension.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/identity-checked-extension.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/participation-type-extension.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/supervision-type-extension.json"
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/extracurricular.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -31,7 +27,8 @@
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
-        "Achievement"
+        "Achievement",
+        "ExtracurricularAchievement"
       ],
       "name": "Lightsaber Dueling Techniques",
       "image": {
@@ -42,20 +39,17 @@
       "criteria": {
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
-
       "inLanguage": "en-US",
-
       "creditsAvailable": 13.37,
-
       "ParticipationType": "Onsite",
-
       "AssessmentType": "Application of a skill",
       "SupervisionType": "onsite with identity verification",
       "IdentityChecked": true,
-
       "alignment": [
         {
-          "type": ["Alignment"],
+          "type": [
+            "Alignment"
+          ],
           "targetType": "ext:QualityAssurance",
           "targetName": "M Performance, Sport and Health",
           "targetDescription": "Toets nieuwe opleiding\n**HBO-master**\npresteren, sport en gezondheid",
@@ -63,7 +57,9 @@
           "targetUrl": "https://data.example.com/decisions/AV-1337"
         },
         {
-          "type": ["Alignment"],
+          "type": [
+            "Alignment"
+          ],
           "targetType": "ext:EQF",
           "targetName": "EQF level 3",
           "targetCode": "3",
@@ -73,7 +69,9 @@
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
-          "type": ["ResultDescription"],
+          "type": [
+            "ResultDescription"
+          ],
           "valueMax": "10",
           "valueMin": "1",
           "name": "Final Project Grade",
@@ -84,7 +82,9 @@
     },
     "result": [
       {
-        "type": ["Result"],
+        "type": [
+          "Result"
+        ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
         "value": "7.5"
       }

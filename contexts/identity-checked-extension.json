@@ -1,8 +1,0 @@
-{
-  "@context": {
-    "IdentityChecked": {
-      "@id": "https://example.org/IdentityChecked",
-      "@type": "xsd:boolean"
-    }
-  }
-}
