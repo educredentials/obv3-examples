@@ -11,7 +11,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      - name: Run Boon Command
+      - name: Check OBv3 Schema for all examples
         uses: addnab/docker-run-action@v3
         with:
           image: ghcr.io/${{ github.repository_owner }}/boon:latest
@@ -20,3 +20,13 @@ jobs:
           registry: ghcr.io
           options: --rm -v ${{ github.workspace }}:/usr/src/myapp
           run: boon --assert-content schemas/ob_v3p0_achievementcredential_schema.json *.json
+
+      - name: Check ExtracurricularAchievement Schema for extracurricular examples
+        uses: addnab/docker-run-action@v3
+        with:
+          image: ghcr.io/${{ github.repository_owner }}/boon:latest
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: ghcr.io
+          options: --rm -v ${{ github.workspace }}:/usr/src/myapp
+          run: boon --assert-content schemas/extracurricular.json extracurriculair_*.json

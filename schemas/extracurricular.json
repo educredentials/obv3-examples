@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema#",
+  "$id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurruricular.json",
+  "type": "object",
+  "properties": {
+    "credentialSubject": {
+      "type": "object",
+      "properties": {
+        "achievement": {
+          "type": "object",
+          "properties": {
+            "assessmentType": {
+              "type": "string",
+              "enum": [
+                "testing",
+                "application of a skill",
+                "portfolio",
+                "recognition of prior learning"
+              ]
+            },
+            "identityChecked": {
+              "type": "boolean"
+            },
+            "participationType": {
+              "type": "string",
+              "enum": [
+                "online",
+                "onsite or blended",
+                "volunteering",
+                "work experience",
+                "personalized learning activities"
+              ]
+            },
+            "supervisionType": {
+              "type": "string",
+              "enum": [
+                "unsupervised with no identity verification",
+                "supervised with no identity verification",
+                "supervised online",
+                "onsite with identity verification"
+              ]
+            },
+
+            "resultDescription" : {
+              "minItems" : 1
+            }
+          },
+          "required": ["name", "description", "image", "resultDescription", "inLanguage", "criteria"],
+          "additionalProperties": true
+        },
+        "result": {
+          "minItems": 1
+        }
+      },
+      "required": ["result"],
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
