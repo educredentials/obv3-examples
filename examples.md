@@ -26,6 +26,7 @@ diverse wallets te kunnen testen.
 - Zie ook de huidige Edubadges voorbeelden in OB2 formaat: [Edubadges
   Metadata Examples - JSON
   output](https://wiki.surfnet.nl/display/Edubadges/Edubadges+Metadata+Examples+-+JSON+output) (interne wiki)
+- Business Rules voor attributen, mogelijke waardes en dergelijke, van de OBV2 versie, is uitgewerkt in [Badgeclass Business Rules](https://wiki.surfnet.nl/pages/viewpage.action?spaceKey=EBB&title=Badgeclass+Business+Rules)
 - Mapping van OB2 - OB3 is uitgewerkt in: [Micro-credentials Metadata Mapping](https://wiki.surfnet.nl/display/EduCr/Micro-credentials+Metadata+Mapping+OB2+-+OB3+-+ELM) (interne wiki)
 
 **Vragen**
