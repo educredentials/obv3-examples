@@ -37,6 +37,8 @@ diverse wallets te kunnen testen.
 - Kunnen we voor de studielast de "creditsAvailable" property gebruiken? Want in het OB3 datamodel is het alleen een float, en de omschrijving zegt "credit hours associated ..", en daarmee is er lastig onderscheid te maken tussen uren en punten.
 - Zullen we de omschrijvingen van extensions hosten op edubadges.nl zodat we ernaar kunnen linken via de id eigenschap van een context definitie?
 - Kunnen we van Edubadges naar CASE gerelateerde alignment target types mappen?
+- Wat is het verschil tussen Studiepunten ECTS/SBU en Tijdsinvestering in praktijk, en in het format. Welke kan alignments, results en creditsEarned gebruiken,
+  en welke vereist een extension, if any?
 
 **Aannames en keuzes**
 
