@@ -1,8 +1,9 @@
 Dit document is een export van [Opmaken text badge
 class](https://wiki.surfnet.nl/display/Edubadges/Opmaken+tekst+badge+class) uit de interne wiki.
-
 Ze is daarna aangepast om voor de OBv3 ingezet te kunnen worden.
 
+Markdown opmaak volgt de [Formatting text in de Open Education API](https://openonderwijsapi.nl/#/technical/formatting-text?id=formatting-text), maar 
+is verder ingeperkt.
 
 ## Vragen
 
