@@ -41,10 +41,10 @@
       },
       "inLanguage": "en-US",
       "creditsAvailable": 13.37,
-      "ParticipationType": "Onsite",
-      "AssessmentType": "Application of a skill",
-      "SupervisionType": "onsite with identity verification",
-      "IdentityChecked": true,
+      "participationType": "onsite or blended",
+      "assessmentType": "application of a skill",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": false,
       "alignment": [
         {
           "type": [
