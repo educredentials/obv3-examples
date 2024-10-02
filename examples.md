@@ -23,11 +23,10 @@ diverse wallets te kunnen testen.
 **Vragen**
 
 - Images: de meeste voorbeelden gaan uit van een URL die naar de image wijst. Zullen wij images embedden in de payload? Gaan we ook toevoegen ter referentie.
-- Kunnen we voor de studielast de "creditsAvailable" property gebruiken? Want in het OB3 datamodel is het alleen een float, en de omschrijving zegt "credit hours associated ..", en daarmee is er lastig onderscheid te maken tussen uren en punten.
 - Kunnen we van Edubadges naar CASE gerelateerde alignment target types mappen?
-- Wat is het verschil tussen Studiepunten ECTS/SBU en Tijdsinvestering in praktijk, en in het format. Welke kan alignments, results en creditsEarned gebruiken, en welke vereist een extension, if any?
 - Volgens *Open Badges Implementation Guide* zijn Schema's voor extensions verplicht, volgens *Open Badges Specification* zijn ze optioneel. Wat kiezen wij?
 - Hoe en waar nemen we de BRIN-code op? (InstitutionIdentifierExtension in OBv3)
+- Willen we nog een uitsplitsing maken tussen "studieload gevraagd" versus "studieload gedaan" - vergelijkbaar met creditsAvailable vs creditsEarned?
 
 **Aannames en keuzes**
 
@@ -36,6 +35,15 @@ diverse wallets te kunnen testen.
 - Voor Learning Outcome is "ResultDescription" met type ext:ECTSScore gebruikt met een Nederlandse schaal van 1 tot 10.
 - Voor ECTS study load is creditsEarned (gehaald) en creditsAvailable gebruikt.
 - Voor IdentityChecked is een boolean gekozen omdat het huidige OBV2 model dat ook heeft; al is dit niet ideaal - beter zou een enum zijn, zodat ook NVT etc erin verwerkt kan.
+- Voor Studielast bestaat businesslogic. Deze werken we niet helemaal uit in het schema, dat maakt het te complex. De simpele versie is echter:
+    Studielast opties: ECTS / SBU / Tijdsinvestering
+     - Drie aparte objecten op hoogste niveau in Achievement:
+         - ECTS
+         - SBU - posponed[^1]
+         - TimeInvestement
+     - Afgedwongen per Achievement type:
+         - MicrocredentialAchievement: requires studyloadECTS
+         - RegularAchievement: requires studyloadECTS
 
 ### Edubadges: huidig model
 
@@ -971,3 +979,5 @@ there are multiple resources in a single example.
 
 </details>
 <!-- /managed_by_embed -->
+
+[^1]: TODO: decide on how to deal with MBO vs HO logic in the payload first.
