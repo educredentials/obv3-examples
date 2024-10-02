@@ -23,7 +23,6 @@
     "type": [
       "AchievementSubject"
     ],
-    "creditsEarned": 12,
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
@@ -40,7 +39,7 @@
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
       "inLanguage": "en-US",
-      "creditsAvailable": 13.37,
+      "timeInvestment": 13,
       "participationType": "onsite or blended",
       "assessmentType": "application of a skill",
       "supervisionType": "onsite with identity verification",

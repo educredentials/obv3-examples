@@ -43,6 +43,11 @@
             "educationProgramIdentifier": {
               "type": "number"
             },
+            "ECTS": {
+              "type": "number",
+              "minimum": 0.5,
+              "maximum": 240
+            },
             "resultDescription": {
               "minItems": 1
             },
@@ -57,9 +62,9 @@
             "resultDescription",
             "inLanguage",
             "criteria",
-            "creditsAvailable",
             "alignment",
-            "educationProgramIdentifier"
+            "educationProgramIdentifier",
+            "ECTS"
           ],
           "additionalProperties": true
         },
@@ -68,8 +73,7 @@
         }
       },
       "required": [
-        "result",
-        "creditsEarned"
+        "result"
       ],
       "additionalProperties": true
     }

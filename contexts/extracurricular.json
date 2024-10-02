@@ -43,6 +43,10 @@
             "supervised online": "https://edubaadges.nl/static/obv3-glossary.html#supervision-type-supervised-online",
             "onsite with identity verification": "https://edubadges.nl/static/obv3-glossary.html#supervision-type-onsite-with-identity-verification"
           }
+        },
+        "timeInvestment": {
+          "@id": "https://edubadges.nl/static/obv3-glossary.html#timeInvestment",
+          "@type": "xsd:integer"
         }
       }
     }

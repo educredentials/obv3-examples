@@ -22,7 +22,6 @@
     "type": [
       "AchievementSubject"
     ],
-    "creditsEarned": 28.0,
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
@@ -38,7 +37,6 @@
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
       "inLanguage": "en-EN",
-      "creditsAvailable": 28.0,
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",

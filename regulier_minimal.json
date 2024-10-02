@@ -50,7 +50,6 @@
           "resultType": "ext:ECTSGradeScore"
         }
       ],
-      "creditsAvailable": 6.0,
       "inLanguage": "en-EN",
       "alignment": [
         {
@@ -73,9 +72,9 @@
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
-      "educationProgramIdentifier": 133742
+      "educationProgramIdentifier": 133742,
+      "ECTS": 6.0
     },
-    "creditsEarned": 6.0,
     "result": [
       {
         "type": [

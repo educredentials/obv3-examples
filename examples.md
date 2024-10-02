@@ -230,7 +230,6 @@ there are multiple resources in a single example.
     "type": [
       "AchievementSubject"
     ],
-    "creditsEarned": 28.0,
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
@@ -246,7 +245,6 @@ there are multiple resources in a single example.
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
       "inLanguage": "en-EN",
-      "creditsAvailable": 28.0,
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -314,7 +312,6 @@ there are multiple resources in a single example.
     "type": [
       "AchievementSubject"
     ],
-    "creditsEarned": 12,
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
@@ -331,7 +328,7 @@ there are multiple resources in a single example.
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
       "inLanguage": "en-US",
-      "creditsAvailable": 13.37,
+      "timeInvestment": 13,
       "participationType": "onsite or blended",
       "assessmentType": "application of a skill",
       "supervisionType": "onsite with identity verification",
@@ -423,7 +420,6 @@ there are multiple resources in a single example.
     "type": [
       "AchievementSubject"
     ],
-    "creditsEarned": 28.0,
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
@@ -439,7 +435,6 @@ there are multiple resources in a single example.
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
       "inLanguage": "en-EN",
-      "creditsAvailable": 28.0,
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -667,9 +662,10 @@ there are multiple resources in a single example.
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/regular.json"
   ],
-  "id": "http://example.com/credentials/example-credential",
+  "id": "http://example.com/credentials/crd-D4E5F6",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
@@ -682,24 +678,84 @@ there are multiple resources in a single example.
     "name": " SURF - Team edubadges"
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Badge",
+  "name": "The Force and Its Applications",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/lorem-ipsum",
+      "id": "https://example.com/achievements/ach-77NPN",
       "type": [
         "Achievement"
       ],
       "criteria": {
-        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
-      "name": "Lorem ipsum"
+      "description": "This badge is awarded for completing the course 'The Force and Its Applications'",
+      "name": "The Force and Its Applications",
+      "image": {
+        "id": "https://static.example.com/force-applications.jpg",
+        "type": "Image"
+      },
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "inLanguage": "en-EN",
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "M Philosophy of Science, Technology and Society",
+          "targetDescription": "Accreditatie bestaande opleiding",
+          "targetCode": "AV-2391",
+          "targetUrl": "https://data.example.com/decisions/AV-2391"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "educationProgramIdentifier": 133742,
+      "ECTS": 6.0
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-D4E5F6",
+        "value": "8.0"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
     }
-  }
+  ]
 }
 ```
 
@@ -711,9 +767,10 @@ there are multiple resources in a single example.
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/regular.json"
   ],
-  "id": "http://example.com/credentials/example-credential",
+  "id": "http://example.com/credentials/crd-D4E5F6",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
@@ -726,24 +783,84 @@ there are multiple resources in a single example.
     "name": " SURF - Team edubadges"
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Badge",
+  "name": "The Force and Its Applications",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/lorem-ipsum",
+      "id": "https://example.com/achievements/ach-77NPN",
       "type": [
         "Achievement"
       ],
       "criteria": {
-        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
-      "name": "Lorem ipsum"
+      "description": "This badge is awarded for completing the course 'The Force and Its Applications'",
+      "name": "The Force and Its Applications",
+      "image": {
+        "id": "https://static.example.com/force-applications.jpg",
+        "type": "Image"
+      },
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "inLanguage": "en-EN",
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "M Philosophy of Science, Technology and Society",
+          "targetDescription": "Accreditatie bestaande opleiding",
+          "targetCode": "AV-2391",
+          "targetUrl": "https://data.example.com/decisions/AV-2391"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "educationProgramIdentifier": 133742,
+      "ECTS": 6.0
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-D4E5F6",
+        "value": "8.0"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
     }
-  }
+  ]
 }
 ```
 
@@ -804,7 +921,6 @@ there are multiple resources in a single example.
           "resultType": "ext:ECTSGradeScore"
         }
       ],
-      "creditsAvailable": 6.0,
       "inLanguage": "en-EN",
       "alignment": [
         {
@@ -827,9 +943,9 @@ there are multiple resources in a single example.
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
-      "educationProgramIdentifier": 133742
+      "educationProgramIdentifier": 133742,
+      "ECTS": 6.0
     },
-    "creditsEarned": 6.0,
     "result": [
       {
         "type": [

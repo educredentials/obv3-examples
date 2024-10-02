@@ -40,6 +40,10 @@
                 "onsite with identity verification"
               ]
             },
+            "timeInvestment": {
+              "type": "integer",
+              "minimum": 1
+            },
             "resultDescription": {
               "minItems": 1
             }
