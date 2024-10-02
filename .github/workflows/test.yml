@@ -30,3 +30,13 @@ jobs:
           registry: ghcr.io
           options: --rm -v ${{ github.workspace }}:/usr/src/myapp
           run: boon --assert-content schemas/extracurricular.json extracurriculair_*.json
+
+      - name: Check RegularAchievement Schema for regular examples
+        uses: addnab/docker-run-action@v3
+        with:
+          image: ghcr.io/${{ github.repository_owner }}/boon:latest
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: ghcr.io
+          options: --rm -v ${{ github.workspace }}:/usr/src/myapp
+          run: boon --assert-content schemas/regular.json regulier*.json

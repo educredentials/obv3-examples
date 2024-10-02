@@ -21,3 +21,5 @@ clean:
 
 test:
 	boon --assert-content schemas/ob_v3p0_achievementcredential_schema.json *.json
+	boon --assert-content schemas/regular.json regulier*.json
+	boon --assert-content schemas/extracurricular.json extracurriculair*.json
