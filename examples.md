@@ -44,6 +44,8 @@ diverse wallets te kunnen testen.
      - Afgedwongen per Achievement type:
          - MicrocredentialAchievement: requires studyloadECTS
          - RegularAchievement: requires studyloadECTS
+- Voor BRIN en ShacHome worden aparte "otheridentifier" entries in the issuer opgenomen.
+- Voor het issuer.id gebruiken we de interne ID bijv https://demo.edubadges.nl/public/institutions/9-TYGj4dTn-nW8CGfwGjAQ
 
 ### Edubadges: huidig model
 
