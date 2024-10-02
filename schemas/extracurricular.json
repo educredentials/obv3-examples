@@ -40,19 +40,27 @@
                 "onsite with identity verification"
               ]
             },
-
-            "resultDescription" : {
-              "minItems" : 1
+            "resultDescription": {
+              "minItems": 1
             }
           },
-          "required": ["name", "description", "image", "resultDescription", "inLanguage", "criteria"],
+          "required": [
+            "name",
+            "description",
+            "image",
+            "resultDescription",
+            "inLanguage",
+            "criteria"
+          ],
           "additionalProperties": true
         },
         "result": {
           "minItems": 1
         }
       },
-      "required": ["result"],
+      "required": [
+        "result"
+      ],
       "additionalProperties": true
     }
   },
