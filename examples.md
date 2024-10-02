@@ -27,6 +27,7 @@ diverse wallets te kunnen testen.
 - Kunnen we van Edubadges naar CASE gerelateerde alignment target types mappen?
 - Wat is het verschil tussen Studiepunten ECTS/SBU en Tijdsinvestering in praktijk, en in het format. Welke kan alignments, results en creditsEarned gebruiken, en welke vereist een extension, if any?
 - Volgens *Open Badges Implementation Guide* zijn Schema's voor extensions verplicht, volgens *Open Badges Specification* zijn ze optioneel. Wat kiezen wij?
+- Hoe en waar nemen we de BRIN-code op? (InstitutionIdentifierExtension in OBv3)
 
 **Aannames en keuzes**
 
