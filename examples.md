@@ -141,7 +141,7 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
 - [ ] minimal_valid_obv3.json
 - [ ] regulier_embedded.json
 - [ ] regulier_full.json
-- [ ] regulier_minimal.json
+- [x] regulier_minimal.json
 
 <!-- managed_by_embed -->
 <details>
@@ -153,37 +153,76 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
   ],
-  "id": "http://example.com/credentials/example-credential",
+  "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
     "type": [
       "Profile"
     ],
-    "name": " SURF - Team edubadges"
+    "name": "Naboo Theed University"
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Badge",
+  "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
-    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "id": "https://example.com/students/stu-1A2B3C",
     "type": [
       "AchievementSubject"
     ],
+    "creditsEarned": 28.0,
     "achievement": {
-      "id": "https://example.com/achievements/lorem-ipsum",
+      "id": "https://example.com/achievements/ach-33LML",
       "type": [
         "Achievement"
       ],
-      "criteria": {
-        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      "name": "Lightsaber Dueling Techniques",
+      "image": {
+        "id": "https://static.example.com/lightsaber.jpg",
+        "type": "Image"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
-      "name": "Lorem ipsum"
+      "description": "This badge is awarded for demonstrating proficiency in lightsaber dueling techniques.",
+      "criteria": {
+        "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
+      },
+      "inLanguage": "en-EN",
+      "creditsAvailable": 28.0,
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "7.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
     }
-  }
+  ]
 }
 ```
 
@@ -196,11 +235,7 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/assessment-type-extension.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/identity-checked-extension.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/participation-type-extension.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/supervision-type-extension.json"
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/extracurricular.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -225,7 +260,8 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
-        "Achievement"
+        "Achievement",
+        "ExtracurricularAchievement"
       ],
       "name": "Lightsaber Dueling Techniques",
       "image": {
@@ -236,20 +272,17 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
       "criteria": {
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
-
       "inLanguage": "en-US",
-
       "creditsAvailable": 13.37,
-
-      "ParticipationType": "Onsite",
-
-      "AssessmentType": "Application of a skill",
-      "SupervisionType": "onsite with identity verification",
-      "IdentityChecked": true,
-
+      "participationType": "onsite or blended",
+      "assessmentType": "application of a skill",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": false,
       "alignment": [
         {
-          "type": ["Alignment"],
+          "type": [
+            "Alignment"
+          ],
           "targetType": "ext:QualityAssurance",
           "targetName": "M Performance, Sport and Health",
           "targetDescription": "Toets nieuwe opleiding\n**HBO-master**\npresteren, sport en gezondheid",
@@ -257,7 +290,9 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
           "targetUrl": "https://data.example.com/decisions/AV-1337"
         },
         {
-          "type": ["Alignment"],
+          "type": [
+            "Alignment"
+          ],
           "targetType": "ext:EQF",
           "targetName": "EQF level 3",
           "targetCode": "3",
@@ -267,7 +302,9 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
-          "type": ["ResultDescription"],
+          "type": [
+            "ResultDescription"
+          ],
           "valueMax": "10",
           "valueMin": "1",
           "name": "Final Project Grade",
@@ -278,12 +315,24 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
     },
     "result": [
       {
-        "type": ["Result"],
+        "type": [
+          "Result"
+        ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
         "value": "7.5"
       }
     ]
-  }
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
 }
 ```
 
@@ -331,13 +380,14 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
       "criteria": {
         "narrative": "To earn this badge, you must demonstrate proficiency in lightsaber dueling techniques."
       },
-
-     "inLanguage": "en-EN",
-     "creditsAvailable": 28.0,
-     "resultDescription": [
+      "inLanguage": "en-EN",
+      "creditsAvailable": 28.0,
+      "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
-          "type": ["ResultDescription"],
+          "type": [
+            "ResultDescription"
+          ],
           "valueMax": "10",
           "valueMin": "1",
           "name": "Final Project Grade",
@@ -348,12 +398,24 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
     },
     "result": [
       {
-        "type": ["Result"],
+        "type": [
+          "Result"
+        ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
         "value": "7.5"
       }
     ]
-  }
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
 }
 ```
 
@@ -488,7 +550,6 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
       "criteria": {
         "narrative": "To earn this badge, you must attend the colleges and pass the final test on *History of Federal Trade."
       },
-
       "inLanguage": "en-EN",
       "TimeInvestment": 42
     }
@@ -636,9 +697,10 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/regular.json"
   ],
-  "id": "http://example.com/credentials/example-credential",
+  "id": "http://example.com/credentials/crd-D4E5F6",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
@@ -651,24 +713,85 @@ Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
     "name": " SURF - Team edubadges"
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Badge",
+  "name": "The Force and Its Applications",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/lorem-ipsum",
+      "id": "https://example.com/achievements/ach-77NPN",
       "type": [
         "Achievement"
       ],
       "criteria": {
-        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
       },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
-      "name": "Lorem ipsum"
+      "description": "This badge is awarded for completing the course 'The Force and Its Applications'",
+      "name": "The Force and Its Applications",
+      "image": {
+        "id": "https://static.example.com/force-applications.jpg",
+        "type": "Image"
+      },
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "creditsAvailable": 6.0,
+      "inLanguage": "en-EN",
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "M Philosophy of Science, Technology and Society",
+          "targetDescription": "Accreditatie bestaande opleiding",
+          "targetCode": "AV-2391",
+          "targetUrl": "https://data.example.com/decisions/AV-2391"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "educationProgramIdentifier": 133742
+    },
+    "creditsEarned": 6.0,
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-D4E5F6",
+        "value": "8.0"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
     }
-  }
+  ]
 }
 ```
 
