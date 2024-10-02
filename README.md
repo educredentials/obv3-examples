@@ -113,3 +113,4 @@ You can run this image locally too.
 - [ ] Fetch contexts from https://wiki.surfnet.nl/display/Edubadges/Specificatie+Metadatamodel+Edubadges and import as contexts in this project.
 - [ ] Put on backlog: Add specific @context that describes our custom rules for obv3 badges, requiring additional fields for example.
 - [ ] set up docker-compose to run this make/test easier, without having to fetch or install deps
+- [ ] Investigate if we want explicit validation in schema for EQF level aligment. Now we merely require *an* alignment, not specfically an ext:EQF alignment. We could enforce spec types and values in the schema?
