@@ -205,7 +205,7 @@ there are multiple resources in a single example.
 - [x] extracurriculair_minimal.json
 - [ ] microcredential_embedded.json
 - [ ] microcredential_full.json
-- [ ] microcredential_minimal.json
+- [x] microcredential_minimal.json
 - [ ] regulier_embedded.json
 - [x] regulier_full.json
 - [x] regulier_minimal.json
@@ -527,95 +527,9 @@ there are multiple resources in a single example.
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
-  ],
-  "id": "http://example.com/credentials/example-credential",
-  "type": [
-    "VerifiableCredential",
-    "OpenBadgeCredential"
-  ],
-  "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
-    "type": [
-      "Profile"
-    ],
-    "name": " SURF - Team edubadges"
-  },
-  "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Badge",
-  "credentialSubject": {
-    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-    "type": [
-      "AchievementSubject"
-    ],
-    "achievement": {
-      "id": "https://example.com/achievements/lorem-ipsum",
-      "type": [
-        "Achievement"
-      ],
-      "criteria": {
-        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
-      "name": "Lorem ipsum"
-    }
-  }
-}
-```
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
 
-</details>
-<details>
-<summary>microcredential_full.json</summary>
-
-```json
-{
-  "@context": [
-    "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
-  ],
-  "id": "http://example.com/credentials/example-credential",
-  "type": [
-    "VerifiableCredential",
-    "OpenBadgeCredential"
-  ],
-  "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
-    "type": [
-      "Profile"
-    ],
-    "name": " SURF - Team edubadges"
-  },
-  "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Badge",
-  "credentialSubject": {
-    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-    "type": [
-      "AchievementSubject"
-    ],
-    "achievement": {
-      "id": "https://example.com/achievements/lorem-ipsum",
-      "type": [
-        "Achievement"
-      ],
-      "criteria": {
-        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
-      "name": "Lorem ipsum"
-    }
-  }
-}
-```
-
-</details>
-<details>
-<summary>microcredential_minimal.json</summary>
-
-```json
-{
-  "@context": [
-    "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/microcredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -630,30 +544,302 @@ there are multiple resources in a single example.
     "name": "Naboo Theed University"
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Extra-Curricular Achievement",
+  "name": "Example Microcredential",
   "credentialSubject": {
-    "id": "https://example.com/students/stu-1A2B3C",
+    "id": "https://example.com/students/stu-4D5E6F",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-33LML",
+      "id": "https://example.com/achievements/ach-44ABA",
       "type": [
         "Achievement"
       ],
-      "name": "History of Federal Trade",
+      "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
       "image": {
-        "id": "https://static.example.com/history.jpg",
+        "id": "https://static.example.com/mind.jpg",
         "type": "Image"
       },
-      "description": "This badge is awarded for finalizing the minor *History of Federal Trade*.",
+      "description": "This badge is awarded for the Minor Jedi Mind Control and Advanced Meditation Practices",
       "criteria": {
-        "narrative": "To earn this badge, you must attend the colleges and pass the final test on *History of Federal Trade."
+        "narrative": "To earn this badge, you must attend the colleges on Mind Control, and on Meditation. You must pass a practical test and submit a written essay."
       },
       "inLanguage": "en-EN",
-      "TimeInvestment": 42
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "M Psychological Assessment",
+          "targetDescription": "Toets nieuwe opleiding\n**WO-minor**\n Psychologische Assessment",
+          "targetCode": "AV-4223",
+          "targetUrl": "https://data.example.com/decisions/AV-4223"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
     }
-  }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>microcredential_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/microcredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "Naboo Theed University"
+  },
+  "validFrom": "2014-06-01T00:00:00Z",
+  "name": "Example Microcredential",
+  "credentialSubject": {
+    "id": "https://example.com/students/stu-4D5E6F",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-44ABA",
+      "type": [
+        "Achievement"
+      ],
+      "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
+      "image": {
+        "id": "https://static.example.com/mind.jpg",
+        "type": "Image"
+      },
+      "description": "This badge is awarded for the Minor Jedi Mind Control and Advanced Meditation Practices",
+      "criteria": {
+        "narrative": "To earn this badge, you must attend the colleges on Mind Control, and on Meditation. You must pass a practical test and submit a written essay."
+      },
+      "inLanguage": "en-EN",
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "M Psychological Assessment",
+          "targetDescription": "Toets nieuwe opleiding\n**WO-minor**\n Psychologische Assessment",
+          "targetCode": "AV-4223",
+          "targetUrl": "https://data.example.com/decisions/AV-4223"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>microcredential_minimal.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/microcredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "Naboo Theed University"
+  },
+  "validFrom": "2014-06-01T00:00:00Z",
+  "name": "Example Microcredential",
+  "credentialSubject": {
+    "id": "https://example.com/students/stu-4D5E6F",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-44ABA",
+      "type": [
+        "Achievement"
+      ],
+      "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
+      "image": {
+        "id": "https://static.example.com/mind.jpg",
+        "type": "Image"
+      },
+      "description": "This badge is awarded for the Minor Jedi Mind Control and Advanced Meditation Practices",
+      "criteria": {
+        "narrative": "To earn this badge, you must attend the colleges on Mind Control, and on Meditation. You must pass a practical test and submit a written essay."
+      },
+      "inLanguage": "en-EN",
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "M Psychological Assessment",
+          "targetDescription": "Toets nieuwe opleiding\n**WO-minor**\n Psychologische Assessment",
+          "targetCode": "AV-4223",
+          "targetUrl": "https://data.example.com/decisions/AV-4223"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
 }
 ```
 
