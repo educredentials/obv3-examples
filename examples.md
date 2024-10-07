@@ -211,6 +211,8 @@ there are multiple resources in a single example.
 - [ ] regulier_full.json
 - [x] regulier_minimal.json
 
+
+[^1]: TODO: decide on how to deal with MBO vs HO logic in the payload first.
 <!-- managed_by_embed -->
 <details>
 <summary>extracurriculair_embedded.json</summary>
@@ -231,7 +233,19 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": "Naboo Theed University"
+    "name": "Naboo Theed University",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "42NB",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "university.naboo",
+        "identifierType": "name"
+      }
+    ]
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Extra-Curricular Achievement",
@@ -313,7 +327,19 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": "Naboo Theed University"
+    "name": "Naboo Theed University",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "42NB",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "university.naboo",
+        "identifierType": "name"
+      }
+    ]
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Extra-Curricular Achievement",
@@ -421,7 +447,19 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": "Naboo Theed University"
+    "name": "Naboo Theed University",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "42NB",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "university.naboo",
+        "identifierType": "name"
+      }
+    ]
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Extra-Curricular Achievement",
@@ -807,7 +845,7 @@ there are multiple resources in a single example.
       "criteria": {
         "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
       },
-      "description": "This badge is awarded for completing the course 'The Force and Its Applications'",
+      "description": "# Badge Awarded\n## Achievement Unlocked\nThis **badge** is awarded for completing the course _\"The Force and Its Applications\"_.\n### Course Overview\nThe course dives deep into the understanding of the **Force**, its origins, and its practical applications in various scenarios. Throughout the course, participants explore the mysterious yet powerful aspects of the _Force_.\n> \"The Force will be with you, always.\"\nUpon completion, learners gain valuable insights and demonstrate their mastery over this complex and fascinating subject. This badge is a testament to that achievement.",
       "name": "The Force and Its Applications",
       "image": {
         "id": "https://static.example.com/force-applications.jpg",
@@ -849,7 +887,11 @@ there are multiple resources in a single example.
         }
       ],
       "educationProgramIdentifier": 133742,
-      "ECTS": 6.0
+      "ECTS": 6.0,
+      "participationType": "online",
+      "assessmentType": "testing",
+      "supervisionType": "supervised online",
+      "identityChecked": true
     },
     "result": [
       {
@@ -895,7 +937,19 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": " SURF - Team edubadges"
+    "name": "SURF - Team edubadges",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "42EB",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "edubadges.nl",
+        "identifierType": "name"
+      }
+    ]
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "The Force and Its Applications",
@@ -981,5 +1035,3 @@ there are multiple resources in a single example.
 
 </details>
 <!-- /managed_by_embed -->
-
-[^1]: TODO: decide on how to deal with MBO vs HO logic in the payload first.
