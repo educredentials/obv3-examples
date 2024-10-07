@@ -206,9 +206,8 @@ there are multiple resources in a single example.
 - [ ] microcredential_embedded.json
 - [ ] microcredential_full.json
 - [ ] microcredential_minimal.json
-- [ ] minimal_valid_obv3.json
 - [ ] regulier_embedded.json
-- [ ] regulier_full.json
+- [x] regulier_full.json
 - [x] regulier_minimal.json
 
 
@@ -828,7 +827,19 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": " SURF - Team edubadges"
+    "name": "SURF - Team edubadges",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "42EB",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "edubadges.nl",
+        "identifierType": "name"
+      }
+    ]
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "The Force and Its Applications",
