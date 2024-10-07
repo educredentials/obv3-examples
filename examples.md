@@ -523,7 +523,6 @@ there are multiple resources in a single example.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/microcredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
@@ -548,7 +547,8 @@ there are multiple resources in a single example.
     "achievement": {
       "id": "https://example.com/achievements/ach-44ABA",
       "type": [
-        "Achievement"
+        "Achievement",
+        "MicrocredentialAchievement"
       ],
       "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
       "image": {
@@ -631,7 +631,6 @@ there are multiple resources in a single example.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/microcredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
@@ -656,7 +655,8 @@ there are multiple resources in a single example.
     "achievement": {
       "id": "https://example.com/achievements/ach-44ABA",
       "type": [
-        "Achievement"
+        "Achievement",
+        "MicrocredentialAchievement"
       ],
       "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
       "image": {
@@ -740,7 +740,6 @@ there are multiple resources in a single example.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/microcredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
@@ -765,7 +764,8 @@ there are multiple resources in a single example.
     "achievement": {
       "id": "https://example.com/achievements/ach-44ABA",
       "type": [
-        "Achievement"
+        "Achievement",
+        "MicrocredentialAchievement"
       ],
       "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
       "image": {
@@ -916,7 +916,8 @@ there are multiple resources in a single example.
     "achievement": {
       "id": "https://example.com/achievements/ach-77NPN",
       "type": [
-        "Achievement"
+        "Achievement",
+        "RegularAchievement"
       ],
       "criteria": {
         "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
@@ -1033,7 +1034,8 @@ there are multiple resources in a single example.
     "achievement": {
       "id": "https://example.com/achievements/ach-77NPN",
       "type": [
-        "Achievement"
+        "Achievement",
+        "RegularAchievement"
       ],
       "criteria": {
         "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
@@ -1154,7 +1156,8 @@ there are multiple resources in a single example.
     "achievement": {
       "id": "https://example.com/achievements/ach-77NPN",
       "type": [
-        "Achievement"
+        "Achievement",
+        "RegularAchievement"
       ],
       "criteria": {
         "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"

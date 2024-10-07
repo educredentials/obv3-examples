@@ -38,7 +38,8 @@
     "achievement": {
       "id": "https://example.com/achievements/ach-77NPN",
       "type": [
-        "Achievement"
+        "Achievement",
+        "RegularAchievement"
       ],
       "criteria": {
         "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
