@@ -204,7 +204,7 @@ there are multiple resources in a single example.
 - [x] extracurriculair_full.json
 - [x] extracurriculair_minimal.json
 - [ ] microcredential_embedded.json
-- [ ] microcredential_full.json
+- [x] microcredential_full.json
 - [x] microcredential_minimal.json
 - [ ] regulier_embedded.json
 - [x] regulier_full.json
@@ -668,7 +668,7 @@ there are multiple resources in a single example.
         "id": "https://static.example.com/mind.jpg",
         "type": "Image"
       },
-      "description": "This badge is awarded for the Minor Jedi Mind Control and Advanced Meditation Practices",
+      "description": "# Badge Awarded\n## Achievement Unlocked\nThis **badge** is awarded for completing the course _\"Minor Jedi Mind Control and Advanced Meditation Practices\"_.\n### Course Overview\nThe course explores the foundational techniques of **Jedi Mind Control** and the intricacies of advanced meditation. Learners delve into the mental discipline required to master these skills, honing their focus and control over the mind.\n> \"Your focus determines your reality.\"\nCompleting this course signifies the participant’s proficiency in these critical Jedi practices, earning them this badge of distinction.",
       "criteria": {
         "narrative": "To earn this badge, you must attend the colleges on Mind Control, and on Meditation. You must pass a practical test and submit a written essay."
       },
@@ -710,7 +710,8 @@ there are multiple resources in a single example.
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
-      ]
+      ],
+      "ECTS": 43
     },
     "result": [
       {

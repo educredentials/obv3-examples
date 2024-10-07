@@ -44,6 +44,10 @@
             "onsite with identity verification": "https://edubadges.nl/static/obv3-glossary.html#supervision-type-onsite-with-identity-verification"
           }
         },
+        "ECTS": {
+          "@id": "https://edubadges.nl/static/obv3-glossary.html#ECTS",
+          "@type": "xsd:number"
+        },
         "educationProgramIdentifier": {
           "@id": "https://edubadges.nl/static/obv3-glossary.html#educationProgramIdentifier",
           "@type": "xsd:number"
