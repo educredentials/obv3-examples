@@ -155,6 +155,11 @@ Extracurriculair: Lightsaber Dueling Techniques
 Reguliere: The Force and Its Applications (6 ECTS)
 Microcredential: Jedi Mind Control and Advanced Meditation Practices
 
+### Validity
+
+All \_full versions have a validFrom and a validUntil, which have two hardcoded
+dates, making them valid for 5 years starting 30 august 2024.
+
 ### URLs
 
 Images hosted at static.example.com e.g. https://static.example.com/lightsaber.jpg
@@ -339,7 +344,8 @@ there are multiple resources in a single example.
       }
     ]
   },
-  "validFrom": "2014-06-01T00:00:00Z",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
   "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-1A2B3C",
@@ -649,8 +655,9 @@ there are multiple resources in a single example.
     ],
     "name": "Naboo Theed University"
   },
-  "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Microcredential",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
     "id": "https://example.com/students/stu-4D5E6F",
     "type": [
@@ -1028,7 +1035,8 @@ there are multiple resources in a single example.
       }
     ]
   },
-  "validFrom": "2014-06-01T00:00:00Z",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
   "name": "The Force and Its Applications",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",

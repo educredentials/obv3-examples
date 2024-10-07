@@ -28,7 +28,8 @@
       }
     ]
   },
-  "validFrom": "2014-06-01T00:00:00Z",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
   "name": "The Force and Its Applications",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
