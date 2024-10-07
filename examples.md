@@ -97,6 +97,10 @@ Met de komst van OB3 zijn een aantal termen zoals we deze in edubadges
 
 (zie ook [OB3 datamodel conceptual model](https://www.imsglobal.org/spec/ob/v3p0/#conceptual-model))
 
+ext: extensies:
+> "This enumeration can be extended with new, proprietary terms. The new terms
+> must start with the substring 'ext:'." 
+
 ### OB3 Examples → EduCredential Examples
 
 De volgende JSON code examples zullen worden gebruikt om de Open Badges
