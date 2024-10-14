@@ -28,6 +28,9 @@ diverse wallets te kunnen testen.
 - Hoe en waar nemen we de BRIN-code op? (InstitutionIdentifierExtension in OBv3)
 - Willen we nog een uitsplitsing maken tussen "studieload gevraagd" versus "studieload gedaan" - vergelijkbaar met creditsAvailable vs creditsEarned?
 - Wat willen we als identifiers gebruiken: did, did:web, URL?
+- Wat willen we met meertaligheid? Eén van de opties is te vinden in het [1EdTech Localization Framework](https://www.imsglobal.org/spec/l12n-framework/v1p0). Deze is echter nog
+  slechts een preview in early review. Alternatieven zijn, onder meer, om bij het uitgeven van een credential een taal hiervoor te kiezen; evt heeft een
+  gebruiker dan per taal een credential. Nog een alternatief is om eigen extensions hiervoor te gebruiken, met als risico dat we erg afwijken van de standaard.
 
 **Aannames en keuzes**
 
