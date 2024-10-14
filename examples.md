@@ -22,10 +22,7 @@ diverse wallets te kunnen testen.
 
 **Vragen**
 
-- Images: de meeste voorbeelden gaan uit van een URL die naar de image wijst. Zullen wij images embedden in de payload? Gaan we ook toevoegen ter referentie.
 - Kunnen we van Educredentials naar CASE gerelateerde alignment target types mappen?
-- Volgens *Open Badges Implementation Guide* zijn Schema's voor extensions verplicht, volgens *Open Badges Specification* zijn ze optioneel. Wat kiezen wij?
-- Hoe en waar nemen we de BRIN-code op? (InstitutionIdentifierExtension in OBv3)
 - Willen we nog een uitsplitsing maken tussen "studieload gevraagd" versus "studieload gedaan" - vergelijkbaar met creditsAvailable vs creditsEarned?
 - Wat willen we als identifiers gebruiken: did, did:web, URL?
 - Wat willen we met meertaligheid? Eén van de opties is te vinden in het [1EdTech Localization Framework](https://www.imsglobal.org/spec/l12n-framework/v1p0). Deze is echter nog
@@ -50,6 +47,7 @@ diverse wallets te kunnen testen.
          - RegularAchievement: requires studyloadECTS
 - Voor BRIN en ShacHome worden aparte "otheridentifier" entries in the issuer opgenomen.
 - Voor het issuer.id gebruiken we de interne ID bijv https://demo.educredentials.eu/public/institutions/9-TYGj4dTn-nW8CGfwGjAQ
+- Volgens *Open Badges Implementation Guide* zijn Schema's voor extensions verplicht, volgens *Open Badges Specification* zijn ze optioneel. Wij hebben ze in `CredentialSchema` lijst opgenomen.
 
 ### Educredentials: huidig model
 
