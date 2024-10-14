@@ -1,7 +1,9 @@
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -37,7 +39,8 @@
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
-        "Achievement"
+        "Achievement",
+        "EducredentialAchievement"
       ],
       "name": "Lightsaber Dueling Techniques",
       "image": {

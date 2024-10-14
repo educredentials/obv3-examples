@@ -43,8 +43,8 @@ diverse wallets te kunnen testen.
          - SBU - posponed[^1]
          - TimeInvestement
      - Afgedwongen per Achievement type:
-         - MicrocredentialAchievement: requires studyloadECTS
-         - RegularAchievement: requires studyloadECTS
+         - microcredential: requires studyloadECTS
+         - regular: requires studyloadECTS
 - Voor BRIN en ShacHome worden aparte "otheridentifier" entries in the issuer opgenomen.
 - Voor het issuer.id gebruiken we de interne ID bijv https://demo.educredentials.eu/public/institutions/9-TYGj4dTn-nW8CGfwGjAQ
 - Volgens *Open Badges Implementation Guide* zijn Schema's voor extensions verplicht, volgens *Open Badges Specification* zijn ze optioneel. Wij hebben ze in `CredentialSchema` lijst opgenomen.
@@ -226,7 +226,9 @@ there are multiple resources in a single example.
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -262,7 +264,8 @@ there are multiple resources in a single example.
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
-        "Achievement"
+        "Achievement",
+        "EducredentialAchievement"
       ],
       "name": "Lightsaber Dueling Techniques",
       "image": {
@@ -320,7 +323,7 @@ there are multiple resources in a single example.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/extracurricular.json"
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -358,7 +361,7 @@ there are multiple resources in a single example.
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
         "Achievement",
-        "ExtracurricularAchievement"
+        "EducredentialAchievement"
       ],
       "name": "Lightsaber Dueling Techniques",
       "image": {
@@ -441,7 +444,9 @@ there are multiple resources in a single example.
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -477,7 +482,8 @@ there are multiple resources in a single example.
     "achievement": {
       "id": "https://example.com/achievements/ach-33LML",
       "type": [
-        "Achievement"
+        "Achievement",
+        "EducredentialAchievement"
       ],
       "name": "Lightsaber Dueling Techniques",
       "image": {
@@ -535,7 +541,7 @@ there are multiple resources in a single example.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/microcredential.json"
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -560,7 +566,7 @@ there are multiple resources in a single example.
       "id": "https://example.com/achievements/ach-44ABA",
       "type": [
         "Achievement",
-        "MicrocredentialAchievement"
+        "EducredentialAchievement"
       ],
       "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
       "image": {
@@ -643,7 +649,7 @@ there are multiple resources in a single example.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/microcredential.json"
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -669,7 +675,7 @@ there are multiple resources in a single example.
       "id": "https://example.com/achievements/ach-44ABA",
       "type": [
         "Achievement",
-        "MicrocredentialAchievement"
+        "EducredentialAchievement"
       ],
       "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
       "image": {
@@ -753,7 +759,7 @@ there are multiple resources in a single example.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/microcredential.json"
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
@@ -778,7 +784,7 @@ there are multiple resources in a single example.
       "id": "https://example.com/achievements/ach-44ABA",
       "type": [
         "Achievement",
-        "MicrocredentialAchievement"
+        "EducredentialAchievement"
       ],
       "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
       "image": {
@@ -861,7 +867,7 @@ there are multiple resources in a single example.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/regular.json"
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
   "id": "http://example.com/credentials/crd-D4E5F6",
   "type": [
@@ -869,11 +875,11 @@ there are multiple resources in a single example.
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.educredentials.eu/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
     "type": [
       "Profile"
     ],
-    "name": " SURF - Team educredentials"
+    "name": " SURF - Team edubadges"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "The Force and Its Applications",
@@ -886,7 +892,7 @@ there are multiple resources in a single example.
       "id": "https://example.com/achievements/ach-77NPN",
       "type": [
         "Achievement",
-        "RegularAchievement"
+        "EducredentialAchievement"
       ],
       "criteria": {
         "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
@@ -967,7 +973,7 @@ there are multiple resources in a single example.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/regular.json"
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
   "id": "http://example.com/credentials/crd-D4E5F6",
   "type": [
@@ -975,11 +981,11 @@ there are multiple resources in a single example.
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.educredentials.eu/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
     "type": [
       "Profile"
     ],
-    "name": "SURF - Team educredentials",
+    "name": "SURF - Team edubadges",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
@@ -988,7 +994,7 @@ there are multiple resources in a single example.
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "educredentials.eu",
+        "identifier": "edubadges.nl",
         "identifierType": "name"
       }
     ]
@@ -1005,7 +1011,7 @@ there are multiple resources in a single example.
       "id": "https://example.com/achievements/ach-77NPN",
       "type": [
         "Achievement",
-        "RegularAchievement"
+        "EducredentialAchievement"
       ],
       "criteria": {
         "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
@@ -1090,7 +1096,7 @@ there are multiple resources in a single example.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/regular.json"
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
   "id": "http://example.com/credentials/crd-D4E5F6",
   "type": [
@@ -1098,11 +1104,11 @@ there are multiple resources in a single example.
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.educredentials.eu/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
     "type": [
       "Profile"
     ],
-    "name": "SURF - Team educredentials",
+    "name": "SURF - Team edubadges",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
@@ -1111,7 +1117,7 @@ there are multiple resources in a single example.
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "educredentials.eu",
+        "identifier": "edubadges.nl",
         "identifierType": "name"
       }
     ]
@@ -1127,7 +1133,7 @@ there are multiple resources in a single example.
       "id": "https://example.com/achievements/ach-77NPN",
       "type": [
         "Achievement",
-        "RegularAchievement"
+        "EducredentialAchievement"
       ],
       "criteria": {
         "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
