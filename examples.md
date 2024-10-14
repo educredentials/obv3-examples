@@ -1,7 +1,7 @@
 # OB3 Credential Examples
 
 Voorbeelden van Open Badges V3 credentials naar voorbeeld van het
-metadatamodel van Edubadges.
+metadatamodel van Educredentials.
 Deze voorbeelden kunnen worden gebruikt om de capabilities van de
 diverse wallets te kunnen testen.
 
@@ -23,7 +23,7 @@ diverse wallets te kunnen testen.
 **Vragen**
 
 - Images: de meeste voorbeelden gaan uit van een URL die naar de image wijst. Zullen wij images embedden in de payload? Gaan we ook toevoegen ter referentie.
-- Kunnen we van Edubadges naar CASE gerelateerde alignment target types mappen?
+- Kunnen we van Educredentials naar CASE gerelateerde alignment target types mappen?
 - Volgens *Open Badges Implementation Guide* zijn Schema's voor extensions verplicht, volgens *Open Badges Specification* zijn ze optioneel. Wat kiezen wij?
 - Hoe en waar nemen we de BRIN-code op? (InstitutionIdentifierExtension in OBv3)
 - Willen we nog een uitsplitsing maken tussen "studieload gevraagd" versus "studieload gedaan" - vergelijkbaar met creditsAvailable vs creditsEarned?
@@ -45,11 +45,11 @@ diverse wallets te kunnen testen.
          - MicrocredentialAchievement: requires studyloadECTS
          - RegularAchievement: requires studyloadECTS
 - Voor BRIN en ShacHome worden aparte "otheridentifier" entries in the issuer opgenomen.
-- Voor het issuer.id gebruiken we de interne ID bijv https://demo.edubadges.nl/public/institutions/9-TYGj4dTn-nW8CGfwGjAQ
+- Voor het issuer.id gebruiken we de interne ID bijv https://demo.educredentials.eu/public/institutions/9-TYGj4dTn-nW8CGfwGjAQ
 
-### Edubadges: huidig model
+### Educredentials: huidig model
 
-We onderscheiden nu in Edubadges 3 typen credentials: Extracurriculair,
+We onderscheiden nu in Educredentials 3 typen credentials: Extracurriculair,
 Regulier en Microcredential.\
 Het verschil tussen deze 3 types is welke metadataelementen zijn
 gebruikt in de badgeclass.
@@ -86,7 +86,7 @@ gebruikt in de badgeclass.
 
 ### Termen
 
-Met de komst van OB3 zijn een aantal termen zoals we deze in edubadges
+Met de komst van OB3 zijn een aantal termen zoals we deze in educredentials
 (=OB2) gebruiken gewijzigd:
 
 | OB2        | OB3                            |
@@ -866,11 +866,11 @@ there are multiple resources in a single example.
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://www.educredentials.eu/public/issuers/lQ67BQQQS-eBx5syJGpazg",
     "type": [
       "Profile"
     ],
-    "name": " SURF - Team edubadges"
+    "name": " SURF - Team educredentials"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "Example Badge",
@@ -911,11 +911,11 @@ there are multiple resources in a single example.
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://www.educredentials.eu/public/issuers/lQ67BQQQS-eBx5syJGpazg",
     "type": [
       "Profile"
     ],
-    "name": " SURF - Team edubadges"
+    "name": " SURF - Team educredentials"
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "The Force and Its Applications",
@@ -1017,11 +1017,11 @@ there are multiple resources in a single example.
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://www.educredentials.eu/public/issuers/lQ67BQQQS-eBx5syJGpazg",
     "type": [
       "Profile"
     ],
-    "name": "SURF - Team edubadges",
+    "name": "SURF - Team educredentials",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
@@ -1030,7 +1030,7 @@ there are multiple resources in a single example.
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "edubadges.nl",
+        "identifier": "educredentials.eu",
         "identifierType": "name"
       }
     ]
@@ -1140,11 +1140,11 @@ there are multiple resources in a single example.
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://www.educredentials.eu/public/issuers/lQ67BQQQS-eBx5syJGpazg",
     "type": [
       "Profile"
     ],
-    "name": "SURF - Team edubadges",
+    "name": "SURF - Team educredentials",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
@@ -1153,7 +1153,7 @@ there are multiple resources in a single example.
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "edubadges.nl",
+        "identifier": "educredentials.eu",
         "identifierType": "name"
       }
     ]
