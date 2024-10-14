@@ -27,6 +27,7 @@ diverse wallets te kunnen testen.
 - Volgens *Open Badges Implementation Guide* zijn Schema's voor extensions verplicht, volgens *Open Badges Specification* zijn ze optioneel. Wat kiezen wij?
 - Hoe en waar nemen we de BRIN-code op? (InstitutionIdentifierExtension in OBv3)
 - Willen we nog een uitsplitsing maken tussen "studieload gevraagd" versus "studieload gedaan" - vergelijkbaar met creditsAvailable vs creditsEarned?
+- Wat willen we als identifiers gebruiken: did, did:web, URL?
 
 **Aannames en keuzes**
 
