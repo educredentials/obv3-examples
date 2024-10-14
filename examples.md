@@ -852,50 +852,6 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>minimal_valid_obv3.json</summary>
-
-```json
-{
-  "@context": [
-    "https://www.w3.org/ns/credentials/v2",
-    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
-  ],
-  "id": "http://example.com/credentials/example-credential",
-  "type": [
-    "VerifiableCredential",
-    "OpenBadgeCredential"
-  ],
-  "issuer": {
-    "id": "https://www.educredentials.eu/public/issuers/lQ67BQQQS-eBx5syJGpazg",
-    "type": [
-      "Profile"
-    ],
-    "name": " SURF - Team educredentials"
-  },
-  "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Badge",
-  "credentialSubject": {
-    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-    "type": [
-      "AchievementSubject"
-    ],
-    "achievement": {
-      "id": "https://example.com/achievements/lorem-ipsum",
-      "type": [
-        "Achievement"
-      ],
-      "criteria": {
-        "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      },
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
-      "name": "Lorem ipsum"
-    }
-  }
-}
-```
-
-</details>
-<details>
 <summary>regulier_embedded.json</summary>
 
 ```json
