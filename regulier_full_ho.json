@@ -28,7 +28,8 @@
       }
     ]
   },
-  "validFrom": "2014-06-01T00:00:00Z",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
   "name": "The Force and Its Applications",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
@@ -44,7 +45,7 @@
       "criteria": {
         "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
       },
-      "description": "This badge is awarded for completing the course 'The Force and Its Applications'",
+      "description": "# Badge Awarded\n## Achievement Unlocked\nThis **badge** is awarded for completing the course _\"The Force and Its Applications\"_.\n### Course Overview\nThe course dives deep into the understanding of the **Force**, its origins, and its practical applications in various scenarios. Throughout the course, participants explore the mysterious yet powerful aspects of the _Force_.\n> \"The Force will be with you, always.\"\nUpon completion, learners gain valuable insights and demonstrate their mastery over this complex and fascinating subject. This badge is a testament to that achievement.",
       "name": "The Force and Its Applications",
       "image": {
         "id": "https://static.example.com/force-applications.jpg",
@@ -86,7 +87,11 @@
         }
       ],
       "educationProgramIdentifier": 133742,
-      "ECTS": 6.0
+      "ECTS": 6.0,
+      "participationType": "online",
+      "assessmentType": "testing",
+      "supervisionType": "supervised online",
+      "identityChecked": true
     },
     "result": [
       {
@@ -105,6 +110,10 @@
     },
     {
       "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_ects.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

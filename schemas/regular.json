@@ -43,11 +43,6 @@
             "educationProgramIdentifier": {
               "type": "number"
             },
-            "ECTS": {
-              "type": "number",
-              "minimum": 0.5,
-              "maximum": 240
-            },
             "resultDescription": {
               "minItems": 1
             },
@@ -55,6 +50,10 @@
               "minItems": 1
             }
           },
+          "oneOf": [
+            { "required": ["ECTS"] },
+            { "required": ["SBU"] }
+          ],
           "required": [
             "name",
             "description",
@@ -63,8 +62,7 @@
             "inLanguage",
             "criteria",
             "alignment",
-            "educationProgramIdentifier",
-            "ECTS"
+            "educationProgramIdentifier"
           ],
           "additionalProperties": true
         },

@@ -20,7 +20,4 @@ clean:
 	@./remove_embeds.sh $(README)
 
 test:
-	boon --assert-content schemas/ob_v3p0_achievementcredential_schema.json *.json
-	boon --assert-content schemas/regular.json regulier*.json
-	boon --assert-content schemas/extracurricular.json extracurriculair*.json
-	boon --assert-content schemas/microcredential.json microcredential*.json
+	@./check_vc_credential_schemas.sh $(JSON_FILES)

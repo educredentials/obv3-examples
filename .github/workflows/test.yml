@@ -11,7 +11,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      - name: Check OBv3 Schema for all examples
+      - name: Check if schemas conform to the schemas defined in credentialSchema attribute
         uses: addnab/docker-run-action@v3
         with:
           image: ghcr.io/${{ github.repository_owner }}/boon:latest
@@ -19,34 +19,4 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
           options: --rm -v ${{ github.workspace }}:/usr/src/myapp
-          run: boon --assert-content schemas/ob_v3p0_achievementcredential_schema.json *.json
-
-      - name: Check ExtracurricularAchievement Schema for extracurricular examples
-        uses: addnab/docker-run-action@v3
-        with:
-          image: ghcr.io/${{ github.repository_owner }}/boon:latest
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          registry: ghcr.io
-          options: --rm -v ${{ github.workspace }}:/usr/src/myapp
-          run: boon --assert-content schemas/extracurricular.json extracurriculair_*.json
-
-      - name: Check RegularAchievement Schema for regular examples
-        uses: addnab/docker-run-action@v3
-        with:
-          image: ghcr.io/${{ github.repository_owner }}/boon:latest
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          registry: ghcr.io
-          options: --rm -v ${{ github.workspace }}:/usr/src/myapp
-          run: boon --assert-content schemas/regular.json regulier*.json
-
-      - name: Check Microcredential Schema for microcredential examples
-        uses: addnab/docker-run-action@v3
-        with:
-          image: ghcr.io/${{ github.repository_owner }}/boon:latest
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          registry: ghcr.io
-          options: --rm -v ${{ github.workspace }}:/usr/src/myapp
-          run: boon --assert-content schemas/microcredential.json microcredential*.json
+          run: ./check_vc_credential_schemas.sh *json

@@ -94,6 +94,10 @@
     {
       "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
       "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_ects.json",
+      "type": "1EdTechJsonSchemaValidator2019"
     }
   ]
 }

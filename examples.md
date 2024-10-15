@@ -28,6 +28,7 @@ diverse wallets te kunnen testen.
 - Wat willen we met meertaligheid? Eén van de opties is te vinden in het [1EdTech Localization Framework](https://www.imsglobal.org/spec/l12n-framework/v1p0). Deze is echter nog
   slechts een preview in early review. Alternatieven zijn, onder meer, om bij het uitgeven van een credential een taal hiervoor te kiezen; evt heeft een
   gebruiker dan per taal een credential. Nog een alternatief is om eigen extensions hiervoor te gebruiken, met als risico dat we erg afwijken van de standaard.
+- Welke info/metada moet bij "kwaliteitskader" voor MBO opgenomen? Voor HO hebben we daar ECTSGradeScore. Is dat anders voor MBO?
 
 **Aannames en keuzes**
 
@@ -110,25 +111,28 @@ V3 credentials te maken. Dit zal gesigned moeten worden door een agent
 om in de wallets gebruikt te kunnen worden, maar dat is stap 2.\
 De volgende typen OB3 examples zijn voorzien:
 
-- **Extracurriculair** - Een badge class voor opgedane kennis en
-  vaardigheden die geen onderdeel zijn van het curriculum van een
-  erkende opleiding. **Aan deze badgeclass zijn geen ECTS/SBU
-  verbonden.**
-- **Reguliere** - Een badge class voor opgedane kennis en vaardigheden
-  die binnen het curriculum van een erkende opleiding vallen. **Aan
-  deze badgeclass zijn ECTS/SBU verbonden.**
-- **Microcredential** - Een badge class voor microcredentials met het
+- **Extracurriculair** - Voor opgedane kennis en vaardigheden die geen
+  onderdeel zijn van het curriculum van een erkende opleiding. **Aan deze
+  badgeclass zijn geen ECTS/SBU verbonden.**
+- **Reguliere** - Voor opgedane kennis en vaardigheden die binnen het
+  curriculum van een erkende opleiding vallen. **Aan deze badgeclass zijn
+  ECTS/SBU verbonden.**
+- **Microcredential** - microcredentials met het
   kwaliteitskader voor professionals HBO/WO of MBO en alle metadata
-  **[conform de
-  EU-aanbevelingen](https://wiki.surfnet.nl/display/Edubadges/Microcredentials+Definition+EU).**
+  **[conform de EU-aanbevelingen](https://wiki.surfnet.nl/display/Edubadges/Microcredentials+Definition+EU).**
 
-Van elk type worden drie varianten uitgewerkt als voorbeeld:
+
+- **HO** - Credentials voor het hoger onderwijs, HBO en WO.
+- **MBO** - Credentials voor het middelbaar beroeps onderwijs, MBO.
+
+Van elk type worden vier varianten uitgewerkt als voorbeeld:
 
 - **Full** - Alle verplichte- en optionele velden zijn ingevuld.
 - **Minimal** - Alleen verplichte velden ingevuld.
 - **Embedded** - Alle verplichte velden ingevuld. Alle optionele
   velden met verwijzingen naar afbeeldingen ingevuld. Alle
   afbeeldingen zijn opgenomen in de payload als base64 data urls.
+- **Full, MBO** - Alle verplichte en optionele velden, uitgewerkt voor een MBO.
 
 ## Markdown
 
@@ -155,7 +159,10 @@ Student: Padawan Ashoka Tano
 
 Extracurriculair: Lightsaber Dueling Techniques
 Reguliere: The Force and Its Applications (6 ECTS)
-Microcredential: Jedi Mind Control and Advanced Meditation Practices
+Microcredential: Jedi Mind Control and Advanced Meditation Practices (3 ECTS)
+MBO microcredential: Droid Maintenance and Repair (500 SBU)
+MBO regular: Pod Tuning and Boosting (24 SBU)
+MBO extracurricular: Droid Factory Internship
 
 ### Validity
 
@@ -177,8 +184,8 @@ Ids are in the form of a URL. They use https and the following structure:
 * Resource is the "thing" we are identifying in plural. E.g. a student would have the resource `students` and an Achievement the resource `achievements`
 * Unique is some unique identifier, in reality problably some internal ID.
 
-For the examples, we use the following mock unique identifiers:
-
+<details>
+<summary>For the examples, we use the following mock unique identifiers:</summary>
 - **Students:**
   - `stu-1A2B3C`
   - `stu-4D5E6F`
@@ -202,25 +209,16 @@ For the examples, we use the following mock unique identifiers:
   - `ach-77NPN`
   - `ach-55BGB`
   - `ach-22RFR`
+</details>
 
 In the examples we will use the first always, except for the rare cases when we must convey that 
 there are multiple resources in a single example.
 
 ## De voorbeelden:
 
-- [x] extracurriculair_embedded.json
-- [x] extracurriculair_full.json
-- [x] extracurriculair_minimal.json
-- [x] microcredential_embedded.json
-- [x] microcredential_full.json
-- [x] microcredential_minimal.json
-- [x] regulier_embedded.json
-- [x] regulier_full.json
-- [x] regulier_minimal.json
-
 <!-- managed_by_embed -->
 <details>
-<summary>extracurriculair_embedded.json</summary>
+<summary>extracurriculair_embedded_ho.json</summary>
 
 ```json
 {
@@ -316,7 +314,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>extracurriculair_full.json</summary>
+<summary>extracurriculair_full_ho.json</summary>
 
 ```json
 {
@@ -438,7 +436,123 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>extracurriculair_minimal.json</summary>
+<summary>extracurriculair_full_mbo.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "Naboo Theed University",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "42NB",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "university.naboo",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Example Extra-Curricular Achievement",
+  "credentialSubject": {
+    "id": "https://example.com/credentials/stu-A1B2C3",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-33D4E5",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "name": "Droid Factory Internship",
+      "image": {
+        "id": "https://static.example.com/droid.jpg",
+        "type": "Image"
+      },
+      "description": "# Droid Factory Internship\n\nThis badge is awarded to students who have completed an internship at the Naboo Droid Factory. The internship is a hands-on experience where students learn how to assemble and repair droids.",
+      "criteria": {
+        "narrative": "Participate in a 2-week internship at the Naboo Droid Factory.",
+      },
+      "inLanguage": "en-US",
+      "timeInvestment": 13,
+      "participationType": "onsite or blended",
+      "assessmentType": "application of a skill",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": false,
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 3",
+          "targetCode": "3",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "7.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular_mbo.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>extracurriculair_minimal_ho.json</summary>
 
 ```json
 {
@@ -534,7 +648,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>microcredential_embedded.json</summary>
+<summary>microcredential_embedded_ho.json</summary>
 
 ```json
 {
@@ -615,7 +729,8 @@ there are multiple resources in a single example.
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
-      ]
+      ],
+      "ECTS": 3.0
     },
     "result": [
       {
@@ -635,6 +750,10 @@ there are multiple resources in a single example.
     {
       "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
       "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
+      "type": "1EdTechJsonSchemaValidator2019"
     }
   ]
 }
@@ -642,7 +761,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>microcredential_full.json</summary>
+<summary>microcredential_full_ho.json</summary>
 
 ```json
 {
@@ -725,7 +844,7 @@ there are multiple resources in a single example.
           "resultType": "ext:ECTSGradeScore"
         }
       ],
-      "ECTS": 43
+      "ECTS": 3.0
     },
     "result": [
       {
@@ -745,6 +864,10 @@ there are multiple resources in a single example.
     {
       "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
       "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
+      "type": "1EdTechJsonSchemaValidator2019"
     }
   ]
 }
@@ -752,7 +875,112 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>microcredential_minimal.json</summary>
+<summary>microcredential_full_mbo.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "Naboo Theed University"
+  },
+  "name": "Example Microcredential",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "credentialSubject": {
+    "id": "https://example.com/students/stu-4D5E6F",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-44ABA",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "name": "Droid Maintenance and Repair",
+      "image": {
+        "id": "https://static.example.com/droid.jpg",
+        "type": "Image"
+      },
+      "description": "# Droid Maintenance and Repair\n\nThis badge is awarded to students who have successfully completed the **Droid Maintenance and Repair course**. The course covers:\n * basics of droid maintenance\n *basics of repair \n * how to identify and fix common problems\n * how to perform routine maintenance tasks.",
+      "criteria": {
+        "narrative": "To earn this credential, students must:\n * complete all course modules\n * pass the final exam\n * complete a final project\n * achieve a final project grade of 6 or higher\n\nThe final project grade is calculated as the average of the grades for the final exam and the final project."
+      },
+      "inLanguage": "en-EN",
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "SBU": 500
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.0"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+ 
+  ]
+}
+```
+
+</details>
+<details>
+<summary>microcredential_minimal_ho.json</summary>
 
 ```json
 {
@@ -833,7 +1061,8 @@ there are multiple resources in a single example.
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
-      ]
+      ],
+      "ECTS": 3.0
     },
     "result": [
       {
@@ -853,6 +1082,10 @@ there are multiple resources in a single example.
     {
       "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
       "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
+      "type": "1EdTechJsonSchemaValidator2019"
     }
   ]
 }
@@ -860,7 +1093,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>regulier_embedded.json</summary>
+<summary>regulier_embedded_ho.json</summary>
 
 ```json
 {
@@ -959,6 +1192,10 @@ there are multiple resources in a single example.
     {
       "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
       "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_ects.json",
+      "type": "1EdTechJsonSchemaValidator2019"
     }
   ]
 }
@@ -966,7 +1203,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>regulier_full.json</summary>
+<summary>regulier_full_ho.json</summary>
 
 ```json
 {
@@ -1082,6 +1319,10 @@ there are multiple resources in a single example.
     {
       "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
       "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_ects.json",
+      "type": "1EdTechJsonSchemaValidator2019"
     }
   ]
 }
@@ -1089,7 +1330,124 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>regulier_minimal.json</summary>
+<summary>regulier_full_mbo.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-D4E5F6",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "type": [
+      "Profile"
+    ],
+    "name": "SURF - Team edubadges",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "42EB",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "edubadges.nl",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Pod Tuning and Boosting",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-77NPN",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "Thi"
+      },
+      "description": "",
+      "name": "Pod Tuning and Boosting",
+      "image": {
+        "id": "https://static.example.com/pod.jpg",
+        "type": "Image"
+      },
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "inLanguage": "en-EN",
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "educationProgramIdentifier": 133742,
+      "SBU": 24,
+      "participationType": "online",
+      "assessmentType": "testing",
+      "supervisionType": "supervised online",
+      "identityChecked": true
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-D4E5F6",
+        "value": "8.0"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_sbu.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>regulier_minimal_ho.json</summary>
 
 ```json
 {
@@ -1199,6 +1557,10 @@ there are multiple resources in a single example.
     },
     {
       "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_ects.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]
