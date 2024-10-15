@@ -1,7 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
 set -e
 set -u
+set -o pipefail
+set -o nounset
+set -o errexit
 
 is_debug() {
   if [ "${DEBUG:-false}" = "true" ]; then
