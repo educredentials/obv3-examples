@@ -107,12 +107,21 @@ The following types of OB3 examples are provided:
 - **HO** - Credentials for higher education, HBO, and WO.
 - **MBO** - Credentials for secondary vocational education, MBO.
 
-Four variants are worked out as examples for each type:
+Three variants are worked out as examples for each type:
 
 - **Full** - All mandatory and optional fields are filled in.
 - **Minimal** - Only mandatory fields are filled in.
 - **Embedded** - All mandatory fields are filled in. All optional fields with references to images are filled in. All images are included in the payload as base64 data URLs.
-- **Full, MBO** - All mandatory and optional fields, worked out for an MBO.
+
+For MBO we only provide the full version, for no other reason than that managing six more
+variants is too much work.
+
+We provide the different versions to check how the various wallets, verifiers and issuers
+handle the attributes:
+
+- Embedded, to check how/if wallets, verifiers and issuers deal with embedded images and therefore large credentials.
+- Minimal, so that wallets and verifiers have a reference of what attributes an Educredential will always carry.
+- Full, so that wallets and verifiers have a reference of what attributes they might expect and should handle eventually.
 
 ## Markdown
 
@@ -141,6 +150,10 @@ Microcredential: Jedi Mind Control and Advanced Meditation Practices (3 ECTS)
 MBO microcredential: Droid Maintenance and Repair (500 SBU)
 MBO regular: Pod Tuning and Boosting (24 SBU)
 MBO extracurricular: Droid Factory Internship
+
+Full, embedded and minimal follow the same story, but have different contents.
+These versions are provided only so that we can test how various wallets, verifiers and agents
+deal with the attributes.
 
 ### Validity
 
