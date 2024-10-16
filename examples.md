@@ -1,96 +1,87 @@
 # OB3 Credential Examples
 
-Voorbeelden van Open Badges V3 credentials naar voorbeeld van het
-metadatamodel van Educredentials.
-Deze voorbeelden kunnen worden gebruikt om de capabilities van de
-diverse wallets te kunnen testen.
+Examples of Open Badges V3 credentials based on the Educredentials metadata model.
+These examples can be used to test the capabilities of various wallets.
 
-**Stappen**
+**Steps**
 
-- Stap 1: In eerste instantie zullen deze voorbeeld credentials alleen
-  uit de JSON code bestaan.
-- Stap 2: De vervolgstap is dat we deze door een agent kunnen laten
-  signen zodat deze in een wallet gezet kunnen worden.
+- Step 1: Initially, these example credentials will only consist of the JSON code.
+- Step 2: The next step is to have them signed by an agent so they can be placed in a wallet.
 
-**SURF documentatie**
+**SURF Documentation**
 
-- [Opmaken tekst badge class](https://wiki.surfnet.nl/display/Edubadges/Opmaken+tekst+badge+class) (voorbeelden markdown support in Edubadges)
-- Extra metadata: de spec ondersteunt dat er uitbreidingen op het datamodel worden gemaakt (<https://www.imsglobal.org/spec/ob/v3p0#extending-the-data-model>). In Edubadges is dit gedaan met 17 extra metadatavelden. (Zie [Microcredentials Definition EU](https://wiki.surfnet.nl/display/Edubadges/Microcredentials+Definition+EU))
-- Zie ook de huidige Edubadges voorbeelden in OB2 formaat: [Edubadges Metadata Examples - JSON output](https://wiki.surfnet.nl/display/Edubadges/Edubadges+Metadata+Examples+-+JSON+output) (interne wiki)
-- Business Rules voor attributen, mogelijke waardes en dergelijke, van de OBV2 versie, is uitgewerkt in [Badgeclass Business Rules](https://wiki.surfnet.nl/pages/viewpage.action?spaceKey=EBB&title=Badgeclass+Business+Rules)
-- Mapping van OB2 - OB3 is uitgewerkt in: [Micro-credentials Metadata Mapping](https://wiki.surfnet.nl/display/EduCr/Micro-credentials+Metadata+Mapping+OB2+-+OB3+-+ELM) (interne wiki)
+- [Formatting text badge class](https://wiki.surfnet.nl/display/Edubadges/Opmaken+tekst+badge+class) (examples of markdown support in Edubadges)
+- Extra metadata: the spec supports extensions to the data model (<https://www.imsglobal.org/spec/ob/v3p0#extending-the-data-model>). In Edubadges, this is done with 17 extra metadata fields. (See [Microcredentials Definition EU](https://wiki.surfnet.nl/display/Edubadges/Microcredentials+Definition+EU))
+- See also the current Edubadges examples in OB2 format: [Edubadges Metadata Examples - JSON output](https://wiki.surfnet.nl/display/Edubadges/Edubadges+Metadata+Examples+-+JSON+output) (internal wiki)
+- Business Rules for attributes, possible values, and such from the OBV2 version are detailed in [Badgeclass Business Rules](https://wiki.surfnet.nl/pages/viewpage.action?spaceKey=EBB&title=Badgeclass+Business+Rules)
+- Mapping from OB2 - OB3 is detailed in: [Micro-credentials Metadata Mapping](https://wiki.surfnet.nl/display/EduCr/Micro-credentials+Metadata+Mapping+OB2+-+OB3+-+ELM) (internal wiki)
 
-**Vragen**
+**Questions**
 
-- Kunnen we van Educredentials naar CASE gerelateerde alignment target types mappen?
-- Willen we nog een uitsplitsing maken tussen "studieload gevraagd" versus "studieload gedaan" - vergelijkbaar met creditsAvailable vs creditsEarned?
-- Wat willen we als identifiers gebruiken: did, did:web, URL?
-- Wat willen we met meertaligheid? Eén van de opties is te vinden in het [1EdTech Localization Framework](https://www.imsglobal.org/spec/l12n-framework/v1p0). Deze is echter nog
-  slechts een preview in early review. Alternatieven zijn, onder meer, om bij het uitgeven van een credential een taal hiervoor te kiezen; evt heeft een
-  gebruiker dan per taal een credential. Nog een alternatief is om eigen extensions hiervoor te gebruiken, met als risico dat we erg afwijken van de standaard.
-- Welke info/metada moet bij "kwaliteitskader" voor MBO opgenomen? Voor HO hebben we daar ECTSGradeScore. Is dat anders voor MBO?
+- Can we map from Educredentials to CASE-related alignment target types?
+- Do we want to differentiate between "study load requested" vs "study load completed" - similar to creditsAvailable vs creditsEarned?
+- What do we want to use as identifiers: did, did:web, URL?
+- What do we want to do with multilingualism? One option can be found in the [1EdTech Localization Framework](https://www.imsglobal.org/spec/l12n-framework/v1p0), but it is still in early preview. Alternatives include choosing a language when issuing a credential; the user may then have a credential per language. Another option is to use custom extensions for this, with the risk of deviating too far from the standard.
+- What info/metadata should be included in the "quality framework" for MBO? For HO, we have the ECTSGradeScore. Is it different for MBO?
 
-**Aannames en keuzes**
+**Assumptions and Choices**
 
-- Voor de taal van de edubadge hebben we gekozen voor de "inLanguage" property want de omschrijving is "the language of the achievement".
-- Voor Grade Achieved is de "Result" gebruikt.
-- Voor Learning Outcome is "ResultDescription" met type ext:ECTSScore gebruikt met een Nederlandse schaal van 1 tot 10.
-- Voor ECTS study load is creditsEarned (gehaald) en creditsAvailable gebruikt.
-- Voor IdentityChecked is een boolean gekozen omdat het huidige OBV2 model dat ook heeft; al is dit niet ideaal - beter zou een enum zijn, zodat ook NVT etc erin verwerkt kan.
-- Voor Studielast bestaat businesslogic. Deze werken we niet helemaal uit in het schema, dat maakt het te complex. De simpele versie is echter:
-    Studielast opties: ECTS / SBU / Tijdsinvestering
-     - Drie aparte objecten op hoogste niveau in Achievement:
+- For the language of the edubadge, we chose the "inLanguage" property because the description is "the language of the achievement".
+- For Grade Achieved, "Result" is used.
+- For Learning Outcome, "ResultDescription" with type ext:ECTSScore is used with a Dutch scale of 1 to 10.
+- For ECTS study load, creditsEarned (completed) and creditsAvailable are used.
+- For IdentityChecked, a boolean was chosen because the current OBV2 model also has this; although this is not ideal - an enum would be better, so that NVT (Not Applicable) etc. can also be included.
+- For Study Load, there is business logic. We don't fully work this out in the schema to avoid complexity. However, the simple version is:
+    Study load options: ECTS / SBU / Time investment
+     - Three separate objects at the highest level in Achievement:
          - ECTS
-         - SBU - posponed[^1]
-         - TimeInvestement
-     - Afgedwongen per Achievement type:
+         - SBU - postponed[^1]
+         - TimeInvestment
+     - Enforced per Achievement type:
          - microcredential: requires studyloadECTS
          - regular: requires studyloadECTS
-- Voor BRIN en ShacHome worden aparte "otheridentifier" entries in the issuer opgenomen.
-- Voor het issuer.id gebruiken we de interne ID bijv https://demo.educredentials.eu/public/institutions/9-TYGj4dTn-nW8CGfwGjAQ
-- Volgens *Open Badges Implementation Guide* zijn Schema's voor extensions verplicht, volgens *Open Badges Specification* zijn ze optioneel. Wij hebben ze in `CredentialSchema` lijst opgenomen.
+- For BRIN and ShacHome, separate "otheridentifier" entries are included in the issuer.
+- For issuer.id, we use the internal ID e.g. https://demo.educredentials.eu/public/institutions/9-TYGj4dTn-nW8CGfwGjAQ
+- According to the *Open Badges Implementation Guide*, schemas for extensions are mandatory, whereas, according to the *Open Badges Specification*, they are optional. We have included them in the `CredentialSchema` list.
 
-### Educredentials: huidig model
+### Educredentials: Current Model
 
-We onderscheiden nu in Educredentials 3 typen credentials: Extracurriculair,
-Regulier en Microcredential.\
-Het verschil tussen deze 3 types is welke metadataelementen zijn
-gebruikt in de badgeclass.
+We currently distinguish three types of credentials in Educredentials: Extracurricular, Regular, and Microcredential.\
+The difference between these three types is which metadata elements are used in the badge class.
 
-|                                          | Microcredential        | Reguliere edubadge  | Extracurriculaire edubadge |
+|                                          | Microcredential        | Regular Edubadge    | Extracurricular Edubadge   |
 | ---------------------------------------- | ---------------------- | ------------------- | -------------------------- |
-| **Basisinformatie**                      |                        |                     |                            |
-| Naam                                     | Verplicht              | Verplicht           | Verplicht                  |
-| Edubadge afbeelding                      | Verplicht              | Verplicht           | Verplicht                  |
-| Beschrijving                             | Verplicht              | Verplicht           | Verplicht                  |
-| Leeruitkomsten                           | Verplicht              | Verplicht           | Verplicht                  |
-| Criteria                                 | Verplicht              | Verplicht           | Verplicht                  |
-| Programma informatie                     |                        |                     |                            |
-| Taal van het onderwijs                   | Verplicht              | Verplicht           | Verplicht                  |
-| Studiepunten ECTS/SBU                    | Optioneel              | Verplicht           | Niet van toepassing        |
-| Tijdsinvestering                         | Optioneel              | Niet van toepassing | Verplicht                  |
-| Indicatie EQF niveau                     | Verplicht              | Verplicht           | Optioneel                  |
-| Vorm van deelname                        | Verplicht              | Optioneel           | Optioneel                  |
-| Opleidingscodes                          | Optioneel              | Verplicht           | Optioneel                  |
-| **Informatie over de beoordeling**       |                        |                     |                            |
-| Beoordelingstype                         | Verplicht              | Optioneel           | Optioneel                  |
-| Toezicht bij de beoordeling              | Verplicht              | Optioneel           | Optioneel                  |
-| Identiteit                               | Verplicht              | Optioneel           | Optioneel                  |
-| **Kwaliteitsborging**                    |                        |                     |                            |
-| Naam                                     | Kwaliteitskader HO/MBO | Optioneel           | Optioneel                  |
-| URL                                      | Verplicht              | Optioneel           | Optioneel                  |
-| Omschrijving                             | Verplicht              | Optioneel           | Optioneel                  |
-| **Gerelateerd onderwijskundig raamwerk** |                        |                     |                            |
-| Naam                                     | Optioneel              | Optioneel           | Optioneel                  |
-| Raamwerk                                 | Optioneel              | Optioneel           | Optioneel                  |
-| URL                                      | Optioneel              | Optioneel           | Optioneel                  |
-| Code                                     | Optioneel              | Optioneel           | Optioneel                  |
-| Omschrijving                             | Optioneel              | Optioneel           | Optioneel                  |
+| **Basic Information**                    |                        |                     |                            |
+| Name                                     | Required               | Required            | Required                   |
+| Edubadge Image                           | Required               | Required            | Required                   |
+| Description                              | Required               | Required            | Required                   |
+| Learning Outcomes                        | Required               | Required            | Required                   |
+| Criteria                                 | Required               | Required            | Required                   |
+| Program Information                      |                        |                     |                            |
+| Language of Instruction                  | Required               | Required            | Required                   |
+| ECTS/SBU Credits                         | Optional               | Required            | Not Applicable             |
+| Time Investment                          | Optional               | Not Applicable      | Required                   |
+| Indication of EQF Level                  | Required               | Required            | Optional                   |
+| Participation Type                       | Required               | Optional            | Optional                   |
+| Educational Codes                        | Optional               | Required            | Optional                   |
+| **Assessment Information**               |                        |                     |                            |
+| Assessment Type                          | Required               | Optional            | Optional                   |
+| Supervision of Assessment                | Required               | Optional            | Optional                   |
+| Identity                                 | Required               | Optional            | Optional                   |
+| **Quality Assurance**                    |                        |                     |                            |
+| Name                                     | Quality Framework HO/MBO | Optional           | Optional                   |
+| URL                                      | Required               | Optional            | Optional                   |
+| Description                              | Required               | Optional            | Optional                   |
+| **Related Educational Framework**        |                        |                     |                            |
+| Name                                     | Optional               | Optional            | Optional                   |
+| Framework                                | Optional               | Optional            | Optional                   |
+| URL                                      | Optional               | Optional            | Optional                   |
+| Code                                     | Optional               | Optional            | Optional                   |
+| Description                              | Optional               | Optional            | Optional                   |
 
-### Termen
+### Terms
 
-Met de komst van OB3 zijn een aantal termen zoals we deze in educredentials
-(=OB2) gebruiken gewijzigd:
+With the introduction of OB3, several terms used in Educredentials (OB2) have changed:
 
 | OB2        | OB3                            |
 | ---------- | ------------------------------ |
@@ -98,55 +89,42 @@ Met de komst van OB3 zijn een aantal termen zoals we deze in educredentials
 | Open Badge | Open Badge Credential          |
 | Edubadge   | Digital Credential Assertion   |
 
-(zie ook [OB3 datamodel conceptual model](https://www.imsglobal.org/spec/ob/v3p0/#conceptual-model))
+(See also [OB3 datamodel conceptual model](https://www.imsglobal.org/spec/ob/v3p0/#conceptual-model))
 
-ext: extensies:
+ext: extensions:
 > "This enumeration can be extended with new, proprietary terms. The new terms
-> must start with the substring 'ext:'." 
+> must start with the substring 'ext:'."
 
 ### OB3 Examples → EduCredential Examples
 
-De volgende JSON code examples zullen worden gebruikt om de Open Badges
-V3 credentials te maken. Dit zal gesigned moeten worden door een agent
-om in de wallets gebruikt te kunnen worden, maar dat is stap 2.\
-De volgende typen OB3 examples zijn voorzien:
+The following JSON code examples will be used to create the Open Badges V3 credentials. These will need to be signed by an agent to be used in wallets, but that is step 2.\
+The following types of OB3 examples are provided:
 
-- **Extracurriculair** - Voor opgedane kennis en vaardigheden die geen
-  onderdeel zijn van het curriculum van een erkende opleiding. **Aan deze
-  badgeclass zijn geen ECTS/SBU verbonden.**
-- **Reguliere** - Voor opgedane kennis en vaardigheden die binnen het
-  curriculum van een erkende opleiding vallen. **Aan deze badgeclass zijn
-  ECTS/SBU verbonden.**
-- **Microcredential** - microcredentials met het
-  kwaliteitskader voor professionals HBO/WO of MBO en alle metadata
-  **[conform de EU-aanbevelingen](https://wiki.surfnet.nl/display/Edubadges/Microcredentials+Definition+EU).**
+- **Extracurricular** - For knowledge and skills acquired outside the curriculum of a recognized program. **No ECTS/SBU is associated with this badge class.**
+- **Regular** - For knowledge and skills acquired within the curriculum of a recognized program. **ECTS/SBU is associated with this badge class.**
+- **Microcredential** - Microcredentials with the quality framework for HBO/WO or MBO professionals and all metadata **[in accordance with the EU recommendations](https://wiki.surfnet.nl/display/Edubadges/Microcredentials+Definition+EU).**
 
+- **HO** - Credentials for higher education, HBO, and WO.
+- **MBO** - Credentials for secondary vocational education, MBO.
 
-- **HO** - Credentials voor het hoger onderwijs, HBO en WO.
-- **MBO** - Credentials voor het middelbaar beroeps onderwijs, MBO.
+Four variants are worked out as examples for each type:
 
-Van elk type worden vier varianten uitgewerkt als voorbeeld:
-
-- **Full** - Alle verplichte- en optionele velden zijn ingevuld.
-- **Minimal** - Alleen verplichte velden ingevuld.
-- **Embedded** - Alle verplichte velden ingevuld. Alle optionele
-  velden met verwijzingen naar afbeeldingen ingevuld. Alle
-  afbeeldingen zijn opgenomen in de payload als base64 data urls.
-- **Full, MBO** - Alle verplichte en optionele velden, uitgewerkt voor een MBO.
+- **Full** - All mandatory and optional fields are filled in.
+- **Minimal** - Only mandatory fields are filled in.
+- **Embedded** - All mandatory fields are filled in. All optional fields with references to images are filled in. All images are included in the payload as base64 data URLs.
+- **Full, MBO** - All mandatory and optional fields, worked out for an MBO.
 
 ## Markdown
 
-OBv3 staat Markdown toe in veel data, zonder te specificeren welke subset of welke variant.
+OBv3 allows Markdown in many data fields, without specifying which subset or variant.
 
 > Markdown 	A String that may contain Markdown.
 
 https://www.imsglobal.org/spec/ob/v3p0/#org.1edtech.ob.v3p0.derived.markdown.class
 
-Wij perken dat in, in [markdown.md](./markdown.md). Deze subset is dus niet backwards compatible met
-obv3, waar ook nog code, links, tables toegestaan zijn. Voor obv3 perken we dat dus nog verder in.
-Elementen die niet in `markdown.md` uitgewerkt zijn, zijn dus niet toegestaan.
+We limit this in [markdown.md](./markdown.md). This subset is therefore not backward compatible with OBv3, which still allows code, links, tables, etc. We further restrict it for OBv3. Elements not detailed in `markdown.md` are therefore not allowed.
 
-## Content of the examples
+## Content of the Examples
 
 Examples are built from a context that follows a story.
 It uses mock IDs that resemble a real ID.
@@ -157,8 +135,8 @@ Issuer: Naboo Theed University
 
 Student: Padawan Ashoka Tano
 
-Extracurriculair: Lightsaber Dueling Techniques
-Reguliere: The Force and Its Applications (6 ECTS)
+Extracurricular: Lightsaber Dueling Techniques
+Regular: The Force and Its Applications (6 ECTS)
 Microcredential: Jedi Mind Control and Advanced Meditation Practices (3 ECTS)
 MBO microcredential: Droid Maintenance and Repair (500 SBU)
 MBO regular: Pod Tuning and Boosting (24 SBU)
@@ -166,14 +144,13 @@ MBO extracurricular: Droid Factory Internship
 
 ### Validity
 
-All \_full versions have a validFrom and a validUntil, which have two hardcoded
-dates, making them valid for 5 years starting 30 august 2024.
+All \_full versions have a validFrom and a validUntil, which are hardcoded to make them valid for 5 years starting from 30 August 2024.
 
 ### URLs
 
-Images hosted at static.example.com e.g. https://static.example.com/lightsaber.jpg
+Images hosted at static.example.com, e.g. https://static.example.com/lightsaber.jpg
 
-Contexts hosted at contexts.example.com e.g. https://contexts.example.com/learning-outcome-extension.json
+Contexts hosted at contexts.example.com, e.g. https://contexts.example.com/learning-outcome-extension.json
 
 ### IDS
 
@@ -211,14 +188,14 @@ Ids are in the form of a URL. They use https and the following structure:
   - `ach-22RFR`
 </details>
 
-In the examples we will use the first always, except for the rare cases when we must convey that 
+In the examples we will use the first always, except for the rare cases when we must convey that
 there are multiple resources in a single example.
 
-## De voorbeelden:
+## The Examples
 
 <!-- managed_by_embed -->
 <details>
-<summary>extracurriculair_embedded_ho.json</summary>
+<summary>extracurricular_embedded_ho.json</summary>
 
 ```json
 {
@@ -314,7 +291,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>extracurriculair_full_ho.json</summary>
+<summary>extracurricular_full_ho.json</summary>
 
 ```json
 {
@@ -436,7 +413,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>extracurriculair_full_mbo.json</summary>
+<summary>extracurricular_full_mbo.json</summary>
 
 ```json
 {
@@ -552,7 +529,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>extracurriculair_minimal_ho.json</summary>
+<summary>extracurricular_minimal_ho.json</summary>
 
 ```json
 {
@@ -1093,7 +1070,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>regulier_embedded_ho.json</summary>
+<summary>regular_embedded_ho.json</summary>
 
 ```json
 {
@@ -1203,7 +1180,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>regulier_full_ho.json</summary>
+<summary>regular_full_ho.json</summary>
 
 ```json
 {
@@ -1330,7 +1307,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>regulier_full_mbo.json</summary>
+<summary>regular_full_mbo.json</summary>
 
 ```json
 {
@@ -1447,7 +1424,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>regulier_minimal_ho.json</summary>
+<summary>regular_minimal_ho.json</summary>
 
 ```json
 {
