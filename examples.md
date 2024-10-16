@@ -3,12 +3,12 @@
 Examples of Open Badges V3 credentials based on the Educredentials metadata model.
 These examples can be used to test the capabilities of various wallets.
 
-**Steps**
+## Roadmap
 
 - Step 1: Initially, these example credentials will only consist of the JSON code.
 - Step 2: The next step is to have them signed by an agent so they can be placed in a wallet.
 
-**SURF Documentation**
+## SURF Documentation
 
 - [Formatting text badge class](https://wiki.surfnet.nl/display/Edubadges/Opmaken+tekst+badge+class) (examples of markdown support in Edubadges)
 - Extra metadata: the spec supports extensions to the data model (<https://www.imsglobal.org/spec/ob/v3p0#extending-the-data-model>). In Edubadges, this is done with 17 extra metadata fields. (See [Microcredentials Definition EU](https://wiki.surfnet.nl/display/Edubadges/Microcredentials+Definition+EU))
@@ -16,7 +16,7 @@ These examples can be used to test the capabilities of various wallets.
 - Business Rules for attributes, possible values, and such from the OBV2 version are detailed in [Badgeclass Business Rules](https://wiki.surfnet.nl/pages/viewpage.action?spaceKey=EBB&title=Badgeclass+Business+Rules)
 - Mapping from OB2 - OB3 is detailed in: [Micro-credentials Metadata Mapping](https://wiki.surfnet.nl/display/EduCr/Micro-credentials+Metadata+Mapping+OB2+-+OB3+-+ELM) (internal wiki)
 
-**Questions**
+## Questions
 
 - Can we map from Educredentials to CASE-related alignment target types?
 - Do we want to differentiate between "study load requested" vs "study load completed" - similar to creditsAvailable vs creditsEarned?
@@ -24,7 +24,7 @@ These examples can be used to test the capabilities of various wallets.
 - What do we want to do with multilingualism? One option can be found in the [1EdTech Localization Framework](https://www.imsglobal.org/spec/l12n-framework/v1p0), but it is still in early preview. Alternatives include choosing a language when issuing a credential; the user may then have a credential per language. Another option is to use custom extensions for this, with the risk of deviating too far from the standard.
 - What info/metadata should be included in the "quality framework" for MBO? For HO, we have the ECTSGradeScore. Is it different for MBO?
 
-**Assumptions and Choices**
+## Assumptions and Choices
 
 - For the language of the edubadge, we chose the "inLanguage" property because the description is "the language of the achievement".
 - For Grade Achieved, "Result" is used.
@@ -44,7 +44,7 @@ These examples can be used to test the capabilities of various wallets.
 - For issuer.id, we use the internal ID e.g. https://demo.educredentials.eu/public/institutions/9-TYGj4dTn-nW8CGfwGjAQ
 - According to the *Open Badges Implementation Guide*, schemas for extensions are mandatory, whereas, according to the *Open Badges Specification*, they are optional. We have included them in the `CredentialSchema` list.
 
-### Educredentials: Current Model
+## Educredentials: Current Model
 
 We currently distinguish three types of credentials in Educredentials: Extracurricular, Regular, and Microcredential.\
 The difference between these three types is which metadata elements are used in the badge class.
@@ -79,7 +79,7 @@ The difference between these three types is which metadata elements are used in 
 | Code                                     | Optional               | Optional            | Optional                   |
 | Description                              | Optional               | Optional            | Optional                   |
 
-### Terms
+## Terms
 
 With the introduction of OB3, several terms used in Educredentials (OB2) have changed:
 
@@ -95,7 +95,7 @@ ext: extensions:
 > "This enumeration can be extended with new, proprietary terms. The new terms
 > must start with the substring 'ext:'."
 
-### OB3 Examples → EduCredential Examples
+## EduCredential Examples
 
 The following JSON code examples will be used to create the Open Badges V3 credentials. These will need to be signed by an agent to be used in wallets, but that is step 2.\
 The following types of OB3 examples are provided:
