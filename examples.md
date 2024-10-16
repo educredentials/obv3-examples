@@ -35,7 +35,7 @@ These examples can be used to test the capabilities of various wallets.
     Study load options: ECTS / SBU / Time investment
      - Three separate objects at the highest level in Achievement:
          - ECTS
-         - SBU - postponed[^1]
+         - SBU
          - TimeInvestment
      - Enforced per Achievement type:
          - microcredential: requires studyloadECTS
