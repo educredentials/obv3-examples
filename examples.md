@@ -140,7 +140,10 @@ It uses mock IDs that resemble a real ID.
 
 ### Story
 
-Issuer: Naboo Theed University
+There are three institutions that issue EduCredentials. Some institutions have
+additional departments.
+
+#### Naboo Theed University, theed
 
 Student: Padawan Ashoka Tano
 
@@ -154,6 +157,66 @@ MBO extracurricular: Droid Factory Internship
 Full, embedded and minimal follow the same story, but have different contents.
 These versions are provided only so that we can test how various wallets, verifiers and agents
 deal with the attributes.
+
+#### Mbo Beek, mbob
+
+Language is Dutch. All credentials, and all examples are in Dutch only.
+
+Departments:
+
+* Zorg en Welzijn
+* Economie en Ondernemerschap
+* Horeca en Toerisme
+
+#### **Afdeling: Zorg en Welzijn**
+
+##### **Opleiding: Specialist in slapeloosheid bestrijden**
+1. **Microcredential: Dekbed schikken voor gevorderden**
+   - *Beschrijving:* De kunst van het vouwen en opschudden van dekbedden tot perfectie, inclusief geheime technieken voor extra strak ingestopte lakens.
+   - *Studiebelastinguren:* 20 uur
+2. **Extracurriculair: Nachtwacht bij slaperige ouderen**
+   - *Beschrijving:* Stage waarbij de student acht nachten non-stop wakker blijft om te observeren hoe ouderen proberen in slaap te vallen tijdens het bingewatchen van oude soaps.
+   - *Studiebelastinguren:* 80 uur
+3. **Regulier: Diploma slapeloosheidsgoeroe**
+   - *Beschrijving:* Met dit diploma mag je jezelf dé expert noemen op het gebied van slaapverwekkende verhalen en technieken om iedereen binnen 5 minuten te laten inslapen.
+   - *Studiebelastinguren:* 2000 uur
+
+##### **Afdeling: Therapeutisch Dierenfluisteraar**
+1. **Microcredential: Basis miauw en blaf interpretatie**
+   - *Beschrijving:* Leer de geheime taal van katten en honden, inclusief gevorderde technieken voor het vertalen van ‘miauw’ naar ‘ik wil eten’ en ‘woef’ naar ‘ik wil uit’.
+   - *Studiebelastinguren:* 15 uur
+2. **Extracurriculair: Stage bij boerderijdieren in therapie**
+   - *Beschrijving:* Onder toezicht van een therapeut boer spreek je kippen en geiten moed in tijdens hun moeilijke periodes, inclusief meditatie voor onrustige bijen.
+   - *Studiebelastinguren:* 100 uur
+3. **Regulier: Diploma dierenfluisteraar met erecode**
+   - *Beschrijving:* Met dit diploma krijg je de officiële bevoegdheid om ruzies tussen duiven te bemiddelen op stadspleinen en in parken.
+   - *Studiebelastinguren:* 2500 uur
+
+#### **Afdeling: Economie en Ondernemerschap**
+
+##### **Opleiding: Expert in onzichtbare verkooptechnieken**
+1. **Microcredential: Oogcontact maken zonder creepy te kijken**
+   - *Beschrijving:* Beheers de delicate balans tussen geïnteresseerde blikken en ongemakkelijke staarmomenten tijdens verkoopgesprekken.
+   - *Studiebelastinguren:* 10 uur
+2. **Extracurriculair: Stage bij het luchtverkopersgilde**
+   - *Beschrijving:* Leer hoe je iets verkoopt dat eigenlijk niet bestaat, met praktijkoefeningen in het verkopen van luchtkastelen, abonnementen op niets.
+   - *Studiebelastinguren:* 120 uur
+3. **Regulier: Diploma master in subtiele verkoopkunst**
+   - *Beschrijving:* Dit diploma geeft jou de ultieme macht om mensen producten te laten kopen die ze nooit dachten nodig te hebben, inclusief de ‘ik koop het nu’-blik.
+   - *Studiebelastinguren:* 3000 uur
+
+#### **Afdeling: Horeca en Toerisme**
+
+##### **Opleiding: Professionele frietversnipperaar**
+1. **Microcredential: Frietje perfectie schillen**
+   - *Beschrijving:* De essentie van de perfecte frietschiltechniek, met lessen in het minimaliseren van aardappelsap en het behalen van de ideale frietdikte.
+   - *Studiebelastinguren:* 25 uur
+2. **Extracurriculair: Stage in de lokale snackbar**
+   - *Beschrijving:* Vijf weken praktijkervaring in het bedienen van frituurpannen, inclusief het instellen van de magnetron voor het perfecte broodje Bakpao, jonguh.
+   - *Studiebelastinguren:* 140 uur
+3. **Regulier: Diploma grootmeester in de frituurkunst**
+   - *Beschrijving:* De hoogste eer in de patatwereld. Dit diploma erkent jouw vaardigheden in het mengen van perfect goudbruine frieten met een ongeëvenaard gevoel voor sauskeuze.
+   - *Studiebelastinguren:* 2800 uur
 
 ### Validity
 
@@ -207,6 +270,340 @@ there are multiple resources in a single example.
 ## The Examples
 
 <!-- managed_by_embed -->
+<details>
+<summary>mbob_extracurricular_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-4B0B1A",
+    "type": [
+      "Profile"
+    ],
+    "name": "MBO Beek",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "4B0B1A",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "university.naboo",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Nachtwacht bij slaperige ouderen",
+  "credentialSubject": {
+    "id": "https://example.com/credentials/stu-A1B2C3",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-33D4E5",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "name": "Nachtwacht bij slaperige ouderen",
+      "image": {
+        "id": "https://static.example.com/watch.jpg",
+        "type": "Image"
+      },
+      "description": "Stage waarbij de student acht nachten non-stop wakker blijft om te observeren hoe ouderen proberen in slaap te vallen tijdens het bingewatchen van oude soaps.",
+      "criteria": {
+        "narrative": "De student heeft acht nachten non-stop wakker gebleven om te observeren hoe ouderen proberen in slaap te vallen."
+      },
+      "inLanguage": "nl-NL",
+      "timeInvestment": 13,
+      "participationType": "onsite or blended",
+      "assessmentType": "application of a skill",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": false,
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 3",
+          "targetCode": "3",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "7.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>mbob_microcredential_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "MBO Beek"
+  },
+  "name": "Dekbed schudden voor gevorderden",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "credentialSubject": {
+    "id": "https://example.com/students/stu-4D5E6F",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-44ABA",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "name": "",
+      "image": {
+        "id": "https://static.example.com/bed.jpg",
+        "type": "Image"
+      },
+      "description": "De kunst van het vouwen en opschudden van dekbedden tot perfectie, inclusief geheime technieken voor extra strak ingestopte lakens.",
+      "criteria": {
+        "narrative": "De student heeft de technieken voor het vouwen en opschudden van dekbedden tot perfectie onder de knie en kan deze toepassen in een realistische setting."
+      },
+      "inLanguage": "nl-NL",
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "SBU": 240
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.0"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+ 
+  ]
+}
+```
+
+</details>
+<details>
+<summary>mbob_regular_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-MBN3PQ",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/iss-4B0B1A",
+    "type": [
+      "Profile"
+    ],
+    "name": "MBO Beek",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "4B0B1A",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "edubadges.nl",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Diploma dierenfluisteraar met erecode",
+  "credentialSubject": {
+    "id": "https://example.com/credentials/crd-MBN3PQ#subject",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-77NPN",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student kan dieren verstaan en communiceren met dieren. De student heeft de erecode ondertekend en is een dierenfluisteraar."
+      },
+      "description": "Met dit diploma krijg je de officiële bevoegdheid om ruzies tussen duiven te bemiddelen op stadspleinen en in parken.",
+      "name": "Diploma dierenfluisteraar met erecode",
+      "image": {
+        "id": "https://static.example.com/whisper.jpg",
+        "type": "Image"
+      },
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Average of final exams",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "inLanguage": "nl-NL",
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "educationProgramIdentifier": 20121337,
+      "SBU": 3200,
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": true
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.8"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_sbu.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
 <details>
 <summary>theed_extracurricular_embedded_ho.json</summary>
 
@@ -480,7 +877,7 @@ there are multiple resources in a single example.
       },
       "description": "# Droid Factory Internship\n\nThis badge is awarded to students who have completed an internship at the Naboo Droid Factory. The internship is a hands-on experience where students learn how to assemble and repair droids.",
       "criteria": {
-        "narrative": "Participate in a 2-week internship at the Naboo Droid Factory.",
+        "narrative": "Participate in a 2-week internship at the Naboo Droid Factory."
       },
       "inLanguage": "en-US",
       "timeInvestment": 13,
@@ -530,10 +927,6 @@ there are multiple resources in a single example.
     },
     {
       "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
-      "type": "1EdTechJsonSchemaValidator2019"
-    },
-    {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular_mbo.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

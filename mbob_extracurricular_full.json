@@ -10,15 +10,15 @@
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "id": "https://example.com/issuers/iss-4B0B1A",
     "type": [
       "Profile"
     ],
-    "name": "Naboo Theed University",
+    "name": "MBO Beek",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
-        "identifier": "42NB",
+        "identifier": "4B0B1A",
         "identifierType": "ext:BRIN"
       },
       {
@@ -30,7 +30,7 @@
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Example Extra-Curricular Achievement",
+  "name": "Nachtwacht bij slaperige ouderen",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-A1B2C3",
     "type": [
@@ -42,16 +42,16 @@
         "Achievement",
         "EducredentialAchievement"
       ],
-      "name": "Droid Factory Internship",
+      "name": "Nachtwacht bij slaperige ouderen",
       "image": {
-        "id": "https://static.example.com/droid.jpg",
+        "id": "https://static.example.com/watch.jpg",
         "type": "Image"
       },
-      "description": "# Droid Factory Internship\n\nThis badge is awarded to students who have completed an internship at the Naboo Droid Factory. The internship is a hands-on experience where students learn how to assemble and repair droids.",
+      "description": "Stage waarbij de student acht nachten non-stop wakker blijft om te observeren hoe ouderen proberen in slaap te vallen tijdens het bingewatchen van oude soaps.",
       "criteria": {
-        "narrative": "Participate in a 2-week internship at the Naboo Droid Factory."
+        "narrative": "De student heeft acht nachten non-stop wakker gebleven om te observeren hoe ouderen proberen in slaap te vallen."
       },
-      "inLanguage": "en-US",
+      "inLanguage": "nl-NL",
       "timeInvestment": 13,
       "participationType": "onsite or blended",
       "assessmentType": "application of a skill",
