@@ -208,7 +208,7 @@ there are multiple resources in a single example.
 
 <!-- managed_by_embed -->
 <details>
-<summary>extracurricular_embedded_ho.json</summary>
+<summary>theed_extracurricular_embedded_ho.json</summary>
 
 ```json
 {
@@ -304,7 +304,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>extracurricular_full_ho.json</summary>
+<summary>theed_extracurricular_full_ho.json</summary>
 
 ```json
 {
@@ -426,7 +426,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>extracurricular_full_mbo.json</summary>
+<summary>theed_extracurricular_full_mbo.json</summary>
 
 ```json
 {
@@ -542,7 +542,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>extracurricular_minimal_ho.json</summary>
+<summary>theed_extracurricular_minimal_ho.json</summary>
 
 ```json
 {
@@ -638,7 +638,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>microcredential_embedded_ho.json</summary>
+<summary>theed_microcredential_embedded_ho.json</summary>
 
 ```json
 {
@@ -751,7 +751,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>microcredential_full_ho.json</summary>
+<summary>theed_microcredential_full_ho.json</summary>
 
 ```json
 {
@@ -865,7 +865,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>microcredential_full_mbo.json</summary>
+<summary>theed_microcredential_full_mbo.json</summary>
 
 ```json
 {
@@ -970,7 +970,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>microcredential_minimal_ho.json</summary>
+<summary>theed_microcredential_minimal_ho.json</summary>
 
 ```json
 {
@@ -1083,7 +1083,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>regular_embedded_ho.json</summary>
+<summary>theed_regular_embedded_ho.json</summary>
 
 ```json
 {
@@ -1193,7 +1193,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>regular_full_ho.json</summary>
+<summary>theed_regular_full_ho.json</summary>
 
 ```json
 {
@@ -1320,7 +1320,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>regular_full_mbo.json</summary>
+<summary>theed_regular_full_mbo.json</summary>
 
 ```json
 {
@@ -1437,7 +1437,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>regular_minimal_ho.json</summary>
+<summary>theed_regular_minimal_ho.json</summary>
 
 ```json
 {
