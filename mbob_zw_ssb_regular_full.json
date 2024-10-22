@@ -23,7 +23,7 @@
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "edubadges.nl",
+        "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
     ]
@@ -42,7 +42,6 @@
         "Achievement",
         "EducredentialAchievement"
       ],
-
       "criteria": {
         "narrative": "De student beheerst technieken om mensen snel in slaap te krijgen, en is dé expert op het gebied van slaapverwekkende verhalen."
       },
@@ -55,7 +54,6 @@
       "inLanguage": "nl-NL",
       "educationProgramIdentifier": 20121340,
       "SBU": 2000,
-
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
