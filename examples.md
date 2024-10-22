@@ -488,7 +488,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>MBO Beek - Diploma dierenfluisteraar met erecode - mbob_zw_ssb_regular_full.json</summary>
+<summary>MBO Beek - Diploma slapeloosheidsgoeroe - mbob_zw_ssb_regular_full.json</summary>
 
 ```json
 {
@@ -535,15 +535,20 @@ there are multiple resources in a single example.
         "Achievement",
         "EducredentialAchievement"
       ],
+
       "criteria": {
-        "narrative": "De student kan dieren verstaan en communiceren met dieren. De student heeft de erecode ondertekend en is een dierenfluisteraar."
+        "narrative": "De student beheerst technieken om mensen snel in slaap te krijgen, en is dé expert op het gebied van slaapverwekkende verhalen."
       },
-      "description": "Met dit diploma krijg je de officiële bevoegdheid om ruzies tussen duiven te bemiddelen op stadspleinen en in parken.",
-      "name": "Diploma dierenfluisteraar met erecode",
+      "description": "Met dit diploma mag je jezelf dé expert noemen op het gebied van slaapverwekkende verhalen en technieken om iedereen binnen 5 minuten te laten inslapen.",
+      "name": "Diploma slapeloosheidsgoeroe",
       "image": {
-        "id": "https://static.example.com/whisper.jpg",
+        "id": "https://static.example.com/slapeloosheid.jpg",
         "type": "Image"
       },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121340,
+      "SBU": 2000,
+
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -557,7 +562,6 @@ there are multiple resources in a single example.
           "resultType": "ext:ECTSGradeScore"
         }
       ],
-      "inLanguage": "nl-NL",
       "alignment": [
         {
           "type": [
@@ -569,8 +573,6 @@ there are multiple resources in a single example.
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
-      "educationProgramIdentifier": 20121337,
-      "SBU": 3200,
       "participationType": "onsite or blended",
       "assessmentType": "testing",
       "supervisionType": "onsite with identity verification",
