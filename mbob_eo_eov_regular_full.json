@@ -30,7 +30,7 @@
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Diploma slapeloosheidsgoeroe",
+  "name": "Diploma master in subtiele verkoopkunst",
   "credentialSubject": {
     "id": "https://example.com/credentials/crd-MBN3PQ#subject",
     "type": [
@@ -43,17 +43,17 @@
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "De student beheerst technieken om mensen snel in slaap te krijgen, en is dé expert op het gebied van slaapverwekkende verhalen."
+        "narrative": "De student heeft de ultieme beheersing van subtiele verkooptechnieken en kan mensen producten laten kopen die ze niet dachten nodig te hebben."
       },
-      "description": "Met dit diploma mag je jezelf dé expert noemen op het gebied van slaapverwekkende verhalen en technieken om iedereen binnen 5 minuten te laten inslapen.",
-      "name": "Diploma slapeloosheidsgoeroe",
+      "description": "Dit diploma geeft jou de ultieme macht om mensen producten te laten kopen die ze nooit dachten nodig te hebben, inclusief de ‘ik koop het nu’-blik.",
+      "name": "Diploma master in subtiele verkoopkunst",
       "image": {
-        "id": "https://static.example.com/slapeloosheid.jpg",
+        "id": "https://static.example.com/verkoopkunst.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121340,
-      "SBU": 2000,
+      "educationProgramIdentifier": 20121345,
+      "SBU": 3000,
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",

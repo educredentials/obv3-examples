@@ -4,13 +4,13 @@
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
-  "id": "http://example.com/credentials/crd-MBN3PQ",
+  "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/iss-4B0B1A",
+    "id": "https://example.com/issuers/iss-4B0B1A",
     "type": [
       "Profile"
     ],
@@ -30,30 +30,45 @@
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Diploma slapeloosheidsgoeroe",
+  "name": "Stage bij boerderijdieren in therapie",
   "credentialSubject": {
-    "id": "https://example.com/credentials/crd-MBN3PQ#subject",
+    "id": "https://example.com/credentials/stu-A1B2C3",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-77NPN",
+      "id": "https://example.com/achievements/ach-33D4E5",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "De student beheerst technieken om mensen snel in slaap te krijgen, en is dé expert op het gebied van slaapverwekkende verhalen."
+        "narrative": "De student biedt emotionele ondersteuning aan boerderijdieren onder toezicht van een therapeut boer."
       },
-      "description": "Met dit diploma mag je jezelf dé expert noemen op het gebied van slaapverwekkende verhalen en technieken om iedereen binnen 5 minuten te laten inslapen.",
-      "name": "Diploma slapeloosheidsgoeroe",
+      "description": "Onder toezicht van een therapeut boer spreek je kippen en geiten moed in tijdens hun moeilijke periodes, inclusief meditatie voor onrustige bijen.",
+      "name": "Stage bij boerderijdieren in therapie",
       "image": {
-        "id": "https://static.example.com/slapeloosheid.jpg",
+        "id": "https://static.example.com/boerderijdieren.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121340,
-      "SBU": 2000,
+      "educationProgramIdentifier": 20121342,
+      "SBU": 100,
+      "participationType": "onsite or blended",
+      "assessmentType": "application of a skill",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": false,
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 3",
+          "targetCode": "3",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -62,26 +77,11 @@
           ],
           "valueMax": "10",
           "valueMin": "1",
-          "name": "Average of final exams",
+          "name": "Final Project Grade",
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
-      ],
-      "alignment": [
-        {
-          "type": [
-            "Alignment"
-          ],
-          "targetType": "ext:EQF",
-          "targetName": "EQF level 5",
-          "targetCode": "5",
-          "targetUrl": "https://content.example.com/description-eqf-levels"
-        }
-      ],
-      "participationType": "onsite or blended",
-      "assessmentType": "testing",
-      "supervisionType": "onsite with identity verification",
-      "identityChecked": true
+      ]
     },
     "result": [
       {
@@ -89,7 +89,7 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "8.8"
+        "value": "7.5"
       }
     ]
   },
@@ -99,11 +99,7 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
-      "type": "1EdTechJsonSchemaValidator2019"
-    },
-    {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_sbu.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

@@ -272,6 +272,676 @@ there are multiple resources in a single example.
 
 <!-- managed_by_embed -->
 <details>
+<summary>MBO Beek - Extracurriculair Stage bij het luchtverkopersgilde - mbob_eo_eov_extracurricular_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-4B0B1A",
+    "type": [
+      "Profile"
+    ],
+    "name": "MBO Beek",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "4B0B1A",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "mbobeek.example.edu",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Extracurriculair Stage bij het luchtverkopersgilde",
+  "credentialSubject": {
+    "id": "https://example.com/credentials/stu-A1B2C3",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-33D4E5",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student leert de kunst van het verkopen van niet-bestaande producten en diensten."
+      },
+      "description": "Leer hoe je iets verkoopt dat eigenlijk niet bestaat, met praktijkoefeningen in het verkopen van luchtkastelen, abonnementen op niets.",
+      "name": "Extracurriculair Stage bij het luchtverkopersgilde",
+      "image": {
+        "id": "https://static.example.com/luchtkastelen.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121344,
+      "SBU": 120,
+      "participationType": "onsite or blended",
+      "assessmentType": "application of a skill",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": false,
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 3",
+          "targetCode": "3",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "7.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>MBO Beek - Microcredential Oogcontact maken zonder creepy te kijken - mbob_eo_eov_microcredential_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "MBO Beek"
+  },
+  "name": "Microcredential Oogcontact maken zonder creepy te kijken",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "credentialSubject": {
+    "id": "https://example.com/students/stu-4D5E6F",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-44ABA",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student kan oogcontact maken tijdens verkoopgesprekken zonder ongemakkelijke situaties te creëren."
+      },
+      "description": "Beheers de delicate balans tussen geïnteresseerde blikken en ongemakkelijke staarmomenten tijdens verkoopgesprekken.",
+      "name": "Microcredential Oogcontact maken zonder creepy te kijken",
+      "image": {
+        "id": "https://static.example.com/oogcontact.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121343,
+      "SBU": 240,
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.0"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>MBO Beek - Diploma master in subtiele verkoopkunst - mbob_eo_eov_regular_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-MBN3PQ",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/iss-4B0B1A",
+    "type": [
+      "Profile"
+    ],
+    "name": "MBO Beek",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "4B0B1A",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "mbobeek.example.edu",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Diploma master in subtiele verkoopkunst",
+  "credentialSubject": {
+    "id": "https://example.com/credentials/crd-MBN3PQ#subject",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-77NPN",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student heeft de ultieme beheersing van subtiele verkooptechnieken en kan mensen producten laten kopen die ze niet dachten nodig te hebben."
+      },
+      "description": "Dit diploma geeft jou de ultieme macht om mensen producten te laten kopen die ze nooit dachten nodig te hebben, inclusief de ‘ik koop het nu’-blik.",
+      "name": "Diploma master in subtiele verkoopkunst",
+      "image": {
+        "id": "https://static.example.com/verkoopkunst.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121345,
+      "SBU": 3000,
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Average of final exams",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": true
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.8"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_sbu.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>MBO Beek - Extracurriculair Stage in de lokale snackbar - mbob_ht_pf_extracurricular_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-4B0B1A",
+    "type": [
+      "Profile"
+    ],
+    "name": "MBO Beek",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "4B0B1A",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "mbobeek.example.edu",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Extracurriculair Stage in de lokale snackbar",
+  "credentialSubject": {
+    "id": "https://example.com/credentials/stu-A1B2C3",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-33D4E5",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student doet praktijkervaring op in het bereiden van snacks in een snackbaromgeving."
+      },
+      "description": "Vijf weken praktijkervaring in het bedienen van frituurpannen, inclusief het instellen van de magnetron voor het perfecte broodje Bakpao, jonguh.",
+      "name": "Extracurriculair Stage in de lokale snackbar",
+      "image": {
+        "id": "https://static.example.com/snackbar.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121347,
+      "SBU": 140,
+      "participationType": "onsite or blended",
+      "assessmentType": "application of a skill",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": false,
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 3",
+          "targetCode": "3",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "7.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>MBO Beek - Microcredential Frietje perfectie schillen - mbob_ht_pf_microcredential_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "MBO Beek"
+  },
+  "name": "Microcredential Frietje perfectie schillen",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "credentialSubject": {
+    "id": "https://example.com/students/stu-4D5E6F",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-44ABA",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student beheerst de perfecte techniek voor het schillen van friet, inclusief het verminderen van aardappelsap en het behalen van de ideale frietdikte."
+      },
+      "description": "De essentie van de perfecte frietschiltechniek, met lessen in het minimaliseren van aardappelsap en het behalen van de ideale frietdikte.",
+      "name": "Microcredential Frietje perfectie schillen",
+      "image": {
+        "id": "https://static.example.com/frietje.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121346,
+      "SBU": 240,
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.0"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>MBO Beek - Diploma grootmeester in de frituurkunst - mbob_ht_pf_regular_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-MBN3PQ",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/iss-4B0B1A",
+    "type": [
+      "Profile"
+    ],
+    "name": "MBO Beek",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "4B0B1A",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "mbobeek.example.edu",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Diploma grootmeester in de frituurkunst",
+  "credentialSubject": {
+    "id": "https://example.com/credentials/crd-MBN3PQ#subject",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-77NPN",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student is erkend als grootmeester in de kunst van het frituren, met een ongeëvenaard gevoel voor sauskeuze."
+      },
+      "description": "De hoogste eer in de patatwereld. Dit diploma erkent jouw vaardigheden in het mengen van perfect goudbruine frieten met een ongeëvenaard gevoel voor sauskeuze.",
+      "name": "Diploma grootmeester in de frituurkunst",
+      "image": {
+        "id": "https://static.example.com/frituurkunst.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121348,
+      "SBU": 2800,
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Average of final exams",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": true
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.8"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_sbu.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
 <summary>MBO Beek - Nachtwacht bij slaperige ouderen - mbob_zw_ssb_extracurricular_full.json</summary>
 
 ```json
@@ -300,7 +970,7 @@ there are multiple resources in a single example.
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "university.naboo",
+        "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
     ]
@@ -482,7 +1152,6 @@ there are multiple resources in a single example.
       "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
- 
   ]
 }
 ```
@@ -517,7 +1186,342 @@ there are multiple resources in a single example.
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "edubadges.nl",
+        "identifier": "mbobeek.example.edu",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Diploma slapeloosheidsgoeroe",
+  "credentialSubject": {
+    "id": "https://example.com/credentials/crd-MBN3PQ#subject",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-77NPN",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student beheerst technieken om mensen snel in slaap te krijgen, en is dé expert op het gebied van slaapverwekkende verhalen."
+      },
+      "description": "Met dit diploma mag je jezelf dé expert noemen op het gebied van slaapverwekkende verhalen en technieken om iedereen binnen 5 minuten te laten inslapen.",
+      "name": "Diploma slapeloosheidsgoeroe",
+      "image": {
+        "id": "https://static.example.com/slapeloosheid.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121340,
+      "SBU": 2000,
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Average of final exams",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": true
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.8"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_sbu.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>MBO Beek - Stage bij boerderijdieren in therapie - mbob_zw_td_extracurricular_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-4B0B1A",
+    "type": [
+      "Profile"
+    ],
+    "name": "MBO Beek",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "4B0B1A",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "mbobeek.example.edu",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Stage bij boerderijdieren in therapie",
+  "credentialSubject": {
+    "id": "https://example.com/credentials/stu-A1B2C3",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-33D4E5",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student biedt emotionele ondersteuning aan boerderijdieren onder toezicht van een therapeut boer."
+      },
+      "description": "Onder toezicht van een therapeut boer spreek je kippen en geiten moed in tijdens hun moeilijke periodes, inclusief meditatie voor onrustige bijen.",
+      "name": "Stage bij boerderijdieren in therapie",
+      "image": {
+        "id": "https://static.example.com/boerderijdieren.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121342,
+      "SBU": 100,
+      "participationType": "onsite or blended",
+      "assessmentType": "application of a skill",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": false,
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 3",
+          "targetCode": "3",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "7.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>MBO Beek - Basis miauw en blaf interpretatie - mbob_zw_td_microcredential_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "MBO Beek"
+  },
+  "name": "Basis miauw en blaf interpretatie",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "credentialSubject": {
+    "id": "https://example.com/students/stu-4D5E6F",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-44ABA",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student begrijpt de basis van de communicatie van katten en honden, en kan hun primaire behoeftes herkennen."
+      },
+      "description": "Leer de geheime taal van katten en honden, inclusief gevorderde technieken voor het vertalen van ‘miauw’ naar ‘ik wil eten’ en ‘woef’ naar ‘ik wil uit’.",
+      "name": "Basis miauw en blaf interpretatie",
+      "image": {
+        "id": "https://static.example.com/miauw.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121341,
+      "SBU": 240,
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.0"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>MBO Beek - Diploma dierenfluisteraar met erecode - mbob_zw_td_regular_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-MBN3PQ",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://www.edubadges.nl/public/issuers/iss-4B0B1A",
+    "type": [
+      "Profile"
+    ],
+    "name": "MBO Beek",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "4B0B1A",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
     ]
@@ -536,20 +1540,18 @@ there are multiple resources in a single example.
         "Achievement",
         "EducredentialAchievement"
       ],
-
       "criteria": {
-        "narrative": "De student beheerst technieken om mensen snel in slaap te krijgen, en is dé expert op het gebied van slaapverwekkende verhalen."
+        "narrative": "De student kan dieren verstaan en communiceren met dieren. De student heeft de erecode ondertekend en is een dierenfluisteraar."
       },
-      "description": "Met dit diploma mag je jezelf dé expert noemen op het gebied van slaapverwekkende verhalen en technieken om iedereen binnen 5 minuten te laten inslapen.",
-      "name": "Diploma slapeloosheidsgoeroe",
+      "description": "Met dit diploma krijg je de officiële bevoegdheid om ruzies tussen duiven te bemiddelen op stadspleinen en in parken.",
+      "name": "Diploma dierenfluisteraar met erecode",
       "image": {
-        "id": "https://static.example.com/slapeloosheid.jpg",
+        "id": "https://static.example.com/whisper.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121340,
-      "SBU": 2000,
-
+      "educationProgramIdentifier": 20121337,
+      "SBU": 2500,
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
