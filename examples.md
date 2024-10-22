@@ -169,9 +169,9 @@ Departments:
 * Economie en Ondernemerschap
 * Horeca en Toerisme
 
-#### **Afdeling: Zorg en Welzijn**
+#### Afdeling: Zorg en Welzijn, zw
 
-##### **Opleiding: Specialist in slapeloosheid bestrijden**
+##### Opleiding: Specialist in slapeloosheid bestrijden, ssb
 1. **Microcredential: Dekbed schikken voor gevorderden**
    - *Beschrijving:* De kunst van het vouwen en opschudden van dekbedden tot perfectie, inclusief geheime technieken voor extra strak ingestopte lakens.
    - *Studiebelastinguren:* 20 uur
@@ -182,7 +182,7 @@ Departments:
    - *Beschrijving:* Met dit diploma mag je jezelf dé expert noemen op het gebied van slaapverwekkende verhalen en technieken om iedereen binnen 5 minuten te laten inslapen.
    - *Studiebelastinguren:* 2000 uur
 
-##### **Afdeling: Therapeutisch Dierenfluisteraar**
+##### Opleiding: Therapeutisch Dierenfluisteraar, td
 1. **Microcredential: Basis miauw en blaf interpretatie**
    - *Beschrijving:* Leer de geheime taal van katten en honden, inclusief gevorderde technieken voor het vertalen van ‘miauw’ naar ‘ik wil eten’ en ‘woef’ naar ‘ik wil uit’.
    - *Studiebelastinguren:* 15 uur
@@ -193,9 +193,9 @@ Departments:
    - *Beschrijving:* Met dit diploma krijg je de officiële bevoegdheid om ruzies tussen duiven te bemiddelen op stadspleinen en in parken.
    - *Studiebelastinguren:* 2500 uur
 
-#### **Afdeling: Economie en Ondernemerschap**
+#### Afdeling: Economie en Ondernemerschap, eo
 
-##### **Opleiding: Expert in onzichtbare verkooptechnieken**
+##### Opleiding: Expert in onzichtbare verkooptechnieken, eov
 1. **Microcredential: Oogcontact maken zonder creepy te kijken**
    - *Beschrijving:* Beheers de delicate balans tussen geïnteresseerde blikken en ongemakkelijke staarmomenten tijdens verkoopgesprekken.
    - *Studiebelastinguren:* 10 uur
@@ -206,9 +206,9 @@ Departments:
    - *Beschrijving:* Dit diploma geeft jou de ultieme macht om mensen producten te laten kopen die ze nooit dachten nodig te hebben, inclusief de ‘ik koop het nu’-blik.
    - *Studiebelastinguren:* 3000 uur
 
-#### **Afdeling: Horeca en Toerisme**
+#### Afdeling: Horeca en Toerisme, ht
 
-##### **Opleiding: Professionele frietversnipperaar**
+##### Opleiding: Professionele frietversnipperaar, pf
 1. **Microcredential: Frietje perfectie schillen**
    - *Beschrijving:* De essentie van de perfecte frietschiltechniek, met lessen in het minimaliseren van aardappelsap en het behalen van de ideale frietdikte.
    - *Studiebelastinguren:* 25 uur
