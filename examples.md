@@ -23,6 +23,7 @@ These examples can be used to test the capabilities of various wallets.
 - What do we want to use as identifiers: did, did:web, URL?
 - What do we want to do with multilingualism? One option can be found in the [1EdTech Localization Framework](https://www.imsglobal.org/spec/l12n-framework/v1p0), but it is still in early preview. Alternatives include choosing a language when issuing a credential; the user may then have a credential per language. Another option is to use custom extensions for this, with the risk of deviating too far from the standard.
 - What info/metadata should be included in the "quality framework" for MBO? For HO, we have the ECTSGradeScore. Is it different for MBO?
+- Do we want to differentiate the top level, optional `.name`, with the nested, required `.credentialSubject.achievement.name`? If so, what would the difference be? Do we want the top level `.name` at all?
 
 ## Assumptions and Choices
 
