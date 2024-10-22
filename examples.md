@@ -271,7 +271,7 @@ there are multiple resources in a single example.
 
 <!-- managed_by_embed -->
 <details>
-<summary>MBO Beek - Nachtwacht bij slaperige ouderen - mbob_extracurricular_full.json</summary>
+<summary>MBO Beek - Nachtwacht bij slaperige ouderen - mbob_zw_ssb_extracurricular_full.json</summary>
 
 ```json
 {
@@ -383,7 +383,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>MBO Beek - Dekbed schudden voor gevorderden - mbob_microcredential_full.json</summary>
+<summary>MBO Beek - Dekbed schudden voor gevorderden - mbob_zw_ssb_microcredential_full.json</summary>
 
 ```json
 {
@@ -488,7 +488,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>MBO Beek - Diploma dierenfluisteraar met erecode - mbob_regular_full.json</summary>
+<summary>MBO Beek - Diploma dierenfluisteraar met erecode - mbob_zw_ssb_regular_full.json</summary>
 
 ```json
 {
