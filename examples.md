@@ -268,6 +268,29 @@ Ids are in the form of a URL. They use https and the following structure:
 In the examples we will use the first always, except for the rare cases when we must convey that
 there are multiple resources in a single example.
 
+## Indexes
+
+In `./indexes/` we provide some JSON files that act as lists of example
+credentials, lists of institutions and lists of departments. All these are
+formatted as [JSON:API 1.1 resources](https://jsonapi.org/).
+
+There is no backend, so no filtering, sorting, mimetype negotiation or Create,
+Update and Delete support.
+
+```
+indexes
+├── departments
+│  ├── eo
+│  │  └── courses.json
+│  ├── ht
+│  │  └── courses.json
+│  └── zw
+├── institutes
+│  └── 4B0B1A
+│     └── departments.json
+└── institutes.json
+```
+
 ## The Examples
 
 <!-- managed_by_embed -->
