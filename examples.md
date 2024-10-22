@@ -1163,7 +1163,19 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": "Naboo Theed University"
+    "name": "Naboo Theed University",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "42NB",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "university.naboo",
+        "identifierType": "name"
+      }
+    ]
   },
   "name": "Example Microcredential",
   "validFrom": "2024-08-30T00:00:00Z",
@@ -1476,7 +1488,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary> SURF - Team edubadges - The Force and Its Applications - theed_regular_embedded_ho.json</summary>
+<summary>Naboo Theed University - The Force and Its Applications - theed_regular_embedded_ho.json</summary>
 
 ```json
 {
@@ -1491,11 +1503,23 @@ there are multiple resources in a single example.
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
     "type": [
       "Profile"
     ],
-    "name": " SURF - Team edubadges"
+    "name": "Naboo Theed University",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "42NB",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "university.naboo",
+        "identifierType": "name"
+      }
+    ]
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "name": "The Force and Its Applications",
@@ -1586,7 +1610,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>SURF - Team edubadges - The Force and Its Applications - theed_regular_full_ho.json</summary>
+<summary>Naboo Theed University - The Force and Its Applications - theed_regular_full_ho.json</summary>
 
 ```json
 {
@@ -1601,20 +1625,20 @@ there are multiple resources in a single example.
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
     "type": [
       "Profile"
     ],
-    "name": "SURF - Team edubadges",
+    "name": "Naboo Theed University",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
-        "identifier": "42EB",
+        "identifier": "42NB",
         "identifierType": "ext:BRIN"
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "edubadges.nl",
+        "identifier": "university.naboo",
         "identifierType": "name"
       }
     ]
@@ -1713,7 +1737,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>SURF - Team edubadges - Pod Tuning and Boosting - theed_regular_full_mbo.json</summary>
+<summary>Naboo Theed University - Pod Tuning and Boosting - theed_regular_full_mbo.json</summary>
 
 ```json
 {
@@ -1732,16 +1756,16 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": "SURF - Team edubadges",
+    "name": "Naboo Theed University",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
-        "identifier": "42EB",
+        "identifier": "42NB",
         "identifierType": "ext:BRIN"
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "edubadges.nl",
+        "identifier": "university.naboo",
         "identifierType": "name"
       }
     ]
@@ -1830,7 +1854,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>SURF - Team edubadges - The Force and Its Applications - theed_regular_minimal_ho.json</summary>
+<summary>Naboo Theed University - The Force and Its Applications - theed_regular_minimal_ho.json</summary>
 
 ```json
 {
@@ -1845,20 +1869,20 @@ there are multiple resources in a single example.
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
     "type": [
       "Profile"
     ],
-    "name": "SURF - Team edubadges",
+    "name": "Naboo Theed University",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
-        "identifier": "42EB",
+        "identifier": "42NB",
         "identifierType": "ext:BRIN"
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "edubadges.nl",
+        "identifier": "university.naboo",
         "identifierType": "name"
       }
     ]

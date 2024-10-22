@@ -10,20 +10,20 @@
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
     "type": [
       "Profile"
     ],
-    "name": "SURF - Team edubadges",
+    "name": "Naboo Theed University",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
-        "identifier": "42EB",
+        "identifier": "42NB",
         "identifierType": "ext:BRIN"
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "edubadges.nl",
+        "identifier": "university.naboo",
         "identifierType": "name"
       }
     ]
