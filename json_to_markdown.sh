@@ -12,10 +12,16 @@ for json_file in "$@"; do
     # Read the content of the JSON file
     json_file_content=$(cat "$json_file")
 
+    # Extract the name from the JSON file. Use the name inside the achievement object
+    # not the top level name. The latter is optional, the former is required.
+    name=$(jq -r '.credentialSubject.achievement.name' "$json_file")
+
+    # Extract institute name from the JSON file. Use the name inside the issuer
+    institute=$(jq -r '.issuer.name' "$json_file")
 
     # Print the templated html to the console
     echo "<details>"
-    echo "<summary>$json_file_name</summary>"
+    echo "<summary>$institute - $name - $json_file_name</summary>"
     echo ""
     echo "\`\`\`json"
     echo "$json_file_content"

@@ -271,7 +271,7 @@ there are multiple resources in a single example.
 
 <!-- managed_by_embed -->
 <details>
-<summary>mbob_extracurricular_full.json</summary>
+<summary>MBO Beek - Nachtwacht bij slaperige ouderen - mbob_extracurricular_full.json</summary>
 
 ```json
 {
@@ -383,7 +383,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>mbob_microcredential_full.json</summary>
+<summary>MBO Beek - Dekbed schudden voor gevorderden - mbob_microcredential_full.json</summary>
 
 ```json
 {
@@ -418,7 +418,7 @@ there are multiple resources in a single example.
         "Achievement",
         "EducredentialAchievement"
       ],
-      "name": "",
+      "name": "Dekbed schudden voor gevorderden",
       "image": {
         "id": "https://static.example.com/bed.jpg",
         "type": "Image"
@@ -488,7 +488,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>mbob_regular_full.json</summary>
+<summary>MBO Beek - Diploma dierenfluisteraar met erecode - mbob_regular_full.json</summary>
 
 ```json
 {
@@ -605,7 +605,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>theed_extracurricular_embedded_ho.json</summary>
+<summary>Naboo Theed University - Lightsaber Dueling Techniques - theed_extracurricular_embedded_ho.json</summary>
 
 ```json
 {
@@ -701,7 +701,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>theed_extracurricular_full_ho.json</summary>
+<summary>Naboo Theed University - Lightsaber Dueling Techniques - theed_extracurricular_full_ho.json</summary>
 
 ```json
 {
@@ -823,7 +823,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>theed_extracurricular_full_mbo.json</summary>
+<summary>Naboo Theed University - Droid Factory Internship - theed_extracurricular_full_mbo.json</summary>
 
 ```json
 {
@@ -935,7 +935,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>theed_extracurricular_minimal_ho.json</summary>
+<summary>Naboo Theed University - Lightsaber Dueling Techniques - theed_extracurricular_minimal_ho.json</summary>
 
 ```json
 {
@@ -1031,7 +1031,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>theed_microcredential_embedded_ho.json</summary>
+<summary>Naboo Theed University - Minor: Jedi Mind Control and Advanced Meditation Practices - theed_microcredential_embedded_ho.json</summary>
 
 ```json
 {
@@ -1144,7 +1144,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>theed_microcredential_full_ho.json</summary>
+<summary>Naboo Theed University - Minor: Jedi Mind Control and Advanced Meditation Practices - theed_microcredential_full_ho.json</summary>
 
 ```json
 {
@@ -1258,7 +1258,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>theed_microcredential_full_mbo.json</summary>
+<summary>Naboo Theed University - Droid Maintenance and Repair - theed_microcredential_full_mbo.json</summary>
 
 ```json
 {
@@ -1363,7 +1363,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>theed_microcredential_minimal_ho.json</summary>
+<summary>Naboo Theed University - Minor: Jedi Mind Control and Advanced Meditation Practices - theed_microcredential_minimal_ho.json</summary>
 
 ```json
 {
@@ -1476,7 +1476,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>theed_regular_embedded_ho.json</summary>
+<summary> SURF - Team edubadges - The Force and Its Applications - theed_regular_embedded_ho.json</summary>
 
 ```json
 {
@@ -1586,7 +1586,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>theed_regular_full_ho.json</summary>
+<summary>SURF - Team edubadges - The Force and Its Applications - theed_regular_full_ho.json</summary>
 
 ```json
 {
@@ -1713,7 +1713,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>theed_regular_full_mbo.json</summary>
+<summary>SURF - Team edubadges - Pod Tuning and Boosting - theed_regular_full_mbo.json</summary>
 
 ```json
 {
@@ -1830,7 +1830,7 @@ there are multiple resources in a single example.
 
 </details>
 <details>
-<summary>theed_regular_minimal_ho.json</summary>
+<summary>SURF - Team edubadges - The Force and Its Applications - theed_regular_minimal_ho.json</summary>
 
 ```json
 {
