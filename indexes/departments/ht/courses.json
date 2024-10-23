@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": "pf",
+      "type": "course",
+      "attributes": {
+        "name": "Professioneel Frietversnipperaar"
+      },
+      "relationships": {
+        "department": {
+          "links": {
+            "self": "/api/courses/ht/relationships/department",
+            "related": "/api/courses/ht/department"
+          }
+        }
+      },
+      "links": {
+        "self": "/api/courses/pf"
+      }
+    }
+  ]
+}

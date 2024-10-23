@@ -1,76 +1,22 @@
 {
-  "data": [{
-    "id": "eov",
-    "type": "course",
-    "attributes": {
-      "name": "Expert in onzichtbare verkooptechnieken",
-    },
-    "relationships": {
-      "department": {
-        "links": {
-          "self": "/courses/eov/relationships/department",
-          "related": "/courses/eov/department"
+  "data": [
+    {
+      "id": "eov",
+      "type": "course",
+      "attributes": {
+        "name": "Expert in onzichtbare verkooptechnieken"
+      },
+      "relationships": {
+        "department": {
+          "links": {
+            "self": "/api/courses/eov/relationships/department",
+            "related": "/api/courses/eov/department"
+          }
         }
+      },
+      "links": {
+        "self": "/api/courses/eov"
       }
-    },
-    "links": {
-      "self": "/courses/eov"
     }
-  },
-  {
-    "id": "ssb",
-    "type": "course",
-    "attributes": {
-      "name": "Specialist in slapeloosheid bestrijden"
-    },
-    "relationships": {
-      "department": {
-        "links": {
-          "self": "/courses/ssb/relationships/department",
-          "related": "/courses/ssb/department"
-        }
-      }
-    },
-    "links": {
-      "self": "/courses/ssb"
-    }
-  },
-  {
-    "id": "td",
-    "type": "course",
-    "attributes": {
-      "name": "Therapeutisch Dierenfluisteraar"
-    },
-    "relationships": {
-      "department": {
-        "links": {
-          "self": "/courses/td/relationships/department",
-          "related": "/courses/td/department"
-        }
-      }
-    },
-    "links": {
-      "self": "/courses/td"
-    }
-  },
-  {
-    "id": "pf",
-    "type": "course",
-    "attributes": {
-      "name": "Professioneel Frietversnipperaar"
-    },
-    "relationships": {
-      "department": {
-        "links": {
-          "self": "/courses/ht/relationships/department",
-          "related": "/courses/ht/department"
-        }
-      }
-    },
-    "links": {
-      "self": "/courses/pf"
-    }
-  }]
+  ]
 }
-
-
