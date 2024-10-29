@@ -3,8 +3,6 @@ source "https://rubygems.org"
 # This manages the jekyll depedency
 gem "github-pages", "~> 232", group: :jekyll_plugins
 
-gem "minima", "~> 2.5"
-
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
