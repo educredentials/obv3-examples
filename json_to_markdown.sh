@@ -20,7 +20,7 @@ for json_file in "$@"; do
     institute=$(jq -r '.issuer.name' "$json_file")
 
     # Print the templated html to the console
-    echo "<details>"
+    echo "<details markdown=\"1\">"
     echo "<summary>$institute - $name - $json_file_name</summary>"
     echo ""
     echo "\`\`\`json"
