@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": "tvhh",
+      "type": "user",
+      "attributes": {
+        "name": "Transmutatie van Huisdieren in Huishoudobjecten"
+      },
+      "relationships": {
+        "department": {
+          "links": {
+            "self": "/api/courses/tvhh/relationships/department",
+            "related": "/api/courses/tvhh/department"
+          }
+        }
+      }
+    }
+  ]
+}

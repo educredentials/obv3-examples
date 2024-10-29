@@ -3003,4 +3003,771 @@ indexes
 ```
 
 </details>
+<details>
+<summary>Universiteit van Harderwijk - Microcredential Basisomzetting Kat naar Koffiezetapparaat - uvh_at_microcredential_full_1.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "Universiteit van Harderwijk",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "UN1VH",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "uvh.example.com",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "name": "Microcredential Basisomzetting Kat naar Koffiezetapparaat",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "credentialSubject": {
+    "id": "https://example.com/students/stu-7Z6X5W",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-876543",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student heeft de eerste stap van transmutatie afgerond, waarbij katten zonder blijvende schade worden omgezet in keukenapparatuur."
+      },
+      "description": "De student heeft met succes de eerste stap in transmutatie afgerond, waarbij katten zonder blijvende schade worden omgezet in keukenapparatuur.",
+      "name": "Microcredential Basisomzetting Kat naar Koffiezetapparaat",
+      "image": {
+        "id": "https://static.example.com/kat-koffiezet.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121350,
+      "ECTS": 3.0,
+
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "W Practische toepassing van animale transmutatie",
+          "targetDescription": "Accreditatie van de opleiding door de Wijze Raad van de Magiërs",
+          "targetCode": "AV-7381",
+          "targetUrl": "https://data.example.com/decisions/AV-7381"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>Universiteit van Harderwijk - Microcredential Terugverandering zonder Wroeging - uvh_at_microcredential_full_2.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "Universiteit van Harderwijk",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "UN1VH",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "uvh.example.com",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "name": "Microcredential Terugverandering zonder vroeging",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "credentialSubject": {
+    "id": "https://example.com/students/stu-7Z6X5W",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-9Y8X7W",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student kan experimenten veilig terugdraaien zonder schuldgevoel of blijvende psychologische schade aan huisdier of eigenaar."
+      },
+      "description": "Na deze module kan de student veilig experimenten terugdraaien zonder schuldgevoel of blijvende psychologische schade aan huisdier of eigenaar.",
+      "name": "Microcredential Terugverandering zonder Wroeging",
+      "image": {
+        "id": "https://static.example.com/terugverandering.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121351,
+      "ECTS": 3.5,
+
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "W Practische toepassing van animale transmutatie",
+          "targetDescription": "Accreditatie van de opleiding door de Wijze Raad van de Magiërs",
+          "targetCode": "AV-7381",
+          "targetUrl": "https://data.example.com/decisions/AV-7381"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>Universiteit van Harderwijk - Diploma Grootmeester Huisdier-Transmutator - uvh_at_regular_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-D4E5F6",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-UN1VH",
+    "type": [
+      "Profile"
+    ],
+    "name": "Universiteit van Harderwijk",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "UN1VH",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "uvh.example.com",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Diploma Grootmeester Huisdier-transmutatie",
+  "credentialSubject": {
+    "id": "https://example.com/subjects/sub-8A3B6C",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-77NPN",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student beheerst alle geheimen van transmutatie en kan zonder problemen een konijn in een koffiemachine veranderen en weer terug."
+      },
+      "description": "Dit diploma bevestigt dat de student alle geheimen van transmutatie beheerst en zonder probleem een konijn in een koffiemachine kan veranderen (en weer terug, als het goed is).",
+      "name": "Diploma Grootmeester Huisdier-Transmutator",
+      "image": {
+        "id": "https://static.example.com/huisdier-transmutatie.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121349,
+      "ECTS": 180,
+
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "W Practische toepassing van animale transmutatie",
+          "targetDescription": "Accreditatie van de opleiding door de Wijze Raad van de Magiërs",
+          "targetCode": "AV-7381",
+          "targetUrl": "https://data.example.com/decisions/AV-7381"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+
+      "participationType": "online",
+      "assessmentType": "testing",
+      "supervisionType": "supervised online",
+      "identityChecked": true
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-D4E5F6",
+        "value": "8.0"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_ects.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>Universiteit van Harderwijk - Extracurriculair Stage bij Het Ministerie van Onnodige Zaken - uvh_fvhz_extracurricular_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "Universiteit van Harderwijk",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "UN1VH",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "uvh.example.com",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Extracurricular Stage bij Het Ministerie van Onnodige Zaken",
+  "credentialSubject": {
+    "id": "https://example.com/credentials/stu-1A2B3C",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-8Y7X6Z",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+
+      "criteria": {
+        "narrative": "De student voltooide een stage bij een overheidsinstelling die zich richt op beleid dat nergens over gaat."
+      },
+      "description": "Certificaat voor het succesvol voltooien van een stage bij een overheidsinstelling die zich richt op beleid dat nergens over gaat. Student heeft regelgeving rondom het gebruik van papieren hoedjes op dinsdagen geevalueerd en een adviesrapport geschreven.",
+      "name": "Extracurriculair Stage bij Het Ministerie van Onnodige Zaken",
+      "image": {
+        "id": "https://static.example.com/onnodige-zaken.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121353,
+      "timeInvestment": 200,
+
+      "participationType": "onsite or blended",
+      "assessmentType": "application of a skill",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": false,
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "W Stageaccreditatie en rapportbeoordeling",
+          "targetDescription": "Accreditatie en beoordeling van stages en stagerapporten",
+          "targetCode": "AV-5337",
+          "targetUrl": "https://data.example.com/decisions/AV-5337"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 3",
+          "targetCode": "3",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "7.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>Universiteit van Harderwijk - Microcredential Argumenteren over Onzinnige Zaken - uvh_fvhz_microcredential_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-A1B2C3",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "Universiteit van Harderwijk",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "UN1VH",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "uvh.example.com",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "name": "Microcredential Argumenteren over Onzinnige Zaken",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "credentialSubject": {
+    "id": "https://example.com/students/stu-4D5E6F",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-12A34B",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+
+        "narrative": "De student kan urenlang doorpraten over onderwerpen die niemand interesseren, zoals de perfecte afschuining van een pizzapunt."
+      },
+      "description": "Deze microcredential erkent de vaardigheid om urenlang door te praten over onderwerpen die niemand boeien, zoals de perfecte afschuining van een pizzapunt.",
+      "name": "Microcredential Argumenteren over Onzinnige Zaken",
+      "image": {
+        "id": "https://static.example.com/onzinnige-zaken.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121354,
+      "ECTS": 4.5,
+
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "M Psychological Assessment",
+          "targetDescription": "Toets nieuwe opleiding\n**WO-minor**\n Psychologische Assessment",
+          "targetCode": "AV-4223",
+          "targetUrl": "https://data.example.com/decisions/AV-4223"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ]
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.5"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
+<details>
+<summary>Universiteit van Harderwijk - Diploma Meester in het Zinloze Denken - uvh_fvhz_regular_full.json</summary>
+
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-D4E5F6",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "type": [
+      "Profile"
+    ],
+    "name": "Universiteit van Harderwijk",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "UN1VH",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "uvh.example.com",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Diploma Meester in het Zinloze Denken",
+  "credentialSubject": {
+    "id": "https://example.com/credentials/stu-1A2B3C",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-756AB",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student is een expert geworden in het bedenken van argumenten die geen praktisch nut hebben, zoals filosoferen over de levensduur van een stoplicht."
+      },
+      "description": "Het officiële diploma voor studenten die expert zijn geworden in het bedenken van argumenten die totaal geen praktisch nut hebben, inclusief het filosoferen over de levensduur van een stoplicht.",
+      "name": "Diploma Meester in het Zinloze Denken",
+      "image": {
+        "id": "https://static.example.com/zinloos-denken.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121352,
+      "ECTS": 60.0,
+
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "M Philosophy of Science, Technology and Society",
+          "targetDescription": "Accreditatie bestaande opleiding",
+          "targetCode": "AV-2391",
+          "targetUrl": "https://data.example.com/decisions/AV-2391"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "online",
+      "assessmentType": "testing",
+      "supervisionType": "supervised online",
+      "identityChecked": true
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-D4E5F6",
+        "value": "8.0"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_ects.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
+```
+
+</details>
 <!-- /managed_by_embed -->

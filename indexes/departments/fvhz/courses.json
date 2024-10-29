@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": "fvhslwz",
+      "type": "user",
+      "attributes": {
+        "name": "Filosofie van het spijkers op laag water zoeken"
+      },
+      "relationships": {
+        "department": {
+          "links": {
+            "self": "/api/courses/fvhslwz/relationships/department",
+            "related": "/api/courses/fvhslwz/department"
+          }
+        }
+      }
+    }
+  ]
+}

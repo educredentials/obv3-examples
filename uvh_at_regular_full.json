@@ -1,0 +1,122 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
+    "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
+  ],
+  "id": "http://example.com/credentials/crd-D4E5F6",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "https://example.com/issuers/iss-UN1VH",
+    "type": [
+      "Profile"
+    ],
+    "name": "Universiteit van Harderwijk",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "UN1VH",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "uvh.example.com",
+        "identifierType": "name"
+      }
+    ]
+  },
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
+  "name": "Diploma Grootmeester Huisdier-transmutatie",
+  "credentialSubject": {
+    "id": "https://example.com/subjects/sub-8A3B6C",
+    "type": [
+      "AchievementSubject"
+    ],
+    "achievement": {
+      "id": "https://example.com/achievements/ach-77NPN",
+      "type": [
+        "Achievement",
+        "EducredentialAchievement"
+      ],
+      "criteria": {
+        "narrative": "De student beheerst alle geheimen van transmutatie en kan zonder problemen een konijn in een koffiemachine veranderen en weer terug."
+      },
+      "description": "Dit diploma bevestigt dat de student alle geheimen van transmutatie beheerst en zonder probleem een konijn in een koffiemachine kan veranderen (en weer terug, als het goed is).",
+      "name": "Diploma Grootmeester Huisdier-Transmutator",
+      "image": {
+        "id": "https://static.example.com/huisdier-transmutatie.jpg",
+        "type": "Image"
+      },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121349,
+      "ECTS": 180,
+
+      "resultDescription": [
+        {
+          "id": "https://example.com/results/ects-nl-NL-A1B2C3",
+          "type": [
+            "ResultDescription"
+          ],
+          "valueMax": "10",
+          "valueMin": "1",
+          "name": "Final Project Grade",
+          "requiredValue": "6",
+          "resultType": "ext:ECTSGradeScore"
+        }
+      ],
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "W Practische toepassing van animale transmutatie",
+          "targetDescription": "Accreditatie van de opleiding door de Wijze Raad van de Magiërs",
+          "targetCode": "AV-7381",
+          "targetUrl": "https://data.example.com/decisions/AV-7381"
+        },
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+
+      "participationType": "online",
+      "assessmentType": "testing",
+      "supervisionType": "supervised online",
+      "identityChecked": true
+    },
+    "result": [
+      {
+        "type": [
+          "Result"
+        ],
+        "resultDescription": "https://example.com/results/ects-nl-NL-D4E5F6",
+        "value": "8.0"
+      }
+    ]
+  },
+  "credentialSchema": [
+    {
+      "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_ects.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    }
+  ]
+}
