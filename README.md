@@ -43,15 +43,3 @@ These files are downloaded and committed to the repo, so might get outdated.
 It uses [boon](https://github.com/santhosh-tekuri/boon) which we compile in a [private docker image educredentials/boon](https://github.com/educredentials/obv3-examples/pkgs/container/boon)
 
 You can run this image locally too. 
-
-# TODOs
-
-- [x] Determine if we want to port `LearningOutcome` to `Result`/`resultDescription`. See Edubadges-Report-10.0.pdf p23
-- [ ] Determine how to handle a `creator` if at all. See Edubadges-Report-10.0.pdf p21,p27,p31
-- [x] find out of the credentialSubject.id is the same as the top-level id?
-- [x] Language Extension adds a name that's ambigous and is a primitive in OBv3. rename it? re-use an obv3 attribute?
-- [x] Identity Field: how is that done in OBv2? Can we re-use an OBv3 concept for this?
-- [ ] Fetch contexts from https://wiki.surfnet.nl/display/Edubadges/Specificatie+Metadatamodel+Edubadges and import as contexts in this project.
-- [ ] Put on backlog: Add specific @context that describes our custom rules for obv3 badges, requiring additional fields for example.
-- [ ] set up docker-compose to run this make/test easier, without having to fetch or install deps
-- [ ] Investigate if we want explicit validation in schema for EQF level aligment. Now we merely require *an* alignment, not specfically an ext:EQF alignment. We could enforce spec types and values in the schema?
