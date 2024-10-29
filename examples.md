@@ -298,6 +298,8 @@ indexes
 <details markdown="1">
 <summary>MBO Beek - Extracurriculair Stage bij het luchtverkopersgilde - mbob_eo_eov_extracurricular_full.json</summary>
 
+<a href="mbob_eo_eov_extracurricular_full.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -411,6 +413,8 @@ indexes
 <details markdown="1">
 <summary>MBO Beek - Microcredential Oogcontact maken zonder creepy te kijken - mbob_eo_eov_microcredential_full.json</summary>
 
+<a href="mbob_eo_eov_microcredential_full.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -515,6 +519,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>MBO Beek - Diploma master in subtiele verkoopkunst - mbob_eo_eov_regular_full.json</summary>
+
+<a href="mbob_eo_eov_regular_full.json">📥 Download JSON</a>
 
 ```json
 {
@@ -633,6 +639,8 @@ indexes
 <details markdown="1">
 <summary>MBO Beek - Extracurriculair Stage in de lokale snackbar - mbob_ht_pf_extracurricular_full.json</summary>
 
+<a href="mbob_ht_pf_extracurricular_full.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -746,6 +754,8 @@ indexes
 <details markdown="1">
 <summary>MBO Beek - Microcredential Frietje perfectie schillen - mbob_ht_pf_microcredential_full.json</summary>
 
+<a href="mbob_ht_pf_microcredential_full.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -850,6 +860,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>MBO Beek - Diploma grootmeester in de frituurkunst - mbob_ht_pf_regular_full.json</summary>
+
+<a href="mbob_ht_pf_regular_full.json">📥 Download JSON</a>
 
 ```json
 {
@@ -968,6 +980,8 @@ indexes
 <details markdown="1">
 <summary>MBO Beek - Nachtwacht bij slaperige ouderen - mbob_zw_ssb_extracurricular_full.json</summary>
 
+<a href="mbob_zw_ssb_extracurricular_full.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -1080,6 +1094,8 @@ indexes
 <details markdown="1">
 <summary>MBO Beek - Dekbed schudden voor gevorderden - mbob_zw_ssb_microcredential_full.json</summary>
 
+<a href="mbob_zw_ssb_microcredential_full.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -1183,6 +1199,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>MBO Beek - Diploma slapeloosheidsgoeroe - mbob_zw_ssb_regular_full.json</summary>
+
+<a href="mbob_zw_ssb_regular_full.json">📥 Download JSON</a>
 
 ```json
 {
@@ -1301,6 +1319,8 @@ indexes
 <details markdown="1">
 <summary>MBO Beek - Stage bij boerderijdieren in therapie - mbob_zw_td_extracurricular_full.json</summary>
 
+<a href="mbob_zw_td_extracurricular_full.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -1414,6 +1434,8 @@ indexes
 <details markdown="1">
 <summary>MBO Beek - Basis miauw en blaf interpretatie - mbob_zw_td_microcredential_full.json</summary>
 
+<a href="mbob_zw_td_microcredential_full.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -1518,6 +1540,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>MBO Beek - Diploma dierenfluisteraar met erecode - mbob_zw_td_regular_full.json</summary>
+
+<a href="mbob_zw_td_regular_full.json">📥 Download JSON</a>
 
 ```json
 {
@@ -1636,6 +1660,8 @@ indexes
 <details markdown="1">
 <summary>Naboo Theed University - Lightsaber Dueling Techniques - theed_extracurricular_embedded_ho.json</summary>
 
+<a href="theed_extracurricular_embedded_ho.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -1731,6 +1757,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>Naboo Theed University - Lightsaber Dueling Techniques - theed_extracurricular_full_ho.json</summary>
+
+<a href="theed_extracurricular_full_ho.json">📥 Download JSON</a>
 
 ```json
 {
@@ -1854,6 +1882,8 @@ indexes
 <details markdown="1">
 <summary>Naboo Theed University - Droid Factory Internship - theed_extracurricular_full_mbo.json</summary>
 
+<a href="theed_extracurricular_full_mbo.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -1966,6 +1996,8 @@ indexes
 <details markdown="1">
 <summary>Naboo Theed University - Lightsaber Dueling Techniques - theed_extracurricular_minimal_ho.json</summary>
 
+<a href="theed_extracurricular_minimal_ho.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -2061,6 +2093,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>Naboo Theed University - Minor: Jedi Mind Control and Advanced Meditation Practices - theed_microcredential_embedded_ho.json</summary>
+
+<a href="theed_microcredential_embedded_ho.json">📥 Download JSON</a>
 
 ```json
 {
@@ -2174,6 +2208,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>Naboo Theed University - Minor: Jedi Mind Control and Advanced Meditation Practices - theed_microcredential_full_ho.json</summary>
+
+<a href="theed_microcredential_full_ho.json">📥 Download JSON</a>
 
 ```json
 {
@@ -2301,6 +2337,8 @@ indexes
 <details markdown="1">
 <summary>Naboo Theed University - Droid Maintenance and Repair - theed_microcredential_full_mbo.json</summary>
 
+<a href="theed_microcredential_full_mbo.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -2405,6 +2443,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>Naboo Theed University - Minor: Jedi Mind Control and Advanced Meditation Practices - theed_microcredential_minimal_ho.json</summary>
+
+<a href="theed_microcredential_minimal_ho.json">📥 Download JSON</a>
 
 ```json
 {
@@ -2518,6 +2558,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>Naboo Theed University - The Force and Its Applications - theed_regular_embedded_ho.json</summary>
+
+<a href="theed_regular_embedded_ho.json">📥 Download JSON</a>
 
 ```json
 {
@@ -2640,6 +2682,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>Naboo Theed University - The Force and Its Applications - theed_regular_full_ho.json</summary>
+
+<a href="theed_regular_full_ho.json">📥 Download JSON</a>
 
 ```json
 {
@@ -2768,6 +2812,8 @@ indexes
 <details markdown="1">
 <summary>Naboo Theed University - Pod Tuning and Boosting - theed_regular_full_mbo.json</summary>
 
+<a href="theed_regular_full_mbo.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -2884,6 +2930,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>Naboo Theed University - The Force and Its Applications - theed_regular_minimal_ho.json</summary>
+
+<a href="theed_regular_minimal_ho.json">📥 Download JSON</a>
 
 ```json
 {
@@ -3006,6 +3054,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>Universiteit van Harderwijk - Microcredential Basisomzetting Kat naar Koffiezetapparaat - uvh_at_microcredential_full_1.json</summary>
+
+<a href="uvh_at_microcredential_full_1.json">📥 Download JSON</a>
 
 ```json
 {
@@ -3135,6 +3185,8 @@ indexes
 <details markdown="1">
 <summary>Universiteit van Harderwijk - Microcredential Terugverandering zonder Wroeging - uvh_at_microcredential_full_2.json</summary>
 
+<a href="uvh_at_microcredential_full_2.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -3262,6 +3314,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>Universiteit van Harderwijk - Diploma Grootmeester Huisdier-Transmutator - uvh_at_regular_full.json</summary>
+
+<a href="uvh_at_regular_full.json">📥 Download JSON</a>
 
 ```json
 {
@@ -3392,6 +3446,8 @@ indexes
 <details markdown="1">
 <summary>Universiteit van Harderwijk - Extracurriculair Stage bij Het Ministerie van Onnodige Zaken - uvh_fvhz_extracurricular_full.json</summary>
 
+<a href="uvh_fvhz_extracurricular_full.json">📥 Download JSON</a>
+
 ```json
 {
   "@context": [
@@ -3516,6 +3572,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>Universiteit van Harderwijk - Microcredential Argumenteren over Onzinnige Zaken - uvh_fvhz_microcredential_full.json</summary>
+
+<a href="uvh_fvhz_microcredential_full.json">📥 Download JSON</a>
 
 ```json
 {
@@ -3645,6 +3703,8 @@ indexes
 </details>
 <details markdown="1">
 <summary>Universiteit van Harderwijk - Diploma Meester in het Zinloze Denken - uvh_fvhz_regular_full.json</summary>
+
+<a href="uvh_fvhz_regular_full.json">📥 Download JSON</a>
 
 ```json
 {

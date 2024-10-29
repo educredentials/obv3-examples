@@ -23,6 +23,8 @@ for json_file in "$@"; do
     echo "<details markdown=\"1\">"
     echo "<summary>$institute - $name - $json_file_name</summary>"
     echo ""
+    echo "<a href=\"$json_file\">📥 Download JSON</a>"
+    echo ""
     echo "\`\`\`json"
     echo "$json_file_content"
     echo "\`\`\`"
