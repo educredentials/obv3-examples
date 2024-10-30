@@ -315,16 +315,25 @@ Update and Delete support.
 ```
 indexes
 ├── departments
+│  ├── at
+│  │  └── courses.json
 │  ├── eo
+│  │  └── courses.json
+│  ├── fvhz
 │  │  └── courses.json
 │  ├── ht
 │  │  └── courses.json
 │  └── zw
+│     └── courses.json
 ├── institutes
-│  └── 4B0B1A
+│  ├── 4B0B1A
+│  │  └── departments.json
+│  └── UN1VH
 │     └── departments.json
 └── institutes.json
 ```
+
+[Browse the Index JSON on GitHub](https://github.com/educredentials/obv3-examples/tree/main/indexes)
 
 ## The Examples
 
