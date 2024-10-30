@@ -139,12 +139,10 @@ We limit this in [markdown.md](./markdown.md). This subset is therefore not back
 Examples are built from a context that follows a story.
 It uses mock IDs that resemble a real ID.
 
-### Story
-
 There are three institutions that issue EduCredentials. Some institutions have
 additional departments.
 
-#### Naboo Theed University, theed
+### Naboo Theed University, theed
 
 Student: Padawan Ashoka Tano
 
@@ -159,7 +157,7 @@ Full, embedded and minimal follow the same story, but have different contents.
 These versions are provided only so that we can test how various wallets, verifiers and agents
 deal with the attributes.
 
-#### Mbo Beek, mbob
+### Mbo Beek, mbob
 
 Language is Dutch. All credentials, and all examples are in Dutch only.
 
@@ -219,6 +217,42 @@ Departments:
    - *Beschrijving:* De hoogste eer in de patatwereld. Dit diploma erkent jouw vaardigheden in het mengen van perfect goudbruine frieten met een ongeëvenaard gevoel voor sauskeuze.
    - *Studiebelastinguren:* 2800 uur
 
+### Universiteit van Harderwijk, uvh
+
+Language is Dutch. All credentials, and all examples are in Dutch only.
+
+Departments:
+
+* Alchemie en Toverdrankkunde
+* Filosofie van Het Zinloze 
+
+#### Afdelling: Alchemie en Toverdrankkunde
+
+##### **Opleiding: Transmutatie van Huisdieren in Huishoudobjecten**
+
+1. **Regulier: Diploma Grootmeester Huisdier-Transmutator**
+   - *Beschrijving:* Dit diploma bevestigt dat de student alle geheimen van transmutatie beheerst en zonder probleem een konijn in een koffiemachine kan veranderen (en weer terug, als het goed is).
+
+2. **Microcredential: Basisomzetting Kat naar Koffiezetapparaat**
+   - *Beschrijving:* De student heeft met succes de eerste stap in transmutatie afgerond, waarbij katten zonder blijvende schade worden omgezet in keukenapparatuur.
+
+3. **Microcredential: Terugverandering zonder Wroeging**
+   - *Beschrijving:* Na deze module kan de student veilig experimenten terugdraaien zonder schuldgevoel of blijvende psychologische schade aan huisdier of eigenaar.
+
+#### Afdeling: Filosofie van Het Zinloze
+
+##### **Opleiding: De Filosofie van Het Spijkers op Laag Water Zoeken**
+
+1. **Regulier: Diploma Meester in het Zinloze Denken**
+   - *Beschrijving:* Het officiële diploma voor studenten die expert zijn geworden in het bedenken van argumenten die totaal geen praktisch nut hebben, inclusief het filosoferen over de levensduur van een stoplicht.
+
+2. **Extracurriculair: Stage bij Het Ministerie van Onnodige Zaken**
+   - *Beschrijving:* Certificaat voor het succesvol voltooien van een stage bij een fictieve overheidsinstelling die zich richt op beleid dat nergens over gaat. Denk aan regelgeving rondom het gebruik van papieren hoedjes op dinsdagen.
+
+3. **Microcredential: Argumenteren over Onzinnige Zaken**
+   - *Beschrijving:* Deze microcredential erkent de vaardigheid om urenlang door te praten over onderwerpen die niemand boeien, zoals de perfecte afschuining van een pizzapunt.
+
+Met deze combinaties kunnen we alle kanten op binnen deze wonderlijke en nutteloze disciplines! 😄
 ### Validity
 
 All \_full versions have a validFrom and a validUntil, which are hardcoded to make them valid for 5 years starting from 30 August 2024.
