@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO: unhardcode paths.
+
 set -e # fail if any command fails, -o errexit
 set -o pipefail # fail if any command in a pipeline fails
 set -u # fail if variable is not set, -o nounset
@@ -21,10 +23,10 @@ for file in "$@"; do
        -H "Content-Type: application/json" \
        -H "Authorization: Bearer ${AGENT_AUTHORIZATION_CODE}" \
        -d @- \
-       -o "./offers/${offer_json}"
+       -o "./offers/txt/${offer_json}"
 
-  uri=$(jq '.uri' -r < "./offers/${offer_json}")
-  qrcode ${uri} > "./offers/${offer_png}"
+  uri=$(jq '.uri' -r < "./offers/txt/${offer_json}")
+  qrcode ${uri} > "./offers/img/${offer_png}"
 
   echo "<!-- managed_by_create_offer -->"
   echo "![${offer_png}](${offer_png})"
