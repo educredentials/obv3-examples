@@ -21,15 +21,19 @@ add_item() {
   local file="$1"
   local thumbnail="$2"
   local name="$3"
-  local offer_json="$4"
-  local offer_png="$5"
+  local issuer="$4"
+  local credential="$5"
+  local offer_json="$6"
+  local offer_png="$7"
 
   item=$(jq -n\
     --arg thumbnail "$thumbnail" \
     --arg name "$name" \
+    --arg issuer "$issuer" \
+    --arg credential "$credential" \
     --argjson offer_json "$offer_json" \
     --arg offer_png "$offer_png" \
-    '{thumbnail: $thumbnail, name: $name, offer_json: $offer_json, offer_png: $offer_png}')
+    '{thumbnail: $thumbnail, name: $name, issuer: $issuer, credential: $credential, offer_json: $offer_json, offer_png: $offer_png}')
   data+=("$item")
 }
 
@@ -38,10 +42,11 @@ for file in "$@"; do
 
   offer_thumbnail=$(jq -r '.credentialSubject.achievement.image.id' < "$file")
   offer_name=$(jq -r '.credentialSubject.achievement.name' < "$file")
+  offer_issuer=$(jq -r '.issuer.name' < "$file")
 
   offer_json_file="./offers/txt/$(basename "$file" .json).offer.json"
   offer_png_file="./offers/img/$(basename "$file" .json).offer.png"
-  
+
   jq -c --arg preAuthorizedCode "$hash" \
      '{credentials: ["OpenBadgeCredential"], grants: {"urn:ietf:params:oauth:grant-type:pre-authorized_code":{"pre-authorized_code":$preAuthorizedCode,"user_pin_required":false}}, credentialDataSupplierInput: .}' < "$file" | \
 
@@ -55,7 +60,14 @@ for file in "$@"; do
   uri=$(jq '.uri' -r < "${offer_json_file}")
   qrcode ${uri} > "${offer_png_file}"
 
-  add_item "$file" "$offer_thumbnail" "$offer_name" "$(cat $offer_json_file)" "$offer_png_file"
+  add_item \
+    "$file" \
+    "$offer_thumbnail" \
+    "$offer_name" \
+    "$offer_issuer" \
+    "$file" \
+    "$(cat $offer_json_file)" \
+    "$offer_png_file"
 done
 
 echo "${data[@]}" | jq -s '.'

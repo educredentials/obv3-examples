@@ -38,6 +38,12 @@ title: "Offers"
   object-position: center;
   text-align: center;
 }
+.certificate code {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: none;
+}
 dialog {
   border: 1px solid #ccc;
   border-radius: 0.5rem;
@@ -80,8 +86,10 @@ document.addEventListener('DOMContentLoaded', function () {
     {% else %}
       {% assign processed_thumbnail = offer.thumbnail | replace_first: 'https://static.example.com', '/images' | relative_url %}
     {% endif %}
+    <p class="issuer">{{ offer.issuer }}</p>
     <img src="{{processed_thumbnail}}" alt=""/>
     <p class="title"> 📥 import <em>{{ offer.name }}</em></p>
+    <code title="{{offer.credential}}">{{ offer.credential }}</code>
   </div>
   <dialog id="{{ offer.offer_json.id }}">
     <p>Import <em>{{ offer.name }}</em> into your wallet</p>
