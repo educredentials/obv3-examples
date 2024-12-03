@@ -47,8 +47,8 @@ for file in "$@"; do
   offer_json_file="./offers/txt/$(basename "$file" .json).offer.json"
   offer_png_file="./offers/img/$(basename "$file" .json).offer.png"
 
-  jq -c --arg preAuthorizedCode "$hash" \
-     '{credentials: ["OpenBadgeCredential"], grants: {"urn:ietf:params:oauth:grant-type:pre-authorized_code":{"pre-authorized_code":$preAuthorizedCode,"user_pin_required":false}}, credentialDataSupplierInput: .}' < "$file" | \
+  jq -c --arg id "$hash" \
+     '{credentials: ["OpenBadgeCredential"], grants: {"urn:ietf:params:oauth:grant-type:pre-authorized_code":{"pre-authorized_code":$id,"user_pin_required":false}}, credentialDataSupplierInput: { offerId:$id, credentialConfigurationId:"OpenBadgeCredential", credential:.}}' < "$file" | \
 
   curl -X POST https://agent.poc4.eduwallet.nl/edubadges/api/create-offer \
        --silent \
