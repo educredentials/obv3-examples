@@ -21,7 +21,24 @@ title: "OB3 Credential Examples"
 .button:hover {
   transform: scale(1.1);
 }
+
+#main_content_wrap {
+  position: relative;
+}
+#tocwrapper {
+  position: absolute;
+  top: 0;
+  right: calc(-260px + -4rem);
+  width: 240px;
+  background-color: #fff;
+  overflow: auto;
+  padding: 2rem;
+  z-index: 100;
+
+  overflow: scroll;
+}
 </style>
+<script src="./assets/outline.js"></script>
 
 # OB3 Credential Examples
 
@@ -31,6 +48,12 @@ These examples can be used to test the capabilities of various wallets.
 <a href="./offers/" class="button">
 📲 DEMO:<br/> Import these examples in a wallet with a QR code
 </a>
+
+<div id="tocwrapper">
+<strong>Table of Contents</strong>
+<div id="toc">
+</div>
+</div>
 
 ## Roadmap
 
