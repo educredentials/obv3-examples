@@ -1,7 +1,36 @@
+---
+title: "OB3 Credential Examples"
+---
+<style>
+.button {
+    display: block;
+    background-color: #0090ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 1.4rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 2rem;
+
+    cursor: pointer;
+
+    transition: transform 0.2s;
+}
+.button:hover {
+  transform: scale(1.1);
+}
+</style>
+
 # OB3 Credential Examples
 
 Examples of Open Badges V3 credentials based on the Educredentials metadata model.
 These examples can be used to test the capabilities of various wallets.
+
+<a href="./offers/" class="button">
+📲 DEMO:<br/> Import these examples in a wallet with a QR code
+</a>
 
 ## Roadmap
 
@@ -226,7 +255,7 @@ Departments:
 * Alchemie en Toverdrankkunde
 * Filosofie van Het Zinloze 
 
-#### Afdelling: Alchemie en Toverdrankkunde
+#### Afdeling: Alchemie en Toverdrankkunde
 
 ##### **Opleiding: Transmutatie van Huisdieren in Huishoudobjecten**
 
