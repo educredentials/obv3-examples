@@ -110,7 +110,7 @@ The difference between these three types is which metadata elements are used in 
 | Description                              | Required               | Required            | Required                   |
 | Learning Outcomes                        | Required               | Required            | Required                   |
 | Criteria                                 | Required               | Required            | Required                   |
-| Program Information                      |                        |                     |                            |
+| **Program Information**                  |                        |                     |                            |
 | Language of Instruction                  | Required               | Required            | Required                   |
 | ECTS/SBU Credits                         | Optional               | Required            | Not Applicable             |
 | Time Investment                          | Optional               | Not Applicable      | Required                   |
