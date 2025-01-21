@@ -30,7 +30,6 @@
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Nachtwacht bij slaperige ouderen",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-A1B2C3",
     "type": [

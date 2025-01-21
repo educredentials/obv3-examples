@@ -30,7 +30,6 @@
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-1A2B3C",
     "type": [

@@ -30,7 +30,6 @@
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Diploma master in subtiele verkoopkunst",
   "credentialSubject": {
     "id": "https://example.com/credentials/crd-MBN3PQ#subject",
     "type": [

@@ -30,7 +30,6 @@
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Diploma Grootmeester Huisdier-transmutatie",
   "credentialSubject": {
     "id": "https://example.com/subjects/sub-8A3B6C",
     "type": [

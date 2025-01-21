@@ -30,7 +30,6 @@
     ]
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
     "id": "https://example.com/students/stu-1A2B3C",
     "type": [
