@@ -355,38 +355,6 @@ Ids are in the form of a URL. They use https and the following structure:
 In the examples we will use the first always, except for the rare cases when we must convey that
 there are multiple resources in a single example.
 
-## Indexes
-
-In `./indexes/` we provide some JSON files that act as lists of example
-credentials, lists of institutions and lists of departments. All these are
-formatted as [JSON:API 1.1 resources](https://jsonapi.org/).
-
-There is no backend, so no filtering, sorting, mimetype negotiation or Create,
-Update and Delete support.
-
-```
-indexes
-├── departments
-│  ├── at
-│  │  └── courses.json
-│  ├── eo
-│  │  └── courses.json
-│  ├── fvhz
-│  │  └── courses.json
-│  ├── ht
-│  │  └── courses.json
-│  └── zw
-│     └── courses.json
-├── institutes
-│  ├── 4B0B1A
-│  │  └── departments.json
-│  └── UN1VH
-│     └── departments.json
-└── institutes.json
-```
-
-[Browse the Index JSON on GitHub](https://github.com/educredentials/obv3-examples/tree/main/indexes)
-
 ## The Examples
 
 <!-- managed_by_embed -->
