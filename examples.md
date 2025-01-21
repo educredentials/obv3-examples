@@ -428,7 +428,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Extracurriculair Stage bij het luchtverkopersgilde",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-A1B2C3",
     "type": [
@@ -529,7 +528,6 @@ indexes
     ],
     "name": "MBO Beek"
   },
-  "name": "Microcredential Oogcontact maken zonder creepy te kijken",
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
@@ -650,7 +648,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Diploma master in subtiele verkoopkunst",
   "credentialSubject": {
     "id": "https://example.com/credentials/crd-MBN3PQ#subject",
     "type": [
@@ -769,7 +766,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Extracurriculair Stage in de lokale snackbar",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-A1B2C3",
     "type": [
@@ -870,7 +866,6 @@ indexes
     ],
     "name": "MBO Beek"
   },
-  "name": "Microcredential Frietje perfectie schillen",
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
@@ -991,7 +986,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Diploma grootmeester in de frituurkunst",
   "credentialSubject": {
     "id": "https://example.com/credentials/crd-MBN3PQ#subject",
     "type": [
@@ -1110,7 +1104,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Nachtwacht bij slaperige ouderen",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-A1B2C3",
     "type": [
@@ -1210,7 +1203,6 @@ indexes
     ],
     "name": "MBO Beek"
   },
-  "name": "Dekbed schudden voor gevorderden",
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
@@ -1330,7 +1322,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Diploma slapeloosheidsgoeroe",
   "credentialSubject": {
     "id": "https://example.com/credentials/crd-MBN3PQ#subject",
     "type": [
@@ -1449,7 +1440,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Stage bij boerderijdieren in therapie",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-A1B2C3",
     "type": [
@@ -1550,7 +1540,6 @@ indexes
     ],
     "name": "MBO Beek"
   },
-  "name": "Basis miauw en blaf interpretatie",
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
@@ -1671,7 +1660,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Diploma dierenfluisteraar met erecode",
   "credentialSubject": {
     "id": "https://example.com/credentials/crd-MBN3PQ#subject",
     "type": [
@@ -1790,7 +1778,6 @@ indexes
     ]
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
     "id": "https://example.com/students/stu-1A2B3C",
     "type": [
@@ -1888,7 +1875,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-1A2B3C",
     "type": [
@@ -2012,7 +1998,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-A1B2C3",
     "type": [
@@ -2126,7 +2111,6 @@ indexes
     ]
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Extra-Curricular Achievement",
   "credentialSubject": {
     "id": "https://example.com/students/stu-1A2B3C",
     "type": [
@@ -2211,7 +2195,6 @@ indexes
     "name": "Naboo Theed University"
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Microcredential",
   "credentialSubject": {
     "id": "https://example.com/students/stu-4D5E6F",
     "type": [
@@ -2337,7 +2320,6 @@ indexes
       }
     ]
   },
-  "name": "Example Microcredential",
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
@@ -2453,7 +2435,6 @@ indexes
     ],
     "name": "Naboo Theed University"
   },
-  "name": "Example Microcredential",
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
@@ -2561,7 +2542,6 @@ indexes
     "name": "Naboo Theed University"
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "Example Microcredential",
   "credentialSubject": {
     "id": "https://example.com/students/stu-4D5E6F",
     "type": [
@@ -2688,7 +2668,6 @@ indexes
     ]
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "The Force and Its Applications",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "type": [
@@ -2813,7 +2792,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "The Force and Its Applications",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "type": [
@@ -2942,7 +2920,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Pod Tuning and Boosting",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "type": [
@@ -3060,7 +3037,6 @@ indexes
     ]
   },
   "validFrom": "2014-06-01T00:00:00Z",
-  "name": "The Force and Its Applications",
   "credentialSubject": {
     "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "type": [
@@ -3183,7 +3159,6 @@ indexes
       }
     ]
   },
-  "name": "Microcredential Basisomzetting Kat naar Koffiezetapparaat",
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
@@ -3313,7 +3288,6 @@ indexes
       }
     ]
   },
-  "name": "Microcredential Terugverandering zonder vroeging",
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
@@ -3445,7 +3419,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Diploma Grootmeester Huisdier-transmutatie",
   "credentialSubject": {
     "id": "https://example.com/subjects/sub-8A3B6C",
     "type": [
@@ -3576,7 +3549,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Extracurricular Stage bij Het Ministerie van Onnodige Zaken",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-1A2B3C",
     "type": [
@@ -3701,7 +3673,6 @@ indexes
       }
     ]
   },
-  "name": "Microcredential Argumenteren over Onzinnige Zaken",
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
@@ -3834,7 +3805,6 @@ indexes
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
-  "name": "Diploma Meester in het Zinloze Denken",
   "credentialSubject": {
     "id": "https://example.com/credentials/stu-1A2B3C",
     "type": [

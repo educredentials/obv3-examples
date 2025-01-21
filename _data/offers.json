@@ -5,8 +5,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_eo_eov_extracurricular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/4829df9840ef92f849bea472225e6210edefd40a80b0b49850b24d06f9661403",
-      "id": "4829df9840ef92f849bea472225e6210edefd40a80b0b49850b24d06f9661403"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/278394222914f43ec94046851f0d7802f6e0403921a3e5932d25838c449867a7",
+      "id": "278394222914f43ec94046851f0d7802f6e0403921a3e5932d25838c449867a7"
     },
     "offer_png": "./offers/img/mbob_eo_eov_extracurricular_full.offer.png"
   },
@@ -16,8 +16,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_eo_eov_microcredential_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/de7f5f77bd8a345b150acf27131906efad375b44a845d7030b3313c8a60a4625",
-      "id": "de7f5f77bd8a345b150acf27131906efad375b44a845d7030b3313c8a60a4625"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/b84ae567c72574c2f1eaabb5afbf6d4a63aa7d27d8af0fbe4bfcdc74711cdb76",
+      "id": "b84ae567c72574c2f1eaabb5afbf6d4a63aa7d27d8af0fbe4bfcdc74711cdb76"
     },
     "offer_png": "./offers/img/mbob_eo_eov_microcredential_full.offer.png"
   },
@@ -27,8 +27,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_eo_eov_regular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/46e2d4a95e74beb31d6affaa6a6bf29cae3285340c22b37de23244d3b97a04f6",
-      "id": "46e2d4a95e74beb31d6affaa6a6bf29cae3285340c22b37de23244d3b97a04f6"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/215a7e0ddbefc5e8346b9aa50886a018d89b8e9e49fcce890814cf08b4567648",
+      "id": "215a7e0ddbefc5e8346b9aa50886a018d89b8e9e49fcce890814cf08b4567648"
     },
     "offer_png": "./offers/img/mbob_eo_eov_regular_full.offer.png"
   },
@@ -38,8 +38,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_ht_pf_extracurricular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/c068f0aabdc6754c4a21d72b28e93f8a69f346d301beaa0f2fc3cf86b94f29d4",
-      "id": "c068f0aabdc6754c4a21d72b28e93f8a69f346d301beaa0f2fc3cf86b94f29d4"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/a1b5bb0f40b7c760897ac1e793b65f5af81dabba2a2f9405fcd0b0298244d42a",
+      "id": "a1b5bb0f40b7c760897ac1e793b65f5af81dabba2a2f9405fcd0b0298244d42a"
     },
     "offer_png": "./offers/img/mbob_ht_pf_extracurricular_full.offer.png"
   },
@@ -49,8 +49,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_ht_pf_microcredential_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/cddf46b56498fce888c420329cb08b291d6da6305148d488cb36bc917555a48c",
-      "id": "cddf46b56498fce888c420329cb08b291d6da6305148d488cb36bc917555a48c"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/226f4285c24e5ccbf71356cde59dd2872693f10a0f36d0d805517f23e3219930",
+      "id": "226f4285c24e5ccbf71356cde59dd2872693f10a0f36d0d805517f23e3219930"
     },
     "offer_png": "./offers/img/mbob_ht_pf_microcredential_full.offer.png"
   },
@@ -60,8 +60,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_ht_pf_regular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/1247f4d51ad4542eaaefe3b2089f064b2a5340b2536d39983e82624fd8c69cb2",
-      "id": "1247f4d51ad4542eaaefe3b2089f064b2a5340b2536d39983e82624fd8c69cb2"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/5525826f607140349ead46138d05db1ad5818d4155ae0fefab7048b5c1019f55",
+      "id": "5525826f607140349ead46138d05db1ad5818d4155ae0fefab7048b5c1019f55"
     },
     "offer_png": "./offers/img/mbob_ht_pf_regular_full.offer.png"
   },
@@ -71,8 +71,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_zw_ssb_extracurricular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/ea8a9b1ed7418670e13a7a5feea085cf5663e150183972d0d9267d62d39fe7ca",
-      "id": "ea8a9b1ed7418670e13a7a5feea085cf5663e150183972d0d9267d62d39fe7ca"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/73381a04bdd7f7575f47ce30087578dd9cdf66872a237f142bef6b87ff5c6f70",
+      "id": "73381a04bdd7f7575f47ce30087578dd9cdf66872a237f142bef6b87ff5c6f70"
     },
     "offer_png": "./offers/img/mbob_zw_ssb_extracurricular_full.offer.png"
   },
@@ -82,8 +82,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_zw_ssb_microcredential_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/653f706ff115c16db381a1b371a76cd4ec810913211451a5d96b32c929770c68",
-      "id": "653f706ff115c16db381a1b371a76cd4ec810913211451a5d96b32c929770c68"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/9f6a7e3603981ce407c7c4757b207e20fc9aa5392243f157b4ade1d15d8868bb",
+      "id": "9f6a7e3603981ce407c7c4757b207e20fc9aa5392243f157b4ade1d15d8868bb"
     },
     "offer_png": "./offers/img/mbob_zw_ssb_microcredential_full.offer.png"
   },
@@ -93,8 +93,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_zw_ssb_regular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/1cf778940641383f17d74118dc8c77f6866cca33aeeca594f3ed921723132477",
-      "id": "1cf778940641383f17d74118dc8c77f6866cca33aeeca594f3ed921723132477"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/2549fb65daf8c7a51564ee0ec93fa3b60a4587ac7568eb07993e3e51d9d8a487",
+      "id": "2549fb65daf8c7a51564ee0ec93fa3b60a4587ac7568eb07993e3e51d9d8a487"
     },
     "offer_png": "./offers/img/mbob_zw_ssb_regular_full.offer.png"
   },
@@ -104,8 +104,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_zw_td_extracurricular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/a8139ebb823e9d0de650e8a5bb73b19af9db6151e46c9f034796f0698324322c",
-      "id": "a8139ebb823e9d0de650e8a5bb73b19af9db6151e46c9f034796f0698324322c"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/947392691d4ee63d4eb9c8d1215d5834dacb4f6435565cbddd0b77ddabc71948",
+      "id": "947392691d4ee63d4eb9c8d1215d5834dacb4f6435565cbddd0b77ddabc71948"
     },
     "offer_png": "./offers/img/mbob_zw_td_extracurricular_full.offer.png"
   },
@@ -115,8 +115,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_zw_td_microcredential_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/e7ccf4067c86af0848c51ef25a363718d176a9e0981664471260cd3bfebd1fb1",
-      "id": "e7ccf4067c86af0848c51ef25a363718d176a9e0981664471260cd3bfebd1fb1"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/4a3b2c1e03b8550f1c9a78866ba1d8ebb575772c67a48c048abda4ab5fa470ef",
+      "id": "4a3b2c1e03b8550f1c9a78866ba1d8ebb575772c67a48c048abda4ab5fa470ef"
     },
     "offer_png": "./offers/img/mbob_zw_td_microcredential_full.offer.png"
   },
@@ -126,8 +126,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_zw_td_regular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/2f44b350337f7033b19c4a1d90035b82a06ec4c33d2c1e62a63e92c387d90c77",
-      "id": "2f44b350337f7033b19c4a1d90035b82a06ec4c33d2c1e62a63e92c387d90c77"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/f65cac9b7eea823ec2a93da826f7ed581ee46dff4a0e992c1d65d8b50acc6a4b",
+      "id": "f65cac9b7eea823ec2a93da826f7ed581ee46dff4a0e992c1d65d8b50acc6a4b"
     },
     "offer_png": "./offers/img/mbob_zw_td_regular_full.offer.png"
   },
@@ -137,8 +137,8 @@
     "issuer": "Naboo Theed University",
     "credential": "theed_extracurricular_embedded_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/b3203ea360cadc26385739edbd7b0a21f362c4b0cc32acd9111c2de3d78f23ec",
-      "id": "b3203ea360cadc26385739edbd7b0a21f362c4b0cc32acd9111c2de3d78f23ec"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/25d9c36fba1b3849b8b96833be3df4a85f21fd7f1f233e848a88c0d555c4e86c",
+      "id": "25d9c36fba1b3849b8b96833be3df4a85f21fd7f1f233e848a88c0d555c4e86c"
     },
     "offer_png": "./offers/img/theed_extracurricular_embedded_ho.offer.png"
   },
@@ -148,8 +148,8 @@
     "issuer": "Naboo Theed University",
     "credential": "theed_extracurricular_full_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/0246f0f8e690437dcb8762f03291ff67d2799aae3bd08f214041956a9878a973",
-      "id": "0246f0f8e690437dcb8762f03291ff67d2799aae3bd08f214041956a9878a973"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/7a31624a86455e562729d9b6486861be812bccf032da4cfd61d3d66e17c2da54",
+      "id": "7a31624a86455e562729d9b6486861be812bccf032da4cfd61d3d66e17c2da54"
     },
     "offer_png": "./offers/img/theed_extracurricular_full_ho.offer.png"
   },
@@ -159,8 +159,8 @@
     "issuer": "Naboo Theed University",
     "credential": "theed_extracurricular_full_mbo.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/2aa0ffc71152be7dec6ccd59f4298a44af4c12d639a90142ca2a982803a0aa04",
-      "id": "2aa0ffc71152be7dec6ccd59f4298a44af4c12d639a90142ca2a982803a0aa04"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/86922769734fced4c20d9f8abb4ff1e70f6f93d1204f2b2a81abf1609e892675",
+      "id": "86922769734fced4c20d9f8abb4ff1e70f6f93d1204f2b2a81abf1609e892675"
     },
     "offer_png": "./offers/img/theed_extracurricular_full_mbo.offer.png"
   },
@@ -170,8 +170,8 @@
     "issuer": "Naboo Theed University",
     "credential": "theed_extracurricular_minimal_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/0f09232f7a8a36608154608998163b9bbee9cadacca7b6c7a3957dde41df73e5",
-      "id": "0f09232f7a8a36608154608998163b9bbee9cadacca7b6c7a3957dde41df73e5"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/09c4e7f43773218bd827cff3f49f2cc55662b745f72c31748b442ae9252d2f37",
+      "id": "09c4e7f43773218bd827cff3f49f2cc55662b745f72c31748b442ae9252d2f37"
     },
     "offer_png": "./offers/img/theed_extracurricular_minimal_ho.offer.png"
   },
@@ -181,8 +181,8 @@
     "issuer": "Naboo Theed University",
     "credential": "theed_microcredential_embedded_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/98adbc03fe94c250c1a3a06f301d3f0623d0b61abda07c6fa7477ffbc07ddecb",
-      "id": "98adbc03fe94c250c1a3a06f301d3f0623d0b61abda07c6fa7477ffbc07ddecb"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/20fd094e7ca557939da4dba237b4bdd69f92cd379365cc7bb0e7e1172e7ba3dc",
+      "id": "20fd094e7ca557939da4dba237b4bdd69f92cd379365cc7bb0e7e1172e7ba3dc"
     },
     "offer_png": "./offers/img/theed_microcredential_embedded_ho.offer.png"
   },
@@ -192,8 +192,8 @@
     "issuer": "Naboo Theed University",
     "credential": "theed_microcredential_full_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/18ce7e53252cf7ace7aa73c10e1a216fdeea4418791daa1007842cf4b56114b2",
-      "id": "18ce7e53252cf7ace7aa73c10e1a216fdeea4418791daa1007842cf4b56114b2"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/1f209d233fbfe96e97d3a1a7b194aadfca82fe31c9c80ce0dd56abd427b33eec",
+      "id": "1f209d233fbfe96e97d3a1a7b194aadfca82fe31c9c80ce0dd56abd427b33eec"
     },
     "offer_png": "./offers/img/theed_microcredential_full_ho.offer.png"
   },
@@ -203,8 +203,8 @@
     "issuer": "Naboo Theed University",
     "credential": "theed_microcredential_full_mbo.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/b7425026e4205fe75a599c88368ae734cd9fa7de668a34a39a864251418313da",
-      "id": "b7425026e4205fe75a599c88368ae734cd9fa7de668a34a39a864251418313da"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/1c615ec55044590e69c5c882f709cb083e73dae3d5a984b3dbd6a52a6d795bd6",
+      "id": "1c615ec55044590e69c5c882f709cb083e73dae3d5a984b3dbd6a52a6d795bd6"
     },
     "offer_png": "./offers/img/theed_microcredential_full_mbo.offer.png"
   },
@@ -214,8 +214,8 @@
     "issuer": "Naboo Theed University",
     "credential": "theed_microcredential_minimal_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/64392796c679f6c991c4597ee30fef00492ec1e4be8ea61bc3535c3747be59d1",
-      "id": "64392796c679f6c991c4597ee30fef00492ec1e4be8ea61bc3535c3747be59d1"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/df195d3ffcb8ce469ad9feb5576ff90ced7d87e8351957ac2a1b7e4401b9559e",
+      "id": "df195d3ffcb8ce469ad9feb5576ff90ced7d87e8351957ac2a1b7e4401b9559e"
     },
     "offer_png": "./offers/img/theed_microcredential_minimal_ho.offer.png"
   },
@@ -225,8 +225,8 @@
     "issuer": "Naboo Theed University",
     "credential": "theed_regular_embedded_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/16e6f1e91798a8857a3c859e16dae48a825aa2549700b5d7a17befa5ae345f97",
-      "id": "16e6f1e91798a8857a3c859e16dae48a825aa2549700b5d7a17befa5ae345f97"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/263b8f755455a563a56222bcc7bf283946b60c6d442ebc0c664af8c5786d9762",
+      "id": "263b8f755455a563a56222bcc7bf283946b60c6d442ebc0c664af8c5786d9762"
     },
     "offer_png": "./offers/img/theed_regular_embedded_ho.offer.png"
   },
@@ -236,8 +236,8 @@
     "issuer": "Naboo Theed University",
     "credential": "theed_regular_full_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/d380e28e9d122c9ff94252d9b7dd91f47337178f3a20719834a2d1983896a266",
-      "id": "d380e28e9d122c9ff94252d9b7dd91f47337178f3a20719834a2d1983896a266"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/7f6a41949425c255b6e27a604cd2930e11bedd5f0d32a83bdafbea924bb48949",
+      "id": "7f6a41949425c255b6e27a604cd2930e11bedd5f0d32a83bdafbea924bb48949"
     },
     "offer_png": "./offers/img/theed_regular_full_ho.offer.png"
   },
@@ -247,8 +247,8 @@
     "issuer": "Naboo Theed University",
     "credential": "theed_regular_full_mbo.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/5f27386b8d4d6995a4b8ef3ffdfcccb4163a143807194391d628d10ab1bb704d",
-      "id": "5f27386b8d4d6995a4b8ef3ffdfcccb4163a143807194391d628d10ab1bb704d"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/563fd37c9e617666c44fcec182692463660a4323b480f4fdc67830f6fc8a5ecf",
+      "id": "563fd37c9e617666c44fcec182692463660a4323b480f4fdc67830f6fc8a5ecf"
     },
     "offer_png": "./offers/img/theed_regular_full_mbo.offer.png"
   },
@@ -258,8 +258,8 @@
     "issuer": "Naboo Theed University",
     "credential": "theed_regular_minimal_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/d4d17f609c3e9e6986781691b59e5c672f39736b23e75cc33a064da1c003b22d",
-      "id": "d4d17f609c3e9e6986781691b59e5c672f39736b23e75cc33a064da1c003b22d"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/d267652406fcf7a91ffe6630e5d1a7095e28023fee192ac77c4638e789577667",
+      "id": "d267652406fcf7a91ffe6630e5d1a7095e28023fee192ac77c4638e789577667"
     },
     "offer_png": "./offers/img/theed_regular_minimal_ho.offer.png"
   },
@@ -269,8 +269,8 @@
     "issuer": "Universiteit van Harderwijk",
     "credential": "uvh_at_microcredential_full_1.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/be1e1fd952225bad1cc7b33474e36c5eb22ba48b74c3bccf3c3870e763f88725",
-      "id": "be1e1fd952225bad1cc7b33474e36c5eb22ba48b74c3bccf3c3870e763f88725"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/4f707114b730bbd057fe5e8a195ffed20b2b221361967826e6361bb737d9ced5",
+      "id": "4f707114b730bbd057fe5e8a195ffed20b2b221361967826e6361bb737d9ced5"
     },
     "offer_png": "./offers/img/uvh_at_microcredential_full_1.offer.png"
   },
@@ -280,8 +280,8 @@
     "issuer": "Universiteit van Harderwijk",
     "credential": "uvh_at_microcredential_full_2.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/03f51f2ae9a94e48e711e5a89ed37633d07db8b0fade977b649e831106c5dc85",
-      "id": "03f51f2ae9a94e48e711e5a89ed37633d07db8b0fade977b649e831106c5dc85"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/e63b5893f2443fed1f717378085ad1bd871e296191bff2a70c7750010f8dc84b",
+      "id": "e63b5893f2443fed1f717378085ad1bd871e296191bff2a70c7750010f8dc84b"
     },
     "offer_png": "./offers/img/uvh_at_microcredential_full_2.offer.png"
   },
@@ -291,8 +291,8 @@
     "issuer": "Universiteit van Harderwijk",
     "credential": "uvh_at_regular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/4370c01d6e9e4e675fc5719e4db55b0c55d2df86cb94ee0afaf37bf9415f344f",
-      "id": "4370c01d6e9e4e675fc5719e4db55b0c55d2df86cb94ee0afaf37bf9415f344f"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/6af90ba6e64a920ffa2063eab6b6cceaf888f7d37ebe2cb741154d2fa544b324",
+      "id": "6af90ba6e64a920ffa2063eab6b6cceaf888f7d37ebe2cb741154d2fa544b324"
     },
     "offer_png": "./offers/img/uvh_at_regular_full.offer.png"
   },
@@ -302,8 +302,8 @@
     "issuer": "Universiteit van Harderwijk",
     "credential": "uvh_fvhz_extracurricular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/bce4a719a32c97616ebcbd163a374d78354d9b2eb4bd6ed6b7217b0eeeacb232",
-      "id": "bce4a719a32c97616ebcbd163a374d78354d9b2eb4bd6ed6b7217b0eeeacb232"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/34578baa69e7d9bf1f4763ecbbdbf22cb448437eae5c8a248c627b27f202dd42",
+      "id": "34578baa69e7d9bf1f4763ecbbdbf22cb448437eae5c8a248c627b27f202dd42"
     },
     "offer_png": "./offers/img/uvh_fvhz_extracurricular_full.offer.png"
   },
@@ -313,8 +313,8 @@
     "issuer": "Universiteit van Harderwijk",
     "credential": "uvh_fvhz_microcredential_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/ef71694e1c3317e470250ebffabcc2950b6a3d87fb89477e8991263dc44f6201",
-      "id": "ef71694e1c3317e470250ebffabcc2950b6a3d87fb89477e8991263dc44f6201"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/5bd481d047aba92662a6f255bcbc5c47206989da3db0662ae10677f66c490256",
+      "id": "5bd481d047aba92662a6f255bcbc5c47206989da3db0662ae10677f66c490256"
     },
     "offer_png": "./offers/img/uvh_fvhz_microcredential_full.offer.png"
   },
@@ -324,8 +324,8 @@
     "issuer": "Universiteit van Harderwijk",
     "credential": "uvh_fvhz_regular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/0c52a1ec6ea2a724715808d44e1ea5be3b5ef019cc1083cd347183e2a246307f",
-      "id": "0c52a1ec6ea2a724715808d44e1ea5be3b5ef019cc1083cd347183e2a246307f"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/0fbfce2d0e5b170578d0129730e7633e7c41c69c691d5f2c6c679a22df16de70",
+      "id": "0fbfce2d0e5b170578d0129730e7633e7c41c69c691d5f2c6c679a22df16de70"
     },
     "offer_png": "./offers/img/uvh_fvhz_regular_full.offer.png"
   }
