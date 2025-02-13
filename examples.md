@@ -392,7 +392,17 @@ there are multiple resources in a single example.
         "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -494,7 +504,17 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": "MBO Beek"
+    "name": "MBO Beek",
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -612,7 +632,17 @@ there are multiple resources in a single example.
         "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -730,7 +760,17 @@ there are multiple resources in a single example.
         "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -832,7 +872,17 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": "MBO Beek"
+    "name": "MBO Beek",
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -950,7 +1000,17 @@ there are multiple resources in a single example.
         "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -1068,7 +1128,17 @@ there are multiple resources in a single example.
         "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -1169,7 +1239,17 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": "MBO Beek"
+    "name": "MBO Beek",
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -1286,7 +1366,17 @@ there are multiple resources in a single example.
         "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -1404,7 +1494,17 @@ there are multiple resources in a single example.
         "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -1506,7 +1606,17 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": "MBO Beek"
+    "name": "MBO Beek",
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -1624,7 +1734,17 @@ there are multiple resources in a single example.
         "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -1718,7 +1838,6 @@ there are multiple resources in a single example.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
@@ -1743,7 +1862,17 @@ there are multiple resources in a single example.
         "identifier": "university.naboo",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "credentialSubject": {
@@ -1839,7 +1968,17 @@ there are multiple resources in a single example.
         "identifier": "university.naboo",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -1962,7 +2101,17 @@ there are multiple resources in a single example.
         "identifier": "university.naboo",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -2051,7 +2200,6 @@ there are multiple resources in a single example.
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
-
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
   "id": "http://example.com/credentials/crd-A1B2C3",
@@ -2076,7 +2224,17 @@ there are multiple resources in a single example.
         "identifier": "university.naboo",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "credentialSubject": {
@@ -2160,7 +2318,17 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": "Naboo Theed University"
+    "name": "Naboo Theed University",
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "credentialSubject": {
@@ -2286,7 +2454,17 @@ there are multiple resources in a single example.
         "identifier": "university.naboo",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -2401,7 +2579,17 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": "Naboo Theed University"
+    "name": "Naboo Theed University",
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -2479,7 +2667,6 @@ there are multiple resources in a single example.
       "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
- 
   ]
 }
 ```
@@ -2507,7 +2694,17 @@ there are multiple resources in a single example.
     "type": [
       "Profile"
     ],
-    "name": "Naboo Theed University"
+    "name": "Naboo Theed University",
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "credentialSubject": {
@@ -2633,7 +2830,17 @@ there are multiple resources in a single example.
         "identifier": "university.naboo",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "credentialSubject": {
@@ -2756,7 +2963,17 @@ there are multiple resources in a single example.
         "identifier": "university.naboo",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -2884,7 +3101,17 @@ there are multiple resources in a single example.
         "identifier": "university.naboo",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -3002,7 +3229,17 @@ there are multiple resources in a single example.
         "identifier": "university.naboo",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "credentialSubject": {
@@ -3125,7 +3362,17 @@ there are multiple resources in a single example.
         "identifier": "uvh.example.com",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Harderwijk",
+      "streetAddress": "Kerkplein 42",
+      "postalCode": "1314 AC"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -3152,7 +3399,6 @@ there are multiple resources in a single example.
       "inLanguage": "nl-NL",
       "educationProgramIdentifier": 20121350,
       "ECTS": 3.0,
-
       "alignment": [
         {
           "type": [
@@ -3254,7 +3500,17 @@ there are multiple resources in a single example.
         "identifier": "uvh.example.com",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Harderwijk",
+      "streetAddress": "Kerkplein 42",
+      "postalCode": "1314 AC"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -3281,7 +3537,6 @@ there are multiple resources in a single example.
       "inLanguage": "nl-NL",
       "educationProgramIdentifier": 20121351,
       "ECTS": 3.5,
-
       "alignment": [
         {
           "type": [
@@ -3383,7 +3638,17 @@ there are multiple resources in a single example.
         "identifier": "uvh.example.com",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Harderwijk",
+      "streetAddress": "Kerkplein 42",
+      "postalCode": "1314 AC"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -3410,7 +3675,6 @@ there are multiple resources in a single example.
       "inLanguage": "nl-NL",
       "educationProgramIdentifier": 20121349,
       "ECTS": 180,
-
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -3445,7 +3709,6 @@ there are multiple resources in a single example.
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
-
       "participationType": "online",
       "assessmentType": "testing",
       "supervisionType": "supervised online",
@@ -3513,7 +3776,17 @@ there are multiple resources in a single example.
         "identifier": "uvh.example.com",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Harderwijk",
+      "streetAddress": "Kerkplein 42",
+      "postalCode": "1314 AC"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -3528,7 +3801,6 @@ there are multiple resources in a single example.
         "Achievement",
         "EducredentialAchievement"
       ],
-
       "criteria": {
         "narrative": "De student voltooide een stage bij een overheidsinstelling die zich richt op beleid dat nergens over gaat."
       },
@@ -3541,7 +3813,6 @@ there are multiple resources in a single example.
       "inLanguage": "nl-NL",
       "educationProgramIdentifier": 20121353,
       "timeInvestment": 200,
-
       "participationType": "onsite or blended",
       "assessmentType": "application of a skill",
       "supervisionType": "onsite with identity verification",
@@ -3639,7 +3910,17 @@ there are multiple resources in a single example.
         "identifier": "uvh.example.com",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Harderwijk",
+      "streetAddress": "Kerkplein 42",
+      "postalCode": "1314 AC"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -3655,7 +3936,6 @@ there are multiple resources in a single example.
         "EducredentialAchievement"
       ],
       "criteria": {
-
         "narrative": "De student kan urenlang doorpraten over onderwerpen die niemand interesseren, zoals de perfecte afschuining van een pizzapunt."
       },
       "description": "Deze microcredential erkent de vaardigheid om urenlang door te praten over onderwerpen die niemand boeien, zoals de perfecte afschuining van een pizzapunt.",
@@ -3667,7 +3947,6 @@ there are multiple resources in a single example.
       "inLanguage": "nl-NL",
       "educationProgramIdentifier": 20121354,
       "ECTS": 4.5,
-
       "alignment": [
         {
           "type": [
@@ -3769,7 +4048,17 @@ there are multiple resources in a single example.
         "identifier": "uvh.example.com",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Harderwijk",
+      "streetAddress": "Kerkplein 42",
+      "postalCode": "1314 AC"
+    }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
@@ -3796,7 +4085,6 @@ there are multiple resources in a single example.
       "inLanguage": "nl-NL",
       "educationProgramIdentifier": 20121352,
       "ECTS": 60.0,
-
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",

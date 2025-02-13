@@ -26,7 +26,17 @@
         "identifier": "university.naboo",
         "identifierType": "name"
       }
-    ]
+    ],
+    "address": {
+      "type": [
+        "Address"
+      ],
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
+    }
   },
   "validFrom": "2014-06-01T00:00:00Z",
   "credentialSubject": {
