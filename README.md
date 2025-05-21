@@ -1,5 +1,7 @@
 # Examples of OpenBadges v3 Credentials for Edubadges
 
+See online at http://www.educredentials.eu/obv3-examples/
+
 Goes with the wiki at [./examples.md](./examples.md). Document
 [./markdown.md](./markdown.md) explains formatting of the data inside the
 credential attributes.
