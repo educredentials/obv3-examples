@@ -82,8 +82,8 @@
     "issuer": "MBO Beek",
     "credential": "mbob_zw_ssb_microcredential_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/67bda6862f4e25f62b2050c9d8f7379c4663254c26000b028d2b9b03d6868c6c",
-      "id": "67bda6862f4e25f62b2050c9d8f7379c4663254c26000b028d2b9b03d6868c6c"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/aa73d2fbae16a42e5ff8086ef936ddc2a042a48fd6ede7938f55f6fca08e1261",
+      "id": "aa73d2fbae16a42e5ff8086ef936ddc2a042a48fd6ede7938f55f6fca08e1261"
     },
     "offer_png": "./offers/img/mbob_zw_ssb_microcredential_full.offer.png"
   },
