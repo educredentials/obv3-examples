@@ -176,6 +176,22 @@ handle the attributes:
 - Minimal, so that wallets and verifiers have a reference of what attributes an Educredential will always carry.
 - Full, so that wallets and verifiers have a reference of what attributes they might expect and should handle eventually.
 
+## Evidence
+
+One example shows how [an "evidence"](https://www.imsglobal.org/spec/ob/v3p0/#evidence) can be included in the credential. The example with an evidence is [mbob_zw_ssb_microcredential_full.json](./mbob_zw_ssb_microcredential_full.json).
+
+Both [the VC data model spec](https://www.w3.org/TR/vc-data-model-2.0/#evidence) and [the OBv3 spec](https://www.imsglobal.org/spec/ob/v3p0/#evidence) have an "evidence" entry in the spec.
+In both the VC data model and the OBv3 spec it lives at the JSON path `.evidence[]`. The structure and fields overlap, but OBv3 defines some optional extra fields. The VC data model spec 
+has mechanisms, with fields, to ensure [Integrity of Related Resources](https://www.w3.org/TR/vc-data-model-2.0/#integrity-of-related-resources).
+
+We define all fields from the OBv3 spec with one additional field
+`digestMultibase` from the VC data model spec. This is a multibase encoded
+digest of the evidence, which can be used to verify the integrity of the
+evidence.
+
+**NOTE**: (@TODO) We don't have automation in place to calculate the digestMultibase, so it is a dummy value in the examples.
+
+
 ## Markdown
 
 OBv3 allows Markdown in many data fields, without specifying which subset or variant.
