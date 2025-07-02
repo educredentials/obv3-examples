@@ -61,7 +61,11 @@ dialog img {
 }
 dialog .clipboard {
   font-family: monospace;
-  overflow-x: auto;
+  display: inline-block;
+  overflow-x: scroll;
+  text-wrap: nowrap;
+  height: 2rem;
+  width: 500px;
 }
 dialog button.icon {
   background: none;
