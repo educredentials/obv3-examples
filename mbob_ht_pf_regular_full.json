@@ -57,7 +57,7 @@
       "description": "De hoogste eer in de patatwereld. Dit diploma erkent jouw vaardigheden in het mengen van perfect goudbruine frieten met een ongeëvenaard gevoel voor sauskeuze.",
       "name": "Diploma grootmeester in de frituurkunst",
       "image": {
-        "id": "https://static.example.com/frituurkunst.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/frituurkunst.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",

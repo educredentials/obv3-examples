@@ -57,7 +57,7 @@
       "description": "Het officiële diploma voor studenten die expert zijn geworden in het bedenken van argumenten die totaal geen praktisch nut hebben, inclusief het filosoferen over de levensduur van een stoplicht.",
       "name": "Diploma Meester in het Zinloze Denken",
       "image": {
-        "id": "https://static.example.com/zinloos-denken.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/zinloos-denken.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",

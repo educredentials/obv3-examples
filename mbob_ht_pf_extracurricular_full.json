@@ -57,7 +57,7 @@
       "description": "Vijf weken praktijkervaring in het bedienen van frituurpannen, inclusief het instellen van de magnetron voor het perfecte broodje Bakpao, jonguh.",
       "name": "Extracurriculair Stage in de lokale snackbar",
       "image": {
-        "id": "https://static.example.com/snackbar.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/snackbar.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",

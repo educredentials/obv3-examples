@@ -57,7 +57,7 @@
       "description": "Dit diploma geeft jou de ultieme macht om mensen producten te laten kopen die ze nooit dachten nodig te hebben, inclusief de ‘ik koop het nu’-blik.",
       "name": "Diploma master in subtiele verkoopkunst",
       "image": {
-        "id": "https://static.example.com/verkoopkunst.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/verkoopkunst.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",

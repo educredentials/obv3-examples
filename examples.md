@@ -327,7 +327,7 @@ All \_full versions have a validFrom and a validUntil, which are hardcoded to ma
 
 ### URLs
 
-Images hosted at static.example.com, e.g. https://static.example.com/lightsaber.jpg
+Images hosted at https://raw.githubusercontent.com/ e.g. https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/boerderijdieren.jpg
 
 Contexts hosted at contexts.example.com, e.g. https://contexts.example.com/learning-outcome-extension.json
 
@@ -439,7 +439,7 @@ there are multiple resources in a single example.
       "description": "Leer hoe je iets verkoopt dat eigenlijk niet bestaat, met praktijkoefeningen in het verkopen van luchtkastelen, abonnementen op niets.",
       "name": "Extracurriculair Stage bij het luchtverkopersgilde",
       "image": {
-        "id": "https://static.example.com/luchtkastelen.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/luchtkastelen.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -551,7 +551,7 @@ there are multiple resources in a single example.
       "description": "Beheers de delicate balans tussen geïnteresseerde blikken en ongemakkelijke staarmomenten tijdens verkoopgesprekken.",
       "name": "Microcredential Oogcontact maken zonder creepy te kijken",
       "image": {
-        "id": "https://static.example.com/oogcontact.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/oogcontact.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -679,7 +679,7 @@ there are multiple resources in a single example.
       "description": "Dit diploma geeft jou de ultieme macht om mensen producten te laten kopen die ze nooit dachten nodig te hebben, inclusief de ‘ik koop het nu’-blik.",
       "name": "Diploma master in subtiele verkoopkunst",
       "image": {
-        "id": "https://static.example.com/verkoopkunst.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/verkoopkunst.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -807,7 +807,7 @@ there are multiple resources in a single example.
       "description": "Vijf weken praktijkervaring in het bedienen van frituurpannen, inclusief het instellen van de magnetron voor het perfecte broodje Bakpao, jonguh.",
       "name": "Extracurriculair Stage in de lokale snackbar",
       "image": {
-        "id": "https://static.example.com/snackbar.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/snackbar.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -919,7 +919,7 @@ there are multiple resources in a single example.
       "description": "De essentie van de perfecte frietschiltechniek, met lessen in het minimaliseren van aardappelsap en het behalen van de ideale frietdikte.",
       "name": "Microcredential Frietje perfectie schillen",
       "image": {
-        "id": "https://static.example.com/frietje.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/frietje.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -1047,7 +1047,7 @@ there are multiple resources in a single example.
       "description": "De hoogste eer in de patatwereld. Dit diploma erkent jouw vaardigheden in het mengen van perfect goudbruine frieten met een ongeëvenaard gevoel voor sauskeuze.",
       "name": "Diploma grootmeester in de frituurkunst",
       "image": {
-        "id": "https://static.example.com/frituurkunst.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/frituurkunst.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -1171,7 +1171,7 @@ there are multiple resources in a single example.
       ],
       "name": "Nachtwacht bij slaperige ouderen",
       "image": {
-        "id": "https://static.example.com/watch.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/watch.jpg",
         "type": "Image"
       },
       "description": "Stage waarbij de student acht nachten non-stop wakker blijft om te observeren hoe ouderen proberen in slaap te vallen tijdens het bingewatchen van oude soaps.",
@@ -1282,7 +1282,7 @@ there are multiple resources in a single example.
       ],
       "name": "Dekbed schudden voor gevorderden",
       "image": {
-        "id": "https://static.example.com/bed.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/bed.jpg",
         "type": "Image"
       },
       "description": "De kunst van het vouwen en opschudden van dekbedden tot perfectie, inclusief geheime technieken voor extra strak ingestopte lakens.",
@@ -1424,7 +1424,7 @@ there are multiple resources in a single example.
       "description": "Met dit diploma mag je jezelf dé expert noemen op het gebied van slaapverwekkende verhalen en technieken om iedereen binnen 5 minuten te laten inslapen.",
       "name": "Diploma slapeloosheidsgoeroe",
       "image": {
-        "id": "https://static.example.com/slapeloosheid.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/slapeloosheid.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -1552,7 +1552,7 @@ there are multiple resources in a single example.
       "description": "Onder toezicht van een therapeut boer spreek je kippen en geiten moed in tijdens hun moeilijke periodes, inclusief meditatie voor onrustige bijen.",
       "name": "Stage bij boerderijdieren in therapie",
       "image": {
-        "id": "https://static.example.com/boerderijdieren.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/boerderijdieren.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -1664,7 +1664,7 @@ there are multiple resources in a single example.
       "description": "Leer de geheime taal van katten en honden, inclusief gevorderde technieken voor het vertalen van ‘miauw’ naar ‘ik wil eten’ en ‘woef’ naar ‘ik wil uit’.",
       "name": "Basis miauw en blaf interpretatie",
       "image": {
-        "id": "https://static.example.com/miauw.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/miauw.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -1792,7 +1792,7 @@ there are multiple resources in a single example.
       "description": "Met dit diploma krijg je de officiële bevoegdheid om ruzies tussen duiven te bemiddelen op stadspleinen en in parken.",
       "name": "Diploma dierenfluisteraar met erecode",
       "image": {
-        "id": "https://static.example.com/whisper.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/whisper.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -2022,7 +2022,7 @@ there are multiple resources in a single example.
       ],
       "name": "Lightsaber Dueling Techniques",
       "image": {
-        "id": "https://static.example.com/lightsaber.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/lightsaber.jpg",
         "type": "Image"
       },
       "description": "# Lightsaber Dueling Techniques\n This badge is awarded for demonstrating proficiency in lightsaber dueling techniques.\n\n\n      Below text is dummy text to show all the markdown features.\n\n      ## Koptexten\n\n      # h1 Koptekst\n\n      ## h2 Koptekst\n\n      ### h3 Koptekst\n\n      #### h4 Koptekst\n\n      ##### h5 Koptekst\n\n      ###### h6 Koptekst\n\n      ## Regelafbrekingen\n\n      Hier is een regel voor ons om mee te beginnen.\n      >\n\n      Deze regel wordt gescheiden van de vorige door een \">\" \n      (groter dan teken, zonder de aanhalingstekens) \n      zodat het een *aparte paragraaf* wordt.\n      >\n      >\n      >\n      Het intikken van meer > tekens levert echter niet meer lege regels op.\n      \n      ## Nadruk\n\n      **Dit is vetgedrukte tekst**\n\n      *Dit is cursieve tekst*\n\n      ~~Dit is doorgehaalde tekst~~\n\n      ## Blockquotes\n\n      > Blockquotes kunnen ook genest worden...\n      >> ...by using additional greater-than signs right next to each other...\n      > > > ...or with spaces between the arrows.\n\n      ## Ongeordende lijsten\n\n      + Maak een lijst door een regel te beginnen met `+`, `-`, of `*`\n      + Sub-lijsten worden gemaakt door 2 spaties in te laten springen:\n        - Verandering van markeringsteken forceert start van nieuwe lijst:\n          * Ac tristique libero volutpat at\n          + Facilisis in pretium nisl aliquet\n          - Nulla volutpat aliquam velit\n      + Zeer gemakkelijk!\n\n      ## Geordende lijsten\n\n      1. Maak een lijst door een regel te beginnen met `1.'\n      2. Tweede item\n      3. Derde item\n      4. Zeer gemakkelijk!\n\n      ## Code, Links, Images en Tabellen zijn niet ondersteund",
@@ -2155,7 +2155,7 @@ there are multiple resources in a single example.
       ],
       "name": "Droid Factory Internship",
       "image": {
-        "id": "https://static.example.com/droid.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/droid.jpg",
         "type": "Image"
       },
       "description": "# Droid Factory Internship\n\nThis badge is awarded to students who have completed an internship at the Naboo Droid Factory. The internship is a hands-on experience where students learn how to assemble and repair droids.",
@@ -2277,7 +2277,7 @@ there are multiple resources in a single example.
       ],
       "name": "Lightsaber Dueling Techniques",
       "image": {
-        "id": "https://static.example.com/lightsaber.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/lightsaber.jpg",
         "type": "Image"
       },
       "description": "This badge is awarded for demonstrating proficiency in lightsaber dueling techniques.",
@@ -2508,7 +2508,7 @@ there are multiple resources in a single example.
       ],
       "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
       "image": {
-        "id": "https://static.example.com/mind.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/mind.jpg",
         "type": "Image"
       },
       "description": "# Badge Awarded\n## Achievement Unlocked\nThis **badge** is awarded for completing the course _\"Minor Jedi Mind Control and Advanced Meditation Practices\"_.\n### Course Overview\nThe course explores the foundational techniques of **Jedi Mind Control** and the intricacies of advanced meditation. Learners delve into the mental discipline required to master these skills, honing their focus and control over the mind.\n> \"Your focus determines your reality.\"\nCompleting this course signifies the participant’s proficiency in these critical Jedi practices, earning them this badge of distinction.",
@@ -2633,7 +2633,7 @@ there are multiple resources in a single example.
       ],
       "name": "Droid Maintenance and Repair",
       "image": {
-        "id": "https://static.example.com/droid.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/droid.jpg",
         "type": "Image"
       },
       "description": "# Droid Maintenance and Repair\n\nThis badge is awarded to students who have successfully completed the **Droid Maintenance and Repair course**. The course covers:\n * basics of droid maintenance\n *basics of repair \n * how to identify and fix common problems\n * how to perform routine maintenance tasks.",
@@ -2747,7 +2747,7 @@ there are multiple resources in a single example.
       ],
       "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
       "image": {
-        "id": "https://static.example.com/mind.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/mind.jpg",
         "type": "Image"
       },
       "description": "This badge is awarded for the Minor Jedi Mind Control and Advanced Meditation Practices",
@@ -3021,7 +3021,7 @@ there are multiple resources in a single example.
       "description": "# Badge Awarded\n## Achievement Unlocked\nThis **badge** is awarded for completing the course _\"The Force and Its Applications\"_.\n### Course Overview\nThe course dives deep into the understanding of the **Force**, its origins, and its practical applications in various scenarios. Throughout the course, participants explore the mysterious yet powerful aspects of the _Force_.\n> \"The Force will be with you, always.\"\nUpon completion, learners gain valuable insights and demonstrate their mastery over this complex and fascinating subject. This badge is a testament to that achievement.",
       "name": "The Force and Its Applications",
       "image": {
-        "id": "https://static.example.com/force-applications.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/force-applications.jpg",
         "type": "Image"
       },
       "resultDescription": [
@@ -3159,7 +3159,7 @@ there are multiple resources in a single example.
       "description": "",
       "name": "Pod Tuning and Boosting",
       "image": {
-        "id": "https://static.example.com/pod.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/pod.jpg",
         "type": "Image"
       },
       "resultDescription": [
@@ -3286,7 +3286,7 @@ there are multiple resources in a single example.
       "description": "This badge is awarded for completing the course 'The Force and Its Applications'",
       "name": "The Force and Its Applications",
       "image": {
-        "id": "https://static.example.com/force-applications.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/force-applications.jpg",
         "type": "Image"
       },
       "resultDescription": [
@@ -3420,7 +3420,7 @@ there are multiple resources in a single example.
       "description": "De student heeft met succes de eerste stap in transmutatie afgerond, waarbij katten zonder blijvende schade worden omgezet in keukenapparatuur.",
       "name": "Microcredential Basisomzetting Kat naar Koffiezetapparaat",
       "image": {
-        "id": "https://static.example.com/kat-koffiezet.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/kat-koffiezet.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -3558,7 +3558,7 @@ there are multiple resources in a single example.
       "description": "Na deze module kan de student veilig experimenten terugdraaien zonder schuldgevoel of blijvende psychologische schade aan huisdier of eigenaar.",
       "name": "Microcredential Terugverandering zonder Wroeging",
       "image": {
-        "id": "https://static.example.com/terugverandering.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/terugverandering.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -3696,7 +3696,7 @@ there are multiple resources in a single example.
       "description": "Dit diploma bevestigt dat de student alle geheimen van transmutatie beheerst en zonder probleem een konijn in een koffiemachine kan veranderen (en weer terug, als het goed is).",
       "name": "Diploma Grootmeester Huisdier-Transmutator",
       "image": {
-        "id": "https://static.example.com/huisdier-transmutatie.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/huisdier-transmutatie.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -3834,7 +3834,7 @@ there are multiple resources in a single example.
       "description": "Certificaat voor het succesvol voltooien van een stage bij een overheidsinstelling die zich richt op beleid dat nergens over gaat. Student heeft regelgeving rondom het gebruik van papieren hoedjes op dinsdagen geevalueerd en een adviesrapport geschreven.",
       "name": "Extracurriculair Stage bij Het Ministerie van Onnodige Zaken",
       "image": {
-        "id": "https://static.example.com/onnodige-zaken.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/onnodige-zaken.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -3968,7 +3968,7 @@ there are multiple resources in a single example.
       "description": "Deze microcredential erkent de vaardigheid om urenlang door te praten over onderwerpen die niemand boeien, zoals de perfecte afschuining van een pizzapunt.",
       "name": "Microcredential Argumenteren over Onzinnige Zaken",
       "image": {
-        "id": "https://static.example.com/onzinnige-zaken.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/onzinnige-zaken.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
@@ -4106,7 +4106,7 @@ there are multiple resources in a single example.
       "description": "Het officiële diploma voor studenten die expert zijn geworden in het bedenken van argumenten die totaal geen praktisch nut hebben, inclusief het filosoferen over de levensduur van een stoplicht.",
       "name": "Diploma Meester in het Zinloze Denken",
       "image": {
-        "id": "https://static.example.com/zinloos-denken.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/zinloos-denken.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",

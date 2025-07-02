@@ -52,7 +52,7 @@
       ],
       "name": "Lightsaber Dueling Techniques",
       "image": {
-        "id": "https://static.example.com/lightsaber.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/lightsaber.jpg",
         "type": "Image"
       },
       "description": "This badge is awarded for demonstrating proficiency in lightsaber dueling techniques.",

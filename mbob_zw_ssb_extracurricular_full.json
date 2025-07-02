@@ -53,7 +53,7 @@
       ],
       "name": "Nachtwacht bij slaperige ouderen",
       "image": {
-        "id": "https://static.example.com/watch.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/watch.jpg",
         "type": "Image"
       },
       "description": "Stage waarbij de student acht nachten non-stop wakker blijft om te observeren hoe ouderen proberen in slaap te vallen tijdens het bingewatchen van oude soaps.",

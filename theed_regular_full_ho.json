@@ -57,7 +57,7 @@
       "description": "# Badge Awarded\n## Achievement Unlocked\nThis **badge** is awarded for completing the course _\"The Force and Its Applications\"_.\n### Course Overview\nThe course dives deep into the understanding of the **Force**, its origins, and its practical applications in various scenarios. Throughout the course, participants explore the mysterious yet powerful aspects of the _Force_.\n> \"The Force will be with you, always.\"\nUpon completion, learners gain valuable insights and demonstrate their mastery over this complex and fascinating subject. This badge is a testament to that achievement.",
       "name": "The Force and Its Applications",
       "image": {
-        "id": "https://static.example.com/force-applications.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/force-applications.jpg",
         "type": "Image"
       },
       "resultDescription": [

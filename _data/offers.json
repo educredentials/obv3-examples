@@ -1,133 +1,133 @@
 [
   {
-    "thumbnail": "https://static.example.com/luchtkastelen.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/luchtkastelen.jpg",
     "name": "Extracurriculair Stage bij het luchtverkopersgilde",
     "issuer": "MBO Beek",
     "credential": "mbob_eo_eov_extracurricular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/6ba1c0dc53c34b543c7d546e0dbd31bbf1e10b0b92e3698c24c2cb89276798de",
-      "id": "6ba1c0dc53c34b543c7d546e0dbd31bbf1e10b0b92e3698c24c2cb89276798de"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/c36bb146cee7dfeb41492158a3a9877c73c58faeaef350c9d501ab02629acb16",
+      "id": "c36bb146cee7dfeb41492158a3a9877c73c58faeaef350c9d501ab02629acb16"
     },
     "offer_png": "./offers/img/mbob_eo_eov_extracurricular_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/oogcontact.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/oogcontact.jpg",
     "name": "Microcredential Oogcontact maken zonder creepy te kijken",
     "issuer": "MBO Beek",
     "credential": "mbob_eo_eov_microcredential_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/bdfe85d6800d857aee7dc0224496b68ebd8f685f43f7238fecc3112bd45b3aa0",
-      "id": "bdfe85d6800d857aee7dc0224496b68ebd8f685f43f7238fecc3112bd45b3aa0"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/b11d3ca1ab8a6b06849aa227085115076bfbfff8456800086b84d208558c1a18",
+      "id": "b11d3ca1ab8a6b06849aa227085115076bfbfff8456800086b84d208558c1a18"
     },
     "offer_png": "./offers/img/mbob_eo_eov_microcredential_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/verkoopkunst.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/verkoopkunst.jpg",
     "name": "Diploma master in subtiele verkoopkunst",
     "issuer": "MBO Beek",
     "credential": "mbob_eo_eov_regular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/495b015001185b6d59e376fd823489a77f8100284fb1e3f993f5800f72e16fcc",
-      "id": "495b015001185b6d59e376fd823489a77f8100284fb1e3f993f5800f72e16fcc"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/47a35fecacc3fb8db38ee3906afa4f8d0ca49cdb6a8dc41c770c6e290a060f9c",
+      "id": "47a35fecacc3fb8db38ee3906afa4f8d0ca49cdb6a8dc41c770c6e290a060f9c"
     },
     "offer_png": "./offers/img/mbob_eo_eov_regular_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/snackbar.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/snackbar.jpg",
     "name": "Extracurriculair Stage in de lokale snackbar",
     "issuer": "MBO Beek",
     "credential": "mbob_ht_pf_extracurricular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/aeed091ef4a3c751ecc2aac5dbc6b8f8586accb6f8652c86c841af89c8a1bf75",
-      "id": "aeed091ef4a3c751ecc2aac5dbc6b8f8586accb6f8652c86c841af89c8a1bf75"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/b6b1f7256eb2d71418c45b56f634dc21d01464c0794a8f54f193ecfb0c198286",
+      "id": "b6b1f7256eb2d71418c45b56f634dc21d01464c0794a8f54f193ecfb0c198286"
     },
     "offer_png": "./offers/img/mbob_ht_pf_extracurricular_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/frietje.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/frietje.jpg",
     "name": "Microcredential Frietje perfectie schillen",
     "issuer": "MBO Beek",
     "credential": "mbob_ht_pf_microcredential_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/c062cba7a35ac14e626cb2cd6477b22e30dad3b3854ebefca160640877adab57",
-      "id": "c062cba7a35ac14e626cb2cd6477b22e30dad3b3854ebefca160640877adab57"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/5063e20966dda39ccba4a7c9a962659b327727788564f7b20627cd29920c5f52",
+      "id": "5063e20966dda39ccba4a7c9a962659b327727788564f7b20627cd29920c5f52"
     },
     "offer_png": "./offers/img/mbob_ht_pf_microcredential_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/frituurkunst.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/frituurkunst.jpg",
     "name": "Diploma grootmeester in de frituurkunst",
     "issuer": "MBO Beek",
     "credential": "mbob_ht_pf_regular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/1824e4fbd7d0fea58740aca606587c7e91716df7ba01202bb1774b812d06c57b",
-      "id": "1824e4fbd7d0fea58740aca606587c7e91716df7ba01202bb1774b812d06c57b"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/6e51b72aab5177c71d0997202af650a37988e4bf055943f230970b55677d76fe",
+      "id": "6e51b72aab5177c71d0997202af650a37988e4bf055943f230970b55677d76fe"
     },
     "offer_png": "./offers/img/mbob_ht_pf_regular_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/watch.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/watch.jpg",
     "name": "Nachtwacht bij slaperige ouderen",
     "issuer": "MBO Beek",
     "credential": "mbob_zw_ssb_extracurricular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/3dfa67aaefb641b7eb4b8a3ffbb45b8a46f2dc20256611d6c6c5b14d8afb2347",
-      "id": "3dfa67aaefb641b7eb4b8a3ffbb45b8a46f2dc20256611d6c6c5b14d8afb2347"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/610179fac8d97c27788f0db361044cfeac50ffcbea6eb900c23f93f998dbcf45",
+      "id": "610179fac8d97c27788f0db361044cfeac50ffcbea6eb900c23f93f998dbcf45"
     },
     "offer_png": "./offers/img/mbob_zw_ssb_extracurricular_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/bed.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/bed.jpg",
     "name": "Dekbed schudden voor gevorderden",
     "issuer": "MBO Beek",
     "credential": "mbob_zw_ssb_microcredential_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/aa73d2fbae16a42e5ff8086ef936ddc2a042a48fd6ede7938f55f6fca08e1261",
-      "id": "aa73d2fbae16a42e5ff8086ef936ddc2a042a48fd6ede7938f55f6fca08e1261"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/6eefb8487547517a88e0018bdc2b831d106160165457e0252a63417126ad2fc7",
+      "id": "6eefb8487547517a88e0018bdc2b831d106160165457e0252a63417126ad2fc7"
     },
     "offer_png": "./offers/img/mbob_zw_ssb_microcredential_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/slapeloosheid.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/slapeloosheid.jpg",
     "name": "Diploma slapeloosheidsgoeroe",
     "issuer": "MBO Beek",
     "credential": "mbob_zw_ssb_regular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/b5a7a28aacdbce31e75f41cb51f3fa88a22897a273287fcafc31232322ab3891",
-      "id": "b5a7a28aacdbce31e75f41cb51f3fa88a22897a273287fcafc31232322ab3891"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/b448f4c2b01a645a697226a61e07bcecbf9afaedc34b017c0ff4f52dcbbf6947",
+      "id": "b448f4c2b01a645a697226a61e07bcecbf9afaedc34b017c0ff4f52dcbbf6947"
     },
     "offer_png": "./offers/img/mbob_zw_ssb_regular_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/boerderijdieren.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/boerderijdieren.jpg",
     "name": "Stage bij boerderijdieren in therapie",
     "issuer": "MBO Beek",
     "credential": "mbob_zw_td_extracurricular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/ec58bd03b25e09102e5e1f2aec313c7c07c4da8537f49830955f4f10bfaa9120",
-      "id": "ec58bd03b25e09102e5e1f2aec313c7c07c4da8537f49830955f4f10bfaa9120"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/86b7f7e13a17894081d98cbc55d09b9739967c93c098033452ab272752afd0fc",
+      "id": "86b7f7e13a17894081d98cbc55d09b9739967c93c098033452ab272752afd0fc"
     },
     "offer_png": "./offers/img/mbob_zw_td_extracurricular_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/miauw.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/miauw.jpg",
     "name": "Basis miauw en blaf interpretatie",
     "issuer": "MBO Beek",
     "credential": "mbob_zw_td_microcredential_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/196427626c7d989fdadd575bc912bfa116e4dc6acd42989b1f8273a5d5d17c07",
-      "id": "196427626c7d989fdadd575bc912bfa116e4dc6acd42989b1f8273a5d5d17c07"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/e3799509a9f0479f3278f7257fa05faa6be6ef1b41eefdcd861ff2db381c0b1d",
+      "id": "e3799509a9f0479f3278f7257fa05faa6be6ef1b41eefdcd861ff2db381c0b1d"
     },
     "offer_png": "./offers/img/mbob_zw_td_microcredential_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/whisper.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/whisper.jpg",
     "name": "Diploma dierenfluisteraar met erecode",
     "issuer": "MBO Beek",
     "credential": "mbob_zw_td_regular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/6dcfaeef6dcfe54c818c0e479ccb4e746e314409022ac510899f1a42f733ae2f",
-      "id": "6dcfaeef6dcfe54c818c0e479ccb4e746e314409022ac510899f1a42f733ae2f"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/eb0d4884130c7f4cfa21334524547769491d87f3a74ca7c2c79daf50d69a589b",
+      "id": "eb0d4884130c7f4cfa21334524547769491d87f3a74ca7c2c79daf50d69a589b"
     },
     "offer_png": "./offers/img/mbob_zw_td_regular_full.offer.png"
   },
@@ -143,35 +143,35 @@
     "offer_png": "./offers/img/theed_extracurricular_embedded_ho.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/lightsaber.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/lightsaber.jpg",
     "name": "Lightsaber Dueling Techniques",
     "issuer": "Naboo Theed University",
     "credential": "theed_extracurricular_full_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/92c629efb6a494f7cbc03465dad88731507e137a1758615b4607abfbfc747abc",
-      "id": "92c629efb6a494f7cbc03465dad88731507e137a1758615b4607abfbfc747abc"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/81d34749324d0845221c8e406473c4fb82bdc1ce0a0ef7fbff3bc8a8d245aaad",
+      "id": "81d34749324d0845221c8e406473c4fb82bdc1ce0a0ef7fbff3bc8a8d245aaad"
     },
     "offer_png": "./offers/img/theed_extracurricular_full_ho.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/droid.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/droid.jpg",
     "name": "Droid Factory Internship",
     "issuer": "Naboo Theed University",
     "credential": "theed_extracurricular_full_mbo.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/23c644156ce1232150452696c1383067f8c50d256d09b2e282fc0266428bae5f",
-      "id": "23c644156ce1232150452696c1383067f8c50d256d09b2e282fc0266428bae5f"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/eed6f2480b7c1e2eafc66b4f4c53bb1f59ec0d5a6787b3ee1bf79ee40eb059e5",
+      "id": "eed6f2480b7c1e2eafc66b4f4c53bb1f59ec0d5a6787b3ee1bf79ee40eb059e5"
     },
     "offer_png": "./offers/img/theed_extracurricular_full_mbo.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/lightsaber.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/lightsaber.jpg",
     "name": "Lightsaber Dueling Techniques",
     "issuer": "Naboo Theed University",
     "credential": "theed_extracurricular_minimal_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/d575a0c31c34e7d147599224f7ec28d6655bcab5173e152229e368b5d6f4e20a",
-      "id": "d575a0c31c34e7d147599224f7ec28d6655bcab5173e152229e368b5d6f4e20a"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/2a27803e8372b0b5e3aa0497208d8e580ba0491bf321d6e7aeab0ac4fdd35321",
+      "id": "2a27803e8372b0b5e3aa0497208d8e580ba0491bf321d6e7aeab0ac4fdd35321"
     },
     "offer_png": "./offers/img/theed_extracurricular_minimal_ho.offer.png"
   },
@@ -187,35 +187,35 @@
     "offer_png": "./offers/img/theed_microcredential_embedded_ho.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/mind.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/mind.jpg",
     "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
     "issuer": "Naboo Theed University",
     "credential": "theed_microcredential_full_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/64f20f00c1c7ca01144d50a2e67fca93f4d1f29b3b88d8e79ef65d6c10985836",
-      "id": "64f20f00c1c7ca01144d50a2e67fca93f4d1f29b3b88d8e79ef65d6c10985836"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/5541e4af37c4ef82c2b16b16b1e4451fc6283f160ac62d62d1fe5c38edae5c66",
+      "id": "5541e4af37c4ef82c2b16b16b1e4451fc6283f160ac62d62d1fe5c38edae5c66"
     },
     "offer_png": "./offers/img/theed_microcredential_full_ho.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/droid.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/droid.jpg",
     "name": "Droid Maintenance and Repair",
     "issuer": "Naboo Theed University",
     "credential": "theed_microcredential_full_mbo.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/be74574eed151b29b71c5b8ffccd780cf02cc6529547c25604a3617e7fbf7cf3",
-      "id": "be74574eed151b29b71c5b8ffccd780cf02cc6529547c25604a3617e7fbf7cf3"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/7797fdd2cc6597eafd03f268e4cf5798557e3e8ea95302663817ceccf13abee5",
+      "id": "7797fdd2cc6597eafd03f268e4cf5798557e3e8ea95302663817ceccf13abee5"
     },
     "offer_png": "./offers/img/theed_microcredential_full_mbo.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/mind.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/mind.jpg",
     "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
     "issuer": "Naboo Theed University",
     "credential": "theed_microcredential_minimal_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/c3398ceffc4abf11519e8a5c1740bdac52ea8de0bc97cfe371320e36ffc2346f",
-      "id": "c3398ceffc4abf11519e8a5c1740bdac52ea8de0bc97cfe371320e36ffc2346f"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/61d72cce0e7379d08cf87c4ee3bf58b6ef3e3335939183a655db2960caa3f281",
+      "id": "61d72cce0e7379d08cf87c4ee3bf58b6ef3e3335939183a655db2960caa3f281"
     },
     "offer_png": "./offers/img/theed_microcredential_minimal_ho.offer.png"
   },
@@ -231,101 +231,101 @@
     "offer_png": "./offers/img/theed_regular_embedded_ho.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/force-applications.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/force-applications.jpg",
     "name": "The Force and Its Applications",
     "issuer": "Naboo Theed University",
     "credential": "theed_regular_full_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/3a6a18f51f93c297ed191e56fb36e34d51765ebba22e09cd48ea2dd20e900031",
-      "id": "3a6a18f51f93c297ed191e56fb36e34d51765ebba22e09cd48ea2dd20e900031"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/a19c14f4d012ce83592f383191f5322c17b52f112067dc5afd66f8780e1f8cf2",
+      "id": "a19c14f4d012ce83592f383191f5322c17b52f112067dc5afd66f8780e1f8cf2"
     },
     "offer_png": "./offers/img/theed_regular_full_ho.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/pod.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/pod.jpg",
     "name": "Pod Tuning and Boosting",
     "issuer": "Naboo Theed University",
     "credential": "theed_regular_full_mbo.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/453aa08aca449a340e84af8ecdc8bf3fcba4668f59e9b97ba6f083b8630ca257",
-      "id": "453aa08aca449a340e84af8ecdc8bf3fcba4668f59e9b97ba6f083b8630ca257"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/58fd244d7826f2322216075c1623ba0fbd9b917cb84031c0b96dd595a9630aa8",
+      "id": "58fd244d7826f2322216075c1623ba0fbd9b917cb84031c0b96dd595a9630aa8"
     },
     "offer_png": "./offers/img/theed_regular_full_mbo.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/force-applications.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/force-applications.jpg",
     "name": "The Force and Its Applications",
     "issuer": "Naboo Theed University",
     "credential": "theed_regular_minimal_ho.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/4c8da0b872b4277da4070cded41b7219bbd501314c82e7c83a1c20101bfdd36d",
-      "id": "4c8da0b872b4277da4070cded41b7219bbd501314c82e7c83a1c20101bfdd36d"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/c4326e3ee3e465df3c792eaa480cc45ac1f1fe652188fccedc7d179c0e55143d",
+      "id": "c4326e3ee3e465df3c792eaa480cc45ac1f1fe652188fccedc7d179c0e55143d"
     },
     "offer_png": "./offers/img/theed_regular_minimal_ho.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/kat-koffiezet.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/kat-koffiezet.jpg",
     "name": "Microcredential Basisomzetting Kat naar Koffiezetapparaat",
     "issuer": "Universiteit van Harderwijk",
     "credential": "uvh_at_microcredential_full_1.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/91981ab78a71b309ad8ba74d63d66c14ad92da7f74acf5a419341b495f03fc9f",
-      "id": "91981ab78a71b309ad8ba74d63d66c14ad92da7f74acf5a419341b495f03fc9f"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/d6f792165dd39f2df642f5b1c76290f34bed514e09749e569126374abb7e637e",
+      "id": "d6f792165dd39f2df642f5b1c76290f34bed514e09749e569126374abb7e637e"
     },
     "offer_png": "./offers/img/uvh_at_microcredential_full_1.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/terugverandering.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/terugverandering.jpg",
     "name": "Microcredential Terugverandering zonder Wroeging",
     "issuer": "Universiteit van Harderwijk",
     "credential": "uvh_at_microcredential_full_2.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/8e88ca2ee1b934aa178b3dda5d7e29326947fd363ed797cdabcfc48fc0e8def3",
-      "id": "8e88ca2ee1b934aa178b3dda5d7e29326947fd363ed797cdabcfc48fc0e8def3"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/02b8e5db47a5e629e809c8b01905f250ad9043e6fe0e25d76ada58691770f1ef",
+      "id": "02b8e5db47a5e629e809c8b01905f250ad9043e6fe0e25d76ada58691770f1ef"
     },
     "offer_png": "./offers/img/uvh_at_microcredential_full_2.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/huisdier-transmutatie.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/huisdier-transmutatie.jpg",
     "name": "Diploma Grootmeester Huisdier-Transmutator",
     "issuer": "Universiteit van Harderwijk",
     "credential": "uvh_at_regular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/7fe3c96a7ebcfd594763b0d04052c0dfa8eb5e91970d3096f713e85767d30c93",
-      "id": "7fe3c96a7ebcfd594763b0d04052c0dfa8eb5e91970d3096f713e85767d30c93"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/0729536873d732bf155efaacdf465ac7b24245af450cc7012e99a1217cc66564",
+      "id": "0729536873d732bf155efaacdf465ac7b24245af450cc7012e99a1217cc66564"
     },
     "offer_png": "./offers/img/uvh_at_regular_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/onnodige-zaken.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/onnodige-zaken.jpg",
     "name": "Extracurriculair Stage bij Het Ministerie van Onnodige Zaken",
     "issuer": "Universiteit van Harderwijk",
     "credential": "uvh_fvhz_extracurricular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/eff3a2e2b378aa3cd010d18944d448d8967a0737eda9bbf41e2c3b0f8f767cdd",
-      "id": "eff3a2e2b378aa3cd010d18944d448d8967a0737eda9bbf41e2c3b0f8f767cdd"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/753e31c79fb9e61f5412f8ebcee94d4b875cadb6177501913fdcdf49345648b2",
+      "id": "753e31c79fb9e61f5412f8ebcee94d4b875cadb6177501913fdcdf49345648b2"
     },
     "offer_png": "./offers/img/uvh_fvhz_extracurricular_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/onzinnige-zaken.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/onzinnige-zaken.jpg",
     "name": "Microcredential Argumenteren over Onzinnige Zaken",
     "issuer": "Universiteit van Harderwijk",
     "credential": "uvh_fvhz_microcredential_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/e4d21c8fa7ee8d33f8f9984e24766dd174b2d56f70776ef1b97ec76d48da2732",
-      "id": "e4d21c8fa7ee8d33f8f9984e24766dd174b2d56f70776ef1b97ec76d48da2732"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/1b355b0aaf42980231b944484cec01a68580e9903e415117109687f829b1340a",
+      "id": "1b355b0aaf42980231b944484cec01a68580e9903e415117109687f829b1340a"
     },
     "offer_png": "./offers/img/uvh_fvhz_microcredential_full.offer.png"
   },
   {
-    "thumbnail": "https://static.example.com/zinloos-denken.jpg",
+    "thumbnail": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/zinloos-denken.jpg",
     "name": "Diploma Meester in het Zinloze Denken",
     "issuer": "Universiteit van Harderwijk",
     "credential": "uvh_fvhz_regular_full.json",
     "offer_json": {
-      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/9c4258051496496fcc9357d71e21970aff7d6d2481e72ad45db48bf0d9465266",
-      "id": "9c4258051496496fcc9357d71e21970aff7d6d2481e72ad45db48bf0d9465266"
+      "uri": "openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/d69c27676af4d45975ea70fbc895cffe311575c1d46b08ed4f179d8404f54af4",
+      "id": "d69c27676af4d45975ea70fbc895cffe311575c1d46b08ed4f179d8404f54af4"
     },
     "offer_png": "./offers/img/uvh_fvhz_regular_full.offer.png"
   }

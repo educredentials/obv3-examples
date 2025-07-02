@@ -57,7 +57,7 @@
       "description": "Leer hoe je iets verkoopt dat eigenlijk niet bestaat, met praktijkoefeningen in het verkopen van luchtkastelen, abonnementen op niets.",
       "name": "Extracurriculair Stage bij het luchtverkopersgilde",
       "image": {
-        "id": "https://static.example.com/luchtkastelen.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/luchtkastelen.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",

@@ -57,7 +57,7 @@
       "description": "Certificaat voor het succesvol voltooien van een stage bij een overheidsinstelling die zich richt op beleid dat nergens over gaat. Student heeft regelgeving rondom het gebruik van papieren hoedjes op dinsdagen geevalueerd en een adviesrapport geschreven.",
       "name": "Extracurriculair Stage bij Het Ministerie van Onnodige Zaken",
       "image": {
-        "id": "https://static.example.com/onnodige-zaken.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/onnodige-zaken.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",

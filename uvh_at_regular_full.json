@@ -57,7 +57,7 @@
       "description": "Dit diploma bevestigt dat de student alle geheimen van transmutatie beheerst en zonder probleem een konijn in een koffiemachine kan veranderen (en weer terug, als het goed is).",
       "name": "Diploma Grootmeester Huisdier-Transmutator",
       "image": {
-        "id": "https://static.example.com/huisdier-transmutatie.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/huisdier-transmutatie.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",

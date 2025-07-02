@@ -57,7 +57,7 @@
       "description": "",
       "name": "Pod Tuning and Boosting",
       "image": {
-        "id": "https://static.example.com/pod.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/pod.jpg",
         "type": "Image"
       },
       "resultDescription": [

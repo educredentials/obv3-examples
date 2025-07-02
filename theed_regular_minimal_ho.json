@@ -56,7 +56,7 @@
       "description": "This badge is awarded for completing the course 'The Force and Its Applications'",
       "name": "The Force and Its Applications",
       "image": {
-        "id": "https://static.example.com/force-applications.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/force-applications.jpg",
         "type": "Image"
       },
       "resultDescription": [

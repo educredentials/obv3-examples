@@ -53,7 +53,7 @@
       ],
       "name": "Droid Factory Internship",
       "image": {
-        "id": "https://static.example.com/droid.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/droid.jpg",
         "type": "Image"
       },
       "description": "# Droid Factory Internship\n\nThis badge is awarded to students who have completed an internship at the Naboo Droid Factory. The internship is a hands-on experience where students learn how to assemble and repair droids.",

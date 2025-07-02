@@ -57,7 +57,7 @@
       "description": "Onder toezicht van een therapeut boer spreek je kippen en geiten moed in tijdens hun moeilijke periodes, inclusief meditatie voor onrustige bijen.",
       "name": "Stage bij boerderijdieren in therapie",
       "image": {
-        "id": "https://static.example.com/boerderijdieren.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/boerderijdieren.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",

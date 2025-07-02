@@ -57,7 +57,7 @@
       "description": "Met dit diploma krijg je de officiële bevoegdheid om ruzies tussen duiven te bemiddelen op stadspleinen en in parken.",
       "name": "Diploma dierenfluisteraar met erecode",
       "image": {
-        "id": "https://static.example.com/whisper.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/whisper.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
