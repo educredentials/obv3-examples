@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <dialog id="{{ offer.offer_json.id }}">
     <p>Import <em>{{ offer.name }}</em> into your wallet</p>
     <img src="{{ offer.offer_png | relative_url }}" alt="{{ offer.offer_json.id }}">
-    <code class="clipboard">{{ offer.offer_json.uri }}</pre>
+    <code class="clipboard">{{ offer.offer_json.uri }}</code>
     <button class="icon copy" aria-label="Copy this offer">📋</button>
     <form method="dialog">
       <button type="submit" autofocus>Close</button>
