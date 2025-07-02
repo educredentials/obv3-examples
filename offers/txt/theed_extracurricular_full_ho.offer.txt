@@ -1,0 +1,1 @@
+openid-credential-offer://?credential_offer_uri=%22https%3A%2F%2Fagent.poc9.eduwallet.nl%2Fopenid4vci%2Fcredential-offer%2F81d34749324d0845221c8e406473c4fb82bdc1ce0a0ef7fbff3bc8a8d245aaad%22

@@ -1,1 +1,4 @@
-{"uri":"openid-credential-offer://?credential_offer_uri=https://agent.poc4.eduwallet.nl/edubadges/get-credential-offer/b6b1f7256eb2d71418c45b56f634dc21d01464c0794a8f54f193ecfb0c198286","id":"b6b1f7256eb2d71418c45b56f634dc21d01464c0794a8f54f193ecfb0c198286"}
+{
+  "id": "b6b1f7256eb2d71418c45b56f634dc21d01464c0794a8f54f193ecfb0c198286",
+  "uri": "openid-credential-offer://?credential_offer_uri=%22https%3A%2F%2Fagent.poc9.eduwallet.nl%2Fopenid4vci%2Fcredential-offer%2Fb6b1f7256eb2d71418c45b56f634dc21d01464c0794a8f54f193ecfb0c198286%22"
+}
