@@ -59,6 +59,17 @@ dialog img {
   height: auto;
   margin: 0 0 1rem;
 }
+dialog .clipboard {
+  font-family: monospace;
+  overflow-x: auto;
+}
+dialog button.icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #333;
+}
 dialog form {
   background-color: #fff;
 }
@@ -75,6 +86,18 @@ document.addEventListener('DOMContentLoaded', function () {
          dialog.showModal();
       });
    });
+   document.querySelectorAll('dialog copy').forEach(function (copyButton) {
+        copyButton.addEventListener('click', function (event) {
+             event.preventDefault();
+             var dialog = copyButton.closest('dialog');
+             var clipboardText = dialog.querySelector('.clipboard').textContent;
+             navigator.clipboard.writeText(clipboardText).then(function() {
+                console.log('Text copied to clipboard: ', clipboardText);
+             }, function(err) {
+                console.error('Could not copy text: ', err);
+             });
+        });
+   });
 });
 </script>
 
@@ -89,11 +112,13 @@ document.addEventListener('DOMContentLoaded', function () {
     <p class="issuer">{{ offer.issuer }}</p>
     <img src="{{processed_thumbnail}}" alt=""/>
     <p class="title"> 📥 import <em>{{ offer.name }}</em></p>
-    <code title="{{offer.credential}}">{{ offer.credential }}</code>
+    <code title="{{offer.credential}}">{{ offer.credential }}</code><button class="icon copy" aria-label="Copy this offer">📋</button>
+    
   </div>
   <dialog id="{{ offer.offer_json.id }}">
     <p>Import <em>{{ offer.name }}</em> into your wallet</p>
     <img src="{{ offer.offer_png | relative_url }}" alt="{{ offer.offer_json.id }}">
+    <pre class="clipboard">{{ offer.offer_json.uri }}</pre>
     <form method="dialog">
       <button type="submit" autofocus>Close</button>
     </form>
