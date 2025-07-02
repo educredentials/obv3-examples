@@ -87,16 +87,18 @@ document.addEventListener('DOMContentLoaded', function () {
       });
    });
    document.querySelectorAll('dialog copy').forEach(function (copyButton) {
-        copyButton.addEventListener('click', function (event) {
-             event.preventDefault();
-             var dialog = copyButton.closest('dialog');
-             var clipboardText = dialog.querySelector('.clipboard').textContent;
-             navigator.clipboard.writeText(clipboardText).then(function() {
-                console.log('Text copied to clipboard: ', clipboardText);
-             }, function(err) {
-                console.error('Could not copy text: ', err);
-             });
+      copyButton.addEventListener('click', function (event) {
+        event.preventDefault();
+        var offerCode = copyButton.previousElementSibling;
+        navigator.clipboard.writeText(offerCode.textContent).then(function() {
+          copyButton.textContent = '✅ Copied!';
+          setTimeout(function() {
+            copyButton.textContent = '📋';
+          }, 2000);
+        }).catch(function(err) {
+          console.error('Failed to copy: ', err);
         });
+      });
    });
 });
 </script>
@@ -112,13 +114,14 @@ document.addEventListener('DOMContentLoaded', function () {
     <p class="issuer">{{ offer.issuer }}</p>
     <img src="{{processed_thumbnail}}" alt=""/>
     <p class="title"> 📥 import <em>{{ offer.name }}</em></p>
-    <code title="{{offer.credential}}">{{ offer.credential }}</code><button class="icon copy" aria-label="Copy this offer">📋</button>
+    <code title="{{offer.credential}}">{{ offer.credential }}</code>
     
   </div>
   <dialog id="{{ offer.offer_json.id }}">
     <p>Import <em>{{ offer.name }}</em> into your wallet</p>
     <img src="{{ offer.offer_png | relative_url }}" alt="{{ offer.offer_json.id }}">
-    <pre class="clipboard">{{ offer.offer_json.uri }}</pre>
+    <code class="clipboard">{{ offer.offer_json.uri }}</pre>
+    <button class="icon copy" aria-label="Copy this offer">📋</button>
     <form method="dialog">
       <button type="submit" autofocus>Close</button>
     </form>
