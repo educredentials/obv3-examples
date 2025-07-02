@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
          dialog.showModal();
       });
    });
-   document.querySelectorAll('dialog copy').forEach(function (copyButton) {
+   document.querySelectorAll('dialog button.copy').forEach(function (copyButton) {
       copyButton.addEventListener('click', function (event) {
         event.preventDefault();
         var offerCode = copyButton.previousElementSibling;
