@@ -1,73 +1,72 @@
-Dit document is een export van [Opmaken text badge
-class](https://wiki.surfnet.nl/display/Edubadges/Opmaken+tekst+badge+class) uit de interne wiki.
-Ze is daarna aangepast om voor de OBv3 ingezet te kunnen worden.
+This document is an export of [Opmaken text badge
+class](https://wiki.surfnet.nl/display/Edubadges/Opmaken+tekst+badge+class) from the internal wiki.
+It was subsequently modified to be used for OBv3.
 
-Markdown opmaak volgt de [Formatting text in de Open Education API](https://openonderwijsapi.nl/#/technical/formatting-text?id=formatting-text), maar 
-is verder ingeperkt.
+Markdown formatting follows the [Formatting text in the Open Education API](https://openonderwijsapi.nl/#/technical/formatting-text?id=formatting-text), but 
+is further restricted.
 
-## Vragen
+## Questions
 
-- Wat te doen met markdown die we niet toestaan, renderen? filteren? foutmelding?
-- Willen we het schema hiervoor uitbreiden? Kan dat? Het zou vermoedelijk een vreselijk complexe
-  regex worden.
+- What to do with markdown that we don't allow, render? filter? error message?
+- Do we want to expand the schema for this? Is that possible? It would probably become an extremely complex
+  regex.
 
-## Aannames
- 
-Zie de openbare Badge Class op: https://www.edubadges.nl/public/PXWLW-NaQT6G1OTutttnBw
+## Assumptions
+ 
+See the public Badge Class at: https://www.edubadges.nl/public/PXWLW-NaQT6G1OTutttnBw
 
-### Simpele Markdown voorbeelden
+### Simple Markdown examples
 
-Edubadges ondersteunt een basis opmaak taal genaamd 'Markdown'
-welke je in staat stelt om enkele basis opmaak functies toe te
-voegen in je edubadges Badge Class.
+Edubadges supports a basic formatting language called 'Markdown'
+which allows you to add some basic formatting functions to
+your edubadges Badge Class.
 
-De volgende tabel toont de markdown commando's die je kan
-gebruiken en het resultaat hoe je browser dit markdown element
-zal tonen:
+The following table shows the markdown commands you can
+use and the result of how your browser will display this markdown element:
 
-## Kopteksten
+## Headers
 ```
-# h1 Koptekst
-## h2 Koptekst
-### h3 Koptekst
-#### h4 Koptekst
-##### h5 Koptekst
-###### h6 Koptekst
+# h1 Header
+## h2 Header
+### h3 Header
+#### h4 Header
+##### h5 Header
+###### h6 Header
 ```
-# h1 Koptekst
-## h2 Koptekst
-### h3 Koptekst
-#### h4 Koptekst
-##### h5 Koptekst
-###### h6 Koptekst
+# h1 Header
+## h2 Header
+### h3 Header
+#### h4 Header
+##### h5 Header
+###### h6 Header
 
-## Regelafbrekingen
+## Line breaks
 
 ```
-Hier is een regel voor ons om mee te beginnen.
+Here is a line for us to start with.
 
 >
 
-Deze regel wordt gescheiden
-van de vorige door een ">"
-(groter dan teken, zonder de aanhalingstekens)
-zodat het een *aparte paragraaf* wordt.
+This line is separated
+from the previous one by a ">"
+(greater than sign, without the quotation marks)
+so that it becomes a *separate paragraph*.
 >
 >
 >
-Het intikken van meer > tekens levert echte r niet meer lege regels op.
+Typing more > signs doesn't actually result in more empty lines.
 ```
 
-Hier is een regel voor ons om mee te beginnen.
+Here is a line for us to start with.
 >
-Deze regel wordt gescheiden van de vorige door een ">" (groter dan teken,
-zonder de aanhalingstekens) zodat het een *aparte paragraaf* wordt.
+This line is separated from the previous one by a ">" (greater than sign,
+without the quotation marks) so that it becomes a *separate paragraph*.
 >
 >
 >
-Het intikken van meer > tekens levert echte r niet meer lege regels op.
+Typing more > signs doesn't actually result in more empty lines.
 
-## Horizontale lijnen
+## Horizontal lines
 
 ```
 ---
@@ -75,63 +74,63 @@ Het intikken van meer > tekens levert echte r niet meer lege regels op.
 
 ---
 
-## Nadruk
+## Emphasis
 ```
-**Dit is vetgedrukte tekst**
+**This is bold text**
 
-*Dit is cursieve tekst*
+*This is italic text*
 
-~~Dit is doorgehaalde tekst~~
+~~This is strikethrough text~~
 ```
 
-**Dit is vetgedrukte tekst**
+**This is bold text**
 
-*Dit is cursieve tekst*
+*This is italic text*
 
-~~Dit is doorgehaalde tekst~~
+~~This is strikethrough text~~
 
 ## Blockquotes
 
 ```
-> Blockquotes kunnen ook genest worden...
+> Blockquotes can also be nested...
 >> ...by using additional greater-than signs right next to each other...
 > > > ...or with spaces between the arrows.
 ```
 
-> Blockquotes kunnen ook genest worden...
+> Blockquotes can also be nested...
 >> ...by using additional greater-than signs right next to each other...
 > > > ...or with spaces between the arrows.
 
-## Ongeordende lijsten
+## Unordered lists
 
 ```
-+ Maak een lijst door een regel te beginnen met `+`, `-`, of `*`
-+ Sub-lijsten worden gemaakt door 2 spaties in te laten springen:
-  - Verandering van markeringsteken forceert start van nieuwe lijst:
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Changing the marker character forces start of new list:
     * Ac tristique libero volutpat at
     + Facilisis in pretium nisl aliquet
     - Nulla volutpat aliquam velit
-+ Zeer gemakkelijk!
++ Very easy!
 ```
 
-+ Maak een lijst door een regel te beginnen met `+`, `-`, of `*`
-+ Sub-lijsten worden gemaakt door 2 spaties in te laten springen:
-  - Verandering van markeringsteken forceert start van nieuwe lijst:
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Changing the marker character forces start of new list:
     * Ac tristique libero volutpat at
     + Facilisis in pretium nisl aliquet
     - Nulla volutpat aliquam velit
-+ Zeer gemakkelijk!
++ Very easy!
 
-## Geordende lijsten
+## Ordered lists
 
 ```
-1. Maak een lijst door een regel te beginnen met `1.`
-2. Tweede item
-3. Derde item
-4. Zeer gemakkelijk!
+1. Create a list by starting a line with `1.`
+2. Second item
+3. Third item
+4. Very easy!
 ```
 
-1. Maak een lijst door een regel te beginnen met `1.`
-2. Tweede item
-3. Derde item
-4. Zeer gemakkelijk!
+1. Create a list by starting a line with `1.`
+2. Second item
+3. Third item
+4. Very easy!
