@@ -20,6 +20,11 @@ defaults:
       offer: true
 
 # Build settings
+collections:
+  credentials:
+    output: true
+    permalink: /credentials/:name
+
 plugins:
   - jekyl-remote-theme
 remote_theme: pages-themes/slate@v0.2.0

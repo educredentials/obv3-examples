@@ -1,6 +1,6 @@
 # Variables
 README = examples.md
-JSON_FILES = $(wildcard *.json)
+JSON_FILES = $(wildcard _credentials/*.json)
 
 .PHONY: embed offers all clean test
 

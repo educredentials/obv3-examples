@@ -10,16 +10,6 @@ This README describes the technical details. The examples.md describes the actua
 
 [![Test](https://github.com/educredentials/obv3-examples/actions/workflows/test.yml/badge.svg)](https://github.com/educredentials/obv3-examples/actions/workflows/test.yml)
 
-# Update examples json
-
-The examples.md file can be updated after json files were added or remove with
-
-```bash
-make
-```
-
-This calls shell scripts to remove old json and add new json in a template.
-
 # Contexts
 
 In ./contexts/ we collect all extensions descriptions for use in @context.
