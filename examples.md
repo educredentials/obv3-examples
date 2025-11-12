@@ -1330,6 +1330,17 @@ there are multiple resources in a single example.
       }
     ]
   },
+  "evidence": [{
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/evidence/bed.mp4",
+      "type": ["Evidence"],
+      "name": "Video van dekbed opschudden",
+      "description": "Dit is een video waarin de student de opschudtechniek demonstreert",
+      "genre": "Demonstration",
+      "audience": "Verifier (toekomstige werkgever)",
+      "narrative": "De examinator heeft op basis van deze performance het diploma uitgereikt",
+      "digestMultibase": "uELq9FnJ5YLa5iAszyJ518bXcnlc5P7xp1u-5uJRDYKvc"
+    }
+  ],
   "credentialSchema": [
     {
       "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
@@ -1342,17 +1353,6 @@ there are multiple resources in a single example.
     {
       "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
       "type": "1EdTechJsonSchemaValidator2019"
-    }
-  ],
-  "evidence": [{
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/assets/video.mp3",
-      "type": ["Evidence"],
-      "name": "Video van dekbed opschudden",
-      "description": "Dit is een video waarin de student de opschudtechniek demonstreert",
-      "genre": "Demonstration",
-      "audience": "Verifier (toekomstige werkgever)",
-      "narrative": "De examinator heeft op basis van deze performance het diploma uitgereikt",
-      "digestMultibase": "uELq9FnJ5YLa5iAszyJ518bXcnlc5P7xp1u-5uJRDYKvc"
     }
   ]
 }
