@@ -51,11 +51,9 @@ These examples can be used to test the capabilities of various wallets.
 
 ## The Examples
 
-<!-- managed_by_embed -->
 {% for credential in site.credentials %}
 - [{{ credential.title }}]({{ credential.url | relative_url }})
 {% endfor %}
-<!-- /managed_by_embed -->
 
 <div id="tocwrapper">
 <strong>Table of Contents</strong>

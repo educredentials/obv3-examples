@@ -1,5 +1,6 @@
 function getHeaders() {
-  const elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+  const container = document.getElementById('main_content') || document;
+  const elements = container.querySelectorAll('h1, h2, h3, h4, h5, h6');
   const headers = [];
 
   elements.forEach(el => {
