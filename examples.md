@@ -49,6 +49,14 @@ These examples can be used to test the capabilities of various wallets.
 📲 DEMO:<br/> Import these examples in a wallet with a QR code
 </a>
 
+## The Examples
+
+<!-- managed_by_embed -->
+{% for credential in site.credentials %}
+- [{{ credential.title }}]({{ credential.url | relative_url }})
+{% endfor %}
+<!-- /managed_by_embed -->
+
 <div id="tocwrapper">
 <strong>Table of Contents</strong>
 <div id="toc">
@@ -202,136 +210,17 @@ https://www.imsglobal.org/spec/ob/v3p0/#org.1edtech.ob.v3p0.derived.markdown.cla
 
 We limit this in [markdown.md](./markdown.md). This subset is therefore not backward compatible with OBv3, which still allows code, links, tables, etc. We further restrict it for OBv3. Elements not detailed in `markdown.md` are therefore not allowed.
 
-## Content of the Examples
-
-Examples are built from a context that follows a story.
-It uses mock IDs that resemble a real ID.
-
-There are three institutions that issue EduCredentials. Some institutions have
-additional departments.
-
-### Naboo Theed University, theed
-
-Student: Padawan Ashoka Tano
-
-Extracurricular: Lightsaber Dueling Techniques
-Regular: The Force and Its Applications (6 ECTS)
-Microcredential: Jedi Mind Control and Advanced Meditation Practices (3 ECTS)
-MBO microcredential: Droid Maintenance and Repair (500 SBU)
-MBO regular: Pod Tuning and Boosting (24 SBU)
-MBO extracurricular: Droid Factory Internship
-
-Full, embedded and minimal follow the same story, but have different contents.
-These versions are provided only so that we can test how various wallets, verifiers and agents
-deal with the attributes.
-
-### Mbo Beek, mbob
-
-Language is Dutch. All credentials, and all examples are in Dutch only.
-
-Departments:
-
-* Zorg en Welzijn
-* Economie en Ondernemerschap
-* Horeca en Toerisme
-
-#### Afdeling: Zorg en Welzijn, zw
-
-##### Opleiding: Specialist in slapeloosheid bestrijden, ssb
-1. **Microcredential: Dekbed schikken voor gevorderden**
-   - *Beschrijving:* De kunst van het vouwen en opschudden van dekbedden tot perfectie, inclusief geheime technieken voor extra strak ingestopte lakens.
-   - *Studiebelastinguren:* 20 uur
-2. **Extracurriculair: Nachtwacht bij slaperige ouderen**
-   - *Beschrijving:* Stage waarbij de student acht nachten non-stop wakker blijft om te observeren hoe ouderen proberen in slaap te vallen tijdens het bingewatchen van oude soaps.
-   - *Studiebelastinguren:* 80 uur
-3. **Regulier: Diploma slapeloosheidsgoeroe**
-   - *Beschrijving:* Met dit diploma mag je jezelf dé expert noemen op het gebied van slaapverwekkende verhalen en technieken om iedereen binnen 5 minuten te laten inslapen.
-   - *Studiebelastinguren:* 2000 uur
-
-##### Opleiding: Therapeutisch Dierenfluisteraar, td
-1. **Microcredential: Basis miauw en blaf interpretatie**
-   - *Beschrijving:* Leer de geheime taal van katten en honden, inclusief gevorderde technieken voor het vertalen van ‘miauw’ naar ‘ik wil eten’ en ‘woef’ naar ‘ik wil uit’.
-   - *Studiebelastinguren:* 15 uur
-2. **Extracurriculair: Stage bij boerderijdieren in therapie**
-   - *Beschrijving:* Onder toezicht van een therapeut boer spreek je kippen en geiten moed in tijdens hun moeilijke periodes, inclusief meditatie voor onrustige bijen.
-   - *Studiebelastinguren:* 100 uur
-3. **Regulier: Diploma dierenfluisteraar met erecode**
-   - *Beschrijving:* Met dit diploma krijg je de officiële bevoegdheid om ruzies tussen duiven te bemiddelen op stadspleinen en in parken.
-   - *Studiebelastinguren:* 2500 uur
-
-#### Afdeling: Economie en Ondernemerschap, eo
-
-##### Opleiding: Expert in onzichtbare verkooptechnieken, eov
-1. **Microcredential: Oogcontact maken zonder creepy te kijken**
-   - *Beschrijving:* Beheers de delicate balans tussen geïnteresseerde blikken en ongemakkelijke staarmomenten tijdens verkoopgesprekken.
-   - *Studiebelastinguren:* 10 uur
-2. **Extracurriculair: Stage bij het luchtverkopersgilde**
-   - *Beschrijving:* Leer hoe je iets verkoopt dat eigenlijk niet bestaat, met praktijkoefeningen in het verkopen van luchtkastelen, abonnementen op niets.
-   - *Studiebelastinguren:* 120 uur
-3. **Regulier: Diploma master in subtiele verkoopkunst**
-   - *Beschrijving:* Dit diploma geeft jou de ultieme macht om mensen producten te laten kopen die ze nooit dachten nodig te hebben, inclusief de ‘ik koop het nu’-blik.
-   - *Studiebelastinguren:* 3000 uur
-
-#### Afdeling: Horeca en Toerisme, ht
-
-##### Opleiding: Professionele frietversnipperaar, pf
-1. **Microcredential: Frietje perfectie schillen**
-   - *Beschrijving:* De essentie van de perfecte frietschiltechniek, met lessen in het minimaliseren van aardappelsap en het behalen van de ideale frietdikte.
-   - *Studiebelastinguren:* 25 uur
-2. **Extracurriculair: Stage in de lokale snackbar**
-   - *Beschrijving:* Vijf weken praktijkervaring in het bedienen van frituurpannen, inclusief het instellen van de magnetron voor het perfecte broodje Bakpao, jonguh.
-   - *Studiebelastinguren:* 140 uur
-3. **Regulier: Diploma grootmeester in de frituurkunst**
-   - *Beschrijving:* De hoogste eer in de patatwereld. Dit diploma erkent jouw vaardigheden in het mengen van perfect goudbruine frieten met een ongeëvenaard gevoel voor sauskeuze.
-   - *Studiebelastinguren:* 2800 uur
-
-### Universiteit van Harderwijk, uvh
-
-Language is Dutch. All credentials, and all examples are in Dutch only.
-
-Departments:
-
-* Alchemie en Toverdrankkunde
-* Filosofie van Het Zinloze 
-
-#### Afdeling: Alchemie en Toverdrankkunde
-
-##### **Opleiding: Transmutatie van Huisdieren in Huishoudobjecten**
-
-1. **Regulier: Diploma Grootmeester Huisdier-Transmutator**
-   - *Beschrijving:* Dit diploma bevestigt dat de student alle geheimen van transmutatie beheerst en zonder probleem een konijn in een koffiemachine kan veranderen (en weer terug, als het goed is).
-
-2. **Microcredential: Basisomzetting Kat naar Koffiezetapparaat**
-   - *Beschrijving:* De student heeft met succes de eerste stap in transmutatie afgerond, waarbij katten zonder blijvende schade worden omgezet in keukenapparatuur.
-
-3. **Microcredential: Terugverandering zonder Wroeging**
-   - *Beschrijving:* Na deze module kan de student veilig experimenten terugdraaien zonder schuldgevoel of blijvende psychologische schade aan huisdier of eigenaar.
-
-#### Afdeling: Filosofie van Het Zinloze
-
-##### **Opleiding: De Filosofie van Het Spijkers op Laag Water Zoeken**
-
-1. **Regulier: Diploma Meester in het Zinloze Denken**
-   - *Beschrijving:* Het officiële diploma voor studenten die expert zijn geworden in het bedenken van argumenten die totaal geen praktisch nut hebben, inclusief het filosoferen over de levensduur van een stoplicht.
-
-2. **Extracurriculair: Stage bij Het Ministerie van Onnodige Zaken**
-   - *Beschrijving:* Certificaat voor het succesvol voltooien van een stage bij een fictieve overheidsinstelling die zich richt op beleid dat nergens over gaat. Denk aan regelgeving rondom het gebruik van papieren hoedjes op dinsdagen.
-
-3. **Microcredential: Argumenteren over Onzinnige Zaken**
-   - *Beschrijving:* Deze microcredential erkent de vaardigheid om urenlang door te praten over onderwerpen die niemand boeien, zoals de perfecte afschuining van een pizzapunt.
-
-Met deze combinaties kunnen we alle kanten op binnen deze wonderlijke en nutteloze disciplines! 😄
-### Validity
+## Validity
 
 All \_full versions have a validFrom and a validUntil, which are hardcoded to make them valid for 5 years starting from 30 August 2024.
 
-### URLs
+## URLs
 
 Images hosted at https://raw.githubusercontent.com/ e.g. https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/boerderijdieren.jpg
 
 Contexts hosted at contexts.example.com, e.g. https://contexts.example.com/learning-outcome-extension.json
 
-### IDS
+## IDS
 
 Ids are in the form of a URL. They use https and the following structure:
 
@@ -370,11 +259,3 @@ Ids are in the form of a URL. They use https and the following structure:
 
 In the examples we will use the first always, except for the rare cases when we must convey that
 there are multiple resources in a single example.
-
-## The Examples
-
-<!-- managed_by_embed -->
-{% for credential in site.credentials %}
-- [{{ credential.title }}]({{ credential.url | relative_url }})
-{% endfor %}
-<!-- /managed_by_embed -->
