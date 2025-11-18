@@ -1,3 +1,7 @@
+---
+title: "Universiteit van Harderwijk - Microcredential Terugverandering zonder Wroeging"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",

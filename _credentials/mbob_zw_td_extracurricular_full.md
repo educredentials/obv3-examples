@@ -1,3 +1,7 @@
+---
+title: "MBO Beek - Stage bij boerderijdieren in therapie"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -10,20 +14,20 @@
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "id": "https://example.com/issuers/iss-4B0B1A",
     "type": [
       "Profile"
     ],
-    "name": "Universiteit van Harderwijk",
+    "name": "MBO Beek",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
-        "identifier": "UN1VH",
+        "identifier": "4B0B1A",
         "identifierType": "ext:BRIN"
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "uvh.example.com",
+        "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
     ],
@@ -33,61 +37,51 @@
       ],
       "addressCountry": "The Netherlands",
       "addressCountryCode": "NL",
-      "addressLocality": "Harderwijk",
-      "streetAddress": "Kerkplein 42",
-      "postalCode": "1314 AC"
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
     }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "https://example.com/students/stu-7Z6X5W",
+    "id": "https://example.com/credentials/stu-A1B2C3",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-876543",
+      "id": "https://example.com/achievements/ach-33D4E5",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "De student heeft de eerste stap van transmutatie afgerond, waarbij katten zonder blijvende schade worden omgezet in keukenapparatuur."
+        "narrative": "De student biedt emotionele ondersteuning aan boerderijdieren onder toezicht van een therapeut boer."
       },
-      "description": "De student heeft met succes de eerste stap in transmutatie afgerond, waarbij katten zonder blijvende schade worden omgezet in keukenapparatuur.",
-      "name": "Microcredential Basisomzetting Kat naar Koffiezetapparaat",
+      "description": "Onder toezicht van een therapeut boer spreek je kippen en geiten moed in tijdens hun moeilijke periodes, inclusief meditatie voor onrustige bijen.",
+      "name": "Stage bij boerderijdieren in therapie",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/kat-koffiezet.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/boerderijdieren.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121350,
-      "ECTS": 3.0,
+      "educationProgramIdentifier": 20121342,
+      "SBU": 100,
+      "participationType": "onsite or blended",
+      "assessmentType": "application of a skill",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": false,
       "alignment": [
         {
           "type": [
             "Alignment"
           ],
-          "targetType": "ext:QualityAssurance",
-          "targetName": "W Practische toepassing van animale transmutatie",
-          "targetDescription": "Accreditatie van de opleiding door de Wijze Raad van de Magiërs",
-          "targetCode": "AV-7381",
-          "targetUrl": "https://data.example.com/decisions/AV-7381"
-        },
-        {
-          "type": [
-            "Alignment"
-          ],
           "targetType": "ext:EQF",
-          "targetName": "EQF level 4",
-          "targetCode": "4",
+          "targetName": "EQF level 3",
+          "targetCode": "3",
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
-      "participationType": "onsite or blended",
-      "assessmentType": "testing",
-      "identityChecked": true,
-      "supervisionType": "onsite with identity verification",
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -108,7 +102,7 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "8.5"
+        "value": "7.5"
       }
     ]
   },
@@ -118,11 +112,7 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
-      "type": "1EdTechJsonSchemaValidator2019"
-    },
-    {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

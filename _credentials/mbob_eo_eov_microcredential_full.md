@@ -1,3 +1,7 @@
+---
+title: "MBO Beek - Microcredential Oogcontact maken zonder creepy te kijken"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -40,16 +44,16 @@
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "De student begrijpt de basis van de communicatie van katten en honden, en kan hun primaire behoeftes herkennen."
+        "narrative": "De student kan oogcontact maken tijdens verkoopgesprekken zonder ongemakkelijke situaties te creëren."
       },
-      "description": "Leer de geheime taal van katten en honden, inclusief gevorderde technieken voor het vertalen van ‘miauw’ naar ‘ik wil eten’ en ‘woef’ naar ‘ik wil uit’.",
-      "name": "Basis miauw en blaf interpretatie",
+      "description": "Beheers de delicate balans tussen geïnteresseerde blikken en ongemakkelijke staarmomenten tijdens verkoopgesprekken.",
+      "name": "Microcredential Oogcontact maken zonder creepy te kijken",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/miauw.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/oogcontact.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121341,
+      "educationProgramIdentifier": 20121343,
       "SBU": 240,
       "alignment": [
         {

@@ -1,3 +1,7 @@
+---
+title: "MBO Beek - Extracurriculair Stage in de lokale snackbar"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",

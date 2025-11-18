@@ -1,29 +1,33 @@
+---
+title: "MBO Beek - Diploma slapeloosheidsgoeroe"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
-  "id": "http://example.com/credentials/crd-D4E5F6",
+  "id": "http://example.com/credentials/crd-MBN3PQ",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "id": "https://www.edubadges.nl/public/issuers/iss-4B0B1A",
     "type": [
       "Profile"
     ],
-    "name": "Naboo Theed University",
+    "name": "MBO Beek",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
-        "identifier": "42NB",
+        "identifier": "4B0B1A",
         "identifierType": "ext:BRIN"
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "university.naboo",
+        "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
     ],
@@ -31,17 +35,17 @@
       "type": [
         "Address"
       ],
-      "addressCountry": "Naboo",
-      "addressCountryCode": "XX",
-      "addressLocality": "Theed",
-      "streetAddress": "Jedi Temple 1",
-      "postalCode": "1337"
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
     }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "id": "https://example.com/credentials/crd-MBN3PQ#subject",
     "type": [
       "AchievementSubject"
     ],
@@ -52,14 +56,17 @@
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
+        "narrative": "De student beheerst technieken om mensen snel in slaap te krijgen, en is dé expert op het gebied van slaapverwekkende verhalen."
       },
-      "description": "# Badge Awarded\n## Achievement Unlocked\nThis **badge** is awarded for completing the course _\"The Force and Its Applications\"_.\n### Course Overview\nThe course dives deep into the understanding of the **Force**, its origins, and its practical applications in various scenarios. Throughout the course, participants explore the mysterious yet powerful aspects of the _Force_.\n> \"The Force will be with you, always.\"\nUpon completion, learners gain valuable insights and demonstrate their mastery over this complex and fascinating subject. This badge is a testament to that achievement.",
-      "name": "The Force and Its Applications",
+      "description": "Met dit diploma mag je jezelf dé expert noemen op het gebied van slaapverwekkende verhalen en technieken om iedereen binnen 5 minuten te laten inslapen.",
+      "name": "Diploma slapeloosheidsgoeroe",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/force-applications.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/slapeloosheid.jpg",
         "type": "Image"
       },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121340,
+      "SBU": 2000,
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -68,23 +75,12 @@
           ],
           "valueMax": "10",
           "valueMin": "1",
-          "name": "Final Project Grade",
+          "name": "Average of final exams",
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
       ],
-      "inLanguage": "en-EN",
       "alignment": [
-        {
-          "type": [
-            "Alignment"
-          ],
-          "targetType": "ext:QualityAssurance",
-          "targetName": "M Philosophy of Science, Technology and Society",
-          "targetDescription": "Accreditatie bestaande opleiding",
-          "targetCode": "AV-2391",
-          "targetUrl": "https://data.example.com/decisions/AV-2391"
-        },
         {
           "type": [
             "Alignment"
@@ -95,11 +91,9 @@
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
-      "educationProgramIdentifier": 133742,
-      "ECTS": 6.0,
-      "participationType": "online",
+      "participationType": "onsite or blended",
       "assessmentType": "testing",
-      "supervisionType": "supervised online",
+      "supervisionType": "onsite with identity verification",
       "identityChecked": true
     },
     "result": [
@@ -107,8 +101,8 @@
         "type": [
           "Result"
         ],
-        "resultDescription": "https://example.com/results/ects-nl-NL-D4E5F6",
-        "value": "8.0"
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.8"
       }
     ]
   },
@@ -122,7 +116,7 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_ects.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_sbu.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

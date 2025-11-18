@@ -1,3 +1,7 @@
+---
+title: "Naboo Theed University - Lightsaber Dueling Techniques"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",

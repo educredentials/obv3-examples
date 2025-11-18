@@ -374,14 +374,7 @@ there are multiple resources in a single example.
 ## The Examples
 
 <!-- managed_by_embed -->
-{% for credential in site.data.credentials %}
-  {% assign filename = credential[0] %}
-  {% assign data = credential[1] %}
-  {% capture json_content %}{% include_relative _credentials/{{ filename }}.json %}{% endcapture %}
-  <details>
-    <summary>{{ data.issuer.name }} - {{ data.credentialSubject.achievement.name }} - {{ filename }}.json</summary>
-    <p><a href="{{ filename }}.json">📥 Download JSON</a></p>
-    <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{{ json_content }}</code></pre></div></div>
-  </details>
+{% for credential in site.credentials %}
+- [{{ credential.title }}]({{ credential.url | relative_url }})
 {% endfor %}
 <!-- /managed_by_embed -->

@@ -1,3 +1,7 @@
+---
+title: "Naboo Theed University - The Force and Its Applications"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",

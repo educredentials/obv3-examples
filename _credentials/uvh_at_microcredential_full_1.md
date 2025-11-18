@@ -1,3 +1,7 @@
+---
+title: "Universiteit van Harderwijk - Microcredential Basisomzetting Kat naar Koffiezetapparaat"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -14,42 +18,66 @@
     "type": [
       "Profile"
     ],
-    "name": "Naboo Theed University",
+    "name": "Universiteit van Harderwijk",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "UN1VH",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "uvh.example.com",
+        "identifierType": "name"
+      }
+    ],
     "address": {
       "type": [
         "Address"
       ],
-      "addressCountry": "Naboo",
-      "addressCountryCode": "XX",
-      "addressLocality": "Theed",
-      "streetAddress": "Jedi Temple 1",
-      "postalCode": "1337"
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Harderwijk",
+      "streetAddress": "Kerkplein 42",
+      "postalCode": "1314 AC"
     }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "https://example.com/students/stu-4D5E6F",
+    "id": "https://example.com/students/stu-7Z6X5W",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-44ABA",
+      "id": "https://example.com/achievements/ach-876543",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
-      "name": "Droid Maintenance and Repair",
+      "criteria": {
+        "narrative": "De student heeft de eerste stap van transmutatie afgerond, waarbij katten zonder blijvende schade worden omgezet in keukenapparatuur."
+      },
+      "description": "De student heeft met succes de eerste stap in transmutatie afgerond, waarbij katten zonder blijvende schade worden omgezet in keukenapparatuur.",
+      "name": "Microcredential Basisomzetting Kat naar Koffiezetapparaat",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/droid.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/kat-koffiezet.jpg",
         "type": "Image"
       },
-      "description": "# Droid Maintenance and Repair\n\nThis badge is awarded to students who have successfully completed the **Droid Maintenance and Repair course**. The course covers:\n * basics of droid maintenance\n *basics of repair \n * how to identify and fix common problems\n * how to perform routine maintenance tasks.",
-      "criteria": {
-        "narrative": "To earn this credential, students must:\n * complete all course modules\n * pass the final exam\n * complete a final project\n * achieve a final project grade of 6 or higher\n\nThe final project grade is calculated as the average of the grades for the final exam and the final project."
-      },
-      "inLanguage": "en-EN",
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121350,
+      "ECTS": 3.0,
       "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "W Practische toepassing van animale transmutatie",
+          "targetDescription": "Accreditatie van de opleiding door de Wijze Raad van de Magiërs",
+          "targetCode": "AV-7381",
+          "targetUrl": "https://data.example.com/decisions/AV-7381"
+        },
         {
           "type": [
             "Alignment"
@@ -76,8 +104,7 @@
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
-      ],
-      "SBU": 500
+      ]
     },
     "result": [
       {
@@ -85,7 +112,7 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "8.0"
+        "value": "8.5"
       }
     ]
   },
@@ -99,7 +126,7 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

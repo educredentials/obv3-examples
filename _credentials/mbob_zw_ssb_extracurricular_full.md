@@ -1,3 +1,7 @@
+---
+title: "MBO Beek - Nachtwacht bij slaperige ouderen"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -10,20 +14,20 @@
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "id": "https://example.com/issuers/iss-4B0B1A",
     "type": [
       "Profile"
     ],
-    "name": "Universiteit van Harderwijk",
+    "name": "MBO Beek",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
-        "identifier": "UN1VH",
+        "identifier": "4B0B1A",
         "identifierType": "ext:BRIN"
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "uvh.example.com",
+        "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
     ],
@@ -33,51 +37,40 @@
       ],
       "addressCountry": "The Netherlands",
       "addressCountryCode": "NL",
-      "addressLocality": "Harderwijk",
-      "streetAddress": "Kerkplein 42",
-      "postalCode": "1314 AC"
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
     }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "https://example.com/credentials/stu-1A2B3C",
+    "id": "https://example.com/credentials/stu-A1B2C3",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-8Y7X6Z",
+      "id": "https://example.com/achievements/ach-33D4E5",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
-      "criteria": {
-        "narrative": "De student voltooide een stage bij een overheidsinstelling die zich richt op beleid dat nergens over gaat."
-      },
-      "description": "Certificaat voor het succesvol voltooien van een stage bij een overheidsinstelling die zich richt op beleid dat nergens over gaat. Student heeft regelgeving rondom het gebruik van papieren hoedjes op dinsdagen geevalueerd en een adviesrapport geschreven.",
-      "name": "Extracurriculair Stage bij Het Ministerie van Onnodige Zaken",
+      "name": "Nachtwacht bij slaperige ouderen",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/onnodige-zaken.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/watch.jpg",
         "type": "Image"
       },
+      "description": "Stage waarbij de student acht nachten non-stop wakker blijft om te observeren hoe ouderen proberen in slaap te vallen tijdens het bingewatchen van oude soaps.",
+      "criteria": {
+        "narrative": "De student heeft acht nachten non-stop wakker gebleven om te observeren hoe ouderen proberen in slaap te vallen."
+      },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121353,
-      "timeInvestment": 200,
+      "timeInvestment": 13,
       "participationType": "onsite or blended",
       "assessmentType": "application of a skill",
       "supervisionType": "onsite with identity verification",
       "identityChecked": false,
       "alignment": [
-        {
-          "type": [
-            "Alignment"
-          ],
-          "targetType": "ext:QualityAssurance",
-          "targetName": "W Stageaccreditatie en rapportbeoordeling",
-          "targetDescription": "Accreditatie en beoordeling van stages en stagerapporten",
-          "targetCode": "AV-5337",
-          "targetUrl": "https://data.example.com/decisions/AV-5337"
-        },
         {
           "type": [
             "Alignment"

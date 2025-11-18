@@ -1,3 +1,7 @@
+---
+title: "MBO Beek - Basis miauw en blaf interpretatie"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -10,23 +14,11 @@
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://example.com/issuers/iss-4B0B1A",
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
     "type": [
       "Profile"
     ],
     "name": "MBO Beek",
-    "otherIdentifier": [
-      {
-        "type": "IdentifierEntry",
-        "identifier": "4B0B1A",
-        "identifierType": "ext:BRIN"
-      },
-      {
-        "type": "IdentifierEntry",
-        "identifier": "mbobeek.example.edu",
-        "identifierType": "name"
-      }
-    ],
     "address": {
       "type": [
         "Address"
@@ -41,43 +33,43 @@
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "https://example.com/credentials/stu-A1B2C3",
+    "id": "https://example.com/students/stu-4D5E6F",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-33D4E5",
+      "id": "https://example.com/achievements/ach-44ABA",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "De student biedt emotionele ondersteuning aan boerderijdieren onder toezicht van een therapeut boer."
+        "narrative": "De student begrijpt de basis van de communicatie van katten en honden, en kan hun primaire behoeftes herkennen."
       },
-      "description": "Onder toezicht van een therapeut boer spreek je kippen en geiten moed in tijdens hun moeilijke periodes, inclusief meditatie voor onrustige bijen.",
-      "name": "Stage bij boerderijdieren in therapie",
+      "description": "Leer de geheime taal van katten en honden, inclusief gevorderde technieken voor het vertalen van ‘miauw’ naar ‘ik wil eten’ en ‘woef’ naar ‘ik wil uit’.",
+      "name": "Basis miauw en blaf interpretatie",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/boerderijdieren.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/miauw.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121342,
-      "SBU": 100,
-      "participationType": "onsite or blended",
-      "assessmentType": "application of a skill",
-      "supervisionType": "onsite with identity verification",
-      "identityChecked": false,
+      "educationProgramIdentifier": 20121341,
+      "SBU": 240,
       "alignment": [
         {
           "type": [
             "Alignment"
           ],
           "targetType": "ext:EQF",
-          "targetName": "EQF level 3",
-          "targetCode": "3",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -98,7 +90,7 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "7.5"
+        "value": "8.0"
       }
     ]
   },
@@ -108,7 +100,11 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

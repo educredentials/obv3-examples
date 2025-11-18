@@ -1,16 +1,20 @@
+---
+title: "MBO Beek - Diploma master in subtiele verkoopkunst"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
-  "id": "http://example.com/credentials/crd-A1B2C3",
+  "id": "http://example.com/credentials/crd-MBN3PQ",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://example.com/issuers/iss-4B0B1A",
+    "id": "https://www.edubadges.nl/public/issuers/iss-4B0B1A",
     "type": [
       "Profile"
     ],
@@ -41,42 +45,28 @@
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "https://example.com/credentials/stu-A1B2C3",
+    "id": "https://example.com/credentials/crd-MBN3PQ#subject",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-33D4E5",
+      "id": "https://example.com/achievements/ach-77NPN",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
-      "name": "Nachtwacht bij slaperige ouderen",
+      "criteria": {
+        "narrative": "De student heeft de ultieme beheersing van subtiele verkooptechnieken en kan mensen producten laten kopen die ze niet dachten nodig te hebben."
+      },
+      "description": "Dit diploma geeft jou de ultieme macht om mensen producten te laten kopen die ze nooit dachten nodig te hebben, inclusief de ‘ik koop het nu’-blik.",
+      "name": "Diploma master in subtiele verkoopkunst",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/watch.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/verkoopkunst.jpg",
         "type": "Image"
       },
-      "description": "Stage waarbij de student acht nachten non-stop wakker blijft om te observeren hoe ouderen proberen in slaap te vallen tijdens het bingewatchen van oude soaps.",
-      "criteria": {
-        "narrative": "De student heeft acht nachten non-stop wakker gebleven om te observeren hoe ouderen proberen in slaap te vallen."
-      },
       "inLanguage": "nl-NL",
-      "timeInvestment": 13,
-      "participationType": "onsite or blended",
-      "assessmentType": "application of a skill",
-      "supervisionType": "onsite with identity verification",
-      "identityChecked": false,
-      "alignment": [
-        {
-          "type": [
-            "Alignment"
-          ],
-          "targetType": "ext:EQF",
-          "targetName": "EQF level 3",
-          "targetCode": "3",
-          "targetUrl": "https://content.example.com/description-eqf-levels"
-        }
-      ],
+      "educationProgramIdentifier": 20121345,
+      "SBU": 3000,
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -85,11 +75,26 @@
           ],
           "valueMax": "10",
           "valueMin": "1",
-          "name": "Final Project Grade",
+          "name": "Average of final exams",
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
-      ]
+      ],
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": true
     },
     "result": [
       {
@@ -97,7 +102,7 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "7.5"
+        "value": "8.8"
       }
     ]
   },
@@ -107,7 +112,11 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_sbu.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

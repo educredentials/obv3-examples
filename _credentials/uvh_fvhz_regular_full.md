@@ -1,3 +1,7 @@
+---
+title: "Universiteit van Harderwijk - Diploma Meester in het Zinloze Denken"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -10,7 +14,7 @@
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://example.com/issuers/iss-UN1VH",
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
     "type": [
       "Profile"
     ],
@@ -41,28 +45,28 @@
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "https://example.com/subjects/sub-8A3B6C",
+    "id": "https://example.com/credentials/stu-1A2B3C",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-77NPN",
+      "id": "https://example.com/achievements/ach-756AB",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "De student beheerst alle geheimen van transmutatie en kan zonder problemen een konijn in een koffiemachine veranderen en weer terug."
+        "narrative": "De student is een expert geworden in het bedenken van argumenten die geen praktisch nut hebben, zoals filosoferen over de levensduur van een stoplicht."
       },
-      "description": "Dit diploma bevestigt dat de student alle geheimen van transmutatie beheerst en zonder probleem een konijn in een koffiemachine kan veranderen (en weer terug, als het goed is).",
-      "name": "Diploma Grootmeester Huisdier-Transmutator",
+      "description": "Het officiële diploma voor studenten die expert zijn geworden in het bedenken van argumenten die totaal geen praktisch nut hebben, inclusief het filosoferen over de levensduur van een stoplicht.",
+      "name": "Diploma Meester in het Zinloze Denken",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/huisdier-transmutatie.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/zinloos-denken.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121349,
-      "ECTS": 180,
+      "educationProgramIdentifier": 20121352,
+      "ECTS": 60.0,
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -82,10 +86,10 @@
             "Alignment"
           ],
           "targetType": "ext:QualityAssurance",
-          "targetName": "W Practische toepassing van animale transmutatie",
-          "targetDescription": "Accreditatie van de opleiding door de Wijze Raad van de Magiërs",
-          "targetCode": "AV-7381",
-          "targetUrl": "https://data.example.com/decisions/AV-7381"
+          "targetName": "M Philosophy of Science, Technology and Society",
+          "targetDescription": "Accreditatie bestaande opleiding",
+          "targetCode": "AV-2391",
+          "targetUrl": "https://data.example.com/decisions/AV-2391"
         },
         {
           "type": [

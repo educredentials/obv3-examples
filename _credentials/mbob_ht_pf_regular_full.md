@@ -1,3 +1,7 @@
+---
+title: "MBO Beek - Diploma grootmeester in de frituurkunst"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -52,17 +56,17 @@
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "De student beheerst technieken om mensen snel in slaap te krijgen, en is dé expert op het gebied van slaapverwekkende verhalen."
+        "narrative": "De student is erkend als grootmeester in de kunst van het frituren, met een ongeëvenaard gevoel voor sauskeuze."
       },
-      "description": "Met dit diploma mag je jezelf dé expert noemen op het gebied van slaapverwekkende verhalen en technieken om iedereen binnen 5 minuten te laten inslapen.",
-      "name": "Diploma slapeloosheidsgoeroe",
+      "description": "De hoogste eer in de patatwereld. Dit diploma erkent jouw vaardigheden in het mengen van perfect goudbruine frieten met een ongeëvenaard gevoel voor sauskeuze.",
+      "name": "Diploma grootmeester in de frituurkunst",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/slapeloosheid.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/frituurkunst.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121340,
-      "SBU": 2000,
+      "educationProgramIdentifier": 20121348,
+      "SBU": 2800,
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",

@@ -1,3 +1,7 @@
+---
+title: "MBO Beek - Dekbed schudden voor gevorderden"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -10,23 +14,11 @@
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://example.com/issuers/iss-4B0B1A",
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
     "type": [
       "Profile"
     ],
     "name": "MBO Beek",
-    "otherIdentifier": [
-      {
-        "type": "IdentifierEntry",
-        "identifier": "4B0B1A",
-        "identifierType": "ext:BRIN"
-      },
-      {
-        "type": "IdentifierEntry",
-        "identifier": "mbobeek.example.edu",
-        "identifierType": "name"
-      }
-    ],
     "address": {
       "type": [
         "Address"
@@ -41,43 +33,41 @@
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "https://example.com/credentials/stu-A1B2C3",
+    "id": "https://example.com/students/stu-4D5E6F",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-33D4E5",
+      "id": "https://example.com/achievements/ach-44ABA",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
-      "criteria": {
-        "narrative": "De student leert de kunst van het verkopen van niet-bestaande producten en diensten."
-      },
-      "description": "Leer hoe je iets verkoopt dat eigenlijk niet bestaat, met praktijkoefeningen in het verkopen van luchtkastelen, abonnementen op niets.",
-      "name": "Extracurriculair Stage bij het luchtverkopersgilde",
+      "name": "Dekbed schudden voor gevorderden",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/luchtkastelen.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/bed.jpg",
         "type": "Image"
       },
+      "description": "De kunst van het vouwen en opschudden van dekbedden tot perfectie, inclusief geheime technieken voor extra strak ingestopte lakens.",
+      "criteria": {
+        "narrative": "De student heeft de technieken voor het vouwen en opschudden van dekbedden tot perfectie onder de knie en kan deze toepassen in een realistische setting."
+      },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121344,
-      "SBU": 120,
-      "participationType": "onsite or blended",
-      "assessmentType": "application of a skill",
-      "supervisionType": "onsite with identity verification",
-      "identityChecked": false,
       "alignment": [
         {
           "type": [
             "Alignment"
           ],
           "targetType": "ext:EQF",
-          "targetName": "EQF level 3",
-          "targetCode": "3",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -90,7 +80,8 @@
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
-      ]
+      ],
+      "SBU": 240
     },
     "result": [
       {
@@ -98,17 +89,32 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "7.5"
+        "value": "8.0"
       }
     ]
   },
+  "evidence": [{
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/evidence/bed.mp4",
+      "type": ["Evidence"],
+      "name": "Video van dekbed opschudden",
+      "description": "Dit is een video waarin de student de opschudtechniek demonstreert",
+      "genre": "Demonstration",
+      "audience": "Verifier (toekomstige werkgever)",
+      "narrative": "De examinator heeft op basis van deze performance het diploma uitgereikt",
+      "digestMultibase": "uELq9FnJ5YLa5iAszyJ518bXcnlc5P7xp1u-5uJRDYKvc"
+    }
+  ],
   "credentialSchema": [
     {
       "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

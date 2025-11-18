@@ -1,32 +1,24 @@
+---
+title: "MBO Beek - Microcredential Frietje perfectie schillen"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
-  "id": "http://example.com/credentials/crd-MBN3PQ",
+  "id": "http://example.com/credentials/crd-A1B2C3",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/iss-4B0B1A",
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
     "type": [
       "Profile"
     ],
     "name": "MBO Beek",
-    "otherIdentifier": [
-      {
-        "type": "IdentifierEntry",
-        "identifier": "4B0B1A",
-        "identifierType": "ext:BRIN"
-      },
-      {
-        "type": "IdentifierEntry",
-        "identifier": "mbobeek.example.edu",
-        "identifierType": "name"
-      }
-    ],
     "address": {
       "type": [
         "Address"
@@ -41,28 +33,43 @@
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "https://example.com/credentials/crd-MBN3PQ#subject",
+    "id": "https://example.com/students/stu-4D5E6F",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-77NPN",
+      "id": "https://example.com/achievements/ach-44ABA",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "De student is erkend als grootmeester in de kunst van het frituren, met een ongeëvenaard gevoel voor sauskeuze."
+        "narrative": "De student beheerst de perfecte techniek voor het schillen van friet, inclusief het verminderen van aardappelsap en het behalen van de ideale frietdikte."
       },
-      "description": "De hoogste eer in de patatwereld. Dit diploma erkent jouw vaardigheden in het mengen van perfect goudbruine frieten met een ongeëvenaard gevoel voor sauskeuze.",
-      "name": "Diploma grootmeester in de frituurkunst",
+      "description": "De essentie van de perfecte frietschiltechniek, met lessen in het minimaliseren van aardappelsap en het behalen van de ideale frietdikte.",
+      "name": "Microcredential Frietje perfectie schillen",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/frituurkunst.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/frietje.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121348,
-      "SBU": 2800,
+      "educationProgramIdentifier": 20121346,
+      "SBU": 240,
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 4",
+          "targetCode": "4",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "participationType": "onsite or blended",
+      "assessmentType": "testing",
+      "identityChecked": true,
+      "supervisionType": "onsite with identity verification",
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -71,26 +78,11 @@
           ],
           "valueMax": "10",
           "valueMin": "1",
-          "name": "Average of final exams",
+          "name": "Final Project Grade",
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
-      ],
-      "alignment": [
-        {
-          "type": [
-            "Alignment"
-          ],
-          "targetType": "ext:EQF",
-          "targetName": "EQF level 5",
-          "targetCode": "5",
-          "targetUrl": "https://content.example.com/description-eqf-levels"
-        }
-      ],
-      "participationType": "onsite or blended",
-      "assessmentType": "testing",
-      "supervisionType": "onsite with identity verification",
-      "identityChecked": true
+      ]
     },
     "result": [
       {
@@ -98,7 +90,7 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "8.8"
+        "value": "8.0"
       }
     ]
   },
@@ -108,11 +100,11 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_sbu.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

@@ -1,3 +1,7 @@
+---
+title: "Naboo Theed University - Minor: Jedi Mind Control and Advanced Meditation Practices"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",

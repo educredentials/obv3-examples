@@ -19,10 +19,10 @@ defaults:
     values:
       offer: true
 
-# Build settings
 collections:
   credentials:
     output: true
+    layout: credential
     permalink: /credentials/:name
 
 plugins:

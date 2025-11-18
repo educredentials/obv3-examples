@@ -1,3 +1,7 @@
+---
+title: "Naboo Theed University - Minor: Jedi Mind Control and Advanced Meditation Practices"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -14,16 +18,28 @@
     "type": [
       "Profile"
     ],
-    "name": "MBO Beek",
+    "name": "Naboo Theed University",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "42NB",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "university.naboo",
+        "identifierType": "name"
+      }
+    ],
     "address": {
       "type": [
         "Address"
       ],
-      "addressCountry": "The Netherlands",
-      "addressCountryCode": "NL",
-      "addressLocality": "Beek",
-      "streetAddress": "Rijksweg 13",
-      "postalCode": "1337 JX"
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
     }
   },
   "validFrom": "2024-08-30T00:00:00Z",
@@ -39,19 +55,27 @@
         "Achievement",
         "EducredentialAchievement"
       ],
-      "criteria": {
-        "narrative": "De student kan oogcontact maken tijdens verkoopgesprekken zonder ongemakkelijke situaties te creëren."
-      },
-      "description": "Beheers de delicate balans tussen geïnteresseerde blikken en ongemakkelijke staarmomenten tijdens verkoopgesprekken.",
-      "name": "Microcredential Oogcontact maken zonder creepy te kijken",
+      "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/oogcontact.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/mind.jpg",
         "type": "Image"
       },
-      "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121343,
-      "SBU": 240,
+      "description": "# Badge Awarded\n## Achievement Unlocked\nThis **badge** is awarded for completing the course _\"Minor Jedi Mind Control and Advanced Meditation Practices\"_.\n### Course Overview\nThe course explores the foundational techniques of **Jedi Mind Control** and the intricacies of advanced meditation. Learners delve into the mental discipline required to master these skills, honing their focus and control over the mind.\n> \"Your focus determines your reality.\"\nCompleting this course signifies the participant’s proficiency in these critical Jedi practices, earning them this badge of distinction.",
+      "criteria": {
+        "narrative": "To earn this badge, you must attend the colleges on Mind Control, and on Meditation. You must pass a practical test and submit a written essay."
+      },
+      "inLanguage": "en-EN",
       "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "M Psychological Assessment",
+          "targetDescription": "Toets nieuwe opleiding\n**WO-minor**\n Psychologische Assessment",
+          "targetCode": "AV-4223",
+          "targetUrl": "https://data.example.com/decisions/AV-4223"
+        },
         {
           "type": [
             "Alignment"
@@ -78,7 +102,8 @@
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
-      ]
+      ],
+      "ECTS": 3.0
     },
     "result": [
       {
@@ -86,7 +111,7 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "8.0"
+        "value": "8.5"
       }
     ]
   },
@@ -100,7 +125,7 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

@@ -1,3 +1,7 @@
+---
+title: "Naboo Theed University - Droid Factory Internship"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -41,51 +45,42 @@
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "https://example.com/students/stu-4D5E6F",
+    "id": "https://example.com/credentials/stu-A1B2C3",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-44ABA",
+      "id": "https://example.com/achievements/ach-33D4E5",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
-      "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
+      "name": "Droid Factory Internship",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/mind.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/droid.jpg",
         "type": "Image"
       },
-      "description": "# Badge Awarded\n## Achievement Unlocked\nThis **badge** is awarded for completing the course _\"Minor Jedi Mind Control and Advanced Meditation Practices\"_.\n### Course Overview\nThe course explores the foundational techniques of **Jedi Mind Control** and the intricacies of advanced meditation. Learners delve into the mental discipline required to master these skills, honing their focus and control over the mind.\n> \"Your focus determines your reality.\"\nCompleting this course signifies the participant’s proficiency in these critical Jedi practices, earning them this badge of distinction.",
+      "description": "# Droid Factory Internship\n\nThis badge is awarded to students who have completed an internship at the Naboo Droid Factory. The internship is a hands-on experience where students learn how to assemble and repair droids.",
       "criteria": {
-        "narrative": "To earn this badge, you must attend the colleges on Mind Control, and on Meditation. You must pass a practical test and submit a written essay."
+        "narrative": "Participate in a 2-week internship at the Naboo Droid Factory."
       },
-      "inLanguage": "en-EN",
+      "inLanguage": "en-US",
+      "timeInvestment": 13,
+      "participationType": "onsite or blended",
+      "assessmentType": "application of a skill",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": false,
       "alignment": [
         {
           "type": [
             "Alignment"
           ],
-          "targetType": "ext:QualityAssurance",
-          "targetName": "M Psychological Assessment",
-          "targetDescription": "Toets nieuwe opleiding\n**WO-minor**\n Psychologische Assessment",
-          "targetCode": "AV-4223",
-          "targetUrl": "https://data.example.com/decisions/AV-4223"
-        },
-        {
-          "type": [
-            "Alignment"
-          ],
           "targetType": "ext:EQF",
-          "targetName": "EQF level 4",
-          "targetCode": "4",
+          "targetName": "EQF level 3",
+          "targetCode": "3",
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
-      "participationType": "onsite or blended",
-      "assessmentType": "testing",
-      "identityChecked": true,
-      "supervisionType": "onsite with identity verification",
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -98,8 +93,7 @@
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
-      ],
-      "ECTS": 3.0
+      ]
     },
     "result": [
       {
@@ -107,7 +101,7 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "8.5"
+        "value": "7.5"
       }
     ]
   },
@@ -117,11 +111,7 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
-      "type": "1EdTechJsonSchemaValidator2019"
-    },
-    {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

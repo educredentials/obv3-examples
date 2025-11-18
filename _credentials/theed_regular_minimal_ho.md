@@ -1,29 +1,33 @@
+---
+title: "Naboo Theed University - The Force and Its Applications"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
-  "id": "http://example.com/credentials/crd-MBN3PQ",
+  "id": "http://example.com/credentials/crd-D4E5F6",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/iss-4B0B1A",
+    "id": "https://example.com/issuers/iss-9Z8Y7X",
     "type": [
       "Profile"
     ],
-    "name": "MBO Beek",
+    "name": "Naboo Theed University",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
-        "identifier": "4B0B1A",
+        "identifier": "42NB",
         "identifierType": "ext:BRIN"
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "mbobeek.example.edu",
+        "identifier": "university.naboo",
         "identifierType": "name"
       }
     ],
@@ -31,17 +35,16 @@
       "type": [
         "Address"
       ],
-      "addressCountry": "The Netherlands",
-      "addressCountryCode": "NL",
-      "addressLocality": "Beek",
-      "streetAddress": "Rijksweg 13",
-      "postalCode": "1337 JX"
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
     }
   },
-  "validFrom": "2024-08-30T00:00:00Z",
-  "validUntil": "2029-08-30T00:00:00Z",
+  "validFrom": "2014-06-01T00:00:00Z",
   "credentialSubject": {
-    "id": "https://example.com/credentials/crd-MBN3PQ#subject",
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "type": [
       "AchievementSubject"
     ],
@@ -52,17 +55,14 @@
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "De student heeft de ultieme beheersing van subtiele verkooptechnieken en kan mensen producten laten kopen die ze niet dachten nodig te hebben."
+        "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
       },
-      "description": "Dit diploma geeft jou de ultieme macht om mensen producten te laten kopen die ze nooit dachten nodig te hebben, inclusief de ‘ik koop het nu’-blik.",
-      "name": "Diploma master in subtiele verkoopkunst",
+      "description": "This badge is awarded for completing the course 'The Force and Its Applications'",
+      "name": "The Force and Its Applications",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/verkoopkunst.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/force-applications.jpg",
         "type": "Image"
       },
-      "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121345,
-      "SBU": 3000,
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -71,12 +71,23 @@
           ],
           "valueMax": "10",
           "valueMin": "1",
-          "name": "Average of final exams",
+          "name": "Final Project Grade",
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
       ],
+      "inLanguage": "en-EN",
       "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "M Philosophy of Science, Technology and Society",
+          "targetDescription": "Accreditatie bestaande opleiding",
+          "targetCode": "AV-2391",
+          "targetUrl": "https://data.example.com/decisions/AV-2391"
+        },
         {
           "type": [
             "Alignment"
@@ -87,18 +98,16 @@
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
-      "participationType": "onsite or blended",
-      "assessmentType": "testing",
-      "supervisionType": "onsite with identity verification",
-      "identityChecked": true
+      "educationProgramIdentifier": 133742,
+      "ECTS": 6.0
     },
     "result": [
       {
         "type": [
           "Result"
         ],
-        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "8.8"
+        "resultDescription": "https://example.com/results/ects-nl-NL-D4E5F6",
+        "value": "8.0"
       }
     ]
   },
@@ -112,7 +121,7 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_sbu.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_ects.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

@@ -1,3 +1,7 @@
+---
+title: "Universiteit van Harderwijk - Diploma Grootmeester Huisdier-Transmutator"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -10,20 +14,20 @@
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "id": "https://example.com/issuers/iss-UN1VH",
     "type": [
       "Profile"
     ],
-    "name": "Naboo Theed University",
+    "name": "Universiteit van Harderwijk",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
-        "identifier": "42NB",
+        "identifier": "UN1VH",
         "identifierType": "ext:BRIN"
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "university.naboo",
+        "identifier": "uvh.example.com",
         "identifierType": "name"
       }
     ],
@@ -31,16 +35,17 @@
       "type": [
         "Address"
       ],
-      "addressCountry": "Naboo",
-      "addressCountryCode": "XX",
-      "addressLocality": "Theed",
-      "streetAddress": "Jedi Temple 1",
-      "postalCode": "1337"
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Harderwijk",
+      "streetAddress": "Kerkplein 42",
+      "postalCode": "1314 AC"
     }
   },
-  "validFrom": "2014-06-01T00:00:00Z",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "id": "https://example.com/subjects/sub-8A3B6C",
     "type": [
       "AchievementSubject"
     ],
@@ -51,14 +56,17 @@
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "This badge is awarded for completing the course 'The Force and Its Applications'"
+        "narrative": "De student beheerst alle geheimen van transmutatie en kan zonder problemen een konijn in een koffiemachine veranderen en weer terug."
       },
-      "description": "This badge is awarded for completing the course 'The Force and Its Applications'",
-      "name": "The Force and Its Applications",
+      "description": "Dit diploma bevestigt dat de student alle geheimen van transmutatie beheerst en zonder probleem een konijn in een koffiemachine kan veranderen (en weer terug, als het goed is).",
+      "name": "Diploma Grootmeester Huisdier-Transmutator",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/force-applications.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/huisdier-transmutatie.jpg",
         "type": "Image"
       },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121349,
+      "ECTS": 180,
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -72,17 +80,16 @@
           "resultType": "ext:ECTSGradeScore"
         }
       ],
-      "inLanguage": "en-EN",
       "alignment": [
         {
           "type": [
             "Alignment"
           ],
           "targetType": "ext:QualityAssurance",
-          "targetName": "M Philosophy of Science, Technology and Society",
-          "targetDescription": "Accreditatie bestaande opleiding",
-          "targetCode": "AV-2391",
-          "targetUrl": "https://data.example.com/decisions/AV-2391"
+          "targetName": "W Practische toepassing van animale transmutatie",
+          "targetDescription": "Accreditatie van de opleiding door de Wijze Raad van de Magiërs",
+          "targetCode": "AV-7381",
+          "targetUrl": "https://data.example.com/decisions/AV-7381"
         },
         {
           "type": [
@@ -94,8 +101,10 @@
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
-      "educationProgramIdentifier": 133742,
-      "ECTS": 6.0
+      "participationType": "online",
+      "assessmentType": "testing",
+      "supervisionType": "supervised online",
+      "identityChecked": true
     },
     "result": [
       {

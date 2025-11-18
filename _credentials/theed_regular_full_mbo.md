@@ -1,16 +1,20 @@
+---
+title: "Naboo Theed University - Pod Tuning and Boosting"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
-  "id": "http://example.com/credentials/crd-A1B2C3",
+  "id": "http://example.com/credentials/crd-D4E5F6",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://example.com/issuers/iss-9Z8Y7X",
+    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
     "type": [
       "Profile"
     ],
@@ -41,42 +45,25 @@
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "https://example.com/credentials/stu-A1B2C3",
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-33D4E5",
+      "id": "https://example.com/achievements/ach-77NPN",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
-      "name": "Droid Factory Internship",
+      "criteria": {
+        "narrative": "Thi"
+      },
+      "description": "",
+      "name": "Pod Tuning and Boosting",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/droid.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/pod.jpg",
         "type": "Image"
       },
-      "description": "# Droid Factory Internship\n\nThis badge is awarded to students who have completed an internship at the Naboo Droid Factory. The internship is a hands-on experience where students learn how to assemble and repair droids.",
-      "criteria": {
-        "narrative": "Participate in a 2-week internship at the Naboo Droid Factory."
-      },
-      "inLanguage": "en-US",
-      "timeInvestment": 13,
-      "participationType": "onsite or blended",
-      "assessmentType": "application of a skill",
-      "supervisionType": "onsite with identity verification",
-      "identityChecked": false,
-      "alignment": [
-        {
-          "type": [
-            "Alignment"
-          ],
-          "targetType": "ext:EQF",
-          "targetName": "EQF level 3",
-          "targetCode": "3",
-          "targetUrl": "https://content.example.com/description-eqf-levels"
-        }
-      ],
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -89,15 +76,33 @@
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
-      ]
+      ],
+      "inLanguage": "en-EN",
+      "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:EQF",
+          "targetName": "EQF level 5",
+          "targetCode": "5",
+          "targetUrl": "https://content.example.com/description-eqf-levels"
+        }
+      ],
+      "educationProgramIdentifier": 133742,
+      "SBU": 24,
+      "participationType": "online",
+      "assessmentType": "testing",
+      "supervisionType": "supervised online",
+      "identityChecked": true
     },
     "result": [
       {
         "type": [
           "Result"
         ],
-        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "7.5"
+        "resultDescription": "https://example.com/results/ects-nl-NL-D4E5F6",
+        "value": "8.0"
       }
     ]
   },
@@ -107,7 +112,11 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular.json",
+      "type": "1EdTechJsonSchemaValidator2019"
+    },
+    {
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/regular_sbu.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

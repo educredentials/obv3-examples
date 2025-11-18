@@ -1,3 +1,7 @@
+---
+title: "Universiteit van Harderwijk - Microcredential Argumenteren over Onzinnige Zaken"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -14,16 +18,28 @@
     "type": [
       "Profile"
     ],
-    "name": "MBO Beek",
+    "name": "Universiteit van Harderwijk",
+    "otherIdentifier": [
+      {
+        "type": "IdentifierEntry",
+        "identifier": "UN1VH",
+        "identifierType": "ext:BRIN"
+      },
+      {
+        "type": "IdentifierEntry",
+        "identifier": "uvh.example.com",
+        "identifierType": "name"
+      }
+    ],
     "address": {
       "type": [
         "Address"
       ],
       "addressCountry": "The Netherlands",
       "addressCountryCode": "NL",
-      "addressLocality": "Beek",
-      "streetAddress": "Rijksweg 13",
-      "postalCode": "1337 JX"
+      "addressLocality": "Harderwijk",
+      "streetAddress": "Kerkplein 42",
+      "postalCode": "1314 AC"
     }
   },
   "validFrom": "2024-08-30T00:00:00Z",
@@ -34,24 +50,34 @@
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-44ABA",
+      "id": "https://example.com/achievements/ach-12A34B",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "De student beheerst de perfecte techniek voor het schillen van friet, inclusief het verminderen van aardappelsap en het behalen van de ideale frietdikte."
+        "narrative": "De student kan urenlang doorpraten over onderwerpen die niemand interesseren, zoals de perfecte afschuining van een pizzapunt."
       },
-      "description": "De essentie van de perfecte frietschiltechniek, met lessen in het minimaliseren van aardappelsap en het behalen van de ideale frietdikte.",
-      "name": "Microcredential Frietje perfectie schillen",
+      "description": "Deze microcredential erkent de vaardigheid om urenlang door te praten over onderwerpen die niemand boeien, zoals de perfecte afschuining van een pizzapunt.",
+      "name": "Microcredential Argumenteren over Onzinnige Zaken",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/frietje.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/onzinnige-zaken.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121346,
-      "SBU": 240,
+      "educationProgramIdentifier": 20121354,
+      "ECTS": 4.5,
       "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "M Psychological Assessment",
+          "targetDescription": "Toets nieuwe opleiding\n**WO-minor**\n Psychologische Assessment",
+          "targetCode": "AV-4223",
+          "targetUrl": "https://data.example.com/decisions/AV-4223"
+        },
         {
           "type": [
             "Alignment"
@@ -86,7 +112,7 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "8.0"
+        "value": "8.5"
       }
     ]
   },
@@ -100,7 +126,7 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

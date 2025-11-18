@@ -1,3 +1,7 @@
+---
+title: "Naboo Theed University - Droid Maintenance and Repair"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -26,7 +30,8 @@
       "postalCode": "1337"
     }
   },
-  "validFrom": "2014-06-01T00:00:00Z",
+  "validFrom": "2024-08-30T00:00:00Z",
+  "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
     "id": "https://example.com/students/stu-4D5E6F",
     "type": [
@@ -38,27 +43,17 @@
         "Achievement",
         "EducredentialAchievement"
       ],
-      "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
+      "name": "Droid Maintenance and Repair",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/mind.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/droid.jpg",
         "type": "Image"
       },
-      "description": "This badge is awarded for the Minor Jedi Mind Control and Advanced Meditation Practices",
+      "description": "# Droid Maintenance and Repair\n\nThis badge is awarded to students who have successfully completed the **Droid Maintenance and Repair course**. The course covers:\n * basics of droid maintenance\n *basics of repair \n * how to identify and fix common problems\n * how to perform routine maintenance tasks.",
       "criteria": {
-        "narrative": "To earn this badge, you must attend the colleges on Mind Control, and on Meditation. You must pass a practical test and submit a written essay."
+        "narrative": "To earn this credential, students must:\n * complete all course modules\n * pass the final exam\n * complete a final project\n * achieve a final project grade of 6 or higher\n\nThe final project grade is calculated as the average of the grades for the final exam and the final project."
       },
       "inLanguage": "en-EN",
       "alignment": [
-        {
-          "type": [
-            "Alignment"
-          ],
-          "targetType": "ext:QualityAssurance",
-          "targetName": "M Psychological Assessment",
-          "targetDescription": "Toets nieuwe opleiding\n**WO-minor**\n Psychologische Assessment",
-          "targetCode": "AV-4223",
-          "targetUrl": "https://data.example.com/decisions/AV-4223"
-        },
         {
           "type": [
             "Alignment"
@@ -86,7 +81,7 @@
           "resultType": "ext:ECTSGradeScore"
         }
       ],
-      "ECTS": 3.0
+      "SBU": 500
     },
     "result": [
       {
@@ -94,7 +89,7 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "8.5"
+        "value": "8.0"
       }
     ]
   },
@@ -108,7 +103,7 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

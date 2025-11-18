@@ -1,3 +1,7 @@
+---
+title: "Naboo Theed University - Minor: Jedi Mind Control and Advanced Meditation Practices"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -14,20 +18,19 @@
     "type": [
       "Profile"
     ],
-    "name": "MBO Beek",
+    "name": "Naboo Theed University",
     "address": {
       "type": [
         "Address"
       ],
-      "addressCountry": "The Netherlands",
-      "addressCountryCode": "NL",
-      "addressLocality": "Beek",
-      "streetAddress": "Rijksweg 13",
-      "postalCode": "1337 JX"
+      "addressCountry": "Naboo",
+      "addressCountryCode": "XX",
+      "addressLocality": "Theed",
+      "streetAddress": "Jedi Temple 1",
+      "postalCode": "1337"
     }
   },
-  "validFrom": "2024-08-30T00:00:00Z",
-  "validUntil": "2029-08-30T00:00:00Z",
+  "validFrom": "2014-06-01T00:00:00Z",
   "credentialSubject": {
     "id": "https://example.com/students/stu-4D5E6F",
     "type": [
@@ -39,17 +42,27 @@
         "Achievement",
         "EducredentialAchievement"
       ],
-      "name": "Dekbed schudden voor gevorderden",
+      "name": "Minor: Jedi Mind Control and Advanced Meditation Practices",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/bed.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/mind.jpg",
         "type": "Image"
       },
-      "description": "De kunst van het vouwen en opschudden van dekbedden tot perfectie, inclusief geheime technieken voor extra strak ingestopte lakens.",
+      "description": "This badge is awarded for the Minor Jedi Mind Control and Advanced Meditation Practices",
       "criteria": {
-        "narrative": "De student heeft de technieken voor het vouwen en opschudden van dekbedden tot perfectie onder de knie en kan deze toepassen in een realistische setting."
+        "narrative": "To earn this badge, you must attend the colleges on Mind Control, and on Meditation. You must pass a practical test and submit a written essay."
       },
-      "inLanguage": "nl-NL",
+      "inLanguage": "en-EN",
       "alignment": [
+        {
+          "type": [
+            "Alignment"
+          ],
+          "targetType": "ext:QualityAssurance",
+          "targetName": "M Psychological Assessment",
+          "targetDescription": "Toets nieuwe opleiding\n**WO-minor**\n Psychologische Assessment",
+          "targetCode": "AV-4223",
+          "targetUrl": "https://data.example.com/decisions/AV-4223"
+        },
         {
           "type": [
             "Alignment"
@@ -77,7 +90,7 @@
           "resultType": "ext:ECTSGradeScore"
         }
       ],
-      "SBU": 240
+      "ECTS": 3.0
     },
     "result": [
       {
@@ -85,21 +98,10 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "8.0"
+        "value": "8.5"
       }
     ]
   },
-  "evidence": [{
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/evidence/bed.mp4",
-      "type": ["Evidence"],
-      "name": "Video van dekbed opschudden",
-      "description": "Dit is een video waarin de student de opschudtechniek demonstreert",
-      "genre": "Demonstration",
-      "audience": "Verifier (toekomstige werkgever)",
-      "narrative": "De examinator heeft op basis van deze performance het diploma uitgereikt",
-      "digestMultibase": "uELq9FnJ5YLa5iAszyJ518bXcnlc5P7xp1u-5uJRDYKvc"
-    }
-  ],
   "credentialSchema": [
     {
       "id": "https://purl.imsglobal.org/spec/ob/v3p0/schema/json/ob_v3p0_achievementcredential_schema.json",
@@ -110,7 +112,7 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_sbu.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]

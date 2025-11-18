@@ -1,29 +1,33 @@
+---
+title: "MBO Beek - Diploma dierenfluisteraar met erecode"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
     "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json",
     "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/contexts/educredential.json"
   ],
-  "id": "http://example.com/credentials/crd-D4E5F6",
+  "id": "http://example.com/credentials/crd-MBN3PQ",
   "type": [
     "VerifiableCredential",
     "OpenBadgeCredential"
   ],
   "issuer": {
-    "id": "https://www.edubadges.nl/public/issuers/lQ67BQQQS-eBx5syJGpazg",
+    "id": "https://www.edubadges.nl/public/issuers/iss-4B0B1A",
     "type": [
       "Profile"
     ],
-    "name": "Naboo Theed University",
+    "name": "MBO Beek",
     "otherIdentifier": [
       {
         "type": "IdentifierEntry",
-        "identifier": "42NB",
+        "identifier": "4B0B1A",
         "identifierType": "ext:BRIN"
       },
       {
         "type": "IdentifierEntry",
-        "identifier": "university.naboo",
+        "identifier": "mbobeek.example.edu",
         "identifierType": "name"
       }
     ],
@@ -31,17 +35,17 @@
       "type": [
         "Address"
       ],
-      "addressCountry": "Naboo",
-      "addressCountryCode": "XX",
-      "addressLocality": "Theed",
-      "streetAddress": "Jedi Temple 1",
-      "postalCode": "1337"
+      "addressCountry": "The Netherlands",
+      "addressCountryCode": "NL",
+      "addressLocality": "Beek",
+      "streetAddress": "Rijksweg 13",
+      "postalCode": "1337 JX"
     }
   },
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "id": "https://example.com/credentials/crd-MBN3PQ#subject",
     "type": [
       "AchievementSubject"
     ],
@@ -52,14 +56,17 @@
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "Thi"
+        "narrative": "De student kan dieren verstaan en communiceren met dieren. De student heeft de erecode ondertekend en is een dierenfluisteraar."
       },
-      "description": "",
-      "name": "Pod Tuning and Boosting",
+      "description": "Met dit diploma krijg je de officiële bevoegdheid om ruzies tussen duiven te bemiddelen op stadspleinen en in parken.",
+      "name": "Diploma dierenfluisteraar met erecode",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/pod.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/whisper.jpg",
         "type": "Image"
       },
+      "inLanguage": "nl-NL",
+      "educationProgramIdentifier": 20121337,
+      "SBU": 2500,
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -68,12 +75,11 @@
           ],
           "valueMax": "10",
           "valueMin": "1",
-          "name": "Final Project Grade",
+          "name": "Average of final exams",
           "requiredValue": "6",
           "resultType": "ext:ECTSGradeScore"
         }
       ],
-      "inLanguage": "en-EN",
       "alignment": [
         {
           "type": [
@@ -85,11 +91,9 @@
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
-      "educationProgramIdentifier": 133742,
-      "SBU": 24,
-      "participationType": "online",
+      "participationType": "onsite or blended",
       "assessmentType": "testing",
-      "supervisionType": "supervised online",
+      "supervisionType": "onsite with identity verification",
       "identityChecked": true
     },
     "result": [
@@ -97,8 +101,8 @@
         "type": [
           "Result"
         ],
-        "resultDescription": "https://example.com/results/ects-nl-NL-D4E5F6",
-        "value": "8.0"
+        "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
+        "value": "8.8"
       }
     ]
   },

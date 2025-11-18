@@ -1,3 +1,7 @@
+---
+title: "Universiteit van Harderwijk - Extracurriculair Stage bij Het Ministerie van Onnodige Zaken"
+layout: credential
+---
 {
   "@context": [
     "https://www.w3.org/ns/credentials/v2",
@@ -41,53 +45,53 @@
   "validFrom": "2024-08-30T00:00:00Z",
   "validUntil": "2029-08-30T00:00:00Z",
   "credentialSubject": {
-    "id": "https://example.com/students/stu-4D5E6F",
+    "id": "https://example.com/credentials/stu-1A2B3C",
     "type": [
       "AchievementSubject"
     ],
     "achievement": {
-      "id": "https://example.com/achievements/ach-12A34B",
+      "id": "https://example.com/achievements/ach-8Y7X6Z",
       "type": [
         "Achievement",
         "EducredentialAchievement"
       ],
       "criteria": {
-        "narrative": "De student kan urenlang doorpraten over onderwerpen die niemand interesseren, zoals de perfecte afschuining van een pizzapunt."
+        "narrative": "De student voltooide een stage bij een overheidsinstelling die zich richt op beleid dat nergens over gaat."
       },
-      "description": "Deze microcredential erkent de vaardigheid om urenlang door te praten over onderwerpen die niemand boeien, zoals de perfecte afschuining van een pizzapunt.",
-      "name": "Microcredential Argumenteren over Onzinnige Zaken",
+      "description": "Certificaat voor het succesvol voltooien van een stage bij een overheidsinstelling die zich richt op beleid dat nergens over gaat. Student heeft regelgeving rondom het gebruik van papieren hoedjes op dinsdagen geevalueerd en een adviesrapport geschreven.",
+      "name": "Extracurriculair Stage bij Het Ministerie van Onnodige Zaken",
       "image": {
-        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/onzinnige-zaken.jpg",
+        "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/images/onnodige-zaken.jpg",
         "type": "Image"
       },
       "inLanguage": "nl-NL",
-      "educationProgramIdentifier": 20121354,
-      "ECTS": 4.5,
+      "educationProgramIdentifier": 20121353,
+      "timeInvestment": 200,
+      "participationType": "onsite or blended",
+      "assessmentType": "application of a skill",
+      "supervisionType": "onsite with identity verification",
+      "identityChecked": false,
       "alignment": [
         {
           "type": [
             "Alignment"
           ],
           "targetType": "ext:QualityAssurance",
-          "targetName": "M Psychological Assessment",
-          "targetDescription": "Toets nieuwe opleiding\n**WO-minor**\n Psychologische Assessment",
-          "targetCode": "AV-4223",
-          "targetUrl": "https://data.example.com/decisions/AV-4223"
+          "targetName": "W Stageaccreditatie en rapportbeoordeling",
+          "targetDescription": "Accreditatie en beoordeling van stages en stagerapporten",
+          "targetCode": "AV-5337",
+          "targetUrl": "https://data.example.com/decisions/AV-5337"
         },
         {
           "type": [
             "Alignment"
           ],
           "targetType": "ext:EQF",
-          "targetName": "EQF level 4",
-          "targetCode": "4",
+          "targetName": "EQF level 3",
+          "targetCode": "3",
           "targetUrl": "https://content.example.com/description-eqf-levels"
         }
       ],
-      "participationType": "onsite or blended",
-      "assessmentType": "testing",
-      "identityChecked": true,
-      "supervisionType": "onsite with identity verification",
       "resultDescription": [
         {
           "id": "https://example.com/results/ects-nl-NL-A1B2C3",
@@ -108,7 +112,7 @@
           "Result"
         ],
         "resultDescription": "https://example.com/results/ects-nl-NL-A1B2C3",
-        "value": "8.5"
+        "value": "7.5"
       }
     ]
   },
@@ -118,11 +122,7 @@
       "type": "1EdTechJsonSchemaValidator2019"
     },
     {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential.json",
-      "type": "1EdTechJsonSchemaValidator2019"
-    },
-    {
-      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/microcredential_ects.json",
+      "id": "https://raw.githubusercontent.com/educredentials/obv3-examples/refs/heads/main/schemas/extracurricular.json",
       "type": "1EdTechJsonSchemaValidator2019"
     }
   ]
