@@ -14,10 +14,6 @@ defaults:
       path: "examples.md"
     values:
       permalink: "/"
-  - scope:
-      path: "offers/img"
-    values:
-      offer: true
 
 collections:
   credentials:

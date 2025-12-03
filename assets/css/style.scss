@@ -94,6 +94,19 @@ img {
   margin-top: 1rem;
 }
 
-#qr-code-container .qr-error {
-  color: #999;
+/* Loading placeholder styles */
+.offer-loading {
+  text-align: center;
+  padding: 2rem;
+}
+
+.offer-loading p {
+  margin: 0;
+  color: #666;
+}
+
+/* Error message styles */
+.offer-error {
+    color: #900;
+    padding: 1rem;
 }

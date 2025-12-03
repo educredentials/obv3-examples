@@ -45,12 +45,6 @@ title: "OB3 Credential Examples"
 Examples of Open Badges V3 credentials based on the Educredentials metadata model.
 These examples can be used to test the capabilities of various wallets.
 
-<a href="./offers/" class="button">
-📲 DEMO:<br/> Import these examples in a wallet with a QR code
-</a>
-
-## The Examples
-
 {% for credential in site.credentials %}
 - [{{ credential.title }}]({{ credential.url | relative_url }})
 {% endfor %}
@@ -60,11 +54,6 @@ These examples can be used to test the capabilities of various wallets.
 <div id="toc">
 </div>
 </div>
-
-## Roadmap
-
-- Step 1: Initially, these example credentials will only consist of the JSON code.
-- Step 2: The next step is to have them signed by an agent so they can be placed in a wallet.
 
 ## SURF Documentation
 
