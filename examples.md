@@ -1,43 +1,7 @@
 ---
 title: "OB3 Credential Examples"
 ---
-<style>
-.button {
-    display: block;
-    background-color: #0090ff;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    padding: 1.4rem 2rem;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 2rem;
 
-    cursor: pointer;
-
-    transition: transform 0.2s;
-}
-.button:hover {
-  transform: scale(1.1);
-}
-
-#main_content_wrap {
-  position: relative;
-}
-#tocwrapper {
-  position: absolute;
-  top: 0;
-  right: calc(-260px + -4rem);
-  width: 240px;
-  background-color: #fff;
-  overflow: auto;
-  padding: 2rem;
-  z-index: 100;
-
-  overflow: scroll;
-}
-</style>
 <script src="./assets/outline.js"></script>
 
 # OB3 Credential Examples
@@ -45,9 +9,29 @@ title: "OB3 Credential Examples"
 Examples of Open Badges V3 credentials based on the Educredentials metadata model.
 These examples can be used to test the capabilities of various wallets.
 
+<div id="examples-list">
+<ul>
 {% for credential in site.credentials %}
-- [{{ credential.title }}]({{ credential.url | relative_url }})
+{% assign cred_json = site.data.credentials[credential.credential_data] %}
+{% assign image_url = cred_json.credentialSubject.achievement.image.id %}
+{% assign image_filename = image_url | split: "/" | last %}
+{% assign achievement_name = cred_json.credentialSubject.achievement.name %}
+{% assign issuer_name = cred_json.issuer.name %}
+{% assign criteria_narrative = cred_json.credentialSubject.achievement.criteria.narrative %}
+
+<li class="list-item">
+    <a href="{{ credential.url | relative_url }}">
+    <img src="images/{{ image_filename }}" alt="{{ achievement_name }}">
+    <div class="credential-info">
+        <span class="name">{{ achievement_name }}</span>
+        <span class="issuer">{{ issuer_name }}</span>
+        <span class="criteria">{{ criteria_narrative }}</span>
+    </div>
+    </a>
+</li>
 {% endfor %}
+</ul>
+</div>
 
 <div id="tocwrapper">
 <strong>Table of Contents</strong>
