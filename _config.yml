@@ -9,6 +9,12 @@ github_username: educredentials
 fenced_code_blocks: true
 show_dir_listing: false
 
+# This "secret" is used in the frontend to create offers for credentials,
+# so it is published in a public site anyway. Fetching it from an ENV
+# var is very difficult with jekyll/github-pages, so we just hardcode it.
+agent_create_offer_bearer_token: "lrpAVYvgQyRUl2qlyKZVrcKyOw5lb7mP"
+agent_create_offer_url: "https://demo.dev.edubadges.nl/offer"
+
 defaults:
   - scope:
       path: "examples.md"

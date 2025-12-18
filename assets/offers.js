@@ -2,27 +2,6 @@
  * Offers module for credential offer generation and display
  */
 
-// API endpoint constants
-const AGENT_CREATE_CREDENTIALS_URL =
-  "https://agent.poc9.eduwallet.nl/v0/credentials";
-const AGENT_CREATE_OFFER_URL = "https://agent.poc9.eduwallet.nl/v0/offers";
-
-/**
- * Generate SHA-256 hash of a JSON object
- * @param {Object} obj - The object to hash
- * @returns {Promise<string>} The hash as a hex string
- */
-async function generateHash(obj) {
-  const jsonString = JSON.stringify(obj);
-  const msgBuffer = new TextEncoder().encode(jsonString);
-  const hashBuffer = await crypto.subtle.digest("SHA-256", msgBuffer);
-  const hashArray = Array.from(new Uint8Array(hashBuffer));
-  const hashHex = hashArray
-    .map((b) => b.toString(16).padStart(2, "0"))
-    .join("");
-  return hashHex;
-}
-
 /**
  * Request an offer for a credential
  * @param {Object} credentialJson - The full JSON of the credential
@@ -31,56 +10,53 @@ async function generateHash(obj) {
 async function requestOffer(credentialJson) {
   console.log("Creating an offer for credential:", credentialJson);
 
-  // Generate hash for offerId (same as sha256sum in the shell script)
-  const hash = await generateHash(credentialJson);
+  // {
+  //   offerId: hash,
+  //   credentialConfigurationId: "openbadge_credential",
+  //   expiresAt: "never",
+  //   isSigned: false,
+  //   credential: credentialJson,
+  // };
 
   // Step 1: Create the credential on the agent
   const credentialPayload = {
-    offerId: hash,
-    credentialConfigurationId: "openbadge_credential",
-    expiresAt: "never",
-    isSigned: false,
-    credential: credentialJson,
-  };
-
-  const createCredentialResponse = await fetch(AGENT_CREATE_CREDENTIALS_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
+    credentials: [],
+    grants: {
+      authorization_code: {
+        issuer_state: "generate",
+      },
+      // "urn:ietf:params:oauth:grant-type:pre-authorized_code": {
+      //     "pre-authorized_code": "string",
+      //     "tx_code": boolean|object, optional,
+      // }
     },
-    body: JSON.stringify(credentialPayload),
-  });
-
-  if (!createCredentialResponse.ok) {
-    throw new Error(
-      `Failed to create credential: ${createCredentialResponse.status} ${createCredentialResponse.statusText}`,
-    );
-  }
-
-  // Step 2: Create the offer on the agent
-  const offerPayload = {
-    offerId: hash,
-    preAuthorizedCode: hash,
+    credentialDataSupplierInput: {},
+    credentialMetadata: {
+      enableStatusLists: false,
+      // TODO add expires from the credentialJson.validUntil
+    },
+    credential: credentialJson,
   };
 
   const createOfferResponse = await fetch(AGENT_CREATE_OFFER_URL, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
+      Authorization: `Bearer ${AGENT_CREATE_OFFER_BEARER_TOKEN}`,
     },
-    body: JSON.stringify(offerPayload),
+    body: JSON.stringify({ badge: credentialJson }),
   });
 
   if (!createOfferResponse.ok) {
     throw new Error(
-      `Failed to create offer: ${createOfferResponse.status} ${createOfferResponse.statusText}`,
+      `Failed to create credential: ${createOfferResponse.status} ${createOfferResponse.statusText}`,
     );
   }
 
   // The response is the offer URI
-  const offerUri = await createOfferResponse.text();
-
-  return offerUri;
+  const offer = await createOfferResponse.json();
+  console.log(offer);
+  return offer.url;
 }
 
 /**
@@ -173,9 +149,9 @@ function displayOffer(offerString, container) {
       correctLevel: QRCode.CorrectLevel.H,
     });
   } else {
-    const errorPara = document.createElement('p');
-    errorPara.className = 'offer-error';
-    errorPara.textContent = 'QR code library not loaded';
+    const errorPara = document.createElement("p");
+    errorPara.className = "offer-error";
+    errorPara.textContent = "QR code library not loaded";
     qrContainer.appendChild(errorPara);
     console.error(
       "QRCode library not found. Make sure to include it from CDN.",
@@ -215,10 +191,10 @@ function initializeOfferButton(credentialJson) {
       displayOffer(offerString, offerContainer);
     } catch (err) {
       console.error("Failed to request offer", err);
-      offerContainer.innerHTML = '';
-      const errorPara = document.createElement('p');
-      errorPara.className = 'offer-error';
-      errorPara.textContent = 'Failed to request offer. Please try again.';
+      offerContainer.innerHTML = "";
+      const errorPara = document.createElement("p");
+      errorPara.className = "offer-error";
+      errorPara.textContent = "Failed to request offer. Please try again.";
       offerContainer.appendChild(errorPara);
     } finally {
       // Re-enable button
