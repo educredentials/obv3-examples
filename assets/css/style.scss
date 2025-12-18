@@ -105,6 +105,15 @@ img {
     color: #666;
 }
 
+#json-content {
+    overflow-x: auto;
+    margin-top: 1.5rem;
+}
+
+ol.json-lines {
+    width: fit-content;
+}
+
 /* Error message styles */
 .offer-error {
     color: #900;
