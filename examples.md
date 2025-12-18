@@ -230,3 +230,5 @@ Ids are in the form of a URL. They use https and the following structure:
 
 In the examples we will use the first always, except for the rare cases when we must convey that
 there are multiple resources in a single example.
+<!-- managed_by_embed -->
+<!-- /managed_by_embed -->
