@@ -18,6 +18,47 @@ img {
     max-width: 1100px;
 }
 
+/* Two-column layout: main content + aside actions */
+.credential-page {
+    display: grid;
+    grid-template-columns: 600px 500px;
+    gap: 2rem;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.credential-aside {
+    background: #fafafa;
+    border-radius: 6px;
+    padding: 1rem;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.02);
+}
+
+ul.credential-actions {
+    margin-top: .5rem;
+    list-style: none;
+    padding: 0;
+}
+
+.credential-actions li {
+    margin-bottom: 0.5rem;
+}
+
+.credential-actions a.button {
+    text-align: left;
+}
+
+@media (max-width: 1240px) {
+    .credential-page {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+    .credential-aside {
+        order: 2;
+    }
+}
+
 /* Adjust TOC positioning for examples.md */
 #tocwrapper {
     right: calc(-260px - 4rem);
@@ -136,6 +177,7 @@ ol.json-lines {
 
     &:hover {
         transform: scale(1.1);
+        text-decoration: none;
     }
 }
 
@@ -155,9 +197,6 @@ ol.json-lines {
 }
 
 #examples-list {
-    a {
-        text-decoration: none;
-    }
     ul {
         display: flex;
         flex-direction: column;
