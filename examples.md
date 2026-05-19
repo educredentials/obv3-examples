@@ -14,6 +14,7 @@ These examples can be used to test the capabilities of various wallets.
 {% for credential in site.credentials %}
 {% assign cred_json = site.data.credentials[credential.credential_data] %}
 {% assign image_url = cred_json.credentialSubject.achievement.image.id %}
+{% assign is_image_data_uri = image_url | split: ":" | first %}
 {% assign image_filename = image_url | split: "/" | last %}
 {% assign achievement_name = cred_json.credentialSubject.achievement.name %}
 {% assign issuer_name = cred_json.issuer.name %}
@@ -21,7 +22,11 @@ These examples can be used to test the capabilities of various wallets.
 
 <li class="list-item">
     <a href="{{ credential.url | relative_url }}">
-    <img src="images/{{ image_filename }}" alt="{{ achievement_name }}">
+    {% if is_image_data_uri == "data" %}
+        <img src="{{ image_url }}" alt="{{ achievement_name }}">
+    {% else %}
+        <img src="images/{{ image_filename }}" alt="{{ achievement_name }}">
+    {% endif %}
     <div class="credential-info">
         <span class="name">{{ achievement_name }}</span>
         <span class="issuer">{{ issuer_name }}</span>
